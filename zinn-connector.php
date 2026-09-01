@@ -62,6 +62,7 @@ function zinn_connector_api_base(): string {
 require_once __DIR__ . '/includes/class-zinn-connector-settings.php';
 require_once __DIR__ . '/includes/class-zinn-connector-claim.php';
 require_once __DIR__ . '/includes/class-zinn-connector-dashboard.php';
+require_once __DIR__ . '/includes/class-zinn-connector-backup.php';
 
 add_action(
 	'plugins_loaded',
@@ -69,8 +70,29 @@ add_action(
 		load_plugin_textdomain( 'zinn-connector', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 		( new Zinn_Connector_Settings() )->register();
 		( new Zinn_Connector_Dashboard() )->register();
+		// ⛔ Self-healing schedule. `ensure_scheduled()` is guarded by `wp_next_scheduled`,
+		// so calling it on every load queues nothing extra — and it restores the event on a
+		// site whose cron table was cleared by a migration or a host's "optimisation" tool,
+		// which is otherwise a site that silently stops being backed up.
+		Zinn_Connector_Backup::ensure_scheduled();
 	}
 );
+
+// ⛔ The cron callback is registered UNCONDITIONALLY, not inside `plugins_loaded`'s closure.
+// WP-Cron fires on a bare request where `plugins_loaded` has run but any conditional
+// registration keyed on admin context has not — a hook registered too narrowly is an event
+// that fires into nothing, for ever, with no error anywhere.
+add_action(
+	Zinn_Connector_Backup::CRON_HOOK,
+	static function (): void {
+		( new Zinn_Connector_Backup() )->run();
+	}
+);
+
+// ⛔ Deactivation must unschedule. A disabled plugin whose event survives goes on polling
+// Zinn hourly from a site that is no longer connected — traffic the customer did not ask for
+// and cannot see the cause of.
+register_deactivation_hook( __FILE__, array( 'Zinn_Connector_Backup', 'unschedule' ) );
 
 /**
  * Uninstall is handled by `uninstall.php`, not by a hook.
