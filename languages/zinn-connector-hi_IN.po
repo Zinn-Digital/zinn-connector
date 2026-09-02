@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-connector\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: zinn-connector\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-connector.php
+#: includes/class-zinn-connector-settings.php:38
+#: includes/class-zinn-connector-settings.php:39
+#: includes/class-zinn-connector-settings.php:73
+msgid "Zinn® Connector"
+msgstr "Zinn® Connector"
+
+#. Plugin URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
+
+#. Description of the plugin
+#: zinn-connector.php
+msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
+msgstr "इस WordPress साइट को Zinn Digital® से जोड़ता है ताकि इस पर शेड्यूल किए गए लेख प्रकाशित किए जा सकें। अपने Zinn® डैशबोर्ड से एक पेयरिंग कोड पेस्ट करें और प्लगइन अपनी खुद की क्रेडेंशियल सेट अप कर लेता है — कुछ भी हाथ से कॉपी नहीं करना पड़ता।"
+
+#. Author of the plugin
+#: zinn-connector.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-connector-backup.php:168
+msgid "This site's PHP cannot create archives, so a backup could not be made."
+msgstr "इस साइट का PHP आर्काइव नहीं बना सकता, इसलिए बैकअप नहीं लिया जा सका।"
+
+#: includes/class-zinn-connector-backup.php:176
+msgid "Could not create a temporary file."
+msgstr "अस्थाई फ़ाइल नहीं बनाई जा सकी।"
+
+#: includes/class-zinn-connector-backup.php:201
+msgid "This site's files could not be archived."
+msgstr "इस साइट की फ़ाइलों को संग्रहीत नहीं किया जा सका।"
+
+#: includes/class-zinn-connector-backup.php:312
+msgid "The archive could not be read back."
+msgstr "अकाइव को पढ़ा नहीं जा सका।"
+
+#: includes/class-zinn-connector-backup.php:329
+msgid "The backup could not be uploaded."
+msgstr "बैकअप अपलोड नहीं किया जा सका।"
+
+#: includes/class-zinn-connector-backup.php:334
+msgid "The backup upload was rejected."
+msgstr "बैकअप अपलोड अस्वीकार कर दिया गया था।"
+
+#: includes/class-zinn-connector-claim.php:50
+msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
+msgstr "यह WordPress उपयोगकर्ता पोस्ट प्रकाशित नहीं कर सकता है, इसलिए अभी बनाया गया कनेक्शन भी प्रकाशित नहीं कर पाएगा। किसी ऐसे उपयोगकर्ता के रूप में साइन इन करें जो ऐसा कर सके, और पुनः प्रयास करें।"
+
+#: includes/class-zinn-connector-claim.php:57
+msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
+msgstr "इस साइट पर एप्लिकेशन पासवर्ड बंद हैं, इसलिए हम क्रेडेंशियल नहीं बना सकते। अपने होस्ट से इन्हें सक्षम करने के लिए कहें, या अपने Zinn Digital® डैशबोर्ड में खुद बनाए गए पासवर्ड से साइट को कनेक्ट करें।"
+
+#: includes/class-zinn-connector-claim.php:69
+msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
+msgstr "WordPress इस साइट के लिए क्रेडेंशियल नहीं बना सका। कहीं भी कुछ नहीं भेजा गया है।"
+
+#: includes/class-zinn-connector-claim.php:100
+msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
+msgstr "हम इस साइट से Zinn Digital® तक नहीं पहुँच सके। कुछ भी कनेक्ट नहीं हुआ था, और हमने जो क्रेडेंशियल बनाया था उसे हटा दिया गया है। जाँच करें कि साइट बाहरी अनुरोध कर सकती है, और पुनः प्रयास करें।"
+
+#: includes/class-zinn-connector-claim.php:116
+msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
+msgstr "Zinn Digital® उस पेयरिंग कोड को स्वीकार नहीं करता है। कुछ भी कनेक्ट नहीं हुआ था। अपने डैशबोर्ड में एक नया कोड जनरेट करें और फिर से प्रयास करें।"
+
+#: includes/class-zinn-connector-claim.php:136
+msgid "Connected. Zinn Digital® can now publish to this site."
+msgstr "कनेक्टेड है। Zinn Digital® अब इस साइट पर पब्लिश कर सकता है।"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-connector-promo.php:241
+#: includes/class-zinn-connector-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — गाइड्स और सेवाएँ"
+
+#: includes/class-zinn-connector-promo.php:256
+msgid "User guides"
+msgstr "उपयोगकर्ता मार्गदर्शिकाएँ"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-connector-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s उपयोगकर्ता गाइड पढ़ें"
+
+#: includes/class-zinn-connector-promo.php:314
+msgid "Hide this"
+msgstr "इसे छिपाएँ"
+
+#: includes/class-zinn-connector-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress के लिए Zinn® होस्टिंग"
+
+#: includes/class-zinn-connector-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, दैनिक बैकअप, निःशुल्क माइग्रेशन और एक कंट्रोल पैनल जो एक से अधिक साइट चलाने वाले लोगों के लिए बनाया गया है।"
+
+#: includes/class-zinn-connector-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "The Zinn® बाज़ार"
+
+#: includes/class-zinn-connector-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "स्थापित साइटों, डोमेन और लिंक प्लेसमेंट खरीदें और बेचें, और दोनों पक्षों के संतुष्ट होने तक पैसे सुरक्षित रखे जाते हैं।"
+
+#: includes/class-zinn-connector-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ऐसे लोगों को काम पर रखें जो आजीविका के लिए यह काम करते हैं"
+
+#: includes/class-zinn-connector-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "हमारा वैश्विक फ्रीलांस बाज़ार: लेखकों, डिज़ाइनरों, डेवलपर्स और एसईओ विशेषज्ञों की 10,000 से अधिक तैयार सेवाओं को ब्राउज़ करें, या कोई प्रोजेक्ट पोस्ट करें और उन्हें बोली लगाने दें।"
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-settings.php:86
+#, php-format
+msgid "This site is connected to Zinn Digital®, publishing as %s."
+msgstr "यह साइट Zinn Digital® से कनेक्टेड है, जो %s के रूप में प्रकाशित हो रही है।"
+
+#. translators: %s: link to the WordPress profile screen.
+#: includes/class-zinn-connector-settings.php:95
+#, php-format
+msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
+msgstr "डिस्कनेक्ट करने के लिए, %s पर “Zinn Digital® (publishing)” एप्लिकेशन पासवर्ड को निरस्त करें।"
+
+#: includes/class-zinn-connector-settings.php:96
+msgid "your profile"
+msgstr "आपकी प्रोफ़ाइल"
+
+#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:130
+msgid "Connect this site"
+msgstr "इस साइट को कनेक्ट करें"
+
+#: includes/class-zinn-connector-settings.php:104
+msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
+msgstr "अपना Zinn Digital® डैशबोर्ड खोलें, Content → Other sites पर जाएँ, और “Get a pairing code” दबाएँ। इसे नीचे पेस्ट करें।"
+
+#: includes/class-zinn-connector-settings.php:112
+msgid "Pairing code"
+msgstr "युग्म कोड"
+
+#: includes/class-zinn-connector-settings.php:125
+msgid "It expires thirty minutes after you generate it, and can only be used once."
+msgstr "यह आपके द्वारा जनरेट करने के तीस मिनट बाद समाप्त हो जाता है, और इसका उपयोग केवल एक बार किया जा सकता है।"
+
+#: includes/class-zinn-connector-settings.php:153
+msgid "You are not allowed to connect this site."
+msgstr "आपको इस साइट को कनेक्ट करने की अनुमति नहीं है।"

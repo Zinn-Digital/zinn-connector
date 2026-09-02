@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-connector\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-connector\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-connector.php
+#: includes/class-zinn-connector-settings.php:38
+#: includes/class-zinn-connector-settings.php:39
+#: includes/class-zinn-connector-settings.php:73
+msgid "Zinn® Connector"
+msgstr "Zinn® Connector"
+
+#. Plugin URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
+
+#. Description of the plugin
+#: zinn-connector.php
+msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
+msgstr "கட்டுரைகளைத் திட்டமிட்டபடி வெளியிட ஏதுவாக இந்த WordPress தளத்தை Zinn Digital® உடன் இணைக்கிறது. உங்கள் Zinn® டாஷ்போர்டிலிருந்து ஒரு ஜோடி சேர்த்தல் குறியீட்டை (pairing code) ஒட்டவும், பிளக்கின் (plugin) தனக்கான நற்சான்றிதழை அமைத்துக் கொள்ளும் — எதுவும் கைமுறையாக நகலெடுக்கப்படுவதில்லை."
+
+#. Author of the plugin
+#: zinn-connector.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-connector-backup.php:168
+msgid "This site's PHP cannot create archives, so a backup could not be made."
+msgstr "இந்தத் தளத்தின் PHP-ஆல் காப்பகங்களை உருவாக்க முடியாது, எனவே காப்புப்பிரதியை எடுக்க முடியவில்லை."
+
+#: includes/class-zinn-connector-backup.php:176
+msgid "Could not create a temporary file."
+msgstr "தற்காலிக கோப்பை உருவாக்க முடியவில்லை."
+
+#: includes/class-zinn-connector-backup.php:201
+msgid "This site's files could not be archived."
+msgstr "இந்தத் தளத்தின் கோப்புகளை காப்பகப்படுத்த முடியவில்லை."
+
+#: includes/class-zinn-connector-backup.php:312
+msgid "The archive could not be read back."
+msgstr "காப்பகத்தை மீண்டும் படிக்க முடியவில்லை."
+
+#: includes/class-zinn-connector-backup.php:329
+msgid "The backup could not be uploaded."
+msgstr "காப்புப்பிரடியைப் பதிவேற்ற முடியவில்லை."
+
+#: includes/class-zinn-connector-backup.php:334
+msgid "The backup upload was rejected."
+msgstr "காப்புப் பிரதி பதிவேற்றம் நிராகரிக்கப்பட்டது."
+
+#: includes/class-zinn-connector-claim.php:50
+msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
+msgstr "இந்த WordPress பயனரால் பதிவுகளை வெளியிட முடியாது, எனவே இப்போது உருவாக்கப்பட்ட இணைப்பினாலும் வெளியிட முடியாது. வெளியிடக்கூடிய பயனராக உள்நுழைந்து, மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-connector-claim.php:57
+msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
+msgstr "இந்தத் தளத்தில் பயன்பாட்டுக் கடவுச்சொற்கள் முடக்கப்பட்டுள்ளன, எனவே எங்களால் சான்றளிப்பை உருவாக்க முடியாது. அவற்றை இயக்க உங்கள் ஹோஸ்டை கேட்கவும் அல்லது உங்கள் Zinn Digital® டாஷ்போர்டில் நீங்களே உருவாக்கும் கடவுச்சொல் மூலம் தளத்தை இணைக்கவும்."
+
+#: includes/class-zinn-connector-claim.php:69
+msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
+msgstr "இந்தத் தளத்திற்கான நற்சான்றிதழை WordPress-ஆல் உருவாக்க முடியவில்லை. எங்குமே எதுவும் அனுப்பப்படவில்லை."
+
+#: includes/class-zinn-connector-claim.php:100
+msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
+msgstr "இந்தத் தளத்திலிருந்து Zinn Digital®-ஐ அணுக முடியவில்லை. எதுவும் இணைக்கப்படவில்லை, மேலும் நாங்கள் உருவாக்கிய நற்சான்று அகற்றப்பட்டது. தளம் வெளிச்செல்லும் கோரிக்கைகளைச் செய்ய முடியுமா என்பதைச் சரிபார்த்து, மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-connector-claim.php:116
+msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
+msgstr "Zinn Digital® அந்த இணைப்புக் குறியீட்டை ஏற்றுக்கொள்ளவில்லை. எதுவும் இணைக்கப்படவில்லை. உங்கள் டாஷ்போர்டில் புதிய குறியீட்டை உருவாக்கி மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-connector-claim.php:136
+msgid "Connected. Zinn Digital® can now publish to this site."
+msgstr "இணைக்கப்பட்டுள்ளது. Zinn Digital® இப்போது இந்த தளத்தில் வெளியிட முடியும்."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-connector-promo.php:241
+#: includes/class-zinn-connector-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — வழிகாட்டிகளும் சேவைகளும்"
+
+#: includes/class-zinn-connector-promo.php:256
+msgid "User guides"
+msgstr "பயனர் வழிகாட்டிகள்"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-connector-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s பயனர் வழிகாட்டியைப் படிக்கவும்"
+
+#: includes/class-zinn-connector-promo.php:314
+msgid "Hide this"
+msgstr "ம_ மறைக்கவும்"
+
+#: includes/class-zinn-connector-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "வேர்ட்பிரஸ் (WordPress)-க்கான Zinn® ஹோஸ்டிங்"
+
+#: includes/class-zinn-connector-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, தினசரி காப்புப்பிரதிகள், இலவச இடம்பெயர்வு மற்றும் ஒன்றுக்கும் மேற்பட்ட தளங்களை இயக்குபவர்களுக்காக உருவாக்கப்பட்ட கட்டுப்பாட்டுப் பலகம்."
+
+#: includes/class-zinn-connector-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "The Zinn® அங்காடி"
+
+#: includes/class-zinn-connector-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "நிறுவப்பட்ட தளங்கள், டொமைன்கள் மற்றும் இணைப்பு இடங்களை வாங்கவும் விற்கவும், இரு தரப்பினரும் திருப்தி அடையும் வரை பணம் பாதுகாப்பாகப் பிடிக்கப்படும்."
+
+#: includes/class-zinn-connector-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — இதற்காகவே வேலை செய்பவர்களை பணியமர்த்துங்கள்"
+
+#: includes/class-zinn-connector-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "எங்களது உலகளாவிய ஃப்ரீலான்ஸ் சந்தை: எழுத்தாளர்கள், வடிவமைப்பாளர்கள், டெவலப்பர்கள் மற்றும் எஸ்சிஓ நிபுணர்களின் 10,000-க்கும் மேற்பட்ட ரெடிமேட் சேவைகளை உலவுங்கள், அல்லது ஒரு திட்டத்தைப் பதிவிட்டு அவர்களை ஏலம் எடுக்கச் சொல்லுங்கள்."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-settings.php:86
+#, php-format
+msgid "This site is connected to Zinn Digital®, publishing as %s."
+msgstr "இந்தத் தளம் Zinn Digital® உடன் இணைக்கப்பட்டுள்ளது, %s என வெளியிடப்படுகிறது."
+
+#. translators: %s: link to the WordPress profile screen.
+#: includes/class-zinn-connector-settings.php:95
+#, php-format
+msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
+msgstr "துண்டிக்க, %s இல் “Zinn Digital® (publishing)” பயன்பாட்டுச் கடவுச்சொல்லை ரத்துசெய்யவும்."
+
+#: includes/class-zinn-connector-settings.php:96
+msgid "your profile"
+msgstr "உங்கள் சுயவிவரம்"
+
+#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:130
+msgid "Connect this site"
+msgstr "இந்தத் தளத்தை இணைக்கவும்"
+
+#: includes/class-zinn-connector-settings.php:104
+msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
+msgstr "உங்கள் Zinn Digital® டாஷ்போர்டைத் திறந்து, உள்ளடக்கம் (Content) → பிற தளங்கள் (Other sites) என்பதற்குச் சென்று, “Get a pairing code” என்பதை அழுத்தவும். அதை கீழே ஒட்டவும்."
+
+#: includes/class-zinn-connector-settings.php:112
+msgid "Pairing code"
+msgstr "இணைப்புக் குறியீடு"
+
+#: includes/class-zinn-connector-settings.php:125
+msgid "It expires thirty minutes after you generate it, and can only be used once."
+msgstr "இது நீங்கள் உருவாக்கிய முப்பது நிமிடங்களுக்குப் பிறகு காலாவதியாகும், மேலும் ஒரு முறை மட்டுமே பயன்படுத்த முடியும்."
+
+#: includes/class-zinn-connector-settings.php:153
+msgid "You are not allowed to connect this site."
+msgstr "இந்தத் தளத்தை இணைக்க உங்களுக்கு அனுமதி இல்லை."

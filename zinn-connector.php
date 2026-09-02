@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Zinn® Connector
- * Plugin URI:        https://zinndigital.com
+ * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-connector
  * Description:       Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand.
  * Version:           1.0.0
  * Requires at least: 6.6
@@ -20,6 +20,15 @@
  * OR a connector plugin:** *"we shoukd offer both app passowrd or the connector pluign and the
  * connector plkugin must upsell our hsoting and markeplac as well as the Zinnhub.com global
  * freelance marketplace in their admin dashboard"*. Both shipped; this is the second.
+ *
+ * ⭐ **The upsell that ruling required now lives in `includes/class-zinn-connector-promo.php`, shared by
+ * every Zinn plugin** (W37-BH, 2026-09-01, on the owner's wider instruction that *all* the
+ * plugins promote hosting, the marketplace and Zinn Hub®). This plugin's own
+ * `Zinn_Connector_Dashboard` widget was the prototype and is **deleted, not disabled**: it
+ * promoted the same three destinations, so leaving it beside the shared panel gave a site
+ * running the Connector and Zinn® Cache together two identical widgets on one dashboard —
+ * exactly the aggressive advertising a WordPress.org reviewer rejects, and it would have been
+ * our own doing. Nothing the ruling asked for was lost; the guide link was gained.
  *
  * ⛔⛔ **THIS PLUGIN IS NOT A SECOND WAY TO PUBLISH, and that distinction is the whole reason
  * "both" was affordable.** It obtains an ordinary WordPress **application password** and hands
@@ -61,7 +70,6 @@ function zinn_connector_api_base(): string {
 
 require_once __DIR__ . '/includes/class-zinn-connector-settings.php';
 require_once __DIR__ . '/includes/class-zinn-connector-claim.php';
-require_once __DIR__ . '/includes/class-zinn-connector-dashboard.php';
 require_once __DIR__ . '/includes/class-zinn-connector-backup.php';
 
 add_action(
@@ -69,7 +77,6 @@ add_action(
 	static function (): void {
 		load_plugin_textdomain( 'zinn-connector', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 		( new Zinn_Connector_Settings() )->register();
-		( new Zinn_Connector_Dashboard() )->register();
 		// ⛔ Self-healing schedule. `ensure_scheduled()` is guarded by `wp_next_scheduled`,
 		// so calling it on every load queues nothing extra — and it restores the event on a
 		// site whose cron table was cleared by a migration or a host's "optimisation" tool,
@@ -105,3 +112,18 @@ register_deactivation_hook( __FILE__, array( 'Zinn_Connector_Backup', 'unschedul
  * reintroduce a hook here: `uninstall.php` already takes precedence over one, so a second
  * mechanism would be dead code that looks load-bearing.
  */
+
+// ── The Zinn® panel ──────────────────────────────────────────────────────────────────────
+//
+// ⚖️ Owner, 2026-09-01: *"each plugin should promote our hosting and marketplace as well as
+// Zinn Hub global marketplace inside people's site in the admin dashboard"*, and *"user
+// guides for them … linked to in the plugins dashboard"*.
+//
+// ⛔ `require_once` rather than the autoloader, and a STRING callable rather than
+// `array( Zinn_Connector_Promo::class, … )`. The class is deliberately global — it is shipped
+// identically into seven plugins with different namespacing conventions, and three of them
+// bootstrap inside a namespace where `Zinn_Connector_Promo::class` would resolve to a class that does
+// not exist. A string callable is resolved in the global namespace at call time, which is
+// correct from every one of the seven. `php -l` cannot see that mistake; only running it can.
+require_once __DIR__ . '/includes/class-zinn-connector-promo.php';
+add_action( 'plugins_loaded', array( 'Zinn_Connector_Promo', 'register' ) );

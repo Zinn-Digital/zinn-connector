@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-connector\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my_MM\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-connector\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-connector.php
+#: includes/class-zinn-connector-settings.php:38
+#: includes/class-zinn-connector-settings.php:39
+#: includes/class-zinn-connector-settings.php:73
+msgid "Zinn® Connector"
+msgstr "Zinn® Connector"
+
+#. Plugin URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
+
+#. Description of the plugin
+#: zinn-connector.php
+msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
+msgstr "ချိန်းဆိုထားသည့်ဆောင်းပါးများကို ထုတ်ဝေနိုင်ရန် ဤ WordPressဆိုက်ကို Zinn Digital® သို့ ချိတ်ဆက်ပေးသည်။ သင့် Zinn® ဒက်ရှ်ဘုတ်မှ တွဲဖက်ကုဒ်တစ်ခုကို ကူးထည့်ပါက ပလပ်အင်က ၎င်း၏ကိုယ်ပိုင် အထောက်အထားကို သတ်မှတ်ပေးမည်ဖြစ်ရာ မည်သည့်အရာကိုမျှ လက်ဖြင့် ကူးယူရန် မလိုပါ။"
+
+#. Author of the plugin
+#: zinn-connector.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-connector-backup.php:168
+msgid "This site's PHP cannot create archives, so a backup could not be made."
+msgstr "ဤဆိုဒ်၏ PHP သည် မော်ကွန်းတိုက်များကို ဖန်တီး၍မရပါ၊ ထို့ကြောင့် အရန်သိမ်းဆည်းမှု ပြုလုပ်၍မရပါ။"
+
+#: includes/class-zinn-connector-backup.php:176
+msgid "Could not create a temporary file."
+msgstr "ယာယီဖိုင်ကို ဖန်တီး၍မရပါ။"
+
+#: includes/class-zinn-connector-backup.php:201
+msgid "This site's files could not be archived."
+msgstr "ဤဆိုဒ်၏ ဖိုင်များကို သိမ်းဆည်း၍မရပါ။"
+
+#: includes/class-zinn-connector-backup.php:312
+msgid "The archive could not be read back."
+msgstr "အဆိုပါ မော်ကွန်းဖိုင် (archive) ကို ပြန်လည်ဖတ်ရှု၍ မရပါ။"
+
+#: includes/class-zinn-connector-backup.php:329
+msgid "The backup could not be uploaded."
+msgstr "အရန်သိမ်းဆည်းမှုကို အပ်လုဒ်လုပ်၍မရပါ။"
+
+#: includes/class-zinn-connector-backup.php:334
+msgid "The backup upload was rejected."
+msgstr "အသိမ်းအဆည်း ဖိုင်တင်ယူမှု ပယ်ချခံခဲ့ရသည်။"
+
+#: includes/class-zinn-connector-claim.php:50
+msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
+msgstr "ဤ WordPress အသုံးပြုသူသည် ပို့စ်များကို မထုတ်ဝေနိုင်ပါ၊ ထို့ကြောင့် ယခုပြုလုပ်ထားသော ချိတ်ဆက်မှုသည်လည်း ထုတ်ဝေနိုင်မည်မဟုတ်ပါ။ ထုတ်ဝေနိုင်သော အသုံးပြုသူတစ်ဦးအနေဖြင့် အကောင့်ဝင်ပြီး ထပ်ကြိုးစားပါ။"
+
+#: includes/class-zinn-connector-claim.php:57
+msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
+msgstr "ဤဆိုက်တွင် အပလီကေးရှင်း စကားဝှက်များကို ပိတ်ထားပါသည်၊ ထို့ကြောင့် ကျွန်ုပ်တို့သည် အထောက်အထားအချက်အလက်ကို မဖန်တီးနိုင်ပါ။ ၎င်းတို့ကို ဖွင့်ပေးရန် သင့်ဆိုက်ကို လက်ခံဧည့်ခံပေးထားသူအား တောင်းဆိုပါ၊ သို့မဟုတ် သင့် Zinn Digital® ဒက်ရှ်ဘုတ်တွင် သင်ကိုယ်တိုင်ဖန်တီးထားသော စကားဝှက်တစ်ခုဖြင့် ဆိုက်ကို ချိတ်ဆက်ပါ။"
+
+#: includes/class-zinn-connector-claim.php:69
+msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
+msgstr "ဝပ်ဒ်ပရက်စ် (WordPress) သည် ဤဆိုက်အတွက် အထောက်အထားကို မဖန်တီးနိုင်ပါ။ မည်သည့်အရာကိုမျှ မည်သည့်နေရာသို့မျှ ပို့ဆောင်ထားခြင်း မရှိပါ။"
+
+#: includes/class-zinn-connector-claim.php:100
+msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
+msgstr "ဤဆိုက်မှ Zinn Digital® သို့ ဆက်သွယ်၍မရပါ။ မည်သည့်အရာမျှ ချိတ်ဆက်မထားပါ၊ ထုတ်လုပ်ထားသော အထောက်အထားကိုလည်း ဖယ်ရှားပြီးပါပြီ။ ဆိုက်သည် အပြင်ဘက်သို့ တောင်းဆိုချက်များ ပေးပို့နိုင်ခြင်း ရှိမရှိ စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။"
+
+#: includes/class-zinn-connector-claim.php:116
+msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
+msgstr "Zinn Digital® သည် ထိုတွဲဖက်ကုဒ်ကို လက်မခံပါ။ ဘာမျှချိတ်ဆက်မထားပါ။ သင့်ဒက်ရှ်ဘုတ်တွင် ကုဒ်အသစ်တစ်ခုကို ထုတ်ယူပြီး ထပ်မံကြိုးစားပါ။"
+
+#: includes/class-zinn-connector-claim.php:136
+msgid "Connected. Zinn Digital® can now publish to this site."
+msgstr "ချိတ်ဆက်ပြီးပါပြီ။ Zinn Digital® သည် ယခုအခါ ဤဆိုက်သို့ ထုတ်ဝေနိုင်ပါပြီ။"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-connector-promo.php:241
+#: includes/class-zinn-connector-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — လမ်းညွှန်များနှင့် ဝန်ဆောင်မှုများ"
+
+#: includes/class-zinn-connector-promo.php:256
+msgid "User guides"
+msgstr "အသုံးပြုသူ လမ်းညွှန်များ"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-connector-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို ဖတ်ပါ"
+
+#: includes/class-zinn-connector-promo.php:314
+msgid "Hide this"
+msgstr "ဒါကို ဝှက်ရန်"
+
+#: includes/class-zinn-connector-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress အတွက် Zinn® ဟိုစတင်င်မ်"
+
+#: includes/class-zinn-connector-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed၊ နေ့စဉ်ဘက်ကပ်ပြုလုပ်ခြင်း၊ အခမဲ့ပြောင်းရွှေ့ပေးခြင်းနှင့် ဆိုက်တစ်ခုထက်ပို၍ လုပ်ကိုင်သူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်မှုပန်နယ်။"
+
+#: includes/class-zinn-connector-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "The Zinn® စျေးကွက်"
+
+#: includes/class-zinn-connector-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကြေးကို လုံခြုံစွာ သိမ်းဆည်းထားပြီး၊ တည်ထောင်ပြီးသား ဝက်ဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်နေရာချထားမှုများကို ဝယ်ယူပါ။"
+
+#: includes/class-zinn-connector-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ လုပ်ကိုင်သူများကို ငှားရမ်းပါ"
+
+#: includes/class-zinn-connector-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ ဖရီးလန်းဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဒေဗလော့ပါများနှင့် SEO ကျွမ်းကျင်သူများ၏ အဆင်သင့်ပြင်ဆင်ထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ဝင်ရောက်ကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခု တင်၍ ၎င်းတို့အား လေလံဆွဲခွင့်ပြုပါ။"
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-settings.php:86
+#, php-format
+msgid "This site is connected to Zinn Digital®, publishing as %s."
+msgstr "ဤဆိုက်ကို %s အဖြစ် ထုတ်ဝေနေသော Zinn Digital® နှင့် ချိတ်ဆက်ထားသည်။"
+
+#. translators: %s: link to the WordPress profile screen.
+#: includes/class-zinn-connector-settings.php:95
+#, php-format
+msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
+msgstr "ချိတ်ဆက်မှုဖြတ်ရန်၊ %s ပေါ်ရှိ “Zinn Digital® (publishing)” အပလီကေးရှင်း စကားဝှက်ကို ပြန်လည်ရုပ်သိမ်းပါ။"
+
+#: includes/class-zinn-connector-settings.php:96
+msgid "your profile"
+msgstr "သင့်ပရိုဖိုင်"
+
+#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:130
+msgid "Connect this site"
+msgstr "ဤဆိုဒ်ကို ချိတ်ဆက်ပါ"
+
+#: includes/class-zinn-connector-settings.php:104
+msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
+msgstr "သင့် Zinn Digital® ဒက်ရှ်ဘုတ်ကို ဖွင့်ပါ၊ အကြောင်းအရာ (Content) → အခြားဆိုက်များ (Other sites) သို့ သွားပြီး “တွဲဖက်ကုဒ် ရယူရန်” ကို နှိပ်ပါ။ ၎င်းကို အောက်တွင် ကူးထည့်ပါ။"
+
+#: includes/class-zinn-connector-settings.php:112
+msgid "Pairing code"
+msgstr "တွဲဖက်ကုဒ်"
+
+#: includes/class-zinn-connector-settings.php:125
+msgid "It expires thirty minutes after you generate it, and can only be used once."
+msgstr "၎င်းကို ထုတ်လုပ်ပြီး မိနစ်သုံးဆယ်အကြာတွင် သက်တမ်းကုန်ဆုံးမည်ဖြစ်ပြီး တစ်ကြိမ်သာ အသုံးပြုနိုင်ပါသည်။"
+
+#: includes/class-zinn-connector-settings.php:153
+msgid "You are not allowed to connect this site."
+msgstr "ဤဆိုက်ကို ချိတ်ဆက်ခွင့် မရှိပါ။"

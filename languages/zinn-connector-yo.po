@@ -1,18 +1,13 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Connector 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-connector\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-connector\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:53+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: yo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: zinn-connector\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
@@ -20,154 +15,154 @@ msgstr ""
 #: includes/class-zinn-connector-settings.php:39
 #: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
-msgstr ""
+msgstr "Zinn® Connector"
 
 #. Plugin URI of the plugin
 #: zinn-connector.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr ""
+msgstr "So pọ̀ mọ́ ojula WordPress yìí mọ́ Zinn Digital® kí o lè gbe awọn àpilẹ̀kọ tí a ṣètò sí i. Lẹ mọ koodu ìpọ̀ yọ kuro ninu pátákó Zinn® rẹ ati pe plugin náà ṣètò ẹ̀rí tirẹ̀ - kò si ohun ti a da da pẹlu ọwọ."
 
 #. Author of the plugin
 #: zinn-connector.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-connector.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-backup.php:168
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr ""
+msgstr "PHP aaye yii ko le ṣẹda awọn àkọọsilẹ, nitorina a ko le ṣe afẹyinti."
 
 #: includes/class-zinn-connector-backup.php:176
 msgid "Could not create a temporary file."
-msgstr ""
+msgstr "Ko le ṣẹda faili igba die kan."
 
 #: includes/class-zinn-connector-backup.php:201
 msgid "This site's files could not be archived."
-msgstr ""
+msgstr "A kò lè fi àwọn fáìlì ojú òpó wọ̀nyí pamọ́ sínú àpótí ìpamọ́."
 
 #: includes/class-zinn-connector-backup.php:312
 msgid "The archive could not be read back."
-msgstr ""
+msgstr "A kò lè ka ibi ìpamọ́ yẹn padà."
 
 #: includes/class-zinn-connector-backup.php:329
 msgid "The backup could not be uploaded."
-msgstr ""
+msgstr "A kò le ṣe àfikún fún àwọn afẹ́hìntì náà."
 
 #: includes/class-zinn-connector-backup.php:334
 msgid "The backup upload was rejected."
-msgstr ""
+msgstr "Wọn kọ̀ ọ̀jà igbasilẹ afẹyinti náà."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr ""
+msgstr "Olùψe lò WordPress yìí kò le gbé àwọn àpilkọ jáde, nítorí náà àsopọ̀ tí a ṣe báyìí kò le gbé jáde pẹ̀lú. Wọlé gẹ́gẹ́ bí olùψe tó lè ṣe é, kí o sì tún gbiyanju lẹ́ẹ̀kan síi."
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr ""
+msgstr "Awọn ọrọ igbaniوەlu ohun elo (application passwords) ti wa ni pipa lori aaye yii, nitorina a ko le ṣẹda iwe-ẹri kan. Bi olùgbalejo rẹ lati mu wọn ṣiṣẹ, tabi sopọ aaye naa pẹlu ọrọ igbaniوەlu ti o ṣẹda fun ara rẹ ninu dasibodu Zinn Digital® rẹ."
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr ""
+msgstr "WordPress kò lè dá ìwé ẹ̀rí sílẹ̀ fún ojú òpó wẹ́bù yìí. Kò sí ohun tí a rán sí ibì kankan."
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr ""
+msgstr "A ko le kan Zinn Digital® lati aaye yii. Ko si ohun ti o ni asopọ, ati pe iledi ti a ṣe ti yọ kuro. Ṣayẹwo pe aaye naa le ṣe awọn ibeere ti njade, ki o tun gbiyanju lẹẹkan si."
 
 #: includes/class-zinn-connector-claim.php:116
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr ""
+msgstr "Zinn Digital® kò gba koodu ìsopọ̀ yẹn. Kò sí ohun tí ó sopọ̀. Ṣẹ̀dá koodu tuntun kan nínú daṣibọọdu rẹ kí o sì tún gbiyanju lẹ́ẹ̀kan sí i."
 
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
-msgstr ""
+msgstr "A ti sopọ. Zinn Digital® le tẹjade si aaye yii ni bayi."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
 #: includes/class-zinn-connector-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s — awọn amọna ati awọn iṣẹ"
 
 #: includes/class-zinn-connector-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "Àwọn ìtọ́nisọ́ olùṣe"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "Ka itọsọna olumulo %s"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "Fi eyi pamọ"
 
 #: includes/class-zinn-connector-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "Ilé-iṣẹ́ Zinn® fún WordPress"
 
 #: includes/class-zinn-connector-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed, àwọn àfẹ́mọ́ojú ojoojúmọ́, ìṣípò padà lọ́fẹ̀ẹ́ àti ìṣàkóso tó rọrùn fún àwọn tó ní ju ojú-wẹ́bù kan lọ."
 
 #: includes/class-zinn-connector-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "Ọjà Zinn®"
 
 #: includes/class-zinn-connector-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "Ra ati ta awọn aaye, awọn agbegbe ati awọn aye iṣọpọ ti o ti fi idi rẹ mulẹ, pẹlu owo ti o wa ni ailewu titi ti awọn ẹgbẹ mejeeji fi ni idunnu."
 
 #: includes/class-zinn-connector-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® — bẹ gba awọn eniyan ti o ṣe eyi fun igbesi aye kan"
 
 #: includes/class-zinn-connector-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "Ọjà àwọn olómìnira kárí ayé wa: wò áwọn iṣẹ́ tó ti ṣetan tó lé ní 10,000 láti ọwọ́ àwọn akọ̀wé, apẹrẹ, àwọn olùgbékalẹ̀ àti àwọn amoye SEO, tàbí fi iṣẹ́ sílẹ̀ kí wọ́n sì máa díje lórí rẹ̀."
 
 #. translators: %s: the WordPress username the credential belongs to.
 #: includes/class-zinn-connector-settings.php:86
 #, php-format
 msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr ""
+msgstr "Aaye yii ni asopọ si Zinn Digital®, ti n tẹjade gẹgẹ bi %s."
 
 #. translators: %s: link to the WordPress profile screen.
 #: includes/class-zinn-connector-settings.php:95
 #, php-format
 msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr ""
+msgstr "Lati ge asopọ, fagile ọrọ igbaniوە si app “Zinn Digital® (publishing)” lori %s."
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "your profile"
-msgstr ""
+msgstr "profaili rẹ"
 
 #: includes/class-zinn-connector-settings.php:102
 #: includes/class-zinn-connector-settings.php:130
 msgid "Connect this site"
-msgstr ""
+msgstr "So pọ̀ mọ́ ojula yii"
 
 #: includes/class-zinn-connector-settings.php:104
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr ""
+msgstr "Ṣí dáṣibọọdù Zinn Digital® rẹ, lọ sí Ohun àìmọ̀ → Àwọn ojú ọ̀nà míràn, kí o sì tẹ “Gbà koodu ìṣọ̀kan”. Lẹẹmọ́ ọ ni ìsàlẹ̀ yìí."
 
 #: includes/class-zinn-connector-settings.php:112
 msgid "Pairing code"
-msgstr ""
+msgstr "Koodu ìsojúmọ̀"
 
 #: includes/class-zinn-connector-settings.php:125
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr ""
+msgstr "Ó parí lẹ́yìn ìṣẹ́jú ogójì lẹ́yìn tí o bá dá a, a sì lè lo o lẹ́ẹ̀kan soso."
 
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
-msgstr ""
+msgstr "A kò yọ̀ǹda fún ọ láti so ojú òpó wẹ̀bù yìí pọ̀."

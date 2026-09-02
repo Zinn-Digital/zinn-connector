@@ -1,18 +1,13 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Connector 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-connector\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-connector\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:53+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: zinn-connector\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
@@ -20,154 +15,154 @@ msgstr ""
 #: includes/class-zinn-connector-settings.php:39
 #: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
-msgstr ""
+msgstr "Zinn® Connector"
 
 #. Plugin URI of the plugin
 #: zinn-connector.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr ""
+msgstr "Verbindet diese WordPress-Website mit Zinn Digital®, sodass geplante Beiträge darauf veröffentlicht werden können. Fügen Sie einen Kopplungscode aus Ihrem Zinn®-Dashboard ein und das Plugin richtet seine eigenen Anmeldedaten ein – es muss nichts manuell kopiert werden."
 
 #. Author of the plugin
 #: zinn-connector.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-connector.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-backup.php:168
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr ""
+msgstr "Das PHP dieser Website kann keine Archive erstellen, weshalb kein Backup erstellt werden konnte."
 
 #: includes/class-zinn-connector-backup.php:176
 msgid "Could not create a temporary file."
-msgstr ""
+msgstr "Es konnte keine temporäre Datei erstellt werden."
 
 #: includes/class-zinn-connector-backup.php:201
 msgid "This site's files could not be archived."
-msgstr ""
+msgstr "Die Dateien dieser Website konnten nicht archiviert werden."
 
 #: includes/class-zinn-connector-backup.php:312
 msgid "The archive could not be read back."
-msgstr ""
+msgstr "Das Archiv konnte nicht eingelesen werden."
 
 #: includes/class-zinn-connector-backup.php:329
 msgid "The backup could not be uploaded."
-msgstr ""
+msgstr "Das Backup konnte nicht hochgeladen werden."
 
 #: includes/class-zinn-connector-backup.php:334
 msgid "The backup upload was rejected."
-msgstr ""
+msgstr "Das Backup-Upload wurde abgelehnt."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr ""
+msgstr "Dieser WordPress-Benutzer kann keine Beiträge veröffentlichen, sodass eine jetzt hergestellte Verbindung ebenfalls keine veröffentlichen könnte. Melden Sie sich als ein Benutzer an, der dazu berechtigt ist, und versuchen Sie es erneut."
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr ""
+msgstr "Anwendungspasswörter sind auf dieser Website deaktiviert, daher können wir keine Zugangsdaten erstellen. Bitten Sie Ihren Host, diese zu aktivieren, oder verbinden Sie die Website mit einem Passwort, das Sie selbst in Ihrem Zinn Digital®-Dashboard erstellen."
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr ""
+msgstr "WordPress konnte kein Authentifizierungsobjekt für diese Website erstellen. Es wurde nichts an einen anderen Ort gesendet."
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr ""
+msgstr "Wir konnten Zinn Digital® von dieser Website aus nicht erreichen. Es war keine Verbindung hergestellt, und die von uns erstellte Anmeldeinformation wurde entfernt. Überprüfen Sie, ob die Website ausgehende Anfragen senden kann, und versuchen Sie es erneut."
 
 #: includes/class-zinn-connector-claim.php:116
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr ""
+msgstr "Zinn Digital® hat diesen Kopplungscode nicht akzeptiert. Es wurde nichts verbunden. Generieren Sie in Ihrem Dashboard einen neuen Code und versuchen Sie es noch einmal."
 
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
-msgstr ""
+msgstr "Verbunden. Zinn Digital® kann jetzt auf dieser Website veröffentlichen."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
 #: includes/class-zinn-connector-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s — Anleitungen und Dienste"
 
 #: includes/class-zinn-connector-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "Benutzerhandbücher"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "Lesen Sie die %s-Benutzeranleitung"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "Ausblenden"
 
 #: includes/class-zinn-connector-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "Zinn®-Hosting für WordPress"
 
 #: includes/class-zinn-connector-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed, tägliche Backups, kostenlose Migration und ein Control Panel, das für Benutzer entwickelt wurde, die mehr als eine Website betreiben."
 
 #: includes/class-zinn-connector-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "Der Zinn®-Marktplatz"
 
 #: includes/class-zinn-connector-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "Kaufen und verkaufen Sie etablierte Websites, Domains und Link-Platzierungen, wobei das Geld sicher verwahrt wird, bis beide Seiten zufrieden sind."
 
 #: includes/class-zinn-connector-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® – Experten für dieses Handwerk finden"
 
 #: includes/class-zinn-connector-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "Unser globaler Freelancer-Marktplatz: Entdecken Sie über 10.000 vorgefertigte Services von Autoren, Designern, Entwicklern und SEO-Experten oder schreiben Sie ein Projekt aus und lassen Sie diese Angebote abgeben."
 
 #. translators: %s: the WordPress username the credential belongs to.
 #: includes/class-zinn-connector-settings.php:86
 #, php-format
 msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr ""
+msgstr "Diese Website ist mit Zinn Digital® verbunden und veröffentlicht als %s."
 
 #. translators: %s: link to the WordPress profile screen.
 #: includes/class-zinn-connector-settings.php:95
 #, php-format
 msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr ""
+msgstr "Zum Trennen der Verbindung widerrufen Sie das App-Passwort für „Zinn Digital® (publishing)“ unter %s."
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "your profile"
-msgstr ""
+msgstr "Ihr Profil"
 
 #: includes/class-zinn-connector-settings.php:102
 #: includes/class-zinn-connector-settings.php:130
 msgid "Connect this site"
-msgstr ""
+msgstr "Diese Website verbinden"
 
 #: includes/class-zinn-connector-settings.php:104
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr ""
+msgstr "Öffnen Sie Ihr Zinn Digital®-Dashboard, gehen Sie zu Inhalt → Andere Websites und klicken Sie auf „Kopplungscode anfordern“. Fügen Sie ihn unten ein."
 
 #: includes/class-zinn-connector-settings.php:112
 msgid "Pairing code"
-msgstr ""
+msgstr "Kopplungscode"
 
 #: includes/class-zinn-connector-settings.php:125
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr ""
+msgstr "Er ist dreißig Minuten nach der Generierung gültig und kann nur einmal verwendet werden."
 
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
-msgstr ""
+msgstr "Sie sind nicht berechtigt, diese Website zu verbinden."

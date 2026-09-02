@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-connector\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-connector\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-connector.php
+#: includes/class-zinn-connector-settings.php:38
+#: includes/class-zinn-connector-settings.php:39
+#: includes/class-zinn-connector-settings.php:73
+msgid "Zinn® Connector"
+msgstr "Zinn® Connector"
+
+#. Plugin URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
+
+#. Description of the plugin
+#: zinn-connector.php
+msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
+msgstr "ເຊື່ອມຕໍ່ເວັບໄຊ WordPress ນີ້ກັບ Zinn Digital® ເພື່ອໃຫ້ສາມາດເຜີຍແຜ່ບົດຄວາມຕາມຕາຕະລາງເວລາໄດ້. ວາງລະຫັດຈັບຄູ່ຈາກໜ້າປັດ Zinn® ຂອງທ່ານແລ້ວປລັກອິນຈະຕັ້ງຄ່າຂໍ້ມູນປະຈຳຕົວຂອງມັນເອງ — ບໍ່ມີການຄັດລອກດ້ວຍມື."
+
+#. Author of the plugin
+#: zinn-connector.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-connector.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-connector-backup.php:168
+msgid "This site's PHP cannot create archives, so a backup could not be made."
+msgstr "PHP ຂອງເວັບໄຊນີ້ບໍ່ສາມາດສ້າງໄຟລ໌ຈັດເກັບໄດ້, ດັ່ງນັ້ນຈຶ່ງບໍ່ສາມາດສ້າງໄຟລ໌ສໍາຮອງຂໍ້ມູນໄດ້."
+
+#: includes/class-zinn-connector-backup.php:176
+msgid "Could not create a temporary file."
+msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ຊົ່ວຄາວໄດ້."
+
+#: includes/class-zinn-connector-backup.php:201
+msgid "This site's files could not be archived."
+msgstr "ບໍ່ສາມາດຈັດເກັບໄຟລ໌ຂອງເວັບໄຊນີ້ໄດ້."
+
+#: includes/class-zinn-connector-backup.php:312
+msgid "The archive could not be read back."
+msgstr "ບໍ່ສາມາດອ່ານບ່ອນຈັດເກັບຂໍ້ມູນຄືນໄດ້."
+
+#: includes/class-zinn-connector-backup.php:329
+msgid "The backup could not be uploaded."
+msgstr "ບໍ່ສາມາດອັບໂຫຼດຂໍ້ມູນສຳຮອງໄດ້."
+
+#: includes/class-zinn-connector-backup.php:334
+msgid "The backup upload was rejected."
+msgstr "ການອັບໂຫຼດຂໍ້ມູນສຳຮອງຖືກປະຕິເສດ."
+
+#: includes/class-zinn-connector-claim.php:50
+msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
+msgstr "ຜູ້ໃຊ້ WordPress ນີ້ບໍ່ສາມາດເຜີຍແຜ່ບົດຄວາມໄດ້, ດັ່ງນັ້ນການເຊື່ອມຕໍ່ທີ່ສ້າງຂຶ້ນໃນຕອນນີ້ຈຶ່ງບໍ່ສາມາດເຜີຍແຜ່ໄດ້ເຊັ່ນກັນ. ໃຫ້ເຂົ້າສູ່ລະບົບດ້ວຍຜູ້ໃຊ້ທີ່ມີສິດ ແລະລອງໃໝ່ອີກຄັ້ງ."
+
+#: includes/class-zinn-connector-claim.php:57
+msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
+msgstr "ລະຫັດຜ່ານແອັບພລິເຄຊັນຖືກປິດໃຊ້ງານຢູ່ໃນເວັບໄຊນີ້, ດັ່ງນັ້ນພວກເຮົາຈຶ່ງບໍ່ສາມາດສ້າງຂໍ້ມູນປະຈຳຕົວໄດ້. ກະລຸນາຮ້ອງຂໍໃຫ້ຜູ້ໃຫ້ບໍລິການໂຮດຕິ້ງຂອງທ່ານເປີດໃຊ້ງານພວກມັນ, ຫຼື ເຊື່ອມຕໍ່ເວັບໄຊກັບລະຫັດຜ່ານທີ່ທ່ານສ້າງຂຶ້ນເອງໃນແຜງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ."
+
+#: includes/class-zinn-connector-claim.php:69
+msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
+msgstr "WordPress ບໍ່ສາມາດສ້າງຂໍ້ມູນປະຈຳຕົວສຳລັບເວັບໄຊນີ້ໄດ້. ບໍ່ມີການສົ່ງຫຍັງໄປໃສ່ບ່ອນໃດເລີຍ."
+
+#: includes/class-zinn-connector-claim.php:100
+msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
+msgstr "ພວກເຮົາບໍ່ສາມາດຕິດຕໍ່ຫາ Zinn Digital® ຈາກເວັບໄຊນີ້ໄດ້. ບໍ່ມີການເຊື່ອມຕໍ່ໃດໆ, ແລະ ຂໍ້ມູນຢັ້ງຢືນຕົວຕົນທີ່ພວກເຮົາສ້າງຂຶ້ນໄດ້ຖືກລຶບອອກແລ້ວ. ກະລຸນາ ກວດສອບວ່າເວັບໄຊສາມາດສົ່ງຄຳຮ້ອງອອກນອກໄດ້, ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#: includes/class-zinn-connector-claim.php:116
+msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
+msgstr "Zinn Digital® ບໍ່ຍອມຮັບລະຫັດຈັບຄູ່ນັ້ນ. ບໍ່ມີຫຍັງຖືກເຊື່ອມຕໍ່. ກະລຸນາສ້າງລະຫັດໃໝ່ໃນແຜງຄວບຄຸມຂອງທ່ານ ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#: includes/class-zinn-connector-claim.php:136
+msgid "Connected. Zinn Digital® can now publish to this site."
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ດຽວນີ້ Zinn Digital® ສາມາດເຜີຍແຜ່ລົງໃນເວັບໄຊນີ້ໄດ້ແລ້ວ."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-connector-promo.php:241
+#: includes/class-zinn-connector-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — ຄູ່ມື ແລະ ບໍລິການ"
+
+#: includes/class-zinn-connector-promo.php:256
+msgid "User guides"
+msgstr "ຄູ່ມືຜູ້ໃຊ້"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-connector-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "ອ່ານຄູ່ມືຜູ້ໃຊ້ %s"
+
+#: includes/class-zinn-connector-promo.php:314
+msgid "Hide this"
+msgstr "ເຊື່ອງສິ່ງນີ້"
+
+#: includes/class-zinn-connector-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "ໂຮສຕິ້ງ Zinn® ສຳລັບ WordPress"
+
+#: includes/class-zinn-connector-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, ການສໍາຮອງຂໍ້ມູນປະຈໍາວັນ, ການຍ້າຍເວັບໄຊຟຣີ ແລະ ແຜງຄວບຄຸມທີ່ສ້າງຂຶ້ນສໍາລັບຜູ້ທີ່ບໍລິຫານຫຼາຍກວ່າໜຶ່ງເວັບໄຊ."
+
+#: includes/class-zinn-connector-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "ຕະຫຼາດ Zinn®"
+
+#: includes/class-zinn-connector-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "ຊື້ ແລະ ຂາຍເວັບໄຊ, ໂດເມນ ແລະ ບ່ອນວາງລິ້ງທີ່ມີຢູ່ແລ້ວ, ໂດຍມີເງິນເກັບຮັກສາໄວ້ຢ່າງປອດໄພຈົນກວ່າທັງສອງຝ່າຍຈະພໍໃຈ."
+
+#: includes/class-zinn-connector-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ຈ້າງຜູ້ຊ່ຽວຊານທີ່ເຮັດວຽກນີ້ເປັນອາຊີບ"
+
+#: includes/class-zinn-connector-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ຕະຫຼາດຟຣີແລນຊ໌ທົ່ວໂລກຂອງພວກເຮົາ: ເລືອກເບິ່ງບໍລິການທີ່ພ້ອມໃຊ້ງານຫຼາຍກວ່າ 10,000 ການບໍລິການຈາກນັກຂຽນ, ນັກອອກແບບ, ຜູ້ພັດທະນາ ແລະ ຜູ້ຊ່ຽວຊານດ້ານ SEO, ຫຼື ປະກາດໂຄງການແລ້ວໃຫ້ພວກເຂົາຍື່ນປະມູນ."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-settings.php:86
+#, php-format
+msgid "This site is connected to Zinn Digital®, publishing as %s."
+msgstr "ເວັບໄຊນີ້ເຊື່ອມຕໍ່ກັບ Zinn Digital®, ຈັດພິມເປັນ %s."
+
+#. translators: %s: link to the WordPress profile screen.
+#: includes/class-zinn-connector-settings.php:95
+#, php-format
+msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
+msgstr "ເພື່ອຕັດການເຊື່ອມຕໍ່, ໃຫ້ຍົກເລີກລະຫັດຜ່ານແອັບພລິເຄຊັນ “Zinn Digital® (publishing)” ທີ່ %s."
+
+#: includes/class-zinn-connector-settings.php:96
+msgid "your profile"
+msgstr "ໂປຣໄຟລ໌ຂອງທ່ານ"
+
+#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:130
+msgid "Connect this site"
+msgstr "ເຊື່ອມຕໍ່ເວັບໄຊນີ້"
+
+#: includes/class-zinn-connector-settings.php:104
+msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
+msgstr "ເປີດແຜງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ, ໄປທີ່ ເນື້ອຫາ → ເວັບໄຊອື່ນໆ, ແລະ ຢ່າງ “ຮັບລະຫັດຈັບຄູ່”. ວາງມັນໃສ່ດ້ານລຸ່ມນີ້."
+
+#: includes/class-zinn-connector-settings.php:112
+msgid "Pairing code"
+msgstr "ລະຫັດຈັບຄູ່"
+
+#: includes/class-zinn-connector-settings.php:125
+msgid "It expires thirty minutes after you generate it, and can only be used once."
+msgstr "ມັນຈະ ໝົດອາຍຸ 30 ນາທີ ຫຼັງຈາກທີ່ທ່ານສ້າງມັນຂຶ້ນມາ, ແລະ ສາມາດໃຊ້ໄດ້ພຽງແຕ່ຄັ້ງດຽວເທົ່ານັ້ນ."
+
+#: includes/class-zinn-connector-settings.php:153
+msgid "You are not allowed to connect this site."
+msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ເວັບໄຊນີ້."

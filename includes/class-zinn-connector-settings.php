@@ -35,8 +35,8 @@ class Zinn_Connector_Settings {
 	 */
 	public function add_page(): void {
 		add_options_page(
-			__( 'Zinn Digital®', 'zinn-connector' ),
-			__( 'Zinn Digital®', 'zinn-connector' ),
+			__( 'Zinn® Connector', 'zinn-connector' ),
+			__( 'Zinn® Connector', 'zinn-connector' ),
 			'manage_options',
 			self::PAGE,
 			array( $this, 'render' )
@@ -70,7 +70,7 @@ class Zinn_Connector_Settings {
 		$ok     = is_array( $result ) && ! empty( $result['ok'] );
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'Zinn Digital®', 'zinn-connector' ); ?></h1>
+			<h1><?php esc_html_e( 'Zinn® Connector', 'zinn-connector' ); ?></h1>
 
 			<?php if ( '' !== $notice ) : ?>
 				<div class="notice <?php echo $ok ? 'notice-success' : 'notice-error'; ?>">
@@ -129,6 +129,13 @@ class Zinn_Connector_Settings {
 				</table>
 				<?php submit_button( __( 'Connect this site', 'zinn-connector' ) ); ?>
 			</form>
+			<?php
+			// ⛔⛔ AT THE BOTTOM OF THE SCREEN, INSIDE `.wrap`, BELOW THE CONTROLS — NEVER ABOVE
+			// THEM. Somebody who opened a settings screen came to change a setting. A promotion
+			// that pushes the thing they came for below the fold is the "disruptive upselling"
+			// a WordPress.org reviewer rejects, and it would deserve it.
+			Zinn_Connector_Promo::render_panel();
+			?>
 		</div>
 		<?php
 	}
