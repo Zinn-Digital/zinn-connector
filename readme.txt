@@ -7,7 +7,7 @@ Tags: publishing, content, api, automation, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -111,6 +111,9 @@ Yes. Create an application password yourself under Users → Profile and enter i
 No. Everything it does happens in wp-admin, and it makes no requests on the front end.
 
 == Changelog ==
+
+= 1.1.2 =
+* Added: automatic updates from the Zinn Digital® control plane — the same signed, checksum-verified update path the other Zinn® plugins use. Previously a new version could not reach an installed site.
 
 = 1.1.0 =
 * Added the Zinn® panel: links to Zinn Digital® hosting, the Zinn® marketplace, Zinn Hub® and this plugin's user guide, from inside the WordPress admin.

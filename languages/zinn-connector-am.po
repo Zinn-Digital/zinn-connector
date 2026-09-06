@@ -166,3 +166,11 @@ msgstr "ከተፈጠረ ከሰላሳ ደቂቃ በኋላ የሚያበቃ ሲሆ�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "ይህንን ድር ጣቢያ ለማገናኘት አልተፈቀደልዎም።"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "የZinn Digital® መልቀቂያ ማስታወሻዎችን ይመልከቱ።"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "የወረደው ማሻሻያ የታማኝነት ማረጋገጫውን ማለፍ አልቻለም እና አልተጫነም።"

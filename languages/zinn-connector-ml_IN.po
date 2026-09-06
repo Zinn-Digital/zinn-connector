@@ -166,3 +166,11 @@ msgstr "ഇത് ജനറേറ്റ് ചെയ്ത് മുപ്പത
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "ഈ സൈറ്റ് കണക്റ്റുചെയ്യാൻ നിങ്ങൾക്ക് അനുവാദമില്ല."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® റിലീസ് കുറിപ്പുകൾ കാണുക."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ഡൗൺലോഡ് ചെയ്ത അപ്‌ഡേറ്റിന്റെ സമഗ്രതാ പരിശോധന പരാജയപ്പെട്ടു, അതിനാൽ അത് ഇൻസ്റ്റാൾ ചെയ്തില്ല."

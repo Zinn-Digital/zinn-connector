@@ -166,3 +166,11 @@ msgstr "Token tersebut kedaluwarsa tiga puluh menit setelah Anda membuatnya, dan
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Anda tidak diizinkan untuk menyambungkan situs ini."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Lihat catatan rilis Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Pembaruan yang diunduh gagal dalam pemeriksaan integritas dan tidak diinstal."

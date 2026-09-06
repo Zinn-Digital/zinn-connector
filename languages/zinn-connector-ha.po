@@ -166,3 +166,11 @@ msgstr "Yana ƙarewa bayan mintuna talatin da samar da shi, kuma za a iya amfani
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Ba a ba ku izinin haɗa wannan shafin ba."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Duba bayanan fitowar Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Sabuntawar da aka sauke ta gaza gwajin inganci kuma ba a sanya ta ba."

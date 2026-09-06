@@ -166,3 +166,11 @@ msgstr "Энэ нь үүсгэснээс хойш гучин минутын да
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Энэ сайтыг холбохыг танд зөвшөөрөхгүй байна."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® хувилбарын тэмдэглэлийг үзнэ үү."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Татаж авсан шинэчлэлтийн бүрэн бүтэн байдлын шалгалт амжилтгүй болж, суулгасангүй."

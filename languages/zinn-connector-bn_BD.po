@@ -166,3 +166,11 @@ msgstr "এটি তৈরি করার ত্রিশ মিনিট প�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "এই সাইটটি সংযোগ করার অনুমতি আপনার নেই।"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® রিলিজ নোট দেখুন।"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ডাউনলোড করা আপডেটটির অখণ্ডতা পরীক্ষা ব্যর্থ হয়েছে এবং এটি ইনস্টল করা হয়নি।"

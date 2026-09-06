@@ -166,3 +166,11 @@ msgstr "Waxay dhacaysaa soddon daqiiqo ka dib marka aad soo saarto, waxaana la i
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Laguma oggola inaad ku xirto bishan."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Fiiri qoraallada sii-daynta ee Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Cusboonaysiintii la soo dejiyey ayaa ku guuldareysatay baaritaanka hufnaanta waxaana la rakibay."

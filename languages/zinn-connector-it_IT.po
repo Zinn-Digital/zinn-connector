@@ -166,3 +166,11 @@ msgstr "Scade trenta minuti dopo la generazione e può essere utilizzato una sol
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Non è consentito connettere questo sito."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Consulta le note di rilascio di Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "L'aggiornamento scaricato non ha superato il controllo di integrità e non è stato installato."

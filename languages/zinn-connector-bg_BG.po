@@ -166,3 +166,11 @@ msgstr "Тя изтича тридесет минути след генерир�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Нямате разрешение да свържете този сайт."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Вижте бележките за изданието на Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Изтегленото обновление не премина проверка за цялостност и не беше инсталирано."

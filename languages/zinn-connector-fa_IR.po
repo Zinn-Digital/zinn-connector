@@ -166,3 +166,11 @@ msgstr "این پیوند سی دقیقه پس از ایجاد منقضی می�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "شما مجاز به اتصال به این سایت نیستید."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "یادداشت‌های انتشار Zinn Digital® را مشاهده کنید."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "بررسی صحت به‌روزرسانی بارگیری‌شده با شکست مواجه شد و نصب نگردید."

@@ -166,3 +166,11 @@ msgstr "Wygasa trzydzieści minut po wygenerowaniu i może zostać użyty tylko 
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Nie masz uprawnień do połączenia tej witryny."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zobacz informacje o wydaniu Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Pobrana aktualizacja nie przeszła pomyślnie testu spójności i nie została zainstalowana."

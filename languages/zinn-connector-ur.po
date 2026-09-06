@@ -166,3 +166,11 @@ msgstr "یہ آپ کے تیار کرنے کے تیس منٹ بعد ختم ہو �
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "آپ کو اس سائٹ کو منسلک کرنے کی اجازت نہیں ہے۔"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® کے ریلیز نوٹس دیکھیں۔"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ڈاؤن لوڈ کردہ اپ ڈیٹ کی سالمیت کی جانچ میں ناکام رہی اور اسے انسٹال نہیں کیا گیا۔"

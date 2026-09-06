@@ -166,3 +166,11 @@ msgstr "Mag-e-expire ito makalipas ang tatlumpung minuto pagkatapos mong buuin i
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Hindi ka pinapayagang ikonekta ang site na ito."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Tingnan ang mga tala sa paglabas ng Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Ang na-download na update ay nabigo sa pagsusuri ng integridad at hindi na-install."

@@ -166,3 +166,11 @@ msgstr "იგი ძალას კარგავს გენერირე
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "ამ საიტის დაკავშირების უფლება არ გაქვთ."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "იხილეთ Zinn Digital®-ის გამოშვების შენიშვნები."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."

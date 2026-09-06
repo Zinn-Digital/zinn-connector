@@ -166,3 +166,11 @@ msgstr "ఇది మీరు సృష్టించిన ముప్పై
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "ఈ సైట్‌ను కనెక్ట్ చేయడానికి మీకు అనుమతి లేదు."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® విడుదల గమనికలను చూడండి."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "డౌన్‌లోడ్ చేసిన అప్‌డేట్ సమగ్రతా తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."

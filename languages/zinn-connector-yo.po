@@ -166,3 +166,11 @@ msgstr "Ó parí lẹ́yìn ìṣẹ́jú ogójì lẹ́yìn tí o bá dá a, a 
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "A kò yọ̀ǹda fún ọ láti so ojú òpó wẹ̀bù yìí pọ̀."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Wo awọn akọsilẹ ifilọlẹ Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Ìgbàlàwé tí a ṣe àgbéjọ rẹ̀ kùnà àyẹ̀wò òtítọ́ rẹ̀, a kò sì fi sílẹ̀."

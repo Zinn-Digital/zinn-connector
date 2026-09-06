@@ -166,3 +166,11 @@ msgstr "તે તમે જનરેટ કર્યા પછી ત્રી�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "તમને આ સાઇટ કનેક્ટ કરવાની મંજૂરી નથી."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® ના રિલીઝ નોંધો જુઓ."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ડાઉનલોડ કરેલ અપડેટ તેની અખંડિતતા ચકાસણીમાં નિષ્ફળ ગયું અને ઇન્સ્ટોલ કરવામાં આવ્યું ન હતું."

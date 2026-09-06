@@ -166,3 +166,11 @@ msgstr "Nó sẽ hết hạn sau ba mươi phút kể từ khi bạn tạo và c
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Bạn không được phép kết nối trang web này."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Xem ghi chú phát hành Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Bản cập nhật đã tải xuống không vượt qua được kiểm tra tính toàn vẹn và không được cài đặt."

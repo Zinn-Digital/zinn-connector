@@ -166,3 +166,11 @@ msgstr "ມັນຈະ ໝົດອາຍຸ 30 ນາທີ ຫຼັງຈາ
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ເວັບໄຊນີ້."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນຂອງ Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."

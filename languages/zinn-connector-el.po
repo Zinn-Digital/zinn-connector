@@ -166,3 +166,11 @@ msgstr "Λήγει τριάντα λεπτά αφότου το δημιουργ�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Δεν σας επιτρέπεται να συνδέσετε αυτόν τον ιστότοπο."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Δείτε τις σημειώσεις έκδοσης του Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Η λaβoύσα ενημέρωση απέτυχε στον έλεγχο ακεραιότητας και δεν εγκαταστάθηκε."

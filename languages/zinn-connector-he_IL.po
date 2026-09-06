@@ -166,3 +166,11 @@ msgstr "הוא יפוג שלושים דקות לאחר יצירתו, וניתן 
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "אינך מורשה לחבר את האתר הזה."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "עיין בהערות השחרור של Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "העדכון שהורד נכשל בבדיקת השלמות ולא הותקן."

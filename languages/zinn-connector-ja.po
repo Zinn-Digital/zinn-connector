@@ -166,3 +166,11 @@ msgstr "生成してから30分で有効期限が切れ、一度しか使用で�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "このサイトの接続は許可されていません。"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® のリリースノートをご覧ください。"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ダウンロードしたアップデートの整合性チェックに失敗したため、インストールされませんでした。"

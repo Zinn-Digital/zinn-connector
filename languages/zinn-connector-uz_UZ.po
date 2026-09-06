@@ -166,3 +166,11 @@ msgstr "U uni yaratganingizdan keyin o‘ttiz daqiqa o‘tib o‘z kuchini yo‘
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Ushbu saytni ulashga ruxsat berilmagan."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® chiqarilish eslatmalarini ko'ring."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Yuklab olingan yangilanish yaxlitlik tekshiruvidan o'tmadi va o'rnatilmadi."

@@ -166,3 +166,11 @@ msgstr "Ia akan tamat tempoh tiga puluh minit selepas anda menjana dan hanya bol
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Anda tidak dibenarkan menyambungkan tapak ini."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Lihat nota keluaran Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Kemas kini yang dimuat turun gagal dalam pemeriksaan integriti dan tidak dipasang."

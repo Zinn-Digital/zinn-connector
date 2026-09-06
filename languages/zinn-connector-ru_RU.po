@@ -166,3 +166,11 @@ msgstr "Срок его действия истекает через тридц�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Вам не разрешено подключать этот сайт."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Смотрите примечания к выпуску Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Скачанное обновление не прошло проверку целостности и не было установлено."

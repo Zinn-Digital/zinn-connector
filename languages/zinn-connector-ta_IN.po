@@ -166,3 +166,11 @@ msgstr "இது நீங்கள் உருவாக்கிய முப
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "இந்தத் தளத்தை இணைக்க உங்களுக்கு அனுமதி இல்லை."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® வெளியீட்டு குறிப்புகளைப் பார்க்கவும்."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "பதிவிறக்கம் செய்யப்பட்ட புதுப்பிப்பு அதன் ஒருமைமைச் சோதனையில் தோல்வியுற்றது மற்றும் நிறுவப்படவில்லை."

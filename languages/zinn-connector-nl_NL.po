@@ -166,3 +166,11 @@ msgstr "Het verloopt dertig minuten nadat u het heeft gegenereerd, en kan slecht
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "U heeft geen toestemming om deze website te verbinden."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Bekijk de releaseopmerkingen van Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "De gedownloade update is niet door de integriteitscontrole gekomen en is niet geïnstalleerd."

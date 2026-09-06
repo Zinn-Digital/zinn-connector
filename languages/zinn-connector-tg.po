@@ -166,3 +166,11 @@ msgstr "Он пас аз сию дақиқаи тавлидаш эътибори
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Шумо ҳуқуқ надоред, ки ин сайт пайваст шавед."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Эълонҳои нашри Zinn Digital®-ро бинед."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Азнавкарии зеркашишуда аз санҷиши бехатарӣ гузашта натавонист ва насб карда нашуд."

@@ -166,3 +166,11 @@ msgstr "생성 후 30분이 지나면 만료되며, 한 번만 사용할 수 있
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "이 사이트에 연결할 수 없습니다."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® 릴리스 노트를 확인하세요."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "다운로드된 업데이트의 무결성 검사에 실패하여 설치되지 않았습니다."

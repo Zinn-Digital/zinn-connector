@@ -166,3 +166,11 @@ msgstr "它会在您生成后的三十分钟内过期，且只能使用一次。
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "您无权连接此网站。"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "请参阅 Zinn Digital® 发行说明。"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "已下载的更新未能通过完整性检查，因此未进行安装。"

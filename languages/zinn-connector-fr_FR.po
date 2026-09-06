@@ -166,3 +166,11 @@ msgstr "Il expire trente minutes après sa génération et ne peut être utilis�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Vous n'êtes pas autorisé à connecter ce site."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Consultez les notes de version de Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "La mise à jour téléchargée a échoué au contrôle d'intégrité et n'a pas été installée."

@@ -166,3 +166,11 @@ msgstr "එය ඔබ ජනනය කර විනාඩි තිස් අක
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "මෙම වෙබ් අඩවිය සම්බන්ධ කිරීමට ඔබට අවසර නැත."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® නිකුතු සටහන් බලන්න."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "බාගත කළ යාවත්කාලීන කිරීමේ අඛණ්ඩතා පරීක්ෂාව අසමත් වූ අතර එය ස්ථාපනය කර නොමැත."

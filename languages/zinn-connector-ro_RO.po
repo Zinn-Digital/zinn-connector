@@ -166,3 +166,11 @@ msgstr "Expiră la treizeci de minute după ce îl generați și poate fi utiliz
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Nu aveți permisiunea de a conecta acest site."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Consultați notele de lansare Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Actualizarea descărcată a eșuat la verificarea integrității și nu a fost instalată."

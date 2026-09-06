@@ -166,3 +166,11 @@ msgstr "វាផុតកំណត់ក្នុងរយៈពេលសាម
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "អ្នកមិនត្រូវបានអនុញ្ញាតឱ្យតភ្ជាប់គេហទំព័រនេះទេ។"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "សូមមើលកំណត់ចំណាំនៃការចេញផ្សាយរបស់ Zinn Digital®។"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ការទាញយកបច្ចុប្បន្នភាពមិនបានឆ្លងកាត់ការត្រួតពិនិត្យភាពត្រឹមត្រូវទេ ហើយត្រូវបានបរាជ័យក្នុងការដំឡើង។"

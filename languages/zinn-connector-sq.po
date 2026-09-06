@@ -166,3 +166,11 @@ msgstr "Ajo skadon tridhjetë minuta pasi ta gjeneroni dhe mund të përdoret ve
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Nuk jeni i lejuar të lidhni këtë faqe."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Shihni shënimet e lëshimit për Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."

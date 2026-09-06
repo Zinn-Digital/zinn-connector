@@ -166,3 +166,11 @@ msgstr "دا د جوړولو وروسته تر دېرشو دقیقو پورې ا
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "تاسو نشئ کولای چې دا سایټ وصل کړئ."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "د Zinn Digital® د خپرولو یادښتونه وګورئ."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "د ډاونلوډ شوي تازه معلوماتو د روغتیا معاینه ناکامه شوه او ونه لګول شول."

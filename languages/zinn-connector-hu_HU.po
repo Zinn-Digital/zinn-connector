@@ -166,3 +166,11 @@ msgstr "Harminc perccel a generálás után lejár, és csak egyszer használhat
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Nem engedélyezett ennek a webhelynek a csatlakoztatása."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Tekintse meg a Zinn Digital® kiadási megjegyzéseit."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "A letöltött frissítés integritási ellenőrzése sikertelen volt, így nem lett a rendszerre telepítve."

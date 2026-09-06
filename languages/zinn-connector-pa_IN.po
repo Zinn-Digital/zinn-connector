@@ -166,3 +166,11 @@ msgstr "ਇਹ ਤਿਆਰ ਕਰਨ ਤੋਂ ਤਹਿੱਹ ਮਿੰਟ ਬ
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "ਤuhanu ਇਸ ਸਾਈਟ ਨੂੰ ਕਨੈਕਟ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।"
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® ਦੇ ਰਿਲੀਜ਼ ਨੋਟਸ ਦੇਖੋ।"
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ਡਾਊਨਲੋਡ ਕੀਤੇ ਅੱਪਡੇਟ ਦੀ ਅਖੰਡਤਾ ਜਾਂਚ (ਇੰਟੈਗਰਿਟੀ ਚੈੱਕ) ਅਸਫ਼ਲ ਰਹੀ ਅਤੇ ਇਸਨੂੰ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।"

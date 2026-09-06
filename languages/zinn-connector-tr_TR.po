@@ -166,3 +166,11 @@ msgstr "Oluşturduktan otuz dakika sonra süresi dolar ve yalnızca bir kez kull
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Bu siteyi bağlamanıza izin verilmiyor."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® sürüm notlarını inceleyin."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "İndirilen güncelleme bütünlük kontrolünden başarısız oldu ve yüklenmedi."

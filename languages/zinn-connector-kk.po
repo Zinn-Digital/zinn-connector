@@ -166,3 +166,11 @@ msgstr "Ол жасалғаннан кейін отыз минут өткен с
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Бұл сайтты қосуға рұқсат етілмеген."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® нұсқарының жазбаларын қараңыз."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Жүктеп алынған жаңарту тұтастықты тексеруден өтпеді және орнатылмады."

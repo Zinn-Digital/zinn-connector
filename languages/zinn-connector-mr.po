@@ -166,3 +166,11 @@ msgstr "हे तुम्ही तयार केल्यापासून
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "तुम्हाला हे साइट कनेक्ट करण्याची अनुमती नाही."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® च्या रिलीझ नोट्स पहा."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "डाउनलोड केलेल्या अपडेटची अखंडता चाचणी (इंटीग्रिटी चेक) अयशस्वी झाली आणि ते इन्स्टॉल केले गेले नाही."

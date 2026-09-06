@@ -166,3 +166,11 @@ msgstr "Istječe trideset minuta nakon što ga generirate i može se iskoristiti
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "Nije vam dopušteno povezivanje ove stranice."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Pogledajte bilješke o izdanju Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Preuzeto ažuriranje nije prošlo provjeru integriteta i nije instalirano."

@@ -166,3 +166,11 @@ msgstr "تنتهي صلاحيتها بعد ثلاث0 دقيقة من إنشائ�
 #: includes/class-zinn-connector-settings.php:153
 msgid "You are not allowed to connect this site."
 msgstr "غير مسموح لك بتوصيل هذا الموقع."
+
+#: includes/class-zinn-connector-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "راجع ملاحظات إصدار Zinn Digital®."
+
+#: includes/class-zinn-connector-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "فشل التحقق من سلامة التحديث الذي تم تنزيله ولم يتم تثبيته."
