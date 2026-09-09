@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,183 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Αποθηκεύτηκε. Πληκτρολογήστε μια νέα τιμή για να την αντικαταστήσετε."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Φιλτράρισμα αυτής της λίστας…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Φίλτραρε αυτή τη λίστα"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Δεν υπάρχει τίποτα που να ταιριάζει σε αυτό το φίλτρο."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "Προσθήκη γραμμής"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Κατάργηση αυτής της γραμμής"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "Κατάργηση"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — επισκόπηση"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Κάθε πρόσθετο Zinn® σε αυτόν τον ιστότοπο, και αν λειτουργεί."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Δεν απαιτείται σύνδεση για αυτό το πρόσθετο."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "Άνοιγμα ρυθμίσεων"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Δεν έχετε δικαίωμα να αλλάξετε αυτές τις ρυθμίσεις."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Ενότητες ρυθμίσεων"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "Εξαγωγή ρυθμίσεων"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Επαναφορά στις προεπιλογές"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Αυτό επαναφέρει κάθε ρύθμιση σε αυτό το πρόσθετο στην προεπιλογή της. Συνέχεια;"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Διαγνωστικά υποστήριξης"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Εισαγωγή αρχείου ρυθμίσεων"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Τα εξαγόμενα αρχεία δεν περιέχουν ποτέ κωδικούς πρόσβασης, διακριτικά ή κλειδιά API· θα χρειαστεί να τα καταχωρίσετε ξανά στη νέα τοποθεσία."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Όλες οι ρυθμίσεις σε αυτό το πρόσθετο έχουν επανέλθει στις προεπιλογές τους."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "Ολοκληρώθηκε."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Αυτή η ενέργεια δεν είναι διαθέσιμη."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Αυτό το αρχείο δεν μπόρεσε να διαβάσει. Επιλέξτε ένα αρχείο ρυθμίσεων που έχει εξαχθεί από ένα πρόσθετο Zinn®."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Αυτό το αρχείο είναι πολύ μεγάλο για να αποτελεί εξαγωγή ρυθμίσεων."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Αυτό το αρχείο δεν είναι εξαγωγή ρυθμίσεων Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Αυτό το αρχείο εξήχθη από διαφορετικό πρόσθετο (%s), οπότε η εισαγωγή του εδώ θα αποθηκεύσει ρυθμίσεις που αυτό το πρόσθετο δεν κατανοεί."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Εισήχθη %d ρύθμιση. Οι κωδικοί πρόσβασης και τα κλειδιά API δεν περιλαμβάνονται ποτέ σε μια εξαγωγή, γι' αυτό καταχωρίστε τα ξανά."
+msgstr[1] "Εισήχθησαν %d ρυθμίσεις. Οι κωδικοί πρόσβασης και τα κλειδιά API δεν περιλαμβάνονται ποτέ σε μια εξαγωγή, γι' αυτό καταχωρίστε τα ξανά."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "Το αρχείο θα είναι %1$d MB, πέρα από το όριο των %2$d MB που έχει οριστεί σε αυτόν τον ιστότοπο. Αυξήστε το όριο ή εξαιρέστε ορισμένους φακέλους στην οθόνη Zinn Digital® → Connector → Backups."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "Η PHP αυτού του ιστότοπου δεν μπορεί να δημιουργήσει αρχεία αρχειοθήκης, επομένως δεν ήταν δυνατή η δημιουργία αντιγράφου ασφαλείας."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού αρχείου."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "Δεν ήταν δυνατή η αρχειοθέτηση των αρχείων αυτού του ιστότοπου."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "Το αρχείο δεν μπόρεσε να διαβαστεί ξανά."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "Η PHP αυτού του ιστότοπου δεν μπορεί να συμπιέσει αρχεία, επομένως δεν ήταν δυνατή η δημιουργία αντιγράφου ασφαλείας."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "Η δημιουργία αντιγράφου ασφαλείας δεν μπόρεσε να μεταφορτωθεί."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "Η μεταφόρτωση αντιγράφου ασφαλείας απορρίφθηκε."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "Ένα αντίγραφο ασφαλείας αυτού του ιστότοπου χρειάζεται περίπου %1$s προσωρινού χώρου και μόνο %2$s είναι ελεύθερος, επομένως δεν επιχειρήθηκε."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +235,141 @@ msgstr "Το Zinn Digital® δεν αποδέχτηκε αυτόν τον κωδ
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Συνδέθηκε. Η Zinn Digital® μπορεί πλέον να δημοσιεύσει σε αυτόν τον ιστότοπο."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "Συνδεδεμένο"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "Σύνδεση…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Συνδεδεμένο, αλλά κάτι χρειάζεται προσοχή"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "Μη συνδεδεμένο"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "Εκτέλεση στον λογαριασμό σας"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "Δεν ήταν δυνατός ο έλεγχος αυτού"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Αυτό το πρόσθετο δεν ανέφερε τον λόγο. Στείλτε μια αναφορά διαγνωστικών και θα το ελέγξουμε."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "Κατάσταση σύνδεσης"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Ο τελευταίος έλεγχος έγινε πριν από %s."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ανοίγει σε νέα καρτέλα)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Αποστολή στην υποστήριξη της Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Αυτό ακριβώς θα αποσταλεί — τίποτα άλλο και τίποτα κρυφό. Οι κωδικοί πρόσβασης, τα διακριτικά (tokens) και τα κλειδιά API σας δεν περιλαμβάνονται σε αυτό."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Η αναφορά διαγνωστικών που θα σταλεί"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Στείλτε αυτή την αναφορά στην υποστήριξη της Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Ανοίγουμε ένα δελτίο υποστήριξης για εσάς και απαντούμε μέσω email. Εάν προτιμάτε να μην το στείλετε, αντιγράφοντάς το παραπάνω, επικολλάτε το μόνοι σας σε ένα δελτίο."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "Αντιγράφηκε"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Δεν ήταν δυνατή η σύνδεση με το Zinn Digital® από αυτόν τον διακομιστή (%s). Αντιγράφηκε η παραπάνω αναφορά και δημιουργήθηκε ένα αίτημα υποστήριξης αντί για αυτό — οι ρυθμίσεις σας είναι απολύτως σωστές."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Η υποστήριξη της Zinn® έλαβε την αναφορά σας και θα σας απαντήσει μέσω email."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Η υποστήριξη της Zinn® έλαβε την αναφορά σας — αριθμός αναφοράς %s — και θα σας απαντήσει μέσω email."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Έχετε στείλει πολλές αναφορές σε σύντομο χρονικό διάστημα. Περιμένετε λίγα λεπτά και δοκιμάστε ξανά — οι προηγούμενες έχουν παραδοθεί."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Η Zinn Digital® δεν μπόρεσε να αποδεχτεί την αναφορά αυτή τη στιγμή — αυτό οφείλεται σε εμάς, όχι σε εσάς. Δοκιμάστε ξανά σύντομα ή αντιγράψτε την παραπάνω αναφορά σε ένα ticket."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Η αναφορά απορρίφθηκε (HTTP %d). Αντιγράψτε την παραπάνω και ανοίξτε ένα εισιτήριο υποστήριξης, αναφέροντας αυτόν τον αριθμό."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Ο κάτοχος αυτού του ιστότοπου έχει απενεργοποιήσει τη μεταφόρτωση εικόνων για το Zinn Digital® στις ρυθμίσεις του Zinn® Connector."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Ο διαχειριστής αυτού του ιστότοπου έχει απενεργοποιήσει τις τροποποιήσεις σε υπάρχοντα άρθρα για το Zinn Digital® στις ρυθμίσεις του Zinn® Connector."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "Νέο άρθρο στον ιστότοπό σας: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Η Zinn Digital® πρόσθεσε ένα άρθρο στον ιστότοπό σας.\n"
+"\n"
+"Τίτλος: %1$s\n"
+"Επεξεργασία: %2$s\n"
+"Κατάσταση: %3$s\n"
+"\n"
+"Μπορείτε να απενεργοποιήσετε αυτά τα μηνύματα ηλεκτρονικού ταχυδρομείου στην οθόνη Zinn Digital® → Connector → Publishing."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +416,364 @@ msgstr "Zinn Hub® — προσλάβετε επαγγελματίες που τ
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Η παγκόσμια αγορά ανεξάρτητων επαγγελματιών μας: περιηγηθείτε σε πάνω από 10.000 έτοιμες υπηρεσίες από συγγραφείς, σχεδιαστές, προγραμματιστές και ειδικούς SEO, ή δημοσιεύστε ένα έργο και αφήστε τους να υποβάλουν προσφορές."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "Αυτός ο ιστότοπος είναι συνδεδεμένος με το Zinn Digital®, το οποίο δημοσιεύει ως %s."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "Σύνδεσμος"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "Για να αποσυνδεθείτε, ανακαλέστε τον κωδικό πρόσβασης της εφαρμογής «Zinn Digital® (publishing)» στη διεύθυνση %s."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "Σύνδεση"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "Δημοσίευση"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "Αντίγραφα ασφαλείας"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "Προηγμένα"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "Έλεγχος σύνδεσης τώρα"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "Αποσύνδεση αυτού του ιστότοπου"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "το προφίλ σας"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "Αυτό ανακαλεί τα διαπιστευτήρια που χρησιμοποιεί η Zinn Digital®, ώστε να μην μπορούμε πλέον να δημοσιεύουμε σε αυτόν τον ιστότοπο. Οτιδήποτε έχει ήδη δημοσιευτεί παραμένει. Συνέχεια;"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "Τι ενδέχεται να κάνουμε σε αυτόν τον ιστότοπο"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "Τα διαπιστευτήρια που διαθέτουμε είναι ένας συνηθισμένος κωδικός πρόσβασης εφαρμογής WordPress, οπότε το ίδιο το WordPress αποφασίζει τι είναι δυνατό. Αυτά τα περιορίζουν περαιτέρω, από την πλευρά σας."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "Δημοσίευση άρθρων ως"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "Επιλέξτε «ένα πρόχειρο» εάν προτιμάτε να διαβάσετε τα πάντα προτού δημοσιευτούν."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "Δημοσιεύτηκε αμέσως"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "Ένα πρόχειρο, για να το ελέγξω"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "Εκκρεμεί έλεγχος"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "Προγραμματισμένο, με χρήση της ημερομηνίας που στέλνουμε"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "Εμφάνιση συγγραφέα ως"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "Πιος από τους χρήστες σας εμφανίζεται ως συντάκτης. Αυτό δεν αλλάζει ποιον συνδέουμε."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "Δημοσίευση άρθρων σε"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "Να επιτρέπονται οι εικόνες"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Επιτρέψτε στη Zinn Digital® να ανεβάζει εικόνες στη βιβλιοθήκη πολυμέσων αυτού του ιστότοπου"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "Απενεργοποιήστε το και τα άρθρα θα φτάνουν χωρίς τις εικόνες τους. Τίποτα από όσα έχουν ήδη μεταφορτωθεί δεν αφαιρείται."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "Να επιτρέπονται οι επεξεργασίες"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Αφήστε τη Zinn Digital® να ενημερώσει ένα άρθρο που δημοσίευσε παλαιότερα"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "Χρησιμοποιείται για διορθώσεις και επανελτιστοποίηση. Δεν επηρεάζει ποτέ τίποτα από όσα έχετε γράψει εσείς οι ίδιοι."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "Ειδοποιήστε με όταν δημοσιεύεται κάτι"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "Αφήστε το κενό για να μην αποσταλεί email. Ένα μήνυμα ανά άρθρο, από τον δικό σας ιστότοπο."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "Εκτός έδρας αντίγραφα ασφαλείας"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "Αυτός ο ιστότοπος στέλνει τα δικά του αντίγραφα ασφαλείας απευθείας στον χώρο αποθήκευσης Zinn®. Τίποτα δεν περνάει από τους διακομιστές μας κατά τη διαδρομή."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Δημιουργήστε αντίγραφο ασφαλείας αυτού του ιστότοπου στο Zinn Digital®"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "Token αντιγράφου ασφαλείας"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "Ορίζεται για εσάς όταν συνδέθηκε ο ιστότοπος. Θα χρειαστεί να το αγγίξετε μόνο εάν το ζητήσει η υποστήριξη."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "Να παραλειφθούν αυτά"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "Μία διαδρομή ανά γραμμή, σχετική με το wp-content — για παράδειγμα <code>cache</code> ή <code>uploads/backups</code>. Οι φάκελοι της cache και άλλων πρόσθετων δημιουργίας αντιγράφων ασφαλείας είναι οι συνήθεις υποψήφιοι."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "Διακοπή εάν το αρχείο θα υπερέβαινε"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "Megabytes. Ένας κοινόχρηστος διακομιστής συνήθως διακόπτει ένα πολύ μεγάλο αρχείο στη μέση· ένα όριο μετατρέπει αυτό σε μήνυμα αντί για σιωπηλή αποτυχία."
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "Λεπτομερής καταγραφή"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "Καταγράψτε τι κάνει αυτό το πρόσθετο, για υποστήριξη"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "Διατηρούνται σε αυτόν τον ιστότοπο, περιορίζονται στις τελευταίες 50 καταχωρίσεις και περιλαμβάνονται σε μια αναφορά διαγνωστικών. Ενεργοποιήστε τα πριν αναπαράγετε ένα πρόβλημα."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "Κατά την απεγκατάσταση"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "Διαγραφή των ρυθμίσεων αυτού του πρόσθετου κατά την απεγκατάστασή του"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "Η απεγκατάσταση δεν ανακαλεί ποτέ τον κωδικό πρόσβασης της εφαρμογής — αυτό είναι σκόπιμο, ώστε η απεγκατάσταση για δοκιμή κάτι άλλου να μην διακόπτει τη δημοσίευσή σας. Χρησιμοποιήστε την «Αποσύνδεση» παραπάνω, εάν θέλετε να καταργηθούν τα διαπιστευτήρια."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "Ο χρήστης με τον οποίο συνδεόμαστε"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "Η προεπιλεγμένη κατηγορία του ιστότοπου"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "Σύνδεση αυτού του ιστότοπου ξανά"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "Σύνδεση αυτού του ιστότοπου"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Ανοίξτε τον πίνακα ελέγχου σας Zinn Digital®, μεταβείτε στην ενότητα Περιεχόμενο → Άλλα sites και πατήστε «Λήψη κωδικού σύζευξης». Επικολλήστε τον παρακάτω."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "Η επανασύνδεση δημιουργεί ένα νέο διαπιστευτήριο και αφήνει το παλιό στη θέση του — χρησιμοποιήστε πρώτα την Αποσύνδεση εάν θέλετε να καταργηθεί το παλιό."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "Κωδικός σύζευξης"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "Λήγει τριάντα λεπτά αφότου το δημιουργήσετε και μπορεί να χρησιμοποιηθεί μόνο μία φορά."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "Δεν σας επιτρέπεται να συνδέσετε αυτόν τον ιστότοπο."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "Αυτός ο ιστότοπος δεν συνδέεται με τη Zinn Digital®."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "Δεν υπάρχει πρόβλημα — απλώς δεν έχει γίνει σύζευξη ακόμη. Λάβετε έναν κωδικό σύζευξης από τον πίνακα ελέγχου Zinn® και επικολλήστε τον παρακάτω."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Άνοιγμα του πίνακα ελέγχου μου στο Zinn®"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "Η σύνδεση έχει διακοπεί."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "Ο χρήστης του WordPress στον οποίο ανήκαν τα διαπιστευτήρια (%s) δεν υπάρχει πλέον σε αυτόν τον ιστότοπο, επομένως τίποτα από όσα στέλνουμε δεν μπορεί να δημοσιευτεί. Συνδεθείτε ξανά ως χρήστης που μπορεί να δημοσιεύσει."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "Ο κωδικός πρόσβασης εφαρμογής «Zinn Digital® (publishing)» έχει διαγραφεί από αυτόν τον ιστότοπο, επομένως δεν είναι πλέον δυνατή η σύνδεση. Συνδεθείτε ξανά για να δημιουργήσετε έναν νέο — δεν χάθηκε τίποτα άλλο."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "Δείτε τους κωδικούς πρόσβασης εφαρμογών αυτού του ιστότοπου"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "Συνδέθηκε, αλλά η δημοσίευση θα αποτύχει."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "Τα διαπιστευτήρια ανήκουν στον χρήστη %s, και αυτός ο χρήστης δεν μπορεί πλέον να δημοσιεύει άρθρα. Η σύνδεση εξακολουθεί να λειτουργεί, επομένως όλα φαίνονται φυσιολογικά μέχρι να έρθει η ώρα δημοσίευσης ενός άρθρου. Δώστε σε αυτόν τον χρήστη τη δυνατότητα δημοσίευσης ή συνδεθείτε ξανά ως κάποιος άλλος που μπορεί."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "Επεξεργασία αυτού του χρήστη"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "Συνδέθηκε εδώ — δεν ήταν δυνατή η επικοινωνία με την Zinn Digital® για επιβεβαίωση."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "Συνδεθήκατε, αλλά ο λογαριασμός σας στη Zinn® χρειάζεται προσοχή."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Συνδεδεμένο με το Zinn Digital®."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Συνδεθήκατε στο Zinn Digital® ως %s."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "Δημοσίευση ως"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "ID ιστοτόπου Zinn®"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "Αυτός ο διακομιστής δεν μπόρεσε να επικοινωνήσει με τη διεύθυνση api.zinndigital.com (%s). Αυτό συνήθως οφείλεται σε τείχος προστασίας (firewall) ή σε κανόνα εξερχόμενης σύνδεσης στον κεντρικό υπολογιστή σας και όχι σε πρόβλημα με τον λογαριασμός σας στη Zinn® — η δημοσίευση ενδέχεται να λειτουργεί ακόμα."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Η Zinn Digital® απάντησε με δικό της σφάλμα — αυτό είναι δικό μας πρόβλημα, όχι δικό σας. Η δημοσίευση δεν επηρεάζεται όσο αυτό επιλύεται."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "Ο λογαριασμός σας στη Zinn® δεν μπορεί προς το παρόν να δημοσιεύσει σε αυτόν τον ιστότοπο. Ο πίνακας ελέγχου σας εξηγεί τον λόγο."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Η Zinn Digital® απάντησε με HTTP %d, το οποίο δεν αναγνωρίζουμε. Στείλτε μια αναφορά διαγνostικών από την καρτέλα \"Υποστήριξη\" και θα το εξετάσουμε — μην αλλάξετε τίποτα εδώ πρώτα."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "Έλεγχος ξανά τώρα"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "Ελέγχθηκε. Η σύνδεση είναι ενεργή."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "Δεν ήταν δυνατή η αφαίρεation του κωδικού πρόσβασης εφαρμογής, οπότε αυτός ο ιστότοπος είναι ακόμα συνδεδεμένος. Διαγράψτε το «Zinn Digital® (publishing)» στην οθόνη του προφίλ σας και δοκιμάστε ξανά — δεν έχουμε αλλάξει τίποτα."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "Αποσυνδέθηκε. Ο κωδικός πρόσβασης της εφαρμογής έχει ανακληθεί, επομένως το Zinn Digital® δεν μπορεί πλέον να δημοσιεύει σε αυτόν τον ιστότοπο. Τίποτα από όσα έχουν ήδη δημοσιευτεί δεν επηρεάστηκε."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Δεν ήταν δυνατή η ανάγνωση αυτού του αρχείου από αυτόν τον διακομιστή, επομένως δεν μεταφορτώθηκε τίποτα."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Αυτός ο ιστότοπος δεν μπόρεσε να μεταδώσει τη μεταφόρτωση, οπότε δεν στάλθηκε τίποτα."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Αυτό το αρχείο είναι %1$s και η PHP αυτού του ιστότοπου δεν διαθέτει cURL, επομένως το μεγαλύτερο μέγεθος που μπορεί να μεταφορτωθεί είναι %2$s."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Η μεταφόρτωση δεν μπόρεσε να ολοκληρωθεί."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Ο αποθηκευτικός χώρος απέρριψε τη μεταφόρτωση (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "Προεπιλογή στυλ"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Ένα σημείο εκκίνησης. Οτιδήποτε βρίσκεται παρακάτω το υπερισχύει."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Χρήση των δικών μου χρωμάτων και μεγεθών"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Απενεργοποιήστε το αυτό και η προεπιλογή θα χρησιμοποιηθεί ακριβώς όπως είναι."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

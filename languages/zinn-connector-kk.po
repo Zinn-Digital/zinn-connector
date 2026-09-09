@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,183 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Сақталды. Оны алмастыру үшін жаңа мән енгізіңіз."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Бұл тізімді сүзу…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Бұл тізімді сүзу"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Бұл сүзгіге ешнәрсе сәйкес келмейді."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "Жол қосу"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Бұл жолды жою"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "Жою"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — шолу"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "Шолу"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Бұл сайттағы әрбір Zinn® плагині және оның жұмыс істеп тұрғаны."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Бұл плагин үшін интернет қосылымы қажет емес."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "Параметрлерді ашу"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Бұл параметрлерді өзгертуге рұқсатыңыз жоқ."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Баптаулар бөлімдері"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "Қолдау көрсету"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "Өзгерістерді сақтау"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "Құралдар"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "Экспорт параметрлері"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Әдепкі мәндерге қайтару"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Бұл плагиннің барлық параметрлерін әдепкі мәндеріне қайтарады. Жалғастыру керек пе?"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Қолдау қызметіне арналған диагностика"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Параметрлер файлын импорттау"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "Импорттау"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Экспортталған файлдар ешқашан парольдерді, токендерді немесе API кілттерін қамтымайды — оларды жаңа сайтта қайтадан енгізу қажет болады."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Параметрлер сақталды."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Бұл плагиннің әрбір параметрі әдепкі мәніне қайтарылды."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "Дайын."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Бұл әрекет қолжетімді емес."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Бұл файлды оқу мүмкін емес. Zinn® плагинінен экспортталған параметрлер файлын таңдаңыз."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Бұл файл параметрлерді экспорттау үшін тым үлкен."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Бұл файл Zinn® параметрлерінің экспорты емес."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Бұл файл басқа плагиннен (%s) экспортталған, сондықтан оны мұнда импорттау бұл плагин түсінбейтін параметрлерді сақтайды."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d параметр імпортталды. Құпия сөздер мен API кілттері экспортқа ешқашан кірмейді, сондықтан оларды қайтадан енгізіңіз."
+msgstr[1] "%d параметр импортталды. Құпия сөздер мен API кілттері экспорта ешқашан қамтылмайды, сондықтан оларды қайтадан енгізіңіз."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "Мұрағат өлшемі %1$d МБ болады, бұл осы сайтта белгіленген %2$d МБ шектеуінен асады. Zinn Digital® → Connector → Backups экранында лимитті арттырыңыз немесе кейбір қалталарды алып тастаңыз."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "Бұл сайттың PHP тілі архивтерді жасай алмайды, сондықтан сақтық көшірме жасалмады."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "Уақытша файлды жасау мүмкін болмады."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "Бұл сайттың файлдарын мұрағаттау мүмкін болмады."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "Архивті оқу мүмкін болмады."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "Бұл сайттың PHP тілі мұрағаттарды сыға алмайды, сондықтан сақтық көшірме жасалмады."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "Резервтік көшірме жүктелмеді."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "Сақтық көшірмені жүктеу қабылданбады."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "Бұл сайттың сақтық көшірмесі үшін шамамен %1$s уақытша орын қажет, ал тек %2$s бос, сондықтан ол орындалмады."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +235,141 @@ msgstr "Zinn Digital® бұл жұптастыру кодын қабылдама
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Қосылды. Zinn Digital® енді бұл сайтқа жариялай алады."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "Қосылған"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "Қосылуда…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Қосылған, бірақ бірдеңе назар аударуды қажет етеді"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "Қосылмаған"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "Өз аккаунтыңызда жұмыс істеп тұр"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "Мұны тексере алмадық"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Бұл плагин себебін түсіндірмеді. Диагностикалық есепті жіберіңіз, біз оны тексереміз."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "Қосылым күйі"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Соңғы рет %s бұрын тексерілді."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(жаңа бетте ашылады)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® қолдау қызметіне жіберу"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Бұл дәл жіберілетін нәрсе — басқа ештеңе жоқ және ештеңе жасырылмаған. Оған құпия сөздеріңіз, токендеріңіз және API кілттеріңіз кірмейді."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Жіберілетін диагностикалық есеп"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Буфер алмасуға көшіру"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Бұл есепті Zinn® қолдау қызметіне жіберу"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Біз сіз үшін қолдау көрсету тикетін ашып, электрондық пошта арқылы жауап береміз. Егер оны жібергіңіз келмесе, жоғарыдан көшіріп алып, тикетке өзіңіз қойыңыз."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "Көшірілді"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Бұл серверден (%s) Zinn Digital® жүйесіне қосыла алмадық. Жоғарыдағы есепті көшіріп, оның орнына билет ашыңыз — параметрлеріңізде ешқандай қате жоқ."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® қолдау қызметі сіздің есебіңізді алды және электрондық пошта арқылы жауап береді."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® қолдау қызметі сіздің хабарламаңызды алды — анықтама нөмірі %s — және электрондық пошта арқылы жауап береді."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Сіз қысқа уақыт ішінде бірнеше есеп жібердіңіз. Бірнеше минут күтіп, қайталап көріңіз — алдыңғылары жетті."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® есепті қазір қабылдай алмады — бұл біздің жағымыздағы мәселе, сізде емес. Біраз уақыттан кейін қайта көріңіз немесе жоғарыдағы есепті билетке көшіріңіз."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Есеп қабылданбады (HTTP %d). Оны жоғарыдан көшіріп, сол нөмірді көрсете отырып, тикет ашыңыз."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Бұл сайттың иесі Zinn® Connector параметрлерінде Zinn Digital® үшін сурет жүктеуді өшіріп тастады."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Бұл сайттың иесі Zinn Digital® үшін бар мақалаларды өңдеуді Zinn® Connector параметрлерінде өшіріп тастады."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "Site-тегі жаңа мақала: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® сайтыңызға мақала қосты.\n"
+"\n"
+"Тақырыбы: %1$s\n"
+"Өңдеу: %2$s\n"
+"Күйі: %3$s\n"
+"\n"
+"Бұл электрондық хаттарды Zinn Digital® → Connector → Publishing экранында өшіріңіз."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +416,364 @@ msgstr "Zinn Hub® — бұл іспен кәсіби түрде айналыс�
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Біздің жаһандық фриланс нарығымыз: жазушылардан, дизайнерлерден, әзірлеушілерден және SEO мамандарынан 10 000-нан астам дайын қызметті қарап шығыңыз немесе жоба жариялап, олардың ұсыныс жасауына мүмкіндік беріңіз."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "Бұл сайт %s ретінде жариялайтын Zinn Digital® қызметіне қосылған."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "Коннектор"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "Ажырату үшін %s жүйесіндегі «Zinn Digital® (publishing)» қолданбасының құпия сөзін қайтарып алыңыз."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "Қосылым"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "Жриялауда"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "Қорлардың көшірмелері"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "Қосымша"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "Қосылымды қазір тексеру"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "Бұл сайтты ажырату"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "сіздің профиліңіз"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "Бұл Zinn Digital® пайдаланатын тіркелгі деректерін жояды, сондықтан біз бұл сайтқа енді жариялай алмаймыз. Бұрын жарияланғандардың барлығы қалады. Жалғастыру керек пе?"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "Бұл сайтта біз не істей аламыз"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "Бізде бар тіркелгі дерегі қарапайым WordPress қолданба құпия сөзі болып табылады, сондықтан не мүмкін екенін WordPress өзі шешеді. Олар мұны сіздің тарапыңыздан одан әрі шектейді."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "Мақалаларды келесі ретпен жариялау:"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "Барлығы тікелей эфирге шықпай тұрып оқығыңыз келсе, \"жобаны\" таңдаңыз."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "Дереу жарияланды"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "Мен қарап шығуым үшін қаралама нұсқа"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "Қаралуда"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "Жоспарланған, біз жіберетін күнді қолдана отырып"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "Авторы көрсету реті:"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "Қaysı paydalanıwshıńız avtor retinde kórinedi. Bul biz kim retinde kiriwimizdi ózgertpeydi."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "Мақалаларды қою"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "Суреттерге рұқсат беру"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Zinn Digital® жүйесіне осы сайттың медиа кітапханасына кескіндерді жүктеуге рұқсат беру"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "Бұл функцияны өшірсеңіз, мақалалар суретсіз келеді. Бұрын жүктелген ешбір элемент жойылмайды."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "Өзгертуге рұқсат беру"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Zinn Digital® бұрын жариялаған мақаласын өңдесін"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "Түзетулер мен қайта оңтайландыру үшін қолданылады. Ол сіздің өзіңіз жазған ешбір нәрсеге ешқашан тиіспейді."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "Бірдеңe жарияланған кезде маған хабарлаңыз"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "Электрондық пошта үшін бос қалдырыңыз. Әр мақала үшін өзіңіздің сайтыңыздан бір хабарлама."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "Сыртқы сақтық көшірмелер"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "Бұл сайт өз сақтық көшірмесін тікелей Zinn® қоймасына жібереді. Жолда біздің серверлер арқылы ештеңе өтпейді."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Бұл сайтты Zinn Digital® қызметіне сақтық көшірме жасау"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "Сақтық көшірме токені"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "Сайт қосылған кезде сіз үшін орнатылады. Мұны тек қолдау қызметі сұраған жағдайда ғана өзгерту қажет болады."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "Бұларды қалдыру"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "Әр жолға бір жолдан, wp-content каталогына қатысты — мысалы, <code>cache</code> немесе <code>uploads/backups</code>. Кэштер мен басқа сақтық көшірме плагиндерінің қалталары әдетте осы мақсатқа жарайды."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "Егер мұрағат мынадан асып кетсе, тоқтатыңыз"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "Мегабайттар. Ортақ хостинг әдетте өте үлкен мұрағатты орта жолдан үзіп тастайды; шектеу оны үнсіз қателік емес, хабарламаға айналдырады."
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "Егжей-тегжейлі журналға жазу"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "Қолдау көрсету үшін бұл плагин не істейтінін жазып алыңыз"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "Бұл сайтта сақталады, соңғы 50 жазбамен шектеледі және диагностикалық есепке енгізіледі. Мәселені қайталау алдында оны қосыңыз."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "Жою кезінде"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "Бұл плагин жойылған кезде оның параметрлерін де жою"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "Қолданбаны жою ешқашан қолданба құпия сөзін қайтарып алмайды — бұл әдейі жасалған, сондықтан басқа нәрсені көру үшін жою жариялау жұмысыңызды бұзбайды. Тіркелгі деректерінің жойылғанын қаласаңыз, жоғарыдағы «Ажырату» түймесін пайдаланыңыз."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "Біз кіретін пайдаланушы"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "Сайттың әдепкі санаты"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "Бұл сайтты қайта қосу"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "Бұл сайтты қосу"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Zinn Digital® басқару панелін ашыңыз, Контент → Басқа сайттар бөліміне өтіп, «Жұптастыру кодын алу» түймесін басыңыз. Оны төменге қойыңыз."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "Қайта қосылу жаңа тіркелетін деректерді жасайды және ескісін өз орнында қалдырады — егер ескісінің жойылғанын қаласаңыз, алдымен ажырату түймесін пайдаланыңыз."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "Жұптастыру коды"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "Ол жасалғаннан кейін отыз минут өткен соң күші жойылады және тек бір рет қана пайдаланылуы мүмкін."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "Бұл сайтты қосуға рұқсат етілмеген."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "Бұл сайт Zinn Digital® қызметімен байланысты емес."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "Ешқандай қате жоқ — ол жай ғана әлі жұптастырылмаған. Zinn® басқару панелінен жұптастыру кодын алып, төменге қойыңыз."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Zinn® басқару панелімді ашу"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "Қосылым үзілді."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "Бұл тіркелгі тиесілі болған WordPress пайдаланушысы (%s) бұл сайтта енді жоқ, сондықтан біз жіберген ешбір нәрсе жариялана алмайды. Жариялай алатын пайдаланушы ретінде қайта қосылыңыз."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "Zinn Digital® (publishing) қолданбасының құпия сөзі бұл сайттан өшірілді, сондықтан біз енді кіре алмаймыз. Жаңасын жасау үшін қайта қосылыңыз — ешнәрсе жоғалған жоқ."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "Осы сайттың қолданба құпия сөздерін көру"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "Қосылған, бірақ жариялау сәтсіз аяқталады."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "Тіркелгі мәліметтері %s иелігінде, ал бұл пайдаланушы енді жазбаларды жариялай алмайды. Жүйеге кіру әлі де жұмыс істейді, сондықтан мақала жариялау уақыты келгенше ешқандай қате байқалмайды. Сол пайдаланушыға жариялау құқығын беріңіз немесе жариялай алатын біреу ретінде қайта қосылыңыз."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "Бұл пайдаланушыны өңдеу"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "Байланыс орнатылды — растау үшін Zinn Digital® қызметіне қол жеткізе алмадық."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "Қосылған, бірақ Zinn® тіркелгіңіз назар аударуды қажет етеді."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Zinn Digital® желісіне қосылған."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Zinn Digital® жүйесіне %s ретінде қосылды."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "Ретінде жариялау"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Zinn® сайтының идентификаторы"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "Бұл сервер api.zinndigital.com (%s) мекенжайына қол жеткізе алмады. Бұл әдетте Zinn® тіркелгіңіздің мәселесі емес, хостыңыздағы брандмауэр немесе шығыс қосылым ережесі — жариялау әлі де жұмыс істеуі мүмкін."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® өзінің қатесімен жауап берді — бұл сіздің емес, біздің жағымыз. Бұл шешілгенше жариялауға әсер етпейді."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "Сіздің Zinn® тіркелгіңіз қазіргі уақытта бұл сайтқа жариялауға мүмкіндік бермейді. Неліктен екенін басқару панелі көрсетеді."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® HTTP %d жауабын қайтарды, бұл бізге таныс емес. Қолдау көрсету қойындысынан диагностикалық есепті жіберіңіз, біз оны қарап шығамыз — ештеңені алдын ала өзгертпеңіз."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "Қазір қайта тексеру"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "Тексерілді. Қосылым белсенді."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "Қолданба құпия сөзін жоя алмадық, сондықтан бұл сайт әлі де қосулы тұр. Профиль экраныңыздағы «Zinn Digital® (publishing)» жазбасын жойып, қайта көріңіз — ештеңені өзгерткен жоқпыз."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "Ажыратылған. Қолданба құпия сөзі кері қайтарылды, сондықтан Zinn Digital® бұл сайтқа енді жариялай алмайды. Бұрын жарияланғандардың ешқайсысына әсер етілмеді."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Бұл файл осы серверден оқылмады, сондықтан ешнәрсе жүктелмеді."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Бұл сайт жүктеп салынған файлды ағынмен жібере алмады, сондықтан ешнәрсе жіберілген жоқ."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Бұл файл %1$s және бұл сайттың PHP жүйесінде cURL жоқ, сондықтан жүктеп сала алатын ең үлкен өлшем — %2$s."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Жүктеу аяқталмады."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Сақтау орны жүктеуден бас тартты (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "Стиль үлгісі"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Бастапқы нүкте. Төмендегі кез келген нәрсе оны қайта жазады."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Өз түстерім мен өлшемдерімді қолдану"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Мұны өшіріп тастаңыз, сонда алдын ала орнатылған параметр дәл сол күйінде пайдаланылады."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

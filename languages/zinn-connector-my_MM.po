@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,182 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "သိမ်းဆည်းပြီးပါပြီ။ ၎င်းကို အစားထိုးရန် တန်ဖိုးအသစ်တစ်ခုကို ရိုက်ထည့်ပါ။"
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "ဤစာရင်းကို စစ်ထုတ်ပါ…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "ဤစာရင်းကို စစ်ထုတ်ပါ"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "စစ်ထုတ်မှုနှင့် ကိုက်ညီသော မည်သည့်အရာမျှ မရှိပါ။"
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "အတန်းအသစ်တစ်ခု ထည့်ရန်"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "ဤအတန်းကို ဖယ်ရှားပါ"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "ဖယ်ရှားရန်"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — သုံးသပ်ချက်"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "သုံးသပ်ချက်"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "ဤဆိုဒ်ရှိ Zinn® ပလပ်အင်တိုင်းနှင့် ၎င်းတို့ အလုပ်လုပ်နေခြင်း ရှိမရှိ။"
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "ဤပလပ်အင်အတွက် ချိတ်ဆက်မှု မလိုအပ်ပါ။"
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "ဆက်တင်များကို ဖွင့်ရန်"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "ဤဆက်တင်များကို ပြောင်းလဲရန် သင့်တွင် ခွင့်ပြုချက်မရှိပါ။"
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "ဆက်တင် ကဏ္ဍများ"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "ပံ့ပိုးကူညီမှု"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "ပြောင်းလဲမှုများကို သိမ်းဆည်းရန်"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "တူးလ်များ"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "ဆက်တင်များကို ထုတ်ယူရန်"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "မူလအတိုင်းသို့ ပြန်လည်သတ်မှတ်ရန်"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "ဤပလပ်အင်ရှိ ဆက်တင်အားလုံးကို မူလအတိုင်းသို့ ပြန်လည်သတ်မှတ်မည်ဖြစ်သည်။ ဆက်လက်လုပ်ဆောင်မည်လား။"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ပံ့ပိုးကူညီမှုအတွက် ရောဂါရှာဖွေစစ်ဆေးမှုများ"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "ဆက်တင်ဖိုင်တစ်ခုကို တင်သွင်းပါ"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "တင်သွင်းရန်"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ထုတ်ယူထားသော ဖိုင်များတွင် စကားဝှက်များ၊ တိုကင်များ သို့မဟုတ် API သော့ချက်များ လုံးဝမပါဝင်ပါ — ၎င်းတို့ကို ဆိုက်အသစ်တွင် ထပ်မံထည့်သွင်းရန် လိုအပ်မည်ဖြစ်သည်။"
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "ဆက်တင်များကို သိမ်းဆည်းပြီးပါပြီ။"
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "ဤပလပ်ဂင်ရှိ ဆက်တင်အားလုံးသည် မူလအတိုင်းသို့ ပြန်ရောက်သွားပါပြီ။"
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "ပြီးပါပြီ။"
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "ထိုလုပ်ဆောင်ချက်ကို အသုံးမပြုနိုင်ပါ။"
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "ထိုဖိုင်ကို ဖတ်မရပါ။ Zinn® ပလပ်အင်တစ်ခုမှ တင်ပို့ထားသော ဆက်တင်ဖိုင်တစ်ခုကို ရွေးပါ။"
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ထိုဖိုင်သည် ဆက်တင်များ တင်ပို့မှုတစ်ခု ဖြစ်ရန်အတွက် ကြီးလွန်းနေပါသည်။"
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ထိုဖိုင်သည် Zinn® ဆက်တင်များ တင်ပို့မှု မဟုတ်ပါ။"
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "ထိုဖိုင်ကို အခြား ပလပ်အင် (%s) တစ်ခုမှ ထုတ်ယူထားခြင်းဖြစ်သောကြောင့် ဤနေရာတွင် တင်သွင်းခြင်းဖြင့် ဤပလပ်အင် နားမလည်သော ဆက်တင်များကို သိမ်းဆည်းသွားမည် ဖြစ်သည်။"
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "ဆက်တင် %d ခု တင်သွင်းပြီးပါပြီ။ စကားဝှက်များနှင့် API သော့များသည် တင်ပို့မှုတွင် ပါဝင်လေ့မရှိပါ၊ ထို့ကြောင့် ၎င်းတို့ကို ထပ်မံထည့်သွင်းပါ။"
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "archive သည် %1$d MB ရှိပြီး၊ ဤဆိုက်တွင် သတ်မှတ်ထားသော %2$d MB ကန့်သတ်ချက်ထက် ကျော်လွန်နေပါသည်။ Zinn Digital® → Connector → Backups မျက်နှာပြင်တွင် ကန့်သတ်ချက်ကို မြှင့်ပါ သို့မဟုတ် φ ဖိုင်တွဲအချို့ကို ချန်လှပ်ပါ။"
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "ဤဆိုဒ်၏ PHP သည် မော်ကွန်းတိုက်များကို ဖန်တီး၍မရပါ၊ ထို့ကြောင့် အရန်သိမ်းဆည်းမှု ပြုလုပ်၍မရပါ။"
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "ယာယီဖိုင်ကို ဖန်တီး၍မရပါ။"
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "ဤဆိုဒ်၏ ဖိုင်များကို သိမ်းဆည်း၍မရပါ။"
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "အဆိုပါ မော်ကွန်းဖိုင် (archive) ကို ပြန်လည်ဖတ်ရှု၍ မရပါ။"
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "ဤဆိုက်၏ PHP သည် ဖိုင်တွဲများကို မချုံ့နိုင်သောကြောင့် အရန်သိမ်းဆည်းမှု ပြုလုပ်၍မရပါ။"
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "အရန်သိမ်းဆည်းမှုကို အပ်လုဒ်လုပ်၍မရပါ။"
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "အသိမ်းအဆည်း ဖိုင်တင်ယူမှု ပယ်ချခံခဲ့ရသည်။"
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "ဤဆိုက်၏ အရန်သိမ်းဆည်းမှုအတွက် ယာယီနေရာလပ် %1$s ခန့် လိုအပ်ပြီး %2$s သာ လွတ်နေသဖြင့် ဆက်လက်မလုပ်ဆောင်ခဲ့ပါ။"
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +234,141 @@ msgstr "Zinn Digital® သည် ထိုတွဲဖက်ကုဒ်ကိ�
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "ချိတ်ဆက်ပြီးပါပြီ။ Zinn Digital® သည် ယခုအခါ ဤဆိုက်သို့ ထုတ်ဝေနိုင်ပါပြီ။"
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "ချိတ်ဆက်ပြီးပါပြီ"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "ချိတ်ဆက်နေသည်..."
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "ချိတ်ဆက်ထားပြီးဖြစ်ပါသည်၊ သို့သော် တစ်စုံတစ်ရာအတွက် အာရုံစိုက်ရန် လိုအပ်နေပါသည်"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "ချိတ်ဆက်မထားပါ"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "သင့်ကိုယ်ပိုင်အကောင့်ဖြင့် လုပ်ဆောင်နေသည်"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "ကျွန်ုပ်တို့ ဒါကို စစ်ဆေးမရပါဘူး"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ဤ ပလပ်ဂရမ် သည် အကြောင်းရင်းကို မဖော်ပြခဲ့ပါ။ ရောဂါရှာဖွေရေး အစီရင်ခံစာကို ပေးပို့ပါ၊ ကျွန်ုပ်တို့ စစ်ဆေးပေးပါမည်။"
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "ချိတ်ဆက်မှု အခြေအနေ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "%s ကာလ အကြာက နောက်ဆုံး စစ်ဆေးခဲ့သည်။"
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ဇာတ်လမ်းအသစ်တွင် ဖွင့်ပါမည်)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® ပံ့ပိုးကူညီရေးထံသို့ ဤအရာကို ပေးပို့ပါ"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "ဤအရာကိုသာ အတိအကျ ပို့မည်ဖြစ်ပြီး — အခြား မည်သည့်အရာမျှ မပါဝင်သလို၊ ဖုံးကွယ်ထားခြင်းလည်း မရှိပါ။ သင်၏ စကားဝှက်များ၊ တိုကင်များနှင့် API သော့ချက်များ ပါဝင်မည်မဟုတ်ပါ။"
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "ပေးပို့မည့် ရောဂါရှာဖွေရေး အစီရင်ခံစာ"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "စာညှပ်သို့ ကူးယူပါ"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "ဤအစီရင်ခံစာကို Zinn® ပံ့ပိုးကူညီရေးအဖွဲ့သို့ ပေးပို့ပါ"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "သင့်အတွက် ပံ့ပိုးကူညီမှု လက်မှတ်တစ်စောင်ကို ကျွန်ုပ်တို့ ဖွင့်လှစ်ပေးပြီး အီးမေးလ်ဖြင့် ပြန်လည်ဖြေကြားပါမည်။ ၎င်းကို မပို့လိုပါက အထက်ပါအတိုင်း မိတ္တူကူးယူပြီး လက်မှတ်တစ်ခုအတွင်းသို့ သင်ကိုယ်တိုင် ကူးထည့်ပါ။"
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "ကူးယူပြီးပါပြီ"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "ဤဆာဗာ (%s) မှ Zinn Digital® သို့ ဆက်သွယ်၍မရပါ။ သင့်ဆက်တင်များတွင် အမှားအယွင်း တစ်စုံတစ်ရာ မရှိပါ — အထပါ အစီရင်ခံစာကို ကူးယူပြီး ၎င်းအစား တစ်ကက် (ticket) တစ်စောင် ဖွင့်လှစ်ပါ။"
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® ပံ့ပိုးကူညီရေးအဖွဲ့သည် သင်၏သတင်းပို့ချက်ကို လက်ခံရရှိပြီး အီးမေးလ်ဖြင့် ပြန်လည်ဖြေကြားပေးပါမည်။"
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® ပံ့ပိုးကူညီရေးအဖွဲ့သည် သင်၏အစီရင်ခံစာကို လက်ခံရရှိထားပါသည် - ရည်ညွှန်းနံပါတ် %s - အီးမေးလ်မှတစ်ဆင့် ပြန်လည်အကြောင်းကြားပါမည်။"
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "သင်သည် အတိုချုံးအတွင်း အစီရင်ခံစာများစွာကို ပေးပို့ပြီးဖြစ်သည်။ မိနစ်အနည်းငယ်စောင့်ပြီး ထပ်ကြိုးစားပါ — ယခင်ပေးပို့ခဲ့သော အစီရင်ခံစာများ ရောက်ရှိပြီးပါပြီ။"
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® သည် ယခုလက်ရှိ အစီရင်ခံစာကို လက်ခံ၍မရပါ — ၎င်းမှာ သင့်ဘက်မှ မဟုတ်ဘဲ ကျွန်ုပ်တို့ဘက်မှ ဖြစ်ပါသည်။ ခဏကြာမှ ထပ်ကြိုးစားပါ သို့မဟုတ် အထက်ပါအစီရင်ခံစာကို လက်မှတ် (ticket) တစ်ခုထဲသို့ ကူးယူပါ။"
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "အစီရင်ခံစာကို ငြင်းပယ်ခဲ့သည် (HTTP %d)။ ၎င်းကို အထက်တွင် ကူးယူပြီး ထိုနံပါတ်ကို ဖော်ပြကာ လက်မှတ်တစ်ခု ဖွင့်ပါ။"
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "ဤဆိုက်၏ပိုင်ရှင်သည် Zinn® Connector ဆက်တင်များတွင် Zinn Digital® အတွက် ပုံတင်ခြင်းများကို ပိတ်ထားသည်။"
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Zinn Digital® ၏ ဤဆိုဒ်ပိုင်ရှင်သည် Zinn® Connector ဆက်တင်များတွင် ရှိပြီးသားဆောင်းပါးများအတွက် ပြင်ဆင်မှုကို ပိတ်ထားသည်။"
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "သင့်ဆိုဒ်တွင် ဆောင်းပါးအသစ်: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® သည် သင့်ဆိုက်သို့ ဆောင်းပါးတစ်ပုဒ် ထည့်သွင်းလိုက်ပါသည်။\n"
+"\n"
+"ခေါင်းစဉ်- %1$s\n"
+"ပြင်ဆင်ရန်- %2$s\n"
+"အခြေအနေ- %3$s\n"
+"\n"
+"Zinn Digital® → Connector → Publishing မျက်နှာပြင်တွင် ဤအီးမေးလ်များကို ပိတ်ပါ။"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +415,364 @@ msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင�
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ ဖရီးလန်းဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဒေဗလော့ပါများနှင့် SEO ကျွမ်းကျင်သူများ၏ အဆင်သင့်ပြင်ဆင်ထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ဝင်ရောက်ကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခု တင်၍ ၎င်းတို့အား လေလံဆွဲခွင့်ပြုပါ။"
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "ဤဆိုက်ကို %s အဖြစ် ထုတ်ဝေနေသော Zinn Digital® နှင့် ချိတ်ဆက်ထားသည်။"
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "ချိတ်ဆက်ကိရိယာ"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "ချိတ်ဆက်မှုဖြတ်ရန်၊ %s ပေါ်ရှိ “Zinn Digital® (publishing)” အပလီကေးရှင်း စကားဝှက်ကို ပြန်လည်ရုပ်သိမ်းပါ။"
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "ချိတ်ဆက်မှု"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "ထုတ်ဝေနေသည်"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "အရန်သိမ်းဆည်းမှုများ"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "အဆင့်မြင့်"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "ချိတ်ဆက်မှုကို ယခု စစ်ဆေးပါ"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "ဤဆိုက်ကို ချိတ်ဆက်မှုဖြုတ်ပါ"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "သင့်ပရိုဖိုင်"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "ဤသို့ပြုလုပ်ခြင်းဖြင့် Zinn Digital® အသုံးပြုသော အထောက်အထားကို ဖျက်သိမ်းမည်ဖြစ်ပြီး ဤဆိုက်သို့ ကျွန်ုပ်တို့ ထပ်မံထုတ်ဝေနိုင်တော့မည် မဟုတ်ပါ။ ပုံနှိပ်ထုတ်ဝေပြီးသား မည်သည့်အရာမဆို ဆက်လက်တည်ရှိနေမည်ဖြစ်သည်။ ဆက်လုပ်မည်လား။"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "ဤဆိုဒ်တွင် ကျွန်ုပ်တို့လုပ်ဆောင်နိုင်သည့်အရာများ"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "ကျွန်ုပ်တို့ ကိုင်ဆောင်ထားသော အထောက်အထားသည် သာမန် WordPress အပလီကေးရှင်း စကားဝှက်တစ်ခုသာဖြစ်သောကြောင့် မည်သည့်အရာများကို လုပ်ဆောင်နိုင်သည်ကို WordPress ကိုယ်တိုင်က ဆုံးဖြတ်ပါသည်။ ၎င်းတို့က သင့်ဘက်မှနေ၍ ၎င်းကို ပိုမိုကန့်သတ်ပေးသည်။"
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "ဆောင်းပါးများကို ဤသို့ ထုတ်ဝေရန် -"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "အရာအားလုံးကို အများရှေ့သို့ မတင်ပြမီ ဦးစွာဖတ်ရှုလိုပါက “မူကြမ်း” ကို ရွေးချယ်ပါ။"
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "ချက်ချင်း ထုတ်ဝေသည်"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "ကျွန်ုပ် သုံးသပ်ရန်အတွက် မူကြမ်းတစ်ခု"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "သုံးသပ်ဆဲ"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "ပေးပို့သည့်ရက်စွဲကို အသုံးပြု၍ စီစဉ်သတ်မှတ်ထားသည်"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "ရေးသားသူကိုပြသရန်"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "မည်သည့်သုံးစွဲသူကို စာရေးသူအဖြစ် ပြသမည်နည်း။ ဤသည်မှာ ကျွန်ုပ်တို့ အကောင့်ဝင်ရောက်သည့်သူကို ပြောင်းလဲမည်မဟုတ်ပါ။"
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "ဆောင်းပါးများ ထည့်ရန်"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "ပုံများကို ခွင့်ပြုရန်"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Zinn Digital® အား ဤဆိုက်၏ မီဒီယာစာကြည့်တိုက်ထဲသို့ ပုံများကို တင်ခွင့်ပြုပါ"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "ဤအရာကို ပိတ်လိုက်ပါက ဆောင်းပါးများတွင် ၎င်းတို့၏ ပုံများ ပါဝင်လာမည် မဟုတ်ပါ။ ယခင်က တင်ထားပြီးသား မည်သည့်အရာကိုမျှ ဖယ်ရှားမည် မဟုတ်ပါ။"
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "ပြင်ဆင်ခွင့်ပြုရန်"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Zinn Digital® က ၎င်းအရင်က ထုတ်ဝေခဲ့သော ဆောင်းပါးတစ်ပုဒ်ကို အပ်ဒိတ်လုပ်ခွင့်ပြုပါ"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "ပြင်ဆင်ခြင်းနှင့် ပြန်လည်အကောင်းဆုံးဖြစ်အောင် လုပ်ဆောင်ခြင်းအတွက် အသုံးပြုသည်။ ၎င်းသည် သင်ကိုယ်တိုင်ရေးသားခဲ့သမျှကို လုံးဝမထိတွေ့ပါ။"
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "ဘာတစ်ခုခုကို ထုတ်ဝေလိုက်တဲ့အခါ ကျွန်တော့်ကို အကြောင်းကြားပါ"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "အီးမေးလ် မပို့လိုပါက ဗလာအတိုင်း ထားခဲ့ပါ။ သင့်ကိုယ်ပိုင် ဆိုက်မှ ဆောင်းပါးတစ်ပုဒ်လျှင် စာတစ်စောင်နှုန်း ဖြစ်ပါသည်။"
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "ဝဘ်ဆိုက်ပြင်ပ အရန်သိမ်းဆည်းမှုများ"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "ဤဆိုက်သည် ၎င်း၏ကိုယ်ပိုင် အရန်သိမ်းဆည်းမှုကို Zinn® သိုလှောင်မှုဆီသို့ တိုက်ရိုက်ပို့ဆောင်ပါသည်။ လမ်းတစ်လျှောက်တွင် မည်သည့်အရာမျှ ကျွန်ုပ်တို့၏ဆာဗာများမှတဆင့် ဖြတ်သန်းသွားခြင်းမရှိပါ။"
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "ဤဆိုဒ်ကို Zinn Digital® သို့ ဘက်ခ်အပ်လုပ်ပါ"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "ဘက်ကပ် တိုကင်"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "သင့်ဆိုဒ်ချိတ်ဆက်စဉ်က သတ်မှတ်ပေးခဲ့ခြင်းဖြစ်သည်။ ပံ့ပိုးကူညီရေးအဖွဲ့မှ တောင်းဆိုမှသာ ၎င်းကို ပြုပြင်ရန် လိုအပ်မည်ဖြစ်သည်။"
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "ဤဥစ္စာများကို ချန်လှပ်ပါ"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "wp-content နှင့် ဆက်စပ်၍ တစ်ကြောင်းလျှင် လမ်းကြောင်းတစ်ခု - ဥပမာအားဖြင့် <code>cache</code> သို့မဟုတ် <code>uploads/backups</code> ဖြစ်သည်။ ကက်ရှ်များနှင့် အခြား အရန်သိမ်းဆည်းမှု ပလပ်အင်များ၏ ဖိုင်တွဲများသည် ပုံမှန်အားဖြင့် သင့်တော်သည်။"
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "မော်ကွန်းတိုက်သည် ကျော်လွန်သွားမည်ဆိုလျှင် ရပ်ပါ"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "မက်ဂါဘိုက်။ မျှဝေသုံးစွဲသော ဟိုစ်ဆာဗာ (shared host) တစ်ခုသည် အလွန်ကြီးမားသော မော်ကွန်းတိုက် (archive) တစ်ခုကို တစ်၀က်တစ်ပျက်တွင် ပုံမှန်အားဖြင့် ရပ်တန့်ပစ်တတ်ပြီး ကန့်သတ်ချက် (bound) တစ်ခုက ၎င်းကို အသံတိတ်ချို့ယွင်းမှုတစ်ခုအစား မက်ဆေ့ချ်တစ်ခုအဖြစ်သို့ ပြောင်းလဲပေးပါသည်။"
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "အသေးစိတ် မှတ်တမ်းတင်ခြင်း"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "ပံ့ပိုးကူညီမှုအတွက် ဤပလပ်ဂင် လုပ်ဆောင်သည့်အရာကို မှတ်တမ်းတင်ပါ"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "ဤဆိုဒ်တွင် သိမ်းဆည်းထားပြီး၊ နောက်ဆုံး ၅၀ မှတ်တမ်းအထိ ကန့်သတ်ထားကာ၊ ရောဂါရှာဖွေရေး အစီရင်ခံစာတွင် ထည့်သွင်းထားသည်။ ပြဿနာတစ်ခုကို ပြန်လည်ဖော်ပြခြင်းမပြုမီ ၎င်းကို ဖွင့်ပါ။"
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "uninstall လုပ်သည့်အခါ"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "ပလပ်အင်ကို Uninstall လုပ်သည့်အခါ ၎င်း၏ ဆက်တင်များကိုပါ ဖျက်ပါ"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "ပရိုဂရမ်ကို အပိုင်ဖျက်ခြင်း (Uninstall) သည် အပလီကေးရှင်း စကားဝှက်ကို မည်သည့်အခါမျှ ရုပ်သိမ်းမည် မဟုတ်ပါ။ ၎င်းမှာ တမင်တကာ ပြုလုပ်ထားခြင်းဖြစ်ပြီး အခြားအရာတစ်ခုကို စမ်းသပ်ရန် ပရိုဂရမ်ကို အပိုင်ဖျက်လိုက်သော်လည်း သင်၏ ထုတ်ဝေမှုများကို အနှောင့်အယှက် မဖြစ်စေရန် ဖြစ်သည်။ ဝင်ရောက်ခွင့် အထောက်အထားကို လုံးဝဖျက်ပစ်လိုပါက အထက်ပါ Disconnect ကို အသုံးပြုပါ။"
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "ကျွန်ုပ်တို့ လက်မှတ်ထိုးဝင်သည့် အသုံးပြုသူ"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "ဆိုဒ်၏ မူလ ပုံသေ အမျိုးအစား"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "ဤဆိုက်ကို ထပ်မံချိတ်ဆက်ပါ"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "ဤဆိုဒ်ကို ချိတ်ဆက်ပါ"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "သင့် Zinn Digital® ဒက်ရှ်ဘုတ်ကို ဖွင့်ပါ၊ အကြောင်းအရာ (Content) → အခြားဆိုက်များ (Other sites) သို့ သွားပြီး “တွဲဖက်ကုဒ် ရယူရန်” ကို နှိပ်ပါ။ ၎င်းကို အောက်တွင် ကူးထည့်ပါ။"
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "ထပ်မံချိတ်ဆက်ခြင်းဖြင့် အထောက်အထားအသစ်တစ်ခုကို ဖန်တီးပေးမည်ဖြစ်ပြီး ဟောင်းကိုမူ အတိုင်းဆက်လက်ထားရှိမည်ဖြစ်သည် — ဟောင်းကို ဖယ်ရှားလိုပါက ဦးစွာ 'ချိတ်ဆက်မှုဖြုတ်ရန်' ကို အသုံးပြုပါ။"
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "တွဲဖက်ကုဒ်"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "၎င်းကို ထုတ်လုပ်ပြီး မိနစ်သုံးဆယ်အကြာတွင် သက်တမ်းကုန်ဆုံးမည်ဖြစ်ပြီး တစ်ကြိမ်သာ အသုံးပြုနိုင်ပါသည်။"
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "ဤဆိုက်ကို ချိတ်ဆက်ခွင့် မရှိပါ။"
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "ဤဆိုက်သည် Zinn Digital® နှင့် မချိတ်ဆက်ပါ။"
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "မည်သည့်ပြဿနာမျှ မရှိပါ — ၎င်းကို ပုံစံမတွဲရသေးခြင်းသာ ဖြစ်သည်။ သင်၏ Zinn® ဒက်ရှ်ဘုတ်မှ ချိတ်ဆက်မှုကုဒ်ကို ရယူပြီး အောက်တွင် ကူးထည့်ပါ။"
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "ကျွန်ုပ်၏ Zinn® ဒိုင်ခွက်ကို ဖွင့်ပါ"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "ချိတ်ဆက်မှု ပြတ်တောက်သွားပါပြီ။"
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "ဤအထောက်အထားပိုင်ဆိုင်သည့် WordPress အသုံးပြုသူ (%s) သည် ဤဆိုက်တွင် မရှိတော့ပါ၊ ထို့ကြောင့် ကျွန်ုပ်တို့ပေးပို့သည့် မည်သည့်အရာကိုမျှ မထုတ်ဝေနိုင်ပါ။ ထုတ်ဝေနိုင်သည့် အသုံးပြုသူတစ်ဦးအနေဖြင့် ထပ်မံချိတ်ဆက်ပါ။"
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "ဤဆိုဒ်မှ “Zinn Digital® (publishing)” လျှောက်လွှာစကားဝှက်ကို ဖျက်လိုက်ပြီဖြစ်သောကြောင့် ကျွန်ုပ်တို့သည် နောက်ထပ်ဝင်ရောက်၍ မရတော့ပါ။ အသစ်တစ်ခုဖန်တီးရန် ထပ်မံချိတ်ဆက်ပါ — အခြားမည်သည့်အရာမျှ ပျောက်ဆုံးသွားခြင်းမရှိပါ။"
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "ဤဆိုက်၏ အက်ပ်စကားဝှက်များကို ကြည့်ပါ"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "ချိတ်ဆက်ထားသော်လည်း ထုတ်ဝေခြင်း မအောင်မြင်နိုင်ပါ။"
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "အထောက်အထားသည် %s ပိုင်ဖြစ်ပြီး၊ အဆိုပါအသုံးပြုသူသည် ဆောင်းပါးများကို ထပ်မံထုတ်ဝေနိုင်တော့မည် မဟုတ်ပါ။ အကောင့်ဝင်ခြင်းက ဆက်လက်လုပ်ဆောင်နိုင်ဆဲဖြစ်သဖြင့် ဆောင်းပါးတင်ရန် အချိန်ကျရောက်သည်အထိ မည်သည့်ပြဿနာမှ ရှိနေသလို မပေါ်လွင်ပါ။ အဆိုပါအသုံးပြုသူအား ထုတ်ဝေခွင့်ပေးပါ သို့မဟုတ် ထုတ်ဝေနိုင်သူတစ်ဦးအနေဖြင့် ထပ်မံချိတ်ဆက်ပါ။"
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "ထိုအသုံးပြုသူကို တည်းဖြတ်ရန်"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "Zinn Digital® သို့ ဆက်သွယ်၍ အတည်ပြုရန် မရနိုင်ပါ။"
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "ချိတ်ဆက်ထားသော်လည်း သင်၏ Zinn® အကောင့်တွင် အာရုံစိုက်ရန် လိုအပ်နေပါသည်။"
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Zinn Digital® သို့ ချိတ်ဆက်ထားပါသည်။"
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Zinn Digital® သို့ %s အဖြစ် ချိတ်ဆက်ထားသည်။"
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "ထုတ်ဝေမည့်ပုံစံ -"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Zinn® ဆိုက် ID"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "ဤဆာဗာသည် api.zinndigital.com (%s) ကို မချိတ်ဆက်နိုင်ပါ။ ၎င်းသည် များသောအားဖြင့် သင့်ဟို့စ်ရှိ ဖိုင်းဝေါ သို့မဟုတ် ထွက်ခွာချိတ်ဆက်မှုစည်းမျဉ်းကြောင့်ဖြစ်ပြီး သင့် Zinn® အကောင့်တွင် ပြဿနာရှိနေခြင်းမဟုတ်ပါ - စာအုပ်ထုတ်ဝေခြင်း ဆက်လက်အလုပ်လုပ်နေနိုင်ပါသည်။"
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® သည် ၎င်း၏ကိုယ်ပိုင်အမှားဖြင့် တုံ့ပြန်ခဲ့သည် — ဤသည်မှာ သင့်ဘက်မှ မဟုတ်ဘဲ ကျွန်ုပ်တို့ဘက်မှ ဖြစ်ပါသည်။ ဤကိစ္စ ရှင်းလင်းသွားချိန်အထိ ထုတ်ဝေခြင်းကို သက်ရောက်မှု မရှိပါ။"
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "သင့်၏ Zinn® အကောင့်သည် ဤဆိုဒ်သို့ လက်ရှိတွင် ထုတ်ဝေနိုင်ခြင်း မရှိပါ။ အကြောင်းရင်းကို သင့်၏ ဒက်ရှ်ဘုတ်တွင် ဖော်ပြထားပါသည်။"
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® သည် အသိအမှတ်မပြုသော HTTP %d ကို တုံ့ပြန်ခဲ့သည်။ ပံ့ပိုးကူညီမှု တက်ဘ်မှ ရောဂါရှာဖွေရေး အစီရင်ခံစာတစ်ခုကို ပေးပို့ပါ၊ ကျွန်ုပ်တို့ စစ်ဆေးပေးပါမည် — ဤနေရာတွင် မည်သည့်အရာကိုမျှ ဦးစွာ မပြောင်းလဲပါနှင့်။"
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "ယခု ထပ်မံစစ်ဆေးပါ"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "စစ်ဆေးပြီးပါပြီ။ ချိတ်ဆက်မှု အလုပ်လုပ်နေပါသည်။"
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "အပလီကေးရှင်း စကားဝှက်ကို ကျွန်ုပ်တို့ မဖယ်ရှားနိုင်ခဲ့သောကြောင့် ဤဆိုက်သည် ချိတ်ဆက်ထားဆဲ ဖြစ်သည်။ သင့်ပရိုဖိုင်မျက်နှာပြင်ပေါ်ရှိ “Zinn Digital® (publishing)” ကို ဖျက်ပြီး ထပ်မံကြိုးစားပါ — ကျွန်ုပ်တို့ ဘာမျှ ပြောင်းလဲထားခြင်း မရှိပါ။"
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "ချိတ်ဆက်မှု ပြတ်တောက်သွားပါပြီ။ အပလီကေးရှင်း စကားဝှက်ကို ရုပ်သိမ်းလိုက်ပြီဖြစ်သောကြောင့် Zinn Digital® သည် ဤဆိုက်သို့ နောက်ထပ် ထုတ်ဝေနိုင်တော့မည် မဟုတ်ပါ။ ထုတ်ဝေပြီးသား အရာများကိုမူ မည်သို့မျှ မလုပ်ဆောင်ပါ။"
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "ထိုဖိုင်ကို ဤဆာဗာမှ ဖတ်၍မရပါ၊ ထို့ကြောင့် မည်သည့်အရာမျှ အပ်လုဒ်မလုပ်ဆောင်နိုင်ပါ။"
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "ဤဆိုက်သည် တင်သွင်းမှုကို တိုက်ရိုက်မလွှင့်နိုင်ခဲ့ပါ၊ ထို့ကြောင့် မည်သည့်အရာမျှ ပေးပို့ခဲ့ခြင်းမရှိပါ။"
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "ဤဖိုင်မှာ %1$s ဖြစ်ပြီး ဤဆိုက်၏ PHP တွင် cURL မရှိသောကြောင့် အပ်လုဒ်လုပ်နိုင်သည့် အကြီးဆုံးဖိုင်ပမာဏမှာ %2$s ဖြစ်သည်။"
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "တင် uploading ပြုလုပ်၍ မပြီးမြောက်ပါ။"
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "သိုလှောင်မှုစနစ်မှ အပ်လုဒ်လုပ်ခြင်းကို ငြင်းပယ်ခဲ့သည် (HTTP %d)။"
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "စတိုင် ကြိုတင်သတ်မှတ်ချက်"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "အစပြုသည့်နေရာ။ ၎င်းအောက်ရှိ မည်သည့်အရာမဆို ၎င်းကို ကျော်လွှားပါမည်။"
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "ကျွန်ုပ်၏ ကိုယ်ပိုင်အရောင်များနှင့် အရွယ်အစားများကို အသုံးပြုပါ"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "ဒါကို ပိတ်ထားပါက ပုံသေချိန်ညှိချက်အတိုင်း ကွက်တိအသုံးပြုသွားမည်ဖြစ်သည်။"
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,183 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Keydso. Ku qor qiime cusub si aad u bedesho."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Sifeey liiskan…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Miir liiskaan"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Ma jiraan wax u dhigma miirahaas."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "Ku dar saf"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ka saar safkan"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "Ka tirtir"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — dulmar"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "Dulucda Guud"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Kasta oo ka mid ah fiilooyinka Zinn® ee ku yaal boggan, iyo inuu shaqeynayo iyo in kale."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Looma baahna xiriir plugin-kan."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "Fur dejinta"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Ma haysto ogolaansho aad ku beddesho dejiintan."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Qaybaha dejinta"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "Taageero"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "Keydi isbeddellada"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "Qalabka"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "Dejinta dhoofinta"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Dib ugu deji sida caadiga ah"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Tani waxay dhammaan dejinta barnaamijkan ku celinaysaa sidii ay asalka ahaan ahayd. Ma rabtaa inaad sii waddo?"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Baaritaannada taageerada"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Sooji geli faylka dejinta"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "Keenso"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Faylalka la dhoofiyay waligood ma kooban yihiin eray-siraha, calaamadaha (tokens) ama furayaasha API-ga — waxaad u baahan doontaa inaad kuwan dib u geliso bogga cusub."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Dejinta waa la keydiyay."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Dhammaan goobaha ku jira furahan waxay ku noqdeen halkii ay ka bilaabmeen."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "La dhammeeyey."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ficilkaasi ma heli karo."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Feylkaas lama akhriyi karo. Dooro faylka dejinta ee laga soo dhoofiyay Zinn® plugin."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Feylkaasi waa mid aad u weyn oo aan noqon karin dhoofinta dejinta."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Faylkaasi ma aha dhoofinta dejinta Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Feylkaas waxaa laga soo dhoofiyay qalab kale (%s), markaa halkan lagu soo dejiyo waxay keydin doontaa dejinta uusan qalabkani fahmin."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d goobtii waa la soo dejiyey. Furayaasha sirta ah iyo furayaasha API-ga laguma daro dhoofinta, markaa fadlan mar labaad geli kuwaas."
+msgstr[1] "%d dejinta waa la dhoofiyay. Erayada sirta ah iyo furayaasha API-ga laguma daro dhoofinta, markaa fadlan mar labaad geli kuwaas."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "Keydku wuxuu noqon lahaa %1$d MB, taas oo ka badan xadka %2$d MB ee loogu talagalay boggan. Kordhi xadka, ama ka reeb galalka qaarkood, shaashadda Zinn Digital® → Connector → Backups."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "PHP-ga goobtan ma abuuri karo kaydad (archives), sidaa darteed lama samayn karo keyd-celis (backup)."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "Lama abuuro fayl ku-meel-gaar ah."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "Waqtigaan faylasha boggan lama keydin karo."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "Kaydka lama akhrin karin."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "PHP-ga boggan ma suurogeliyo inuu cufuuqo kaydadka, sidaa darteed lama sameyn karo keyd."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "Gurmadka lama soo gelin karo."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "Soodhicista kaydka waa la diiday."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "Kaydinta mareegtadan waxay u baahan tahay qiyaastii %1$s oo ah meel ku-meel-gaar ah waxaana free ah %2$s oo keliya, markaa lama dayin."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +235,141 @@ msgstr "Zinn Digital® ma aysan aqbalin lambarkaas lammaanaynta ah. Waxba lama x
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Waa la xiriiriyay. Zinn Digital® hadda waxay daabici kartaa boggan."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "Ku xidhan"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "Waa la xiriirayaa…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Ku xidhan, laakiin waxaa jira wax u baahan in la eego"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "Lama xiriirin"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "Ku socota akoonkaaga"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "Waanu hubin kari waynay arrinkan"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Qalabkani ma uusan sheegin sababta. Dir warbixinta cilmibaarista waanu eegi doonaa."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "Xaaladda xiriirka"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Waa la hubiyay %s ka hor."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(waxay ka furmaysaa tab cusub)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "U dir tan taageerada Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Tani waa waxa saxda ah ee la diri doono — wax kale ma jiraan, waxna ma qarsana. Furayaashaada sirta ah, calaamadaha aqoonsiga (tokens) iyo furayaasha API kuma jiraan."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Warbixinta cilmi-baarista ee la diri doono"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Nuqul ka qaad sabuuradda"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "U dir warbixintaan taageerada Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Waxaan kuu fureynaa tigidh taageero ah oo aan iimayl kugu soo jawaabeynaa. Haddii aad doorbideyso inaadan dirin, kor ka koobi oo naftaada ku dheji tigidh dhexdiisa."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "La nuqulaystay"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Ma aynaan gaari karin Zinn Digital® server-kan (%s) laga bilaabo. Nuqul ka yeero warbixinta sare oo halkii adeeg fur — wax khalad ah oo ku jira dejintaada ma jiraan."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Taageerada Zinn® waxay heshay warbixintaada waxaana laguugu soo jawaabi doonaa email."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Taageerada Zinn® waxay haysaa warbixintaada — tixraaca %s — waxayna kuugu soo jawaabi doontaa iimayl ahaan."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Waxaad dirtay warbixino dhowr ah waqti gaaban gudahood. Sug daqiiqado yar dabadeedna mar kale isku day — kuwii hore way yimaadeen."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ma awoorin in ay aqbasho warbixinta hadda — taasi waa dhinankeenna, ee maaha kanaga. Mar labaad isku day dhawaan, ama koobiyey warbixinta kore kuna dar tikidh."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Warbixinta waa la diiday (HTTP %d). Koobi garso kore oo fur tigidh, adigoo xiganaya lambarkaas."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Mulkiilaha boggan ayaa damiyay soo gelinta sawirada ee Zinn Digital® oo ku jira goobaha Zinn® Connector."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Boggan mulkiilaha waxaa u xirmay inuu wax ka beddelo maqaallada jira ee Zinn Digital® ee ku jira dejinta Zinn® Connector."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "Maqaal cusub oo ku jira bartaada: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® waxay maqaal ku dartay boggaaga.\n"
+"\n"
+"Ciwaan: %1$s\n"
+"Wax ka beddel: %2$s\n"
+"Xaaladda: %3$s\n"
+"\n"
+"Demi iimaylladan adoo adeegsanaya shaashadda Zinn Digital® → Connector → Publishing."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +416,365 @@ msgstr "Zinn Hub® — kireyso dadkan shaqadan u leh nolosha"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Suuqayada xorta ah ee caalamiga ah: ka baadh in ka badan 10,000 adeeg oo diyaar u ah qorayaasha, naqshadeeyayaasha, horumariyayaasha iyo khubarada SEO, ama soo dhig mashruuc oo u oggolow inay dalbadaan."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "Webkaan wuxuu ku xiran yahay Zinn Digital®, oo daabacaya sida %s."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "Isku-xiraha"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "Si aad u gooyso xiriirka, kala noqo erayga sirta ah ee barnaamijka “Zinn Digital® (publishing)” ee ku yaal %s."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "Xiririnta"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "Daabacaadda"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "Kaydadka xogta"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "Horumarsan"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "Hadda hubi xiriirka"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "Ka go'i boggan"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "agaarkaaga"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "Tani waxay burinaysaa aqoonsiga ay adeegsato Zinn Digital®, si aanan mar dambe ugu daabici karin boggan. Wax alla wixii horay loo daabacay way sii jirayaan. Ma sii waddaa?"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "Waxa aan ka qaban karno boggan"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "Xogta aqoonsiga ee aan hayno waa erayga sirta ah ee codsiga caadiga ah ee WordPress, markaas WordPress laftiisu waa mid go'aan ka gaaraya waxa suurtogalka ah. Kuwani waxay sii koobayaan dhinacaaga."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "Daabaca maqaallada sida"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "Dooro \"qabyo\" haddii aad doorbid بح inaad akhriso wax walba intaan la daabicin."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "Si toos ah loo daabacay"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "Qabyo, si aan u eego"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "La sugayo dib u eegis"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "La qorsheeyay, iyadoo la adeegsanayo taariikhda aan dirno"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "U muuji qoraaga sida"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "Mid ka mid isticmaaleyaashaada ayaa u muuqda qoraa ahaan. Tani ma beddesho cidda aan soo galno."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "Geli maqaallada"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "Oggolow sawirrada"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "U oggolow Zinn Digital® in ay ku rarto sawirrada maktabadda warbaahinta ee boggan"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "Kan dami oo maqaalladu waxay imanayaan iyaga oo aan lahayn sawirradooda. Wax horay loo soo geliyay oo la tirtiray ma jiraan."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "U oggolow wax-ka-beddelka"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "U oggolow Zinn Digital® in uu cusboonaysiiyo maqaal uu hore u daabacay"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "Waxaa loo isticmaalaa sixitaanka iyo dib-u-hagaajinta. Weligeed ma taabato wax kasta oo aad adigu qortay."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "Iyoogasho marka wax la daabaco"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "Banaan uga tag email la'aan. Hal fariin halkii maqaal, laga bilaabo boggaaga."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "Kaydinta dibadda"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "Boggan wuxuu keydkiisa u diraa si toos ah kaydka Zinn®. Waxba kama soo maraan adeegayaashayada inta ay jidka ku jiraan."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Keydso boggan ku kaydi Zinn Digital®"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "Calaamadda keydka xogta"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "Waxaa loo dejiyay adiga markii bogga la xirxiiray. Waxaad u baahan doontaa inaad taabato tan haddii taageeradu waydiiso oo keliya."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "Ka reeb kuwaan"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "Hal dariiq saf kasta, oo ku xiran wp-content — tusaale ahaan <code>cache</code> ama <code>uploads/backups</code>. Kaydinta (caches) iyo galka barnaamijyada kaydinta (backup plugins) waa kuwa sida caadiga ah loo doorto."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "Istaag haddii kaydku uu dhaafi lahaa"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "Megabytes. Hostiif la wadaago badanaa waxay dhimaysaa kayd aad u weyn qayb ka mid ah; xadka ayaa taas u beddelaya fariin halkii ay ka noqon lahayd guul-darro aamusan."
+
+#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'faahfaahsan', a token that repeats its own opening — the shape of `revrevendeur` for
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr ""
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "Diiwaangeli waxa uu furaha-galkaani (plugin) qabto, si loo helo taageero"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "Boggan waxaa lagu hayaa, oo ku eg 50-ka diiwaan ee ugu dambeeya, waxaana lagu daray warbixinta baaritaanka. Shid ka hor inta aanad dib u soo saarin dhibaatada."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "Marka la tir-tiro"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "Markabkan marka la tirtiro tirtir goobaha qalabkan"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "Ka saarista waligeed ma baabi'iso erayga sirta ah ee abka — taas waxaa loo sameeyay si ula kac ah, si markaa ka saarista si aad wax kale u tijaabiso aysan u jabin daabacaaddaada. Isticmaal Go'aanka kor ku xusan haddii aad rabto in aqoonsigu tago."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "Isticmaalaha aan soo galeyno"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "Qaybta caadiga ah ee bogga"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "Ku xidh bishan mar labaad"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "Ku xidh boggan"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Fur गर्नुहोस् dashboard-kaaga Zinn Digital®, tag Content → Other sites, oo riix “Get a pairing code”. Ku dheji hoos."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "Isku xiridda mar labaad waxay abuurtaa aqoonsi cusub waxayna ka tageysaa kan duugga ah meeshiisii — isticmaal Iska-jar marka hore haddii aad rabto in kan duugga ah meesha ka baxo."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "Sumeynta lambarka sirta ah"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "Waxay dhacaysaa soddon daqiiqo ka dib marka aad soo saarto, waxaana la isticmaali karaa hal mar oo keliya."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "Laguma oggola inaad ku xirto bishan."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "Boggan kuma xidhna Zinn Digital®."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "Wax khaldani ma jiraan — weli lama lammaanin. Ka hel koodhka lammaaneynta ee dashboard-kaaga Zinn® oo hoos ku dheji."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Furo golaha kontoroolka ee Zinn®"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "Xiriirku wuu go'ay."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "Isticmaalaha WordPress ee ay aqoonsigu ka tirsanaayeen (%s) hadda dambe kama jiro boggan, markaa wax walba oo aan dirno lama daabici karo. Dib ugu xidh isticmaale awood u leh inuu daabaco."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "Erayga sirta ah ee abka “Zinn Digital® (publishing)” waa laga tirtiray boggan, markaa ma aan soo gali karno hadda kadib. Dib ugu xidh si aad u samayso mid cusub — wax kale ma lumin."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "Fiiri erayada sirta ah ee barnaamijkan webka"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "Waa la xirirriyay, laakiin daabacu wuu fashilmi lahaa."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "Aqoonsigu wuxuu leeyahay %s, isticmaalahaasyna mar dambe ma daabici karo qoraallo. Saxeexu sidiisii ayuu u shaqeynayaa, marka wax khaldan uma eka ilaa inta qodob laga gaarayo. Sii isticmaalahaas awood uu ku daabaco, ama mar kale ku xidh qof kale oo awood u leh."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "Wax ka beddel isticmaalahaas"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "Halkan waa lagu xidhay — ma aananaan gaari karin Zinn Digital® si aan u xaqiijino."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "Waa la xiriiray, laakiin koontadaada Zinn® waxay u baahan tahay fiiro gaar ah."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Waxaa lagugu xidhay Zinn Digital®."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Sida %s ugu xiran Zinn Digital®."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "Daabacaad ahaan"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Zinn® bogga ID"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "Adeegaruhani ma gaari karo api.zinndigital.com (%s). Taasi badanaa waa darbiga dabka (firewall) ama xeerka xiriirka ka baxa ee halka martigeliyahaaga ah, ee ma aha dhibaato ku jirta akoonkaaga Zinn® — daabacaaddu waxay weli ahaan kartaa mid shaqaynaysa."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® waxay ku jawaabtay cillad iyada u gaar ah - taasi waa dhinankeena, ee ma aha taada. Daabacaaddu ma saameynayso inta arrintani nadiifinayso."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "Koontadaada Zinn® ma awooddo hadda inay ku daabacdo boggan. Dashboard-kaagu wuxuu sheegayaa sababta."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® waxay ku jawaabtay HTTP %d, oo aanan aqoonsanayn. Dir warbixinta ogaanshaha cilladaha adoo isticmaalaya tabka Taageerada waxaanan eegi doonaa — waxba ha ka bedelin halkaan marka hore."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "Hadda dib u hubi"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "La hubiyay. Xiriirku waa toos."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "Waan kari weynnay inaan meesha ka saarno erayga sirta ah ee abka, markaa boggan weli waa xiran yahay. Ka tirtir “Zinn Digital® (publishing)” shaashadda astaantaada oo mar kale isku day — waxba ma aynaan beddelin."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "Waa la gooyay. Furaha codsiga waa la tirtiray, markaa Zinn Digital® awood u ma laha in ay mar dambe ku daabacdo boggan. Wax alla wixii hore loo daabacay lama taaban."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Feylkaas lagama akhrin karo server-kan, markaas waxba lama soo gelin."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Goobtan kari wayday in ay baahiso soo-gelinta, markaa waxba lama dirin."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Feylkani waa %1$s oo PHP-ga boggan ma laha cURL, markaa inta ugu badan ee uu soo gelin karo waa %2$s."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "So dejinta lama soo gabagabeeyo karin."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Kaydku wuu diiday soo gelinta (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "Habka qaabeynta"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Bisha u horreysa. Wax kasta oo hoose ayaa ka sarreeya."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Isticmaal midabada iyo cabbirrada aniga ii gaarka ah"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Tan ha tuman si horay loogu habeeyay sida ay tahay loogu isticmaalo."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

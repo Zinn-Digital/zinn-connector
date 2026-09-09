@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,183 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ಇದನ್ನು ಬದಲಿ ಮಾಡಲು ಹೊಸ ಮೌಲ್ಯವನ್ನು ಟೈಪ್ ಮಾಡಿ."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "ಈ ಪಟ್ಟಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "ಈ ಪಟ್ಟಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "ಆ ಫಿಲ್ಟರ್‌ಗೆ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ತಾಳೆಯಾಗುವುದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "ಸಾಲು ಸೇರಿಸಿ"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "ಈ ಸಾಲನ್ನು ತೆಗೆದುಹಾಕಿ"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "ತೆಗೆದುಹಾಕು"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — ಅವಲೋಕನ"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "ಅವಲೋಕನ"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "ಈ ಸೈಟ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು Zinn® ಪ್ಲಗಿನ್ ಮತ್ತು ಅದು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆಯೇ ಎಂಬುದು."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "ಈ ಪ್ಲಗಿನ್‌ಗಾಗಿ ಯಾವುದೇ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿಲ್ಲ."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "ಸೇಟಿಂಗ್ಸ್ ವಿಭಾಗಗಳು"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "ಬೆಂಬಲ"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "ಸಾಧನಗಳು"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "ರಫ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "ಇದು ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಸಂಯೋಜನೆಯನ್ನು ಅದರ ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರುಹೊಂದಿಸುತ್ತದೆ. ಮುಂದುವರಿಸಬೇಕೇ?"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ಬೆಂಬಲಕ್ಕಾಗಿ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "ಸೆಟ್ಟಿಂಗ್ಸ್ ಫೈಲ್ ಅನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "ಆಮದು ಮಾಡಿ"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ರಪ್ಟು ಮಾಡಿದ ಫೈಲ್‌ಗಳಲ್ಲಿ ಎಂದಿಗೂ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, ಟೋಕನ್‌ಗಳು ಅಥವಾ API ಕೀಗಳು ಇರುವುದಿಲ್ಲ — ಹೊಸ ಸೈಟ್‌ನಲ್ಲಿ ನೀವು ಅವನ್ನು ಮರುನಮೂದಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "ಸೇರ್ಪಡೆಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಸೆಟ್ಟಿಂಗ್ ಅದರ ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರಳಿದೆ."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "ಮುಗಿದಿದೆ."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "ಆ ಕ್ರಿಯೆಯು ಲಭ್ಯವಿಲ್ಲ."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "ಆ ಫೈಲ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. Zinn® ಪ್ಲಗಿನ್‌ನಿಂದ ರಫ್ತು ಮಾಡಲಾದ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ಆ ಫೈಲ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಆಗಿರಲು ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ಆ ಕಡತವು Zinn® ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಅಲ್ಲ."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "ಆ ಫೈಲ್ ಅನ್ನು ಬೇರೆ ಪ್ಲಗ್‌ಇನ್ (%s) ನಿಂದ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಲಾಗಿದೆ, ಆದ್ದರಿಂದ ಅದನ್ನು ಇಲ್ಲಿ ಇಂಪೋರ್ಟ್ ಮಾಡುವುದರಿಂದ ಈ ಪ್ಲಗ್‌ಇನ್‌ಗೆ ಅರ್ಥವಾಗದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗಿದೆ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು API ಕೀಗಳು ಎಂದಿಗೂ ರಫ್ತಿನಲ್ಲಿ ಇರುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ದಯವಿಟ್ಟು ಅವುಗಳನ್ನು ಮರುನಮೂದಿಸಿ."
+msgstr[1] "%d ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗಿದೆ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು API ಕೀಗಳು ಎಂದಿಗೂ ರಫ್ತಿನಲ್ಲಿ ಇರುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಅವನ್ನು ಮತ್ತೆ ನಮೂದಿಸಿ."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "ಆರ್ಕೈವ್ %1$d MB ಆಗಿರುತ್ತದೆ, ಇದು ಈ ಸೈಟ್‌ನಲ್ಲಿ ನಿಗದಿಪಡಿಸಿದ %2$d MB ಮಿತಿಯನ್ನು ಮೀರುತ್ತದೆ. Zinn Digital® → Connector → Backups ಪರದೆಯಲ್ಲಿ ಮಿತಿಯನ್ನು ಹೆಚ್ಚಿಸಿ ಅಥವಾ ಕೆಲವು ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಹೊರತುಪಡಿಸಿ."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "ಈ ಸೈಟ್‌ನ PHP ಆರ್ಕೈವ್‌ಗಳನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಆದ್ದರಿಂದ ಬ್ಯಾಕಪ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "ತಾತ್ಕಾಲಿಕ ಫೈಲ್ ಅನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "ಈ ಸೈಟ್‌ನ ಫೈಲ್‌ಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "ಆರ್ಕೈವ್ ಅನ್ನು ಓದಲಾಗಲಿಲ್ಲ."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "ಈ ಸೈಟ್‌ನ PHP ಆರ್ಕೈವ್‌ಗಳನ್ನು ಸಂಕುಚಿತಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಆದ್ದರಿಂದ ಬ್ಯಾಕಪ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "ಬ್ಯಾಕಪ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "ಬ್ಯಾಕಪ್ ಅಪ್‌ಲೋಡ್ ಅನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "ಈ ಸೈಟ್‌ನ ಬ್ಯಾಕಪ್‌ಗೆ ಸುಮಾರು %1$s ತಾತ್ಕಾಲಿಕ ಸ್ಥಳದ ಅಗತ್ಯವಿದೆ ಮತ್ತು ಕೇವಲ %2$s ಮುಕ್ತವಾಗಿದೆ, ಆದ್ದರಿಂದ ಇದನ್ನು ಪ್ರಯತ್ನಿಸಲಾಗಿಲ್ಲ."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +235,141 @@ msgstr "Zinn Digital® ಆ ಜೋಡಣೆ ಕೋಡ್ ಅನ್ನು ಸ್�
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ. Zinn Digital® ಈಗ ಈ ಸೈಟ್‌ಗೆ ಪ್ರಕಟಿಸಬಹುದು."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ, ಆದರೆ ಯಾವುದೋ ವಿಷಯಕ್ಕೆ ಗಮನ ಹರಿಸಬೇಕಾಗಿದೆ"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "ನಿಮ್ಮ ಸ್ವಂತ ಖಾತೆಯಲ್ಲಿ ಚಾಲನೆಯಲ್ಲಿದೆ"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "ಇದನ್ನು ಪರಿಶೀಲಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ಈ ಪ್ಲಗಿನ್ ಯಾಕೆ ಎಂದು ಹೇಳಲಿಲ್ಲ. ರೋಗನಿರ್ಣಯ ವರದಿಯನ್ನು ಕಳುಹಿಸಿ ಮತ್ತು ನಾವು ಪರಿಶೀಲಿಸುತ್ತೇವೆ."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "ಸಂಪರ್ಕ ಸ್ಥಿತಿ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "ಕೊನೆಯದಾಗಿ %s ಹಿಂದೆ ಪರಿಶೀಲಿಸಲಾಗಿದೆ."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(새 ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® ಬೆಂಬಲಕ್ಕೆ ಇದನ್ನು ಕಳುಹಿಸಿ"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "ಕಳುಹಿಸುವುದೂ ನಿಖರವಾಗಿ ಇದನ್ನೇ — ಬೇರೇನೂ ಅಲ್ಲ ಮತ್ತು ಯಾವುದನ್ನೂ ಮರೆಮಾಚಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, ಟೋಕನ್‌ಗಳು ಮತ್ತು API ಕೀಗಳು ಇದರಲ್ಲಿರುವುದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "ಕಳುಹಿಸಲಾಗುವ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್ ವರದಿ"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಿ"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "ಈ ವರದಿಯನ್ನು Zinn® ಬೆಂಬಲ ತಂಡಕ್ಕೆ ಕಳುಹಿಸಿ"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "ನಾವು ನಿಮಗಾಗಿ ಬೆಂಬಲ ಟಿಕೆಟ್ ಅನ್ನು ತೆರೆಯುತ್ತೇವೆ ಮತ್ತು ಇಮೇಲ್ ಮೂಲಕ ಉತ್ತರಿಸುತ್ತೇವೆ. ನೀವು ಅದನ್ನು ಕಳುಹಿಸಲು ಬಯಸದಿದ್ದರೆ, ಅದನ್ನು ಮೇಲೆ ನಕಲಿಸಿ ಮತ್ತು ನೀವೇ ಟಿಕೆಟ್‌ನಲ್ಲಿ ಅಂಟಿಸಿ."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "ಕಾಪಿ ಮಾಡಲಾಗಿದೆ"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "ಈ ಸರ್ವರ್‌ನಿಂದ (%s) Zinn Digital® ಅನ್ನು ತಲುಪಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮೇಲಿನ ವರದಿಯನ್ನು ನಕಲು ಮಾಡಿ ಮತ್ತು ಬದಲಿಗೆ ಟಿಕೆಟ್ ಅನ್ನು ತೆರೆಯಿರಿ — ನಿಮ್ಮ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಯಾವುದೂ ತಪ್ಪಿಲ್ಲ."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "ಕಳುಹಿಸಲಾಗಿದೆ. Zinn® ಬೆಂಬಲ ತಂಡವು ನಿಮ್ಮ ವರದಿಯನ್ನು ಸ್ವೀಕರಿಸಿದೆ ಮತ್ತು ಇಮೇಲ್ ಮೂಲಕ ಉತ್ತರಿಸುತ್ತದೆ."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® ಬೆಂಬಲ ತಂಡವು ನಿಮ್ಮ ವರದಿಯನ್ನು ಸ್ವೀಕರಿಸಿದೆ — ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ %s — ಮತ್ತು ಇಮೇಲ್ ಮೂಲಕ ಉತ್ತರಿಸುತ್ತದೆ."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "ನೀವು ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹಲವು ವರದಿಗಳನ್ನು ಕಳುಹಿಸಿದ್ದೀರಿ. ಕೆಲವು ನಿಮಿಷಗಳ ಕಾಲ ಕಾಯ್ದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ — ಹಿಂದಿನವು ತಲುಪಿವೆ."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ವರದಿಯನ್ನು ಇದೀಗ ಸ್ವೀಕರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ — ಇದು ನಮ್ಮ ಕಡೆಯಿಂದ, ನಿಮ್ಮದಲ್ಲ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಮೇಲಿನ ವರದಿಯನ್ನು ಟಿಕೆಟ್‌ಗೆ ನಕಲಿಸಿ."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "ವರದಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ (HTTP %d). ಅದನ್ನು ಮೇಲೆ ನಕಲಿಸಿ ಮತ್ತು ಆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ ಟಿಕೆಟ್ ಒಂದನ್ನು ತೆರೆಯಿರಿ."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "ಈ ಸೈಟ್‌ನ ಮಾಲೀಕರು Zinn® ಕನೆಕ್ಟರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ Zinn Digital® ಗಾಗಿ ಚಿತ್ರ ಅಪ್‌ಲೋಡ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡಿದ್ದಾರೆ."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Zinn Digital® ಕನೆಕ್ಟರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಈ ಸೈಟ್‌ನ ಮಾಲೀಕರು Zinn® ಗಾಗಿ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಲೇಖನಗಳ ಸಂಪಾದನೆಗಳನ್ನು ಆಫ್ ಮಾಡಿದ್ದಾರೆ."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "ನಿಮ್ಮ ಸೈಟ್‌ನಲ್ಲಿ ಹೊಸ ಲೇಖನ: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® ನಿಮ್ಮ ಸೈಟ್‌ಗೆ ಒಂದು ಲೇಖನವನ್ನು ಸೇರಿಸಿದೆ.\n"
+"\n"
+"ಶೀರ್ಷಿಕೆ: %1$s\n"
+"ಇದನ್ನು ಸಂಪಾದಿಸಿ: %2$s\n"
+"ಸ್ಥಿತಿ: %3$s\n"
+"\n"
+"Zinn Digital® → ಕನೆಕ್ಟರ್ → ಪ್ರಕಾಶನ ಪರದೆಯಲ್ಲಿ ಈ ಇಮೇಲ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡಿ."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +416,364 @@ msgstr "Zinn Hub® — ಇದನ್ನೇ ವೃತ್ತಿಯಾಗಿ ಹೊ�
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ನಮ್ಮ ಜಾಗತಿಕ ಸ್ವತಂತ್ರ ಉದ್ಯೋಗಿಗಳ ಮಾರುಕಟ್ಟೆ: ಲೇಖಕರು, ವಿನ್ಯಾಸಕರು, ಡೆವಲಪರ್‌ಗಳು ಮತ್ತು ಎಸ್‌ಇಒ ತಜ್ಞರಿಂದ 10,000ಕ್ಕೂ ಹೆಚ್ಚು ಸಿದ್ಧ ಸೇವೆಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ, ಅಥವಾ ಯೋಜನೆಯೊಂದನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿ ಮತ್ತು ಅವರಿಂದ ಬಿಡ್ ಮಾಡಲು ಬಿಡಿ."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "ಈ ಸೈಟು Zinn Digital®ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ, ಇದನ್ನು %s ಎಂದು ಪ್ರಕಟಿಸಲಾಗುತ್ತಿದೆ."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "ಕನೆಕ್ಟರ್"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "डिస్‌ಕನೆಕ್ಟ್ ಮಾಡಲು, %s ನಲ್ಲಿ “Zinn Digital® (publishing)” ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಿ."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "ಸಂಪರ್ಕ"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "ಪ್ರಕಟಿಸಲಾಗುತ್ತಿದೆ"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "ಬ್ಯಾಕಪ್‌ಗಳು"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "ಸುಧಾರಿತ"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "ಈಗ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "ಈ ಸೈಟ್ ಅನ್ನು ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "ಇದು Zinn Digital® ಬಳಸುವ ಪ್ರಮಾಣಪತ್ರವನ್ನು ರದ್ದುಗೊಳಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ನಾವು ಇನ್ನು ಮುಂದೆ ಈ ಸೈಟ್‌ಗೆ ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಈಗಾಗಲೇ ಪ್ರಕಟಿಸಲಾದ ಯಾವುದೇ ವಿಷಯವು ಹಾಗೆಯೇ ಉಳಿಯುತ್ತದೆ. ಮುಂದುವರೆಯಬೇಕೇ?"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "ಈ ಸೈಟ್‌ನಲ್ಲಿ ನಾವು ಏನು ಮಾಡಬಹುದು"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "ನಾವು ಹೊಂದಿರುವ ಕ್ರೆಡೆನ್ಷಿಯಲ್ ಸಾಮಾನ್ಯ WordPress ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್ ಆಗಿದೆ, ಆದ್ದರಿಂದ WordPress ಸ್ವತಃ ಏನು ಸಾಧ್ಯ ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ. ಇವು ನಿಮ್ಮ ಕಡೆಯಿಂದ ಅದನ್ನು ಮತ್ತಷ್ಟು ಸೀಮಿತಗೊಳಿಸುತ್ತವೆ."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "ಲೇಖನಗಳನ್ನು ಈ ರೀತಿ ಪ್ರಕಟಿಸಿ"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "ಎಲ್ಲವೂ ಲೈವ್ ಆಗುವುದಕ್ಕೆ ಮೊದಲು ಎಲ್ಲವನ್ನೂ ಓದಲು ಬಯಸಿದರೆ “ಡ್ರಾಫ್ಟ್” ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "ತಕ್ಷಣವೇ ಪ್ರಕಟಿಸಲಾಗಿದೆ"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "ನಾನು ಪರಿಶೀಲಿಸಲು ಒಂದು ಕರಡು"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "ಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "ನಿಗದಿಪಡಿಸಲಾಗಿದೆ, ನಾವು ಕಳುಹಿಸುವ ದಿನಾಂಕವನ್ನು ಬಳಸಿ"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "ಲೇಖಕರನ್ನು ಈ ರೀತಿ ತೋರಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "ನಿಮ್ಮ ಯಾವ ಬಳಕೆದಾರರು ಲೇಖಕರಾಗಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾರೆ. ಇದು ನಾವು ಯಾರಾಗಿ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತೇವೆ ಎಂಬುದನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "ಲೇಖನಗಳನ್ನು ಇಲ್ಲಿಗೆ ಹಾಕಿ"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "ಚಿತ್ರಗಳನ್ನು ಅನುಮತಿಸು"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Zinn Digital® ಗೆ ಈ ಸೈಟ್‌ನ ಮಾಧ್ಯಮ ಲೈಬ್ರರಿಯಲ್ಲಿ ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಅನುಮತಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "ಇದನ್ನು ಆಫ್ ಮಾಡಿ ಮತ್ತು ಲೇಖನಗಳು ತಮ್ಮ ಚಿತ್ರಗಳಿಲ್ಲದೆ ಬರುತ್ತವೆ. ಈಗಾಗಲೇ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಯಾವುದನ್ನೂ ತೆಗೆದುಹಾಕಲಾಗುವುದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "ಸಂಪಾದನೆಗಳಿಗೆ ಅನುಮತಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Zinn Digital® ಮೊದಲು ಪ್ರಕಟಿಸಿದ ಲೇಖನವನ್ನು ನವೀಕರಿಸಲು ಅವಕಾಶ ಮಾಡಿಕೊಡಿ"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "ತಿದ್ದುಪಡಿಗಳು ಮತ್ತು ಮರು-ಹೊಂದಾಣಿಕೆಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ. ಇದು ನೀವು ಸ್ವತಃ ಬರೆದ ಯಾವುದೇ ವಿಷಯವನ್ನು ಎಂದಿಗೂ ಸ್ಪರ್ಶಿಸುವುದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "ಯಾವುದಾದರೂ ಪ್ರಕಟಗೊಂಡಾಗ ನನಗೆ ತಿಳಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "ಯಾವ ಇಮೇಲ್ ಕೂಡ ಬೇಡದಿದ್ದರೆ ಖಾಲಿಯಾಗಿ ಬಿಡಿ. ನಿಮ್ಮ ಸ್ವಂತ ಸೈಟ್‌ನಿಂದ ಪ್ರತಿ ಲೇಖನಕ್ಕೂ ಒಂದು ಸಂದೇಶ."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "ಆಫ್-ಸೈಟ್ ಬ್ಯಾಕ್‌ಅಪ್‌ಗಳು"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "ಈ ಸೈಟ್ ತನ್ನ ಸ್ವಂತ ಬ್ಯಾಕಪ್ ಅನ್ನು ನೇರವಾಗಿ Zinn® ಸ್ಟೋರೇಜ್‌ಗೆ ಕಳುಹಿಸುತ್ತದೆ. ದಾರಿಯಲ್ಲಿ ನಮ್ಮ ಸರ್ವರ್‌ಗಳ ಮೂಲಕ ಏನೂ ಹೋಗುವುದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "ಈ ಸೈಟ್ ಅನ್ನು Zinn Digital® ಗೆ ಬ್ಯಾಕಪ್ ಮಾಡಿ"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "ಬ್ಯಾಕಪ್ ಟೋಕನ್"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "ಸೈಟ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿದಾಗ ನಿಮಗಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆ. ಬೆಂಬಲ ತಂಡವು ಕೇಳಿದರೆ ಮಾತ್ರ ನೀವು ಇದನ್ನು ಬದಲಾಯಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "ಇವುಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಿ"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು ಮಾರ್ಗದಂತೆ, wp-content ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ — ಉದಾಹರಣೆಗೆ <code>cache</code> ಅಥವಾ <code>uploads/backups</code>. ಕ್ಯಾಶ್‌ಗಳು ಮತ್ತು ಇತರ ಬ್ಯಾಕಪ್ ಪ್ಲಗ್-ಇನ್‌ಗಳ ಫೋಲ್ಡರ್‌ಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಇದಕ್ಕಾಗಿ ಸೂಕ್ತವಾಗಿವೆ."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "ಆರ್ಕೈವ್ ಮೀರಿದರೆ ನಿಲ್ಲಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "ಮೆಗಾಬೈಟ್‌ಗಳು. ಹಂಚಿದ ಹೋಸ್ಟ್ ಸಾಮಾನ್ಯವಾಗಿ ಅತ್ಯಂತ ದೊಡ್ಡ ಆರ್ಕೈವ್ ಅನ್ನು ಅರ್ಧದಾರಿಯಲ್ಲೇ ಮುರಿಯುತ್ತದೆ; ಮಿತಿಯು ಅದನ್ನು ಮೌನ ವೈಫಲ್ಯದ ಬದಲಿಗೆ ಸಂದೇಶವನ್ನಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ."
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "ವಿವರವಾದ ಲಾಗಿಂಗ್"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "ಬೆಂಬಲಕ್ಕಾಗಿ ಈ ಪ್ಲಗಿನ್ ಏನು ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "ಈ ಸೈಟ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ, ಕೊನೆಯ 50 ನಮೂದುಗಳಿಗೆ ಮಿತಿಗೊಳಿಸಲಾಗಿದೆ ಮತ್ತು ರೋಗನಿರ್ಣಯ ವರದಿಯಲ್ಲಿ ಸೇರಿಸಲಾಗಿದೆ. ಸಮಸ್ಯೆಯನ್ನು ಮರುಸೃಷ್ಟಿಸುವ ಮೊದಲು ಇದನ್ನು ಆನ್ ಮಾಡಿ."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "ಅಸ್ಥಾಪಿಸುವಾಗ"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "ಈ ಪ್ಲಗಿನ್ ಅನ್ನು ಅಸ್ಥಾಪಿಸಿದಾಗ ಅದರ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಅಳಿಸಿಹಾಕಿ"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "ಅಸ್ಥಾಪಿಸುವುದು ಎಂದಿಗೂ ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸುವುದಿಲ್ಲ — ಇದು ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿದೆ, ಆದ್ದರಿಂದ ಬೇರೆ ಯಾವುದನ್ನಾದರೂ ಪ್ರಯತ್ನಿಸಲು ಅಸ್ಥಾಪಿಸುವುದು ನಿಮ್ಮ ಪ್ರಕಾಶನವನ್ನು ಮುರಿಯುವುದಿಲ್ಲ. ರುಜುವಾತುಗಳು ಹೋಗಬೇಕೆಂದು ನೀವು ಬಯಸಿದರೆ ಮೇಲಿನ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ ಬಳಸಿ."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "ನಾವು ಸೈನ್ ಇನ್ ಮಾಡುವ ಬಳಕೆದಾರರು"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "ಸೈಟ್‌ನ ಡೀಫಾಲ್ಟ್ ವರ್ಗ"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "ಈ ಸೈಟ್ ಅನ್ನು ಮತ್ತೆ ಸಂಪರ್ಕಿಸಿ"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "ಈ ಸೈಟ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "ನಿಮ್ಮ Zinn Digital® ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರೆಯಿರಿ, ಕಂಟೆಂಟ್ → ಇತರ ಸೈಟ್‌ಗಳು ಗೆ ಹೋಗಿ, ಮತ್ತು “ಪೇರಿಂಗ್ ಕೋಡ್ ಪಡೆಯಿರಿ” ಅನ್ನು ಒತ್ತಿರಿ. ಅದನ್ನು ಕೆಳಗೆ ಪೇಸ್ಟ್ ಮಾಡಿ."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "ಪುನಃ ಸಂಪರ್ಕಿಸುವುದರಿಂದ ಹೊಸ ರುಜುವಾತು ಸೃಷ್ಟಿಯಾಗುತ್ತದೆ ಮತ್ತು ಹಳೆಯದು ಹಾಗೆಯೇ ಉಳಿಯುತ್ತದೆ — ಹಳೆಯದು ಇರಬಾರದೆಂದು ಬಯಸಿದರೆ ಮೊದಲು ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ (ಡಿಸ್ಕನೆಕ್ಟ್) ಬಳಸಿ."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "ಜೋಡಣಾ ಕೋಡ್"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "ಇದು ನೀವು ರಚಿಸಿದ ಮೂವತ್ತು ನಿಮಿಷಗಳ ನಂತರ ಮುಕ್ತಾಯಗೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಒಮ್ಮೆ ಮಾತ್ರ ಬಳಸಬಹುದು."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "ಈ ಸೈಟ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಲು ನಿಮಗೆ ಅನುಮತಿಯಿಲ್ಲ."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "ಈ ಸೈಟ್ Zinn Digital® ನೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಿಲ್ಲ."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "ಯಾವ ಸಮಸ್ಯೆಯೂ ಇಲ್ಲ — ಅದನ್ನು ಇನ್ನೂ ಜೋಡಿಸಲಾಗಿಲ್ಲ. ನಿಮ್ಮ Zinn® ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಿಂದ ಜೋಡಿಸುವ ಕೋಡನ್ನು ಪಡೆದುಕೊಂಡು ಅದನ್ನು ಕೆಳಗೆ ಅಂಟಿಸಿ."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "ನನ್ನ Zinn® ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರೆಯಿರಿ"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "ಸಂಪರ್ಕ ಕಡಿದುಹೋಗಿದೆ."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "ಈ ರುಜುವಾತುಗಳು ಸೇರಿರುವ WordPress ಬಳಕೆದಾರ (%s) ಈಗ ಈ ಸೈಟ್‌ನಲ್ಲಿ ಇಲ್ಲ, ಆದ್ದರಿಂದ ನಾವು ಕಳುಹಿಸುವ ಯಾವುದೇ ವಿಷಯವನ್ನು ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿರುವ ಬಳಕೆದಾರರಾಗಿ ಮತ್ತೆ ಸಂಪರ್ಕಿಸಿ."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "ಈ ಸೈಟ್‌ನಿಂದ “Zinn Digital® (publishing)” ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ, ಆದ್ದರಿಂದ ನಮಗೆ ಇನ್ನು ಮುಂದೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಹೊಸದನ್ನು ರಚಿಸಲು ಮತ್ತೆ ಸಂಪರ್ಕಿಸಿ — ಬೇರೆೇನೂ ಕಳೆದುಹೋಗಿಲ್ಲ."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "ಈ ಸೈಟ್‌ನ ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ, ಆದರೆ ಪ್ರಕಟಿಸುವುದು ವಿಫಲಗೊಳ್ಳುತ್ತದೆ."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "ಈ ಪ್ರಮಾಣಪತ್ರವು %s ಅವರಿಗೆ ಸೇರಿದೆ, ಮತ್ತು ಆ ಬಳಕೆದಾರರು ಇನ್ನು ಮುಂದೆ ಪೋಸ್ಟ್‌ಗಳನ್ನು ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸೈನ್-ಇನ್ ಇನ್ನೂ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ಲೇಖನವನ್ನು ಪ್ರಕಟಿಸುವ ಸಮಯ ಬರುವವರೆಗೆ ಎಲ್ಲವೂ ಸರಿಯಾಗಿದೆ ಎಂದೇ ಕಾಣಿಸುತ್ತದೆ. ಆ ಬಳಕೆದಾರರಿಗೆ ಪ್ರಕಟಿಸುವ ಅನುಮತಿಯನ್ನು ನೀಡಿ, ಅಥವಾ ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿರುವ ಬೇರೆಯವರಾಗಿ ಮತ್ತೆ ಸಂಪರ್ಕಿಸಿ."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "ಆ ಬಳಕೆದಾರರನ್ನು ಸಂಪಾದಿಸಿ"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "ಇಲ್ಲಿ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ — ದೃಢೀಕರಿಸಲು ನಮಗೆ Zinn Digital® ಅನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ, ಆದರೆ ನಿಮ್ಮ Zinn® ಖಾತೆಗೆ ಗಮನ ಹರಿಸುವ ಅಗತ್ಯವಿದೆ."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Zinn Digital® ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Zinn Digital® ಗೆ %s ಆಗಿ ಸಂಪರ್ಕಗೊಂಡಿದೆ."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "ಹಾಗೆ ಪ್ರಕಟಿಸಲಾಗುತ್ತಿದೆ"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Zinn® ಸೈಟ್ ಐಡಿ"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "ಈ ಸರ್ವರ್‌ಗೆ api.zinndigital.com (%s) ಅನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನಿಮ್ಮ ಹೋಸ್ಟ್‌ನಲ್ಲಿರುವ ಫೈರ್‌ವಾಲ್ ಅಥವಾ ಹೊರಹೋಗುವ-ಸಂಪರ್ಕ ನಿಯಮವಾಗಿದೆ, ನಿಮ್ಮ Zinn® ಖಾತೆಯಲ್ಲಿರುವ ಸಮಸ್ಯೆಯಲ್ಲ — ಪ್ರಕಾಶನವು ಇನ್ನೂ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿರಬಹುದು."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® ತನ್ನದೇ ಆದ ದೋಷದೊಂದಿಗೆ ಉತ್ತರಿಸಿದೆ — ಅದು ನಿಮ್ಮ ಅಂತ್ಯವಲ್ಲ, ನಮ್ಮದು. ಇದು ಬಗೆಹರಿಯುವವರೆಗೆ ಪ್ರಕಾಶನಕ್ಕೆ ಯಾವುದೇ ಬಾಧೆಯಿಲ್ಲ."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "ನಿಮ್ಮ Zinn® ಖಾತೆಯು ಪ್ರಸ್ತುತ ಈ ಸೈಟ್‌ಗೆ ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಕಾರಣವನ್ನು ತಿಳಿಸುತ್ತದೆ."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® HTTP %d ಅನ್ನು ನೀಡಿದೆ, ಇದನ್ನು ನಾವು ಗುರುತಿಸುವುದಿಲ್ಲ. ಬೆಂಬಲ (Support) ಟ್ಯಾಬ್‌ನಿಂದ ರೋಗನಿರ್ಣಯ ವರದಿಯನ್ನು ಕಳುಹಿಸಿ ಮತ್ತು ನಾವು ಪರಿಶೀಲಿಸುತ್ತೇವೆ — ಮೊದಲು ಇಲ್ಲಿ ಯಾವುದನ್ನೂ ಬದಲಾಯಿಸಬೇಡಿ."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "ಈಗ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "ಪರಿಶೀಲಿಸಲಾಗಿದೆ. ಸಂಪರ್ಕವು ಸಕ್ರಿಯವಾಗಿದೆ."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ಈ ಸೈಟ್ ಇನ್ನೂ ಸಂಪರ್ಕಗೊಂಡಿದೆ. ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಪರದೆಯಲ್ಲಿ “Zinn Digital® (publishing)” ಅನ್ನು ಅಳಿಸಿಹಾಕಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ — ನಾವು ಏನನ್ನೂ ಬದಲಾಯಿಸಿಲ್ಲ."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ. ಅಪ್ಲಿಕೇಶನ್ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ, ಆದ್ದರಿಂದ Zinn Digital® ಇನ್ನು ಮುಂದೆ ಈ ಸೈಟ್‌ಗೆ ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಈಗಾಗಲೇ ಪ್ರಕಟಿಸಲಾದ ಯಾವುದೇ ವಿಷಯವನ್ನು ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "ಆ ಫೈಲ್ ಅನ್ನು ಈ ಸರ್ವರ್‌ನಿಂದ ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ಯಾವುದನ್ನೂ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "ಈ ಸೈಟ್ ಅಪ್‌ಲೋಡ್ ಅನ್ನು ಸ್ಟ್ರೀಮ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ಏನನ್ನೂ ಕಳುಹಿಸಲಾಗಿಲ್ಲ."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "ಈ ಫೈಲ್ %1$s ಆಗಿದೆ ಮತ್ತು ಈ ಸೈಟ್‌ನ PHP ನಲ್ಲಿ cURL ಇಲ್ಲ, ಆದ್ದರಿಂದ ಇದು ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದಾದ ಗರಿಷ್ಠ ಗಾತ್ರವು %2$s ಆಗಿದೆ."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "ಅಪ್‌ಲೋಡ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "ಸಂಗ್ರಹಣೆಯು ಅಪ್‌ಲೋಡ್ ಅನ್ನು ತಿರಸ್ಕರಿಸಿದೆ (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "ಶೈಲಿ ಪೂರ್ವನಿಯೋಜಿತ"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "ಒಂದು ಆರಂಭಿಕ ಬಿಂದು. ಇದರ ಕೆಳಗಿನ ಯಾವುದೇ ಅಂಶವು ಅದನ್ನು ಅತಿಕ್ರಮಿಸುತ್ತದೆ."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "ನನ್ನ ಸ್ವಂತ ಬಣ್ಣಗಳು ಮತ್ತು ಗಾತ್ರಗಳನ್ನು ಬಳಸಿ"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "ಇದನ್ನು ಆಫ್‌ನಲ್ಲಿ ಬಿಡಿ ಮತ್ತು ಪೂರ್ವನಿಗದಿಯನ್ನು ನಿಖರವಾಗಿ ಇರುವಂತೆಯೇ ಬಳಸಲಾಗುತ್ತದೆ."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

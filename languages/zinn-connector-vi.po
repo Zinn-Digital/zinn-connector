@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,182 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Đã lưu. Nhập giá trị mới để thay thế."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Lọc danh sách này…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Lọc danh sách này"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Không có kết quả nào khớp với bộ lọc đó."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "Thêm một hàng"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Xóa hàng này"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — tổng quan"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Mọi plugin Zinn® trên trang web này, và trạng thái hoạt động của chúng."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Plugin này không cần kết nối mạng."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "Mở cài đặt"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Bạn không có quyền thay đổi các cài đặt này."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Phần cài đặt"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "Công cụ"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "Xuất cài đặt"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Khôi phục mặc định"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Thao tác này sẽ đưa mọi cài đặt của plugin này về mặc định. Bạn có muốn tiếp tục không?"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Chuẩn đoán hỗ trợ"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Nhập tệp cài đặt"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "Nhập"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Các tệp được xuất không bao giờ chứa mật khẩu, mã thông báo hoặc khóa API — bạn sẽ cần nhập lại các thông tin đó trên trang web mới."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Đã lưu cài đặt."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Mọi cài đặt trên plugin này đã được khôi phục về mặc định."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "Hoàn tất."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Thao tác đó không khả dụng."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Không thể đọc được tệp đó. Hãy chọn một tệp cài đặt đã được xuất từ plugin Zinn®."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Tệp đó quá lớn để có thể là một bản xuất cài đặt."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Tệp đó không phải là tệp xuất cài đặt Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Tệp đó đã được xuất từ một plugin khác (%s), vì vậy việc nhập tệp đó vào đây sẽ lưu trữ các cài đặt mà plugin này không hiểu được."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Đã nhập %d cài đặt. Mật khẩu và khóa API không bao giờ có trong tệp xuất, vì vậy vui lòng nhập lại các thông tin đó."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "Bản lưu trữ này sẽ là %1$d MB, vượt quá giới hạn %2$d MB được đặt trên trang web này. Hãy tăng giới hạn hoặc loại trừ một số thư mục trên màn hình Zinn Digital® → Connector → Backups."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "PHP của trang web này không thể tạo kho lưu trữ, do đó không thể tạo bản sao lưu."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "Không thể tạo tệp tạm thời."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "Không thể lưu trữ các tệp của trang web này."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "Không thể đọc lại tệp lưu trữ."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "PHP của trang web này không thể nén các tệp lưu trữ, do đó không thể tạo bản sao lưu."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "Không thể tải bản sao lưu lên."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "Tải lên bản sao lưu đã bị từ chối."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "Bản sao lưu của trang web này cần khoảng %1$s dung lượng tạm thời nhưng chỉ còn %2$s trống, vì vậy quá trình này không được thực hiện."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +234,141 @@ msgstr "Zinn Digital® đã không chấp nhận mã kết nối đó. Không c�
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Đã kết nối. Zinn Digital® giờ đây có thể xuất bản lên trang web này."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "Đã kết nối"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "Đang kết nối…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Đã kết nối, nhưng có vấn đề cần chú ý"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "Chưa kết nối"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "Đang chạy trên tài khoản của riêng bạn"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "Chúng tôi không thể kiểm tra điều này"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Plugin này không nêu rõ lý do. Hãy gửi báo cáo chẩn đoán và chúng tôi sẽ kiểm tra."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "Trạng thái kết nối"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Kiểm tra lần cuối %s trước."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(mở trong tab mới)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Gửi điều này tới bộ phận hỗ trợ Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Chính xác đây là những gì sẽ được gửi đi — không có gì khác và không có gì ẩn giấu. Mật khẩu, mã thông báo (token) và khóa API của bạn không nằm trong đó."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Báo cáo chẩn đoán sẽ được gửi"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Sao chép vào bảng nhớ tạm"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Gửi báo cáo này đến bộ phận hỗ trợ của Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Chúng tôi sẽ tạo một phiếu hỗ trợ cho bạn và trả lời qua email. Nếu bạn không muốn gửi phiếu này, hãy sao chép nội dung ở trên và tự dán vào một phiếu hỗ trợ."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "Đã sao chép"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Chúng tôi không thể kết nối với Zinn Digital® từ máy chủ này (%s). Hãy sao chép báo cáo ở trên và mở một phiếu hỗ trợ thay thế — không có cài đặt nào của bạn bị sai cả."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Bộ phận hỗ trợ của Zinn® đã nhận được báo cáo của bạn và sẽ phản hồi qua email."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Bộ phận hỗ trợ của Zinn® đã nhận được báo cáo của bạn — mã tham chiếu %s — và sẽ trả lời qua email."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Bạn đã gửi nhiều báo cáo trong một thời gian ngắn. Vui lòng đợi vài phút rồi thử lại — các báo cáo trước đã được gửi đi thành công."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® chưa thể tiếp nhận báo cáo lúc này — sự cố xuất phát từ phía chúng tôi, không phải từ bạn. Vui lòng thử lại sau giây lát hoặc sao chép báo cáo trên vào một phiếu hỗ trợ."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Báo cáo đã bị từ chối (HTTP %d). Hãy sao chép báo cáo ở trên và mở một phiếu hỗ trợ, kèm theo số đó."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Chủ sở hữu của trang web này đã tắt tính năng tải lên hình ảnh cho Zinn Digital® trong cài đặt của Zinn® Connector."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Chủ sở hữu trang web này đã tắt tính năng chỉnh sửa các bài viết hiện có cho Zinn Digital® trong cài đặt Zinn® Connector."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "Bài viết mới trên trang của bạn: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® đã thêm một bài viết vào trang web của bạn.\n"
+"\n"
+"Tiêu đề: %1$s\n"
+"Chỉnh sửa: %2$s\n"
+"Trạng thái: %3$s\n"
+"\n"
+"Tắt các email này trên màn hình Zinn Digital® → Connector → Publishing."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +415,364 @@ msgstr "Zinn Hub® — thuê những người làm công việc này để kiế
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Thị trường freelancer toàn cầu của chúng tôi: duyệt qua hơn 10.000 dịch vụ có sẵn từ các nhà văn, nhà thiết kế, lập trình viên và chuyên gia SEO, hoặc đăng một dự án và để họ đấu giá."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "Trang web này được kết nối với Zinn Digital®, xuất bản dưới tên %s."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "Trình kết nối"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "Để ngắt kết nối, hãy thu hồi mật khẩu ứng dụng “Zinn Digital® (publishing)” trên %s."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "Kết nối"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "Đang xuất bản"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "Bản sao lưu"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "Kiểm tra kết nối ngay"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "Ngắt kết nối trang web này"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "hồ sơ của bạn"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "Thao tác này thu hồi thông tin xác thực mà Zinn Digital® sử dụng, do đó chúng tôi không thể xuất bản lên trang web này nữa. Mọi nội dung đã xuất bản vẫn được giữ lại. Tiếp tục?"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "Những việc chúng tôi có thể làm trên trang web này"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "Thông tin xác thực mà chúng tôi nắm giữ là một mật khẩu ứng dụng WordPress thông thường, vì vậy chính WordPress sẽ quyết định những gì khả thi. Các tùy chọn này giúp thu hẹp phạm vi đó hơn nữa, từ phía bạn."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "Đăng bài viết dưới dạng"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "Chọn “a draft” nếu bạn muốn đọc lại mọi thứ trước khi nó được xuất bản."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "Đã xuất bản ngay"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "Một bản nháp để tôi xem xét"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "Đang chờ xem xét"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "Đã lên lịch, sử dụng ngày chúng tôi gửi"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "Hiển thị tác giả là"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "Người dùng nào của bạn sẽ xuất hiện với tư cách là tác giả. Điều này không thay đổi tài khoản chúng tôi dùng để đăng nhập."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "Đặt các bài viết vào"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "Cho phép hình ảnh"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Cho phép Zinn Digital® tải hình ảnh lên thư viện phương tiện của trang web này"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "Tắt tính năng này và các bài viết sẽ hiển thị mà không có hình ảnh của chúng. Không có nội dung nào đã tải lên bị xóa."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "Cho phép chỉnh sửa"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Để Zinn Digital® cập nhật một bài viết mà họ đã xuất bản trước đó"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "Dùng để chỉnh sửa và tối ưu hóa lại. Nó không bao giờ tác động đến bất kỳ nội dung nào do chính bạn viết."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "Hãy thông báo cho tôi khi có nội dung được xuất bản"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "Để trống nếu không muốn nhận email. Mỗi bài viết một thông báo, gửi từ trang web của bạn."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "Sao lưu ngoài trang web"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "Trang web này gửi bản sao lưu của chính nó thẳng đến bộ nhớ Zinn®. Không có gì đi qua máy chủ của chúng tôi trên đường đi."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Sao lưu trang web này lên Zinn Digital®"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "Mã thông báo sao lưu"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "Được thiết lập cho bạn khi trang web được kết nối. Bạn sẽ chỉ cần chạm vào mục này nếu bộ phận hỗ trợ yêu cầu."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "Bỏ qua những mục này"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "Mỗi đường dẫn trên một dòng, tính tương đối từ wp-content — ví dụ như <code>cache</code> hoặc <code>uploads/backups</code>. Bộ nhớ đệm và các thư mục của plugin sao lưu khác là những đối tượng thường gặp."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "Dừng lại nếu tệp lưu trữ vượt quá"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "Megabytes. Một máy chủ chia sẻ thường sẽ dừng đột ngột một kho lưu trữ rất lớn; việc giới hạn sẽ biến điều đó thành một thông báo thay vì lỗi không có tiếng động."
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "Ghi chi tiết"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "Ghi lại chức năng của plugin này để được hỗ trợ"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "Được lưu trên trang này, giới hạn ở 50 mục gần nhất và được bao gồm trong báo cáo chẩn đoán. Hãy bật tính năng này trước khi tái tạo sự cố."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "Khi gỡ cài đặt"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "Xóa cài đặt của plugin này khi gỡ cài đặt"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "Việc gỡ cài đặt không bao giờ thu hồi mật khẩu ứng dụng — đó là chủ ý, để việc gỡ cài đặt để thử một thứ gì đó khác không làm hỏng quá trình xuất bản của bạn. Hãy sử dụng tính năng Ngắt kết nối ở trên nếu bạn muốn xóa thông tin xác thực."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "Người dùng mà chúng ta đăng nhập với tư cách"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "Danh mục mặc định của trang web"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "Kết nối lại trang web này"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "Kết nối trang web này"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Mở bảng điều khiển Zinn Digital® của bạn, đi tới Nội dung → Các trang web khác và nhấn “Lấy mã ghép nối”. Dán mã đó vào bên dưới."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "Việc kết nối lại sẽ tạo ra thông tin xác thực mới và giữ nguyên thông tin cũ — hãy sử dụng tính năng Ngắt kết nối trước nếu bạn muốn xóa thông tin cũ."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "Mã ghép nối"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "Nó sẽ hết hạn sau ba mươi phút kể từ khi bạn tạo và chỉ có thể sử dụng được một lần."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "Bạn không được phép kết nối trang web này."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "Trang web này không liên kết với Zinn Digital®."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "Không có lỗi gì xảy ra cả — nó chỉ đơn giản là chưa được ghép nối. Lấy mã ghép nối từ bảng điều khiển Zinn® của bạn và dán vào bên dưới."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Mở bảng điều khiển Zinn® của tôi"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "Kết nối đã bị ngắt."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "Người dùng WordPress sở hữu thông tin xác thực (%s) không còn tồn tại trên trang web này, vì vậy không có nội dung nào chúng tôi gửi có thể được xuất bản. Hãy kết nối lại với tư cách là người dùng có quyền xuất bản."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "Mật khẩu ứng dụng “Zinn Digital® (publishing)” đã bị xóa khỏi trang web này, vì vậy chúng tôi không thể đăng nhập được nữa. Hãy kết nối lại để tạo mật khẩu mới — không có dữ liệu nào khác bị mất."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "Xem mật khẩu ứng dụng của trang web này"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "Đã kết nối, nhưng việc xuất bản sẽ thất bại."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "Thông tin đăng nhập thuộc về %s và người dùng đó không còn có thể xuất bản bài viết nữa. Việc đăng nhập vẫn hoạt động, vì vậy mọi thứ trông có vẻ bình thường cho đến khi đến hạn đăng bài. Hãy cấp quyền xuất bản cho người dùng đó hoặc kết nối lại bằng tài khoản của người có quyền đó."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "Chỉnh sửa người dùng đó"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "Đã kết nối — chúng tôi không thể liên hệ với Zinn Digital® để xác nhận."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "Đã kết nối, nhưng tài khoản Zinn® của bạn cần được chú ý."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Đã kết nối với Zinn Digital®."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Đã kết nối với Zinn Digital® với tư cách là %s."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "Đang xuất bản dưới dạng"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Mã trang web Zinn®"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "Máy chủ này không thể kết nối tới api.zinndigital.com (%s). Đây thường là do tường lửa hoặc quy tắc kết nối đi trên máy chủ của bạn, không phải sự cố với tài khoản Zinn® của bạn — quá trình xuất bản có thể vẫn đang hoạt động."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® đã phản hồi bằng một lỗi của riêng họ — đó là sự cố phía chúng tôi, không phải của bạn. Quá trình xuất bản không bị ảnh hưởng trong khi sự cố này được khắc phục."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "Tài khoản Zinn® của bạn hiện không thể xuất bản lên trang web này. Trang tổng quan của bạn cho biết lý do."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® đã phản hồi HTTP %d, mã này không được chúng tôi nhận dạng. Hãy gửi báo cáo chẩn đoán từ tab Support và chúng tôi sẽ xem xét — trước tiên đừng thay đổi bất kỳ điều gì ở đây."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "Kiểm tra lại ngay"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "Đã kiểm tra. Kết nối đang hoạt động."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "Chúng tôi không thể xóa mật khẩu ứng dụng, vì vậy trang web này vẫn được kết nối. Hãy xóa “Zinn Digital® (publishing)” trên màn hình hồ sơ của bạn và thử lại — chúng tôi chưa thay đổi gì cả."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "Đã ngắt kết nối. Mật khẩu ứng dụng đã bị thu hồi, do đó Zinn Digital® không thể tiếp tục đăng bài lên trang web này. Không có nội dung nào đã được đăng trước đó bị ảnh hưởng."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Không thể đọc tệp đó từ máy chủ này, vì vậy không có gì được tải lên."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Trang web này không thể phát tệp tải lên, vì vậy không có gì được gửi đi."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Tệp này là %1$s và PHP của trang web này không có cURL, vì vậy kích thước tải lên lớn nhất có thể là %2$s."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Không thể hoàn tất quá trình tải lên."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Hệ thống lưu trữ từ chối tải lên (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "Kiểu giao diện có sẵn"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Một điểm khởi đầu. Bất cứ điều gì bên dưới đều ghi đè lên nó."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Sử dụng màu sắc và kích thước của riêng tôi"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Tắt tính năng này và cài đặt sẵn sẽ được sử dụng chính xác như nguyên bản."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

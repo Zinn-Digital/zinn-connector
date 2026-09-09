@@ -36,6 +36,45 @@ defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
 
 const ZINN_CONNECTOR_UNINSTALL_OPTION = 'zinn_connector_state';
 
+/**
+ * Options removed only when the site owner asked for them to be.
+ *
+ * ⚖️ The Advanced tab's *"Delete this plugin's settings when it is uninstalled"*, off by
+ * default. ⛔ Off by default is the right default and not timidity: the commonest reason a
+ * plugin is uninstalled is to try a different one for a fortnight, and a customer who comes
+ * back to find every preference gone is a customer who has been punished for evaluating.
+ *
+ * ⛔ `zinn_connector_state` above is deleted UNCONDITIONALLY and is a different thing: it is
+ * the record of a connection that this uninstall ends, not a preference.
+ */
+const ZINN_CONNECTOR_UNINSTALL_OPTIONAL = array(
+	'zinn_connector_settings',
+	'zinn_connector_settings_schema',
+	'zinn_connector_backup_token',
+	'zinn_connector_log',
+);
+
+/**
+ * Delete this site's connector data, honouring the customer's uninstall preference.
+ *
+ * @return void
+ */
+function zinn_connector_uninstall_site(): void {
+	delete_option( ZINN_CONNECTOR_UNINSTALL_OPTION );
+
+	$zinn_connector_settings = get_option( 'zinn_connector_settings', array() );
+	$zinn_connector_wipe     = is_array( $zinn_connector_settings )
+		&& ! empty( $zinn_connector_settings['remove_data_on_uninstall'] );
+
+	if ( ! $zinn_connector_wipe ) {
+		return;
+	}
+
+	foreach ( ZINN_CONNECTOR_UNINSTALL_OPTIONAL as $zinn_connector_option ) {
+		delete_option( $zinn_connector_option );
+	}
+}
+
 if ( is_multisite() ) {
 	$zinn_connector_site_ids = get_sites(
 		array(
@@ -46,9 +85,9 @@ if ( is_multisite() ) {
 
 	foreach ( $zinn_connector_site_ids as $zinn_connector_site_id ) {
 		switch_to_blog( (int) $zinn_connector_site_id );
-		delete_option( ZINN_CONNECTOR_UNINSTALL_OPTION );
+		zinn_connector_uninstall_site();
 		restore_current_blog();
 	}
 } else {
-	delete_option( ZINN_CONNECTOR_UNINSTALL_OPTION );
+	zinn_connector_uninstall_site();
 }

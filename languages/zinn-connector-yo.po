@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,182 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "A ti fipamọ́. Tẹ iye titun kan lati rọpo rẹ̀."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Ṣe àlẹmọ àkójọ yìí…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Ṣe àlẹ̀mọ àkójọ yìí"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Kò sí èyí tí ó bá àlẹ̀ yẹn mu."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "Fi ìlà kan kún un"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Yọ ẹniti o wa lori ila yii"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "Yọ kuro"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — àkópọ̀"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "Àìwòye"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Gbogbo àfikún Zinn® tó wà lórí ojú opó yìí, àti bóyá ó ń ṣiṣẹ́ lọ́wọ́."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Kò sí ìsopọ̀ kankan tí a nílò fún plọ́ọ̀gìn yìí."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "Ṣí àwọn ètò"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "O ko ni àṣẹ láti yí àwọn ètò wọ̀nyí padà."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Àwọn abala ètò"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "Atilẹyin"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "Fipamọ awọn ayipada"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "Àwọn ohunèlò"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "Firanṣẹ awọn ètò sí ta"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Tún sí àwọn àbájáde àkọkọ́ ṣe"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Èyí yóò mú gbogbo ètò inú plọọgìì (plugin) yìí padà sí ipò àkọ́kọ́ wọn. Ṣé o fẹ́ tẹ̀ síwájú?"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Àwọn àyẹ̀wò fún àtìlẹ́yìn"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Gbe faili àwọn ètò wọlé"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "Wọlé"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Àwọn fáìlì tí a kó jáde kò ní àwọn ọ̀rọ̀ aṣínà, àwọn àmì ìdánimọ̀, tàbí àwọn kọ́kọ́rọ́ API nínú rárá — wàá nílò láti tún àwọn wọnyẹn sí ẹnubodè lórí ojúsóòtọ́ tuntun náà."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "A ti fipamọ awọn eto na."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Gbogbo ètò lori plugin yii ti pada si ipinlẹ rẹ atilẹwa."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "Ó ti ṣe."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Iṣẹ yẹn ko si."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "A ko le ka faili yẹn. Yan faili awọn eto ti a gbe wọ jade lati inu afikun Zinn®."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Fáìlì náà tóbi jù láti jẹ́ ìṣàfihàn ẹ̀rọ (settings export)."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Fáìlì yẹn kọ́ jẹ́ ìfiránṣẹ́ àwọn ètò Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "A fi faili yẹn wọle lati inu plugin miiran (%s), nitorina gbigbe wọle si ibi yoo fipamọ awọn eto ti plugin yii ko loye."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Awọn eto %d ni a gbe wọle. Awọn ọrọ igbaniوە ati awọn bọtini API ko si ninu igbejade, nitorina tẹ awọn wọẹn sii lẹẹkansi."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "Ikojọpọ naa yoo jẹ %1$d MB, o kọja opin %2$d MB ti a ṣeto sori aaye yii. Ṣe alekun opin naa, tabi yọ diẹ ninu awọn folda kuro, lori iboju Zinn Digital® → Connector → Backups."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "PHP aaye yii ko le ṣẹda awọn àkọọsilẹ, nitorina a ko le ṣe afẹyinti."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "Ko le ṣẹda faili igba die kan."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "A kò lè fi àwọn fáìlì ojú òpó wọ̀nyí pamọ́ sínú àpótí ìpamọ́."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "A kò lè ka ibi ìpamọ́ yẹn padà."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "PHP aaye yii ko le rọ awọn akọọlẹ, nitorina ko le ṣe afẹyinti."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "A kò le ṣe àfikún fún àwọn afẹ́hìntì náà."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "Wọn kọ̀ ọ̀jà igbasilẹ afẹyinti náà."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "Afẹyinti aaye yii nilo nipa %1$s ti aaye igba diẹ ati pe %2$s nikan ni o fẹfẹ, nitorina a ko gbiyanju rẹ."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +234,141 @@ msgstr "Zinn Digital® kò gba koodu ìsopọ̀ yẹn. Kò sí ohun tí ó sop�
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "A ti sopọ. Zinn Digital® le tẹjade si aaye yii ni bayi."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "Ti sopọ"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "Ńsopọ̀ lọ́wọ́ lọ…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Ó sopọ̀, sùgbọ́n ohun kan nílò àkíyèsí"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "Ko sopọ"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "Nṣiṣẹ lori akanti tirẹ"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "A kò lè ṣàyẹ̀wò èyí"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Plugin yii ko sọ idi rẹ. Fi ijabọ iwadii ranṣẹ ki a le woo."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "Ipo asopọ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "A ti ṣàyẹ̀wò rẹ̀ kẹ́yìn ní %s sẹ́yìn."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ó ń ṣí sí taabu tuntun)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Fi èṣán yìí sí ìtìlẹ́yìn Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Èyí gan-an ni ohun tí a óò fi ránṣẹ́ — kò sí ohun mìíràn, kò sì sí ohun tí a fi pamọ́. Àwọn ọ̀rọ̀ aṣínà rẹ, àwọn àmì ìṣàpẹẹrẹ rẹ, àti àwọn kọ́kọ́rọ́ API rẹ kò sí nínú rẹ̀."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Ìròyìn àyẹ̀wò tí a ó fi ránṣẹ́"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Daako si pátákó ìkọmọ̀sí"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Fi ìròyìn yìí ranṣẹ sí àtìlẹyìn Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "A ṣí tíkẹ́tì àtìlẹ́yìn fún ọ, a sì dáhùn nípasẹ̀ ímeèlì. Bí o kò bá fẹ́ fi ránṣẹ́, da ẹ̀dà rẹ̀ sókè kí o sì lẹ mọ́ inú tíkẹ́tì fúnra rẹ."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "Ti daakọ"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "A ko le de ọdọ Zinn Digital® lati sevha yii (%s). Da iroyin oke kọ silẹ ki o si ṣi silẹ tiketi dipo — ko si ohun ti ko tọ si awọn eto rẹ."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Atilẹyin Zinn® ti gba ijabọ rẹ yoo si dahun nipasẹ imeeli."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Atilẹyin Zinn® gba ijabọ rẹ — itọkasi %s — yoo si fesi nipasẹ imeeli."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "O ti firanṣẹ ọpọlọpọ awọn ijabọ ni akoko kukuru kan. Duro fun iṣẹju diẹ ki o tun gbiyanju lẹẹkan si — awọn ti tẹlẹ ti de."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ko le gba ijabọ naa ni bayi — iṣoro wa ni yẹn, kii ṣe ti rẹ. Gbiyanju lẹẹkan si laipe, tabi daakọ ijabọ ti o wa loke sinu tikẹti kan."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Wọ́n kọ̀ ọ̀rọ̀ ìjábọ̀ náà (HTTP %d). Ṣe àwòkọ rẹ̀ sí òkè kí o sì ṣí tíkẹ̀tì kan, ní títọka sí nọ́mbà yẹn."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Olú-ilé yìí ti pa àwọn ìgbélékè àwòrán rẹ́ fún Zinn Digital® nínú àwọn ẹ̀ka ìtòlẹ́sẹẹsẹ Zinn® Connector."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Olùṣàkóso ojú òpó wẹ́bù yìí ti pa àwọn àtúnṣe sí àwọn àpilẹ̀kọ tó wà tẹ́lẹ̀ rẹ́ fún Zinn Digital® nínú àwọn ètò Zinn® Connector."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "Àpilẹ̀kọ tuntun lórí ojú-wọ̀ṣẹ́ rẹ: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® ti fi àpilẹkọ kan kun aaye rẹ.\n"
+"\n"
+"Akọsori: %1$s\n"
+"Ṣatunṣe e: %2$s\n"
+"Ipo: %3$s\n"
+"\n"
+"Pa awọn imeeli wọnyi run lori iboju Zinn Digital® → Connector → Publishing."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +415,364 @@ msgstr "Zinn Hub® — bẹ gba awọn eniyan ti o ṣe eyi fun igbesi aye kan"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ọjà àwọn olómìnira kárí ayé wa: wò áwọn iṣẹ́ tó ti ṣetan tó lé ní 10,000 láti ọwọ́ àwọn akọ̀wé, apẹrẹ, àwọn olùgbékalẹ̀ àti àwọn amoye SEO, tàbí fi iṣẹ́ sílẹ̀ kí wọ́n sì máa díje lórí rẹ̀."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "Aaye yii ni asopọ si Zinn Digital®, ti n tẹjade gẹgẹ bi %s."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "Asopọ"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "Lati ge asopọ, fagile ọrọ igbaniوە si app “Zinn Digital® (publishing)” lori %s."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "Asiko"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "Nítí Ìkejì"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "Àwọn Àtìlẹ́yìn"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "Gbogboro"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "Ṣẹ̀wò asopọ̀ náà báyìí"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "Ge aaye yii sopo"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "profaili rẹ"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "Eyi sọ iwe-ẹri ti Zinn Digital® nlo di alaiṣẹ, nitorinaa a ko le tun ṣe atuntẹjade si aaye yii mọ. Ohunkohun ti a ti tẹjade tẹlẹ duro. Ṣe o fẹ tẹsiwaju?"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "Ohun ti a le se lori aaye yii"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "Ohun elo ìdánimọ̀ ti a mú jẹ́ ọ̀rọ̀ igbaniwọlu ohun elo WordPress tí ó wọ́pọ̀, nitorinaa WordPress funrarẹ̀ ni o npinnu ohun ti o ṣeeṣe. Iwọnyi dín wọn kù siwaju sii, ni apakan rẹ."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "Tẹ awọn nkan jade gẹgẹ bi"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "Yan “iṣẹ àkọpamọ” ti o ba fẹ ka ohun gbogbo ṣaaju ki o to jade si gbangba."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "A tẹjade lẹsẹkẹsẹ"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "Àwọ̀ ojúewé kan, fún mi látiàyẹ̀wò"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "Nínú àyẹ̀wò"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "Ti a ṣètò, ní lílo ọjọ́ tí a ránṣẹ́"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "Fi onkọwe han gẹgẹ bi"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "Ewo ninu awọn olumulo rẹ ni o han gẹgẹ bi onkọwe. Eyi kii yipada ẹniti a wọle gẹgẹ bi olumulo rẹ."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "Fi awọn nkan si"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "Gbà àwọn àwòrán láàyè"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Jẹ́ kí Zinn Digital® gbé àwọn àwòrán wọlé sínú ilé-kíkọ àwòrán ojú-wẹ́bù yìí"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "Pa eyí kúrò, àwọn àpilẹ̀kọ yóò dé láìsí àwọn àwòrán wọn. A kò ní yọ ohun kankan tí a ti gbé sórí ayélujára kúrò."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "Gba àwọn àtúnṣeàyẹ̀gbé lọ́wọ́"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Jẹ ki Zinn Digital® ṣe imudojuiwọn nkan kan ti o ti gbejade tẹlẹ"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "Wọn lo fún àwọn àtúnṣe àti àtúnṣe-ìṣàlàyé. Kò ní fi ọwọ́ kan ohunkohun tí o kọ fún ara rẹ rọ́gbọ́."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "Sọ fún mi nígbà tí wọ́n bá tẹ nǹkan jáde"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "Fi sílẹ̀ fún kò sí ímeèlì. Ìkéde kan fún àpilẹ̀kọ kọ̀ọ̀kan, láti ojúsóòrùn rẹ̀."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "Àwọn àbámọ̀ sílẹ̀ tíkò sí lórí ojú ònà"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "Ojula yii nfi afẹyinti rẹ ranṣẹ taara si ibi ipamọ Zinn®. Ko si ohun ti o kọja nipasẹ awọn sẹrifa wa ni ọna."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Ṣe àfikọ́tọ́ ojula yii si Zinn Digital®"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "Àmì ìpamọ́ yiyan (Backup token)"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "A ṣeto rẹ̀ fún ọ nígbà tí a sopọ̀ ojú-wọ̀ṣẹ̀ náà. Wọn kò ní nílò láti fọwọ́ kan èyí ayafi tí ẹgbẹ́ ìrànlọ́wọ́ bá béèrè."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "Fi awon wonyi sile"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "Ọ̀nà kan fún ìlà kọ̀ọ̀dùn, tó jẹ́ ti wp-content — fún àpẹẹrẹ <code>cache</code> tàbí <code>uploads/backups</code>. Àwọn ibi ìpamọ́ (cache) àti àwọn fọ́lídà àwọn plọ́gìnnì àbájáde (backup plugins) sábà máa ń jẹ́ àwọn tó yẹ jù lọ."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "Dúró tí àkópọ̀ bá kọjá"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "Àwọn Megabytes. Olùgbàlejò tí a pín (shared host) sábà máa ń pa ìpamọ́ ńlá kan ní àárín ọ̀nà; ìpín kan máa sọ ọ́ di ìfiránṣẹ́ dípò ìkùnà ìdákẹ́jẹ́ẹ́."
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "Wiwọle alaye kúnketẹ"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "Ṣe àkọsílẹ ohun tí ĭdáǹlẹ (plugin) yìí ń ṣe, fún ìrànlọ́wọ́"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "Wọn ti mọ́ lórí ojú òpó wẹ́bù yìí, wọ́n sì ti di mọ́ àwọn ìwọ̀lé 50 tó kẹ́yìn, wọ́n sì wà nínú ìjábọ̀ àyẹ̀wò. Tan-an kí o tó tún ìṣòro kan ṣe."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "Nígbà ìparẹ́ ètò"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "Pa awọn eto afikun yii rẹ nigbati a ba yọọ kuro"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "Wi-Fi kò ní pa ọ̀rọ̀ aṣínà ohun elo rẹ rẹ́ — a ṣe èyí mọ̀ọ́mọ̀, kí ìparẹ́ láti gbiyanju nǹkan miiran má baà ba àtẹ̀jáde rẹ jẹ́. Lo Asopọmọra gíga ti o wa loke ti o ba fẹ kí ẹ̀rí ìdánimọ̀ naa kúrò."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "Olumulo ti a wọlé gẹgẹ bi"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "Ẹka aiyipada ti aaye naa"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "So pọ̀ mọ́ ojula yii lẹẹkan si"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "So pọ̀ mọ́ ojula yii"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Ṣí dáṣibọọdù Zinn Digital® rẹ, lọ sí Ohun àìmọ̀ → Àwọn ojú ọ̀nà míràn, kí o sì tẹ “Gbà koodu ìṣọ̀kan”. Lẹẹmọ́ ọ ni ìsàlẹ̀ yìí."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "Wiwo lẹ́ẹ̀kan sí i ń dá àmì ìdánimọ̀ tuntun sílẹ̀ ó sì ń fi èyí tí ó ti pé sílẹ̀ — lo Iyapa kí o tó bẹ̀rẹ̀ tí o bá fẹ́ kí èyí tí ó ti pé parẹ́."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "Koodu ìsojúmọ̀"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "Ó parí lẹ́yìn ìṣẹ́jú ogójì lẹ́yìn tí o bá dá a, a sì lè lo o lẹ́ẹ̀kan soso."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "A kò yọ̀ǹda fún ọ láti so ojú òpó wẹ̀bù yìí pọ̀."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "Ojula yi ko ni asopọ si Zinn Digital®."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "Kò sí ohun tó burú — kò tíì jẹ́ alábàárò ni. Gba kódù ìbàárò láti inú daṣibọọ̀du Zinn® rẹ kí o sì lẹ̀ mọ́ isàlẹ̀ yìí."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Ṣí dasíbọọdù Zinn® mi"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "Asopọ na ti dẹ́kun."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "Olumulo WordPress tí ẹ̀rí ìdánimọ̀ yẹn jẹ́ ti rẹ̀ (%s) kò sí mọ́ lórí ojula yìí, nitorinaa kò sí ohunkohun ti a rán sí e ti a le tẹjade. Tun sopọ mọ bi olumulo ti o le ṣe atẹjade."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "A ti pa ọrọ igbaniوەlu app ti “Zinn Digital® (publishing)” rẹ kuro lori aaye yii, nitorinaa a ko le wọle mọ. Tun sopọ lati ṣẹda tuntun kan — ko si ohun miiran ti o sọnu."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "Wo awọn ọrọ igbaniwọle ohun elo ti aaye yii"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "Ó ti sopọ, ṣugbọn atẹ̀jade náa le kùnà."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "Ìwwè ètó yẹn jé ti %s, àti pé olùlò yẹn kò lè ṣe àtèjadé àwọn àkànṣe mọ́. Ìwọlé sìí ṣì ń ṣíṣẹ́, nítorí náà kò sí ohun tí ó ń rí bùrú títí tí àkólé àkànṣe yiò fi dé. Fún olùlò náà ní ànfanì láti ṣe àtèjadé, tàbí tun gbà tì mìíràn bíi ènìyàn tí ò lè ṣe é."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "Ṣatunkọ olumulo yẹn"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "A sopọ nibi — a ko le de ọdọ Zinn Digital® lati jẹrisi."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "Asopọ wà, ṣugbọn àkántì Zinn® rẹ nilo àkíyèsí."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "A ti sopọ mọ Zinn Digital®."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "A sopọ pọ mọ Zinn Digital® gẹgẹ bi %s."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "Títẹ jáde gẹ́gẹ́ bí"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Ìdámọ̀ ojú opó wébusì Zinn®"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "Olupèsì yìí kò lè dé api.zinndigital.com (%s). Èyí sábà máa ń jẹ́ àṣẹ firewall tàbí ti ìsopọ̀ ìta lórí olupèsì rẹ̀, kì í ṣe ìṣòro pẹ̀lú àkántì Zinn® rẹ̀ — ìtẹ̀jáde le ṣì wà ní ṣíṣe."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® fesi pẹlu aṣiṣe tirẹ — iyẹn jẹ apakan wa, kii ṣe tirẹ. Atẹjade ko ni ipa lakoko ti eyi n kuro."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "Akọọlu Zinn® rẹ ko lagbara lọwọlọwọ lati tẹjade si aaye yii. Dasibodu rẹ sọ idi rẹ."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® dáhùn HTTP %d, èyí tí a kò mọ̀. Fi ìjábọ̀ àyẹ̀wò ránṣè láti inú tàábù Support, a ó sì wo ọ̀rọ̀ náà — má ṣe yí ohunkohun padà níbí yìí ní àkọ́kọ́."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "Ṣàyẹ̀wò lẹ́ẹ̀kan sí i báyìí"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "A ti ṣàyẹ̀wò rẹ̀. Ìsopọ̀ náà wà lórí afẹ́fẹ́."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "A o le yọ ọrọ igbani si eto naa kuro, nitorina aaye yii tun ni asopọ. Pa “Zinn Digital® (publishing)” rẹ lori aworan profaili rẹ ki o tun gbiyanju lẹẹkan si — a ko tii yipada ohunkohun."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "Ko sopọ mọ. A ti fagile ọrọ igbaniwọle ohun elo naa, nitorinaa Zinn Digital® ko le ṣe atjade si aaye yii mọ. Ohunkohun ti a ti tẹjade tẹlẹ ko ni iṣoro kan."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "A ko le ka fáìlì yẹn láti orí sẹ̀bà (server) yìí, nítorí náa kò sí ohun tí a gbé sórí ayélujára."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Ojula yìí kò lè ṣe ìgbohunsáfẹ́fẹ́ àgbélékè náà, nítorí náà kò sí ohun tí a ránṣẹ́."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Fáìlì yìí jẹ́ %1$s, bẹ́ẹ̀ sì ni PHP ojula yìí kò ní cURL, nítorí náà èyí tí ó tóbi jù lọ tí ó le fi sọ́kọ̀ ni %2$s."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "A ko le pari igbasoke naa."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Ibi ipamọ kọ igbaradi naa (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "Àṣàyàn àṣà àrà"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Ìpìlẹ̀ kan. Ohunkohun tó wà ní ìsàlẹ̀ yoo borí rẹ̀."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Lo awon awco ati iwọn ti emi ara mi"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Fi è yẹn sílẹ̀ kí a sì lo àsàyàn náà gẹ́gẹ́ bí ó ṣe wà gan-an."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

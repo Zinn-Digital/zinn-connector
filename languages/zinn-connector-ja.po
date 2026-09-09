@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,182 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "保存されました。新しい値を入力して置き換えてください。"
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "リストをフィルター..."
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "このリストをフィルター処理する"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "そのフィルターに一致する項目はありません。"
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "行を追加"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "この行を削除"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "削除"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — 概要"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "概要"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "このサイト上のすべてのZinn®プラグインと、それらが稼働しているかどうか。"
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "このプラグインに接続は必要ありません。"
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "設定を開く"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "これらの設定を変更する権限がありません。"
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "設定セクション"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "サポート"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "変更を保存する"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "ツール"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "設定をエクスポート"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "デフォルトに戻す"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "このプラグインのすべての設定が初期状態に戻ります。続行しますか？"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "サポート用診断"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "設定ファイルをインポートする"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "インポート"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "エクスポートされたファイルにパスワード、トークン、APIキーが含まれることはありません。新しいサイトで再度入力する必要があります。"
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "このプラグインの設定はすべてデフォルトに戻りました。"
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "完了しました。"
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "その操作はご利用いただけません。"
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "そのファイルを読み込めませんでした。Zinn® プラグインからエクスポートされた設定ファイルを選択してください。"
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "そのファイルは大きすぎて設定のエクスポートではありません。"
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "そのファイルは Zinn® の設定エクスポートではありません。"
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "そのファイルは別のプラグイン (%s) からエクスポートされたものであるため、ここでインポートすると、このプラグインが認識しない設定が保存されることになります。"
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d件の設定をインポートしました。パスワードとAPIキーはエクスポートに含まれないため、再度入力してください。"
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "アーカイブのサイズが %1$d MB であり、このサイトに設定されている %2$d MB の制限を超えています。Zinn Digital® → Connector → Backups 画面で制限を引き上げるか、一部のフォルダーを除外してください。"
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "このサイトのPHPではアーカイブを作成できないため、バックアップを作成できませんでした。"
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "一時ファイルを作成できませんでした。"
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "このサイトのファイルをアーカイブできませんでした。"
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "アーカイブを読み込めませんでした。"
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "このサイトのPHPではアーカイブを圧縮できないため、バックアップを作成できませんでした。"
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "バックアップのアップロードに失敗しました。"
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "バックアップのアップロードが拒否されました。"
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "このサイトのバックアップには約 %1$s の一時領域が必要ですが、空き容量が %2$s しかないため、バックアップは実行されませんでした。"
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +234,141 @@ msgstr "Zinn Digital®はそのペアリングコードを受け付けません�
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "接続されました。Zinn Digital® からこのサイトに公開できるようになりました。"
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "接続済み"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "接続中…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "接続されていますが、対応が必要な項目があります"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "未接続"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "お客様ご自身のアカウントで実行中"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "確認できませんでした"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "このプラグインは理由を報告しませんでした。診断レポートを送信していただければ、こちらで確認いたします。"
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "接続ステータス"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "最終確認: %s前"
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "（新しいタブで開く）"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® サポートへ送信"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "送信される内容はこれのみであり、追加や隠された情報は一切ありません。パスワード、トークン、APIキーは含まれていません。"
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "送信される診断レポート"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "クリップボードにコピー"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "このレポートをZinn®サポートに送信する"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "サポートチケットを発行し、メールで返信いたします。送信したくない場合は、上のテキストをコピーしてご自身でチケットに貼り付けてください。"
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "コピー完了"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "このサーバー（%s）からZinn Digital®に接続できませんでした。設定に問題はありませんので、上記のレポートをコピーして代わりにサポートチケットを作成してください。"
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "送信済みです。Zinn® サポートがお客様のご報告を受信しました。メールにて回答いたします。"
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® サポートがレポートを受信しました。参照番号は %s です。メールにて返信いたします。"
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "短時間に複数のレポートが送信されました。数分待ってからもう一度お試しください。前回のレポートは正常に届いています。"
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® からただいまレポートを受け付けることができませんでした。お客様側の問題ではなく、弊社側の問題です。しばらくしてからもう一度お試しいただくか、上記のレポートをチケットにコピーしてください。"
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "レポートが拒否されました（HTTP %d）。上記をコピーしてチケットを開き、その番号を記載してください。"
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "このサイトの所有者は、Zinn® Connector の設定で Zinn Digital® の画像アップロードを無効にしています。"
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "このサイトの所有者は、Zinn® Connectorの設定でZinn Digital®の既存記事の編集を無効にしています。"
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "サイト内の新しい記事：%s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® があなたのサイトに記事を追加しました。\n"
+"\n"
+"タイトル: %1$s\n"
+"編集する: %2$s\n"
+"ステータス: %3$s\n"
+"\n"
+"これらのメールの配信を停止するには、Zinn Digital® → コネクタ → 公開画面にアクセスしてください。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +415,364 @@ msgstr "Zinn Hub® — プロの専門家を雇う"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "グローバルなフリーランスマーケットプレイス：ライター、デザイナー、開発者、SEO専門家による10,000以上の即時利用可能なサービスを閲覧するか、プロジェクトを投稿して入札してもらいましょう。"
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "このサイトはZinn Digital®に接続されており、%sとして公開されています。"
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "コネクター"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "接続を解除するには、%sにある「Zinn Digital® (publishing)」アプリケーションパスワードを無効にしてください。"
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "接続"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "公開中"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "バックアップ"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "今すぐ接続を確認する"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "このサイトの接続を解除する"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "プロフィール"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "これにより、Zinn Digital® が使用している資格情報が取り消され、このサイトへの公開ができなくなります。すでに公開されているものはそのまま残ります。続行しますか？"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "このサイトで行う可能性のあること"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "私たちが保持しているクレデンシャルは通常の WordPress アプリケーションパスワードであるため、何が可能かは WordPress 自体が決定します。これらは、お客様側でそれをさらに制限します。"
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "記事の公開先:"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "公開する前にすべてを読みたい場合は、「下書き」を選択してください。"
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "すぐに公開される"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "私が確認するための下書きです"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "審査待ち"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "送信日を指定して予約する"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "著作者を表示する"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "どのユーザーを作者として表示するか。これにより、弊社がサインインするユーザーが変更されるわけではありません。"
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "記事の配置場所"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "画像を許可する"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Zinn Digital®にこのサイトのメディアライブラリへの画像アップロードを許可する"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "これをオフにすると、記事に画像が含まれなくなります。すでにアップロードされたものは削除されません。"
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "編集を許可"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Zinn Digital®に以前公開した記事を更新してもらいましょう"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "修正と再最適化に使用されます。ご自身が書いた内容には一切触れません。"
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "何か公開されたらお知らせください"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "メールアドレスを設定しない場合は空白のままにしてください。ご自身のサイトから、記事ごとに1通のメッセージが送信されます。"
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "オフサイトバックアップ"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "このサイトは独自のバックアップをZinn®ストレージに直接送信します。その途中で当社のサーバーを通過するものはありません。"
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Zinn Digital® にこのサイトをバックアップする"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "バックアップトークン"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "サイトが接続されたときに自動的に設定されます。サポートから指示があった場合のみ変更してください。"
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "これらを含めない"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "wp-content からからの相対パスで、1 行につき 1 つ指定します（例: <code>cache</code> または <code>uploads/backups</code>）。キャッシュや他のバックアッププラグインのフォルダーが一般的な候補となります。"
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "アーカイブが次の制限を超える場合は停止します"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "メガバイト。共有ホストは通常、非常に大きなアーカイブを途中で強制終了しますが、制限を設定しておくことで、サイレント障害ではなくメッセージとして処理されるようになります。"
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "詳細なロギング"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "サポートのためにこのプラグインの機能記録を残す"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "このサイトに保存され、直近の50件まで保持され、診断レポートに含まれます。問題の再現を行う前に有効にしてください。"
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "アンインストール時"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "アンインストール時にこのプラグインの設定を削除する"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "アンインストールしてもアプリケーションパスワードは削除されません。これは意図的な仕様であり、別の方法を試すためにアンインストールしてもパブリック機能が動作しなくならないようにするためです。認証情報を削除したい場合は、上記の「切断」を使用してください。"
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "サインインするユーザー"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "サイトのデフォルトカテゴリ"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "このサイトを再接続する"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "サイトを接続"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Zinn Digital®のダッシュボードを開き、「コンテンツ」→「その他のサイト」に移動して、「ペアリングコードを取得」を押してください。それを以下に貼り付けてください。"
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "もう一度接続すると新しい認証情報が作成され、古い認証情報はそのまま残ります。古いものを削除したい場合は、まず「接続解除」を使用してください。"
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "ペアリングコード"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "生成してから30分で有効期限が切れ、一度しか使用できません。"
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "このサイトの接続は許可されていません。"
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "このサイトはZinn Digital®とは関係ありません。"
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "エラーではありません。まだペアリングされていないだけです。Zinn® ダッシュボードからペアリングコードを取得し、以下に貼り付けてください。"
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Zinn® ダッシュボードを開く"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "接続が切断されました。"
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "この資格情報が属していた WordPress ユーザー (%s) はこのサイトに存在しなくなったため、送信された内容は公開されません。公開権限を持つユーザーとして再度接続してください。"
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "Zinn Digital® (publishing) のアプリケーション パスワードがこのサイトから削除されたため、今後サインインできなくなります。新しく作成するには再度接続してください。他のデータは失われていません。"
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "このサイトのアプリケーションパスワードを表示する"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "接続されていますが、公開に失敗する可能性があります。"
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "この資格情報は %s に属しており、そのユーザーはもう投稿を公開できません。サインインは機能するため、記事の公開期限が来るまで問題なく見えるようになっています。そのユーザーに公開権限を付与するか、権限を持つ別のユーザーとして再度接続してください。"
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "そのユーザーを編集"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "接続されています — 確認のため Zinn Digital® に接続できませんでした。"
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "接続されていますが、Zinn® アカウントの確認が必要です。"
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Zinn Digital® に接続されました。"
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Zinn Digital® に %s として接続されています。"
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "公開元:"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "Zinn® サイト ID"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "このサーバーは api.zinndigital.com (%s) に接続できませんでした。これは通常、ホストのファイアウォールやアウトバウンド接続ルールが原因であり、Zinn® アカウントの問題ではありません。公開は引き続き機能している可能性があります。"
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® が独自のエラーを返しました。これはお客様側ではなく、弊社側の問題です。この問題が解消される間も、公開機能には影響ありません。"
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "現在、お使いのZinn®アカウントからはこのサイトへ公開できません。ダッシュボードにその理由が記載されています。"
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® が認識されない HTTP %d を返しました。[サポート] タブから診断レポートを送信していただければ確認いたしますので、ここでは何も変更なさらないでください。"
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "今すぐもう一度確認する"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "確認しました。接続は有効です。"
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "アプリケーションパスワードを削除できなかったため、このサイトはまだ接続されています。プロフィール画面で「Zinn Digital® (publishing)」を削除してからもう一度お試しください。設定は何も変更されていません。"
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "切断されました。アプリケーションパスワードが無効化されたため、Zinn Digital®はこのサイトに公開できなくなりました。すでに公開されているものは変更されていません。"
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "このサーバーからそのファイルを読み込めなかったため、アップロードされませんでした。"
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "このサイトはアップロードのストリーミングに失敗したため、何も送信されませんでした。"
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "このファイルのサイズは %1$s ですが、このサイトのPHPにはcURLがないため、アップロードできる最大サイズは %2$s です。"
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "アップロードを完了できませんでした。"
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "ストレージがアップロードを拒否しました (HTTP %d)。"
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "スタイルプリセット"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "起点となります。以下の設定はすべてこれに優先します。"
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "独自の配色とサイズを使用する"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "これをオフにすると、プリセットがそのまま使用されます。"
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."

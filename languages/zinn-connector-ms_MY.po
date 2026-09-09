@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-connector.php
-#: includes/class-zinn-connector-settings.php:38
-#: includes/class-zinn-connector-settings.php:39
-#: includes/class-zinn-connector-settings.php:73
 msgid "Zinn® Connector"
 msgstr "Zinn® Connector"
 
@@ -37,29 +34,182 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-backup.php:168
+#: includes/class-zinn-connector-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Disimpan. Taip nilai baharu untuk menggantikannya."
+
+#: includes/class-zinn-connector-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Tapis senarai ini…"
+
+#: includes/class-zinn-connector-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Tapis senarai ini"
+
+#: includes/class-zinn-connector-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Tiada apa yang sepadan dengan penapis tersebut."
+
+#: includes/class-zinn-connector-admin-fields.php:683
+msgid "Add a row"
+msgstr "Tambah baris"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Buang baris ini"
+
+#: includes/class-zinn-connector-admin-fields.php:720
+msgid "Remove"
+msgstr "Buang"
+
+#: includes/class-zinn-connector-admin-ui.php:264
+#: includes/class-zinn-connector-admin-ui.php:265
+#: includes/class-zinn-connector-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-connector-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — gambaran keseluruhan"
+
+#: includes/class-zinn-connector-admin-ui.php:279
+msgid "Overview"
+msgstr "Gambaran Keseluruhan"
+
+#: includes/class-zinn-connector-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Setiap palam Zinn® pada tapak web ini, dan sama ada ia berfungsi."
+
+#: includes/class-zinn-connector-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Tiada sambungan diperlukan untuk palam masuk ini."
+
+#: includes/class-zinn-connector-admin-ui.php:357
+msgid "Open settings"
+msgstr "Buka tetapan"
+
+#: includes/class-zinn-connector-admin-ui.php:685
+#: includes/class-zinn-connector-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Anda tidak mempunyai kebenaran untuk mengubah tetapan ini."
+
+#: includes/class-zinn-connector-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Bahagian tetapan"
+
+#: includes/class-zinn-connector-admin-ui.php:788
+msgid "Support"
+msgstr "Sokongan"
+
+#: includes/class-zinn-connector-admin-ui.php:846
+msgid "Save changes"
+msgstr "Simpan perubahan"
+
+#: includes/class-zinn-connector-admin-ui.php:875
+msgid "Tools"
+msgstr "Alat"
+
+#: includes/class-zinn-connector-admin-ui.php:890
+msgid "Export settings"
+msgstr "Eksport tetapan"
+
+#: includes/class-zinn-connector-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Tetapkan semula kepada lalai"
+
+#: includes/class-zinn-connector-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Ini akan menetapkan semula setiap tetapan pada palam ini kepada lalai. Teruskan?"
+
+#: includes/class-zinn-connector-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Diagnostik untuk sokongan"
+
+#: includes/class-zinn-connector-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Import fail tetapan"
+
+#: includes/class-zinn-connector-admin-ui.php:912
+msgid "Import"
+msgstr "Import"
+
+#: includes/class-zinn-connector-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Fail yang dieksport tidak mengandungi kata laluan, token atau kekunci API — anda perlu memasukkannya semula pada tapak baharu."
+
+#: includes/class-zinn-connector-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Tetapan disimpan."
+
+#: includes/class-zinn-connector-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Semua tetapan pada palam masuk ini telah kembali kepada lalai."
+
+#: includes/class-zinn-connector-admin-ui.php:1103
+msgid "Done."
+msgstr "Selesai."
+
+#: includes/class-zinn-connector-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Tindakan itu tidak tersedia."
+
+#: includes/class-zinn-connector-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Fail tersebut tidak dapat dibaca. Pilih fail tetapan yang dieksport daripada pelatah Zinn®."
+
+#: includes/class-zinn-connector-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Fail tersebut terlalu besar untuk menjadi eksport tetapan."
+
+#: includes/class-zinn-connector-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Fail tersebut bukanlah eksport tetapan Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-connector-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Fail itu dieksport daripada pelayan pemalam yang lain (%s), jadi mengimportnya di sini akan menyimpan tetapan yang tidak difahami oleh pemalam ini."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-connector-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d tetapan diimport. Kata laluan dan kunci API tidak disertakan dalam eksport, jadi sila masukkan semula butiran tersebut."
+
+#. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
+#: includes/class-zinn-connector-backup.php:213
+#, php-format
+msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
+msgstr "Arkib tersebut bersaiz %1$d MB, melebihi had %2$d MB yang ditetapkan pada tapak ini. Tingkatkan had tersebut, atau kecualikan beberapa folder, pada skrin Zinn Digital® → Connector → Backups."
+
+#: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
 msgstr "PHP tapak ini tidak dapat mencipta arkib, jadi sandaran tidak dapat dibuat."
 
-#: includes/class-zinn-connector-backup.php:176
+#: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
 msgstr "Tidak dapat mencipta fail sementara."
 
-#: includes/class-zinn-connector-backup.php:201
+#: includes/class-zinn-connector-backup.php:345
+#: includes/class-zinn-connector-backup.php:394
+#: includes/class-zinn-connector-backup.php:399
+#: includes/class-zinn-connector-backup.php:405
+#: includes/class-zinn-connector-backup.php:416
+#: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
 msgstr "Fail kegiatan tapak web ini tidak dapat diarkibkan."
 
-#: includes/class-zinn-connector-backup.php:312
-msgid "The archive could not be read back."
-msgstr "Arkib tersebut tidak dapat dibaca semula."
+#: includes/class-zinn-connector-backup.php:384
+msgid "This site's PHP cannot compress archives, so a backup could not be made."
+msgstr "PHP tapak ini tidak boleh memampatkan arkib, jadi sandaran tidak dapat dibuat."
 
-#: includes/class-zinn-connector-backup.php:329
-msgid "The backup could not be uploaded."
-msgstr "Galangan sandaran tidak dapat dimuat naik."
-
-#: includes/class-zinn-connector-backup.php:334
-msgid "The backup upload was rejected."
-msgstr "Muat naik sandaran telah ditolak."
+#. translators: 1: space required, 2: space available.
+#: includes/class-zinn-connector-backup.php:470
+#, php-format
+msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
+msgstr "Sandaran tapak web ini memerlukan kira-kira %1$s ruang sementara dan hanya %2$s yang kosong, jadi ia tidak dicuba."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
@@ -84,6 +234,141 @@ msgstr "Zinn Digital® tidak menerima kod pasangan itu. Tiada apa-apa yang disam
 #: includes/class-zinn-connector-claim.php:136
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Bersambung. Zinn Digital® kini boleh menerbitkan kandungan ke tapak web ini."
+
+#: includes/class-zinn-connector-connection.php:58
+#: includes/class-zinn-connector-status.php:199
+msgid "Connected"
+msgstr "Disambungkan"
+
+#: includes/class-zinn-connector-connection.php:60
+msgid "Connecting…"
+msgstr "Menyambungkan…"
+
+#: includes/class-zinn-connector-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Bersambung, tetapi ada sesuatu yang memerlukan perhatian"
+
+#: includes/class-zinn-connector-connection.php:64
+msgid "Not connected"
+msgstr "Tidak disambungkan"
+
+#: includes/class-zinn-connector-connection.php:66
+msgid "Running on your own account"
+msgstr "Berjalan pada akaun anda sendiri"
+
+#: includes/class-zinn-connector-connection.php:68
+msgid "We could not check this"
+msgstr "Kami tidak dapat menyemak perkara ini"
+
+#: includes/class-zinn-connector-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Plugin ini tidak menyatakan sebabnya. Hantar laporan diagnostik dan kami akan memeriksanya."
+
+#: includes/class-zinn-connector-connection.php:161
+msgid "Connection status"
+msgstr "Status sambungan"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-connector-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Kali terakhir disemak %s lalu."
+
+#: includes/class-zinn-connector-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(dibuka dalam tab baharu)"
+
+#: includes/class-zinn-connector-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Hantar ini kepada sokongan Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Ini sahaja yang akan dihantar — tiada yang lain, dan tiada yang tersembunyi. Kata laluan, token, dan kunci API anda tidak disertakan di dalamnya."
+
+#: includes/class-zinn-connector-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Laporan diagnostik yang akan dihantar"
+
+#: includes/class-zinn-connector-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Salin ke papan keratan"
+
+#: includes/class-zinn-connector-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Hantar laporan ini kepada sokongan Zinn®"
+
+#: includes/class-zinn-connector-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Kami membuka tiket sokongan untuk anda dan membalas melalui e-mel. Jika anda lebih suka tidak menghantarnya, salin di atas dan tampalkannya sendiri ke dalam tiket."
+
+#: includes/class-zinn-connector-diagnostics.php:228
+msgid "Copied"
+msgstr "Disalin"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-connector-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Kami tidak dapat menghubungi Zinn Digital® dari pelayan ini (%s). Salin laporan di atas dan buka tiket sebagai gantinya — tiada apa yang salah dengan tetapan anda."
+
+#: includes/class-zinn-connector-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Sokongan Zinn® telah menerima laporan anda dan akan membalas melalui e-mel."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-connector-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Dihantar. Sokongan Zinn® telah menerima laporan anda — rujukan %s — dan akan membalas melalui e-mel."
+
+#: includes/class-zinn-connector-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Anda telah menghantar beberapa laporan dalam masa yang singkat. Sila tunggu beberapa minit dan cuba lagi — laporan yang terdahulu telahpun diterima."
+
+#: includes/class-zinn-connector-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® tidak dapat menerima laporan tersebut buat masa ini — itu masalah dari pihak kami, bukan anda. Cuba sebentar lagi, atau salin laporan di atas ke dalam tiket."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-connector-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Laporan tersebut ditolak (HTTP %d). Salin di atas dan buka tiket dengan menyertakan nombor tersebut."
+
+#: includes/class-zinn-connector-guard.php:156
+msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Pemilik tapak web ini telah melumpuhkan muat naik imej untuk Zinn Digital® dalam tetapan Zinn® Connector."
+
+#: includes/class-zinn-connector-guard.php:167
+msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
+msgstr "Pemilik tapak web ini telah melumpuhkan suntingan pada artikel sedia ada untuk Zinn Digital® dalam tetapan Zinn® Connector."
+
+#. translators: %s: the title of the article that was published.
+#: includes/class-zinn-connector-guard.php:215
+#, php-format
+msgid "New article on your site: %s"
+msgstr "Artikel baharu di tapak web anda: %s"
+
+#. translators: 1: article title, 2: link to edit it, 3: its status.
+#: includes/class-zinn-connector-guard.php:220
+#, php-format
+msgid ""
+"Zinn Digital® has added an article to your site.\n"
+"\n"
+"Title: %1$s\n"
+"Edit it: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
+msgstr ""
+"Zinn Digital® telah menambahkan artikel pada tapak web anda.\n"
+"\n"
+"Tajuk: %1$s\n"
+"Sunting: %2$s\n"
+"Status: %3$s\n"
+"\n"
+"Matikan e-mel ini pada skrin Zinn Digital® → Connector → Publishing."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -130,42 +415,364 @@ msgstr "Zinn Hub® — upah orang yang melakukan kerja ini secara profesional"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Pasaran bebas global kami: layari lebih 10,000 perkhidmatan sedia ada daripada penulis, pereka bentuk, pembangun dan pakar SEO, atau siarkan projek dan biarkan mereka membida."
 
-#. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-settings.php:86
-#, php-format
-msgid "This site is connected to Zinn Digital®, publishing as %s."
-msgstr "Tapak ini disambungkan ke Zinn Digital®, menerbitkan sebagai %s."
+#: includes/class-zinn-connector-settings.php:44
+msgid "Connector"
+msgstr "Penyambung"
 
-#. translators: %s: link to the WordPress profile screen.
-#: includes/class-zinn-connector-settings.php:95
-#, php-format
-msgid "To disconnect, revoke the “Zinn Digital® (publishing)” application password on %s."
-msgstr "Untuk memutuskan sambungan, batalkan kata laluan aplikasi “Zinn Digital® (publishing)” pada %s."
+#: includes/class-zinn-connector-settings.php:61
+#: includes/class-zinn-connector-settings.php:81
+msgid "Connection"
+msgstr "Sambungan"
+
+#: includes/class-zinn-connector-settings.php:65
+msgid "Publishing"
+msgstr "Menerbitkan"
+
+#: includes/class-zinn-connector-settings.php:69
+#: includes/class-zinn-connector-settings.php:196
+msgid "Backups"
+msgstr "Sandaran"
+
+#: includes/class-zinn-connector-settings.php:73
+msgid "Advanced"
+msgstr "Lanjutan"
+
+#: includes/class-zinn-connector-settings.php:89
+msgid "Check the connection now"
+msgstr "Semak sambungan sekarang"
+
+#: includes/class-zinn-connector-settings.php:94
+msgid "Disconnect this site"
+msgstr "Putuskan sambungan tapak ini"
 
 #: includes/class-zinn-connector-settings.php:96
-msgid "your profile"
-msgstr "profil anda"
+msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
+msgstr "Ini membatalkan kelayakan yang digunakan oleh Zinn Digital®, supaya kami tidak lagi boleh menerbitkan ke tapak ini. Apa sahaja yang telah diterbitkan akan kekal. Teruskan?"
 
-#: includes/class-zinn-connector-settings.php:102
+#: includes/class-zinn-connector-settings.php:123
+msgid "What we may do on this site"
+msgstr "Perkara yang boleh kami lakukan di tapak ini"
+
+#: includes/class-zinn-connector-settings.php:124
+msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
+msgstr "Kelayakan yang kami pegang ialah kata laluan aplikasi WordPress biasa, jadi WordPress sendiri menentukan perkara yang mungkin. Ini mengecaxesnya lagi, di pihak anda."
+
+#: includes/class-zinn-connector-settings.php:129
+msgid "Publish articles as"
+msgstr "Terbitkan artikel sebagai"
+
 #: includes/class-zinn-connector-settings.php:130
+msgid "Choose “a draft” if you would rather read everything before it goes live."
+msgstr "Pilih “draf” jika anda lebih suka membaca semuanya sebelum ia disiarkan."
+
+#: includes/class-zinn-connector-settings.php:132
+msgid "Published straight away"
+msgstr "Diterbitkan serta-merta"
+
+#: includes/class-zinn-connector-settings.php:133
+msgid "A draft, for me to review"
+msgstr "Draf, untuk saya semak"
+
+#: includes/class-zinn-connector-settings.php:134
+msgid "Pending review"
+msgstr "Menunggu semakan"
+
+#: includes/class-zinn-connector-settings.php:135
+msgid "Scheduled, using the date we send"
+msgstr "Berjadual, menggunakan tarikh yang kami hantar"
+
+#: includes/class-zinn-connector-settings.php:142
+msgid "Show the author as"
+msgstr "Tunjukkan pengarang sebagai"
+
+#: includes/class-zinn-connector-settings.php:143
+msgid "Which of your users appears as the author. This does not change who we sign in as."
+msgstr "Yang mana antara pengguna anda yang dipaparkan sebagai pengarang. Ini tidak mengubah akaun siapa yang kami gunakan untuk log masuk."
+
+#: includes/class-zinn-connector-settings.php:150
+msgid "Put articles in"
+msgstr "Masukkan artikel ke dalam"
+
+#: includes/class-zinn-connector-settings.php:157
+msgid "Allow images"
+msgstr "Benarkan imej"
+
+#: includes/class-zinn-connector-settings.php:158
+msgid "Let Zinn Digital® upload images into this site’s media library"
+msgstr "Benarkan Zinn Digital® memuat naik imej ke perpustakaan media tapak web ini"
+
+#: includes/class-zinn-connector-settings.php:159
+msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
+msgstr "Matikan ini dan artikel akan tiba tanpa imejnya. Tiada apa-apa yang telah dimuat naik akan dialih keluar."
+
+#: includes/class-zinn-connector-settings.php:165
+msgid "Allow edits"
+msgstr "Benarkan suntingan"
+
+#: includes/class-zinn-connector-settings.php:166
+msgid "Let Zinn Digital® update an article it published before"
+msgstr "Biarkan Zinn Digital® mengemas kini artikel yang diterbitkannya sebelum ini"
+
+#: includes/class-zinn-connector-settings.php:167
+msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
+msgstr "Digunakan untuk pembetulan dan pengoptimuman semula. Ia tidak akan menyentuh apa-apa yang anda tulis sendiri."
+
+#: includes/class-zinn-connector-settings.php:173
+msgid "Tell me when something is published"
+msgstr "Beritahu saya apabila sesuatu diterbitkan"
+
+#: includes/class-zinn-connector-settings.php:174
+msgid "Leave blank for no email. One message per article, from your own site."
+msgstr "Biarkan kosong jika tiada e-mel. Satu mesej bagi setiap artikel, dari tapak web anda sendiri."
+
+#: includes/class-zinn-connector-settings.php:190
+msgid "Off-site backups"
+msgstr "Sandaran luar tapak"
+
+#: includes/class-zinn-connector-settings.php:191
+msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
+msgstr "Tapak ini menghantar sandaran sendiri terus ke storan Zinn®. Tiada apa-apa yang melalui pelayan kami semasa dalam perjalanan."
+
+#: includes/class-zinn-connector-settings.php:197
+msgid "Back this site up to Zinn Digital®"
+msgstr "Simpan sesawang ini ke Zinn Digital®"
+
+#: includes/class-zinn-connector-settings.php:204
+msgid "Backup token"
+msgstr "Token sandaran"
+
+#: includes/class-zinn-connector-settings.php:205
+msgid "Set for you when the site was connected. You will only need to touch this if support asks."
+msgstr "Ditetapkan untuk anda apabila tapak disambungkan. Anda hanya perlu menyentuhnya jika sokongan memintanya."
+
+#: includes/class-zinn-connector-settings.php:213
+msgid "Leave these out"
+msgstr "Kecualikan ini"
+
+#: includes/class-zinn-connector-settings.php:214
+msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
+msgstr "Satu laluan setiap baris, relatif kepada wp-content — contohnya <code>cache</code> atau <code>uploads/backups</code>. Folder cache dan palam sandaran yang lain biasanya merupakan pilihan yang lazim."
+
+#: includes/class-zinn-connector-settings.php:222
+msgid "Stop if the archive would exceed"
+msgstr "Hentikan jika arkib melebihi"
+
+#: includes/class-zinn-connector-settings.php:223
+msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
+msgstr "Megabait. P होस्ट berkongsi biasanya akan mematikan arkib yang sangat besar di tengah jalan; satu ikatan mengubahnya menjadi mesej dan bukannya kegagalan senyap."
+
+#: includes/class-zinn-connector-settings.php:243
+msgid "Detailed logging"
+msgstr "Pembalakan terperinci"
+
+#: includes/class-zinn-connector-settings.php:244
+msgid "Record what this plugin does, for support"
+msgstr "Catat perkara yang dilakukan oleh palam ini, untuk sokongan"
+
+#: includes/class-zinn-connector-settings.php:245
+msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
+msgstr "Disimpan di tapak ini, dihadkan kepada 50 entri terakhir, dan disertakan dalam laporan diagnostik. Hidupkannya sebelum menghasilkan semula masalah."
+
+#: includes/class-zinn-connector-settings.php:251
+msgid "On uninstall"
+msgstr "Semasa menyahpasang"
+
+#: includes/class-zinn-connector-settings.php:252
+msgid "Delete this plugin’s settings when it is uninstalled"
+msgstr "Padamkan tetapan peloncat ini apabila ia dinyahpasang"
+
+#: includes/class-zinn-connector-settings.php:253
+msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
+msgstr "Menyahpasang tidak sesekali membatalkan kata laluan aplikasi — itu disengajakan, supaya menyahpasang untuk mencuba sesuatu yang lain tidak menjejaskan penerbitan anda. Gunakan Putuskan Sambungan di atas jika anda mahu kelayakan itu dipadamkan."
+
+#: includes/class-zinn-connector-settings.php:269
+msgid "The user we sign in as"
+msgstr "Pengguna yang kami log masuk sebagai"
+
+#: includes/class-zinn-connector-settings.php:290
+msgid "The site’s default category"
+msgstr "Kategori lalai tapak"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-status.php:351
+msgid "Connect this site again"
+msgstr "Sambungkan semula tapak ini"
+
+#: includes/class-zinn-connector-settings.php:339
+#: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
 msgstr "Sambungkan tapak ini"
 
-#: includes/class-zinn-connector-settings.php:104
+#: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
 msgstr "Buka papan pemuka Zinn Digital® anda, pergi ke Content → Other sites, dan tekan “Get a pairing code”. Tampalkannya di bawah."
 
-#: includes/class-zinn-connector-settings.php:112
+#: includes/class-zinn-connector-settings.php:345
+msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
+msgstr "Menyambung semula akan mencipta kelayakan baharu dan mengekalkan yang lama — gunakan Putus Sambungan terlebih dahulu jika anda mahu yang lama dipadamkan."
+
+#: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
 msgstr "Kod gandingan"
 
-#: includes/class-zinn-connector-settings.php:125
+#: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
 msgstr "Ia akan tamat tempoh tiga puluh minit selepas anda menjana dan hanya boleh digunakan sekali sahaja."
 
-#: includes/class-zinn-connector-settings.php:153
+#: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
 msgstr "Anda tidak dibenarkan menyambungkan tapak ini."
+
+#: includes/class-zinn-connector-status.php:59
+msgid "This site is not connected to Zinn Digital®."
+msgstr "Tapak web ini tidak bersambung dengan Zinn Digital®."
+
+#: includes/class-zinn-connector-status.php:60
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
+msgstr "Tiada masalah — ia masih belum dipadankan. Dapatkan kod gandingan daripada papan pemuka Zinn® anda dan tampalkannya di bawah."
+
+#: includes/class-zinn-connector-status.php:62
+#: includes/class-zinn-connector-status.php:155
+msgid "Open my Zinn® dashboard"
+msgstr "Buka papan pemuka Zinn® saya"
+
+#: includes/class-zinn-connector-status.php:78
+#: includes/class-zinn-connector-status.php:96
+msgid "The connection is broken."
+msgstr "Sambungan terputus."
+
+#. translators: %s: the WordPress username the credential belonged to.
+#: includes/class-zinn-connector-status.php:81
+#, php-format
+msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
+msgstr "Pengguna WordPress yang memiliki kelayakan tersebut (%s) tidak lagi wujud pada tapak ini, jadi apa sahaja yang kami hantar tidak boleh diterbitkan. Sambung semula sebagai pengguna yang boleh menerbitkan."
+
+#: includes/class-zinn-connector-status.php:97
+msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
+msgstr "Kata laluan aplikasi “Zinn Digital® (publishing)” telah dipadamkan daripada tapak ini, jadi kami tidak lagi boleh log masuk. Sambung semula untuk mencipta yang baharu — tiada apa-apa lagi yang hilang."
+
+#: includes/class-zinn-connector-status.php:101
+msgid "See this site’s application passwords"
+msgstr "Lihat kata laluan aplikasi tapak ini"
+
+#: includes/class-zinn-connector-status.php:116
+msgid "Connected, but publishing would fail."
+msgstr "Disambungkan, tetapi penerbitan akan gagal."
+
+#. translators: %s: the WordPress username the credential belongs to.
+#: includes/class-zinn-connector-status.php:119
+#, php-format
+msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
+msgstr "Kelayakan itu milik %s, dan pengguna tersebut tidak lagi boleh menerbitkan siaran. Log masuk masih berfungsi, jadi tiada apa yang kelihatan salah sehingga tiba masanya untuk artikel diterbitkan. Berikan pengguna tersebut kebenaran untuk menerbitkan, atau sambung semula sebagai seseorang yang boleh berbuat demikian."
+
+#: includes/class-zinn-connector-status.php:124
+msgid "Edit that user"
+msgstr "Sunting pengguna itu"
+
+#: includes/class-zinn-connector-status.php:140
+msgid "Connected here — we could not reach Zinn Digital® to confirm."
+msgstr "Bersambung di sini — kami tidak dapat menghubungi Zinn Digital® untuk mengesahkannya."
+
+#: includes/class-zinn-connector-status.php:151
+msgid "Connected, but your Zinn® account needs attention."
+msgstr "Disambung, tetapi akaun Zinn® anda memerlukan perhatian."
+
+#: includes/class-zinn-connector-status.php:167
+msgid "Connected to Zinn Digital®."
+msgstr "Disambungkan ke Zinn Digital®."
+
+#. translators: %s: the Zinn Digital organisation this site belongs to.
+#: includes/class-zinn-connector-status.php:170
+#, php-format
+msgid "Connected to Zinn Digital® as %s."
+msgstr "Disambungkan kepada Zinn Digital® sebagai %s."
+
+#: includes/class-zinn-connector-status.php:195
+msgid "Publishing as"
+msgstr "Menerbitkan sebagai"
+
+#: includes/class-zinn-connector-status.php:207
+msgid "Zinn® site ID"
+msgstr "ID tapak Zinn®"
+
+#. translators: %s: the transport error WordPress reported.
+#: includes/class-zinn-connector-status.php:290
+#, php-format
+msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
+msgstr "Pelayan ini tidak dapat menghubungi api.zinndigital.com (%s). Itu biasanya merupakan tembok api atau peraturan sambungan keluar pada hos anda, bukannya masalah dengan akaun Zinn® anda — penerbitan mungkin masih berfungsi."
+
+#: includes/class-zinn-connector-status.php:303
+msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
+msgstr "Zinn Digital® membalas dengan ralatnya sendiri — itu masalah pihak kami, bukan anda. Penerbitan tidak terjejas semasa masalah ini diselesaikan."
+
+#: includes/class-zinn-connector-status.php:310
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr "Akaun Zinn® anda tidak dapat menerbitkan ke tapak ini buat masa ini. Papan pemuka anda menyatakan sebabnya."
+
+#. translators: %d: the HTTP status code returned.
+#: includes/class-zinn-connector-status.php:320
+#, php-format
+msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
+msgstr "Zinn Digital® membalas HTTP %d, yang tidak kami kenali. Hantar laporan diagnostik daripada tab Support dan kami akan semak — jangan ubah apa-apa di sini dahulu."
+
+#: includes/class-zinn-connector-status.php:339
+msgid "Check again now"
+msgstr "Semak semula sekarang"
+
+#: includes/class-zinn-connector-status.php:368
+msgid "Checked. The connection is live."
+msgstr "Disemak. Sambungan aktif."
+
+#: includes/class-zinn-connector-status.php:409
+msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
+msgstr "Kami tidak dapat mengalih keluar kata laluan aplikasi, jadi tapak ini masih disambungkan. Padamkan “Zinn Digital® (publishing)” pada skrin profil anda dan cuba lagi — kami tidak mengubah apa-apa."
+
+#: includes/class-zinn-connector-status.php:428
+msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
+msgstr "Terputus. Kata laluan aplikasi telah ditarik balik, jadi Zinn Digital® tidak lagi boleh menerbitkan ke tapak ini. Tiada apa-apa yang telah diterbitkan disentuh."
+
+#: includes/class-zinn-connector-streaming-upload.php:87
+#: includes/class-zinn-connector-streaming-upload.php:145
+#: includes/class-zinn-connector-streaming-upload.php:264
+#: includes/class-zinn-connector-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Fail tersebut tidak dapat dibaca dari pelayan ini, jadi tiada apa-apa yang dimuat naik."
+
+#: includes/class-zinn-connector-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Tapak ini tidak dapat menstrim muat naik, jadi tiada apa-apa yang dihantar."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-connector-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Fail ini ialah %1$s dan PHP tapak ini tiada cURL, jadi saiz maksimum yang boleh dimuat naik ialah %2$s."
+
+#: includes/class-zinn-connector-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Muat naik tidak dapat disiapkan."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-connector-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Storan menolak muat naik tersebut (HTTP %d)."
+
+#: includes/class-zinn-connector-style-presets.php:109
+msgid "Style preset"
+msgstr "Pratet gaya"
+
+#: includes/class-zinn-connector-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Titik permulaan. Apa sahaja di bawahnya akan mengutamakannya."
+
+#: includes/class-zinn-connector-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Gunakan warna dan saiz saya sendiri"
+
+#: includes/class-zinn-connector-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Biarkan ini dimatikan dan pratetap digunakan tepat seperti adanya."
 
 #: includes/class-zinn-connector-updater.php:233
 msgid "See the Zinn Digital® release notes."
