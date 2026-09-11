@@ -228,16 +228,20 @@ msgstr "WordPress ma abuuri karto aqoonsi goobtan. Waxba meelna looma dirin."
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "Ma aannaan gaarin Zinn Digital® goobtan laga bilaabo. Waxba kuma xirnayn, xogta aqoonsiga ee aan samaynayna waa la saaray. Hubi in goobtu samayn karto codsiyo dibadda u baxaya, oo dib u day."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® ma awoodin in ay dhameeyפטo xiritaanka boggan. Dhibaatada waxay ku jirtaa dhankayaga, ee maaha koodkaaga lammaanaynta — wax laguma xirin, xogtiina aan samaynay waa la tirtiray. Koodka isla lammaanaynta ayaa weli shaqaynaya: mar kale isku day daqiiqado gudahood."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® ma aysan aqbalin lambarkaas lammaanaynta ah. Waxba lama xiriirin. Ka soo abuur lambar cusub dashboard-kaaga oo dib u day."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Waa la xiriiriyay. Zinn Digital® hadda waxay daabici kartaa boggan."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "Ku xidhan"
 
@@ -596,7 +600,7 @@ msgid "The site’s default category"
 msgstr "Qaybta caadiga ah ee bogga"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "Ku xidh bishan mar labaad"
 
@@ -625,111 +629,111 @@ msgstr "Waxay dhacaysaa soddon daqiiqo ka dib marka aad soo saarto, waxaana la i
 msgid "You are not allowed to connect this site."
 msgstr "Laguma oggola inaad ku xirto bishan."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "Boggan kuma xidhna Zinn Digital®."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "Wax khaldani ma jiraan — weli lama lammaanin. Ka hel koodhka lammaaneynta ee dashboard-kaaga Zinn® oo hoos ku dheji."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "Wax khaldani ma jiraan — weli lama lammaanin. Ka hel koodhka lammaanaynta looxaaga hagidda ee Zinn® oo ku dheji dejinta qaybtan."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Furo golaha kontoroolka ee Zinn®"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "Xiriirku wuu go'ay."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "Isticmaalaha WordPress ee ay aqoonsigu ka tirsanaayeen (%s) hadda dambe kama jiro boggan, markaa wax walba oo aan dirno lama daabici karo. Dib ugu xidh isticmaale awood u leh inuu daabaco."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "Erayga sirta ah ee abka “Zinn Digital® (publishing)” waa laga tirtiray boggan, markaa ma aan soo gali karno hadda kadib. Dib ugu xidh si aad u samayso mid cusub — wax kale ma lumin."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "Fiiri erayada sirta ah ee barnaamijkan webka"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "Waa la xirirriyay, laakiin daabacu wuu fashilmi lahaa."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "Aqoonsigu wuxuu leeyahay %s, isticmaalahaasyna mar dambe ma daabici karo qoraallo. Saxeexu sidiisii ayuu u shaqeynayaa, marka wax khaldan uma eka ilaa inta qodob laga gaarayo. Sii isticmaalahaas awood uu ku daabaco, ama mar kale ku xidh qof kale oo awood u leh."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "Wax ka beddel isticmaalahaas"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "Halkan waa lagu xidhay — ma aananaan gaari karin Zinn Digital® si aan u xaqiijino."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "Waa la xiriiray, laakiin koontadaada Zinn® waxay u baahan tahay fiiro gaar ah."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Waxaa lagugu xidhay Zinn Digital®."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "Sida %s ugu xiran Zinn Digital®."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "Daabacaad ahaan"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® bogga ID"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "Adeegaruhani ma gaari karo api.zinndigital.com (%s). Taasi badanaa waa darbiga dabka (firewall) ama xeerka xiriirka ka baxa ee halka martigeliyahaaga ah, ee ma aha dhibaato ku jirta akoonkaaga Zinn® — daabacaaddu waxay weli ahaan kartaa mid shaqaynaysa."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® waxay ku jawaabtay cillad iyada u gaar ah - taasi waa dhinankeena, ee ma aha taada. Daabacaaddu ma saameynayso inta arrintani nadiifinayso."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "Koontadaada Zinn® ma awooddo hadda inay ku daabacdo boggan. Dashboard-kaagu wuxuu sheegayaa sababta."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® waxay ku jawaabtay HTTP %d, oo aanan aqoonsanayn. Dir warbixinta ogaanshaha cilladaha adoo isticmaalaya tabka Taageerada waxaanan eegi doonaa — waxba ha ka bedelin halkaan marka hore."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "Hadda dib u hubi"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "La hubiyay. Xiriirku waa toos."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "Waan kari weynnay inaan meesha ka saarno erayga sirta ah ee abka, markaa boggan weli waa xiran yahay. Ka tirtir “Zinn Digital® (publishing)” shaashadda astaantaada oo mar kale isku day — waxba ma aynaan beddelin."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "Waa la gooyay. Furaha codsiga waa la tirtiray, markaa Zinn Digital® awood u ma laha in ay mar dambe ku daabacdo boggan. Wax alla wixii hore loo daabacay lama taaban."
 

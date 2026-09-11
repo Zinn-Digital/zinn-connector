@@ -54,10 +54,12 @@ class Zinn_Connector_Status {
 		$state = is_array( $state ) ? $state : array();
 
 		if ( empty( $state['connected_at'] ) ) {
+			// ⛔ Not "paste it below": this card also renders on the Zinn Digital® overview page,
+			// where nothing is below it (D24633).
 			return array(
 				'state'   => 'disconnected',
 				'summary' => __( 'This site is not connected to Zinn Digital®.', 'zinn-connector' ),
-				'reason'  => __( 'Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below.', 'zinn-connector' ),
+				'reason'  => __( 'Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings.', 'zinn-connector' ),
 				'action'  => array(
 					'label' => __( 'Open my Zinn® dashboard', 'zinn-connector' ),
 					'url'   => 'https://app.zinndigital.com/content/other-sites',

@@ -227,16 +227,20 @@ msgstr "ဝပ်ဒ်ပရက်စ် (WordPress) သည် ဤဆိုက�
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "ဤဆိုက်မှ Zinn Digital® သို့ ဆက်သွယ်၍မရပါ။ မည်သည့်အရာမျှ ချိတ်ဆက်မထားပါ၊ ထုတ်လုပ်ထားသော အထောက်အထားကိုလည်း ဖယ်ရှားပြီးပါပြီ။ ဆိုက်သည် အပြင်ဘက်သို့ တောင်းဆိုချက်များ ပေးပို့နိုင်ခြင်း ရှိမရှိ စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။"
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® သည် ဤဆိုက်သို့ ချိတ်ဆက်မှုကို မပြီးမြောက်နိုင်ပါ။ ပြဿနာမှာ သင်၏ တွဲချိတ်ရေးကုဒ်တွင် မဟုတ်ဘဲ ကျွန်ုပ်တို့ဘက်တွင် ဖြစ်သည် - ဘာမျှ မချိတ်ဆက်ရသေးပါ၊ ကျွန်ုပ်တို့ ဖန်တီးခဲ့သော အထောက်အထားကိုလည်း ဖယ်ရှားပြီးပါပြီ။ တူညီသော တွဲချိတ်ရေးကုဒ်သည် ဆက်လက် အလုပ်လုပ်နေဆဲဖြစ်သည်- မိနစ်အနည်းငယ်ကြာမှ ထပ်မံကြိုးစားပါ။"
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® သည် ထိုတွဲဖက်ကုဒ်ကို လက်မခံပါ။ ဘာမျှချိတ်ဆက်မထားပါ။ သင့်ဒက်ရှ်ဘုတ်တွင် ကုဒ်အသစ်တစ်ခုကို ထုတ်ယူပြီး ထပ်မံကြိုးစားပါ။"
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "ချိတ်ဆက်ပြီးပါပြီ။ Zinn Digital® သည် ယခုအခါ ဤဆိုက်သို့ ထုတ်ဝေနိုင်ပါပြီ။"
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "ချိတ်ဆက်ပြီးပါပြီ"
 
@@ -594,7 +598,7 @@ msgid "The site’s default category"
 msgstr "ဆိုဒ်၏ မူလ ပုံသေ အမျိုးအစား"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "ဤဆိုက်ကို ထပ်မံချိတ်ဆက်ပါ"
 
@@ -623,111 +627,111 @@ msgstr "၎င်းကို ထုတ်လုပ်ပြီး မိနစ�
 msgid "You are not allowed to connect this site."
 msgstr "ဤဆိုက်ကို ချိတ်ဆက်ခွင့် မရှိပါ။"
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "ဤဆိုက်သည် Zinn Digital® နှင့် မချိတ်ဆက်ပါ။"
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "မည်သည့်ပြဿနာမျှ မရှိပါ — ၎င်းကို ပုံစံမတွဲရသေးခြင်းသာ ဖြစ်သည်။ သင်၏ Zinn® ဒက်ရှ်ဘုတ်မှ ချိတ်ဆက်မှုကုဒ်ကို ရယူပြီး အောက်တွင် ကူးထည့်ပါ။"
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "ဘာမှ မမှားပါ — ချိတ်ဆက်ခြင်း မပြုရသေးခြင်းသာ ဖြစ်ပါသည်။ သင်၏ Zinn® ဒက်ရှ်ဘုတ်မှ ချိတ်ဆက်မှု ကုဒ်တစ်ခု ရယူပြီး ဤ ပလပ်ဂင်၏ ဆက်တင်များထဲတွင် ကူးယူထည့်သွင်းပါ။"
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "ကျွန်ုပ်၏ Zinn® ဒိုင်ခွက်ကို ဖွင့်ပါ"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "ချိတ်ဆက်မှု ပြတ်တောက်သွားပါပြီ။"
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "ဤအထောက်အထားပိုင်ဆိုင်သည့် WordPress အသုံးပြုသူ (%s) သည် ဤဆိုက်တွင် မရှိတော့ပါ၊ ထို့ကြောင့် ကျွန်ုပ်တို့ပေးပို့သည့် မည်သည့်အရာကိုမျှ မထုတ်ဝေနိုင်ပါ။ ထုတ်ဝေနိုင်သည့် အသုံးပြုသူတစ်ဦးအနေဖြင့် ထပ်မံချိတ်ဆက်ပါ။"
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "ဤဆိုဒ်မှ “Zinn Digital® (publishing)” လျှောက်လွှာစကားဝှက်ကို ဖျက်လိုက်ပြီဖြစ်သောကြောင့် ကျွန်ုပ်တို့သည် နောက်ထပ်ဝင်ရောက်၍ မရတော့ပါ။ အသစ်တစ်ခုဖန်တီးရန် ထပ်မံချိတ်ဆက်ပါ — အခြားမည်သည့်အရာမျှ ပျောက်ဆုံးသွားခြင်းမရှိပါ။"
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "ဤဆိုက်၏ အက်ပ်စကားဝှက်များကို ကြည့်ပါ"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "ချိတ်ဆက်ထားသော်လည်း ထုတ်ဝေခြင်း မအောင်မြင်နိုင်ပါ။"
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "အထောက်အထားသည် %s ပိုင်ဖြစ်ပြီး၊ အဆိုပါအသုံးပြုသူသည် ဆောင်းပါးများကို ထပ်မံထုတ်ဝေနိုင်တော့မည် မဟုတ်ပါ။ အကောင့်ဝင်ခြင်းက ဆက်လက်လုပ်ဆောင်နိုင်ဆဲဖြစ်သဖြင့် ဆောင်းပါးတင်ရန် အချိန်ကျရောက်သည်အထိ မည်သည့်ပြဿနာမှ ရှိနေသလို မပေါ်လွင်ပါ။ အဆိုပါအသုံးပြုသူအား ထုတ်ဝေခွင့်ပေးပါ သို့မဟုတ် ထုတ်ဝေနိုင်သူတစ်ဦးအနေဖြင့် ထပ်မံချိတ်ဆက်ပါ။"
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "ထိုအသုံးပြုသူကို တည်းဖြတ်ရန်"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "Zinn Digital® သို့ ဆက်သွယ်၍ အတည်ပြုရန် မရနိုင်ပါ။"
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "ချိတ်ဆက်ထားသော်လည်း သင်၏ Zinn® အကောင့်တွင် အာရုံစိုက်ရန် လိုအပ်နေပါသည်။"
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Zinn Digital® သို့ ချိတ်ဆက်ထားပါသည်။"
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "Zinn Digital® သို့ %s အဖြစ် ချိတ်ဆက်ထားသည်။"
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "ထုတ်ဝေမည့်ပုံစံ -"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® ဆိုက် ID"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "ဤဆာဗာသည် api.zinndigital.com (%s) ကို မချိတ်ဆက်နိုင်ပါ။ ၎င်းသည် များသောအားဖြင့် သင့်ဟို့စ်ရှိ ဖိုင်းဝေါ သို့မဟုတ် ထွက်ခွာချိတ်ဆက်မှုစည်းမျဉ်းကြောင့်ဖြစ်ပြီး သင့် Zinn® အကောင့်တွင် ပြဿနာရှိနေခြင်းမဟုတ်ပါ - စာအုပ်ထုတ်ဝေခြင်း ဆက်လက်အလုပ်လုပ်နေနိုင်ပါသည်။"
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® သည် ၎င်း၏ကိုယ်ပိုင်အမှားဖြင့် တုံ့ပြန်ခဲ့သည် — ဤသည်မှာ သင့်ဘက်မှ မဟုတ်ဘဲ ကျွန်ုပ်တို့ဘက်မှ ဖြစ်ပါသည်။ ဤကိစ္စ ရှင်းလင်းသွားချိန်အထိ ထုတ်ဝေခြင်းကို သက်ရောက်မှု မရှိပါ။"
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "သင့်၏ Zinn® အကောင့်သည် ဤဆိုဒ်သို့ လက်ရှိတွင် ထုတ်ဝေနိုင်ခြင်း မရှိပါ။ အကြောင်းရင်းကို သင့်၏ ဒက်ရှ်ဘုတ်တွင် ဖော်ပြထားပါသည်။"
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® သည် အသိအမှတ်မပြုသော HTTP %d ကို တုံ့ပြန်ခဲ့သည်။ ပံ့ပိုးကူညီမှု တက်ဘ်မှ ရောဂါရှာဖွေရေး အစီရင်ခံစာတစ်ခုကို ပေးပို့ပါ၊ ကျွန်ုပ်တို့ စစ်ဆေးပေးပါမည် — ဤနေရာတွင် မည်သည့်အရာကိုမျှ ဦးစွာ မပြောင်းလဲပါနှင့်။"
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "ယခု ထပ်မံစစ်ဆေးပါ"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "စစ်ဆေးပြီးပါပြီ။ ချိတ်ဆက်မှု အလုပ်လုပ်နေပါသည်။"
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "အပလီကေးရှင်း စကားဝှက်ကို ကျွန်ုပ်တို့ မဖယ်ရှားနိုင်ခဲ့သောကြောင့် ဤဆိုက်သည် ချိတ်ဆက်ထားဆဲ ဖြစ်သည်။ သင့်ပရိုဖိုင်မျက်နှာပြင်ပေါ်ရှိ “Zinn Digital® (publishing)” ကို ဖျက်ပြီး ထပ်မံကြိုးစားပါ — ကျွန်ုပ်တို့ ဘာမျှ ပြောင်းလဲထားခြင်း မရှိပါ။"
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "ချိတ်ဆက်မှု ပြတ်တောက်သွားပါပြီ။ အပလီကေးရှင်း စကားဝှက်ကို ရုပ်သိမ်းလိုက်ပြီဖြစ်သောကြောင့် Zinn Digital® သည် ဤဆိုက်သို့ နောက်ထပ် ထုတ်ဝေနိုင်တော့မည် မဟုတ်ပါ။ ထုတ်ဝေပြီးသား အရာများကိုမူ မည်သို့မျှ မလုပ်ဆောင်ပါ။"
 

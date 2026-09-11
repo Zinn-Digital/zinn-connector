@@ -228,16 +228,20 @@ msgstr "WordPress ለዚህ ድር ጣቢያ ምስክር ወረቀት መፍጠ
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "ከዚህ ድህረ ገጽ ላይ Zinn Digital®ን ማግኘት አልቻልንም። ምንም አልተገናኘም ነበር፣ እና የፈጠርነው ምስክርነት ተወግዷል። ድህረ ገጹ ወጪ ጥያቄዎችን ማስተናገድ መቻሉን ያረጋግጡ እና እንደገና ይሞክሩ።"
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® ይህን ጣቢያ ማገናኘት አልቻለም። ችግሩ ከእኛ በኩል ነው፣ ከማጣመሪያ ኮድዎ ጋር አይደለም — ምንም ነገር አልተገናኘም፣ እና የፈጠርነው ምስክርነት ተወግዷል። ተመሳሳይ የማጣመሪያ ኮድ አሁንም ይሠራል፡ ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ።"
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® ያንን የማጣመሪያ ኮድ አልተቀበለም። ምንም አልተገናኘም። በዳሽቦርድዎ ውስጥ አዲስ ኮድ ያመንጩ እና እንደገና ይሞክሩ።"
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "ተገናኝቷል። Zinn Digital® አሁን ወደዚህድ መረብ ማተም ይችላል።"
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "የተገናኘ"
 
@@ -432,7 +436,7 @@ msgstr "ማተም ላይ ነው"
 #: includes/class-zinn-connector-settings.php:69
 #: includes/class-zinn-connector-settings.php:196
 msgid "Backups"
-msgstr "Anim123ምኬ ምትክ/ምትክ አርዕስት/ምትኬዎች"
+msgstr "ምትኬዎች"
 
 #: includes/class-zinn-connector-settings.php:73
 msgid "Advanced"
@@ -595,7 +599,7 @@ msgid "The site’s default category"
 msgstr "የጣቢያው ነባሪ ምድብ"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "ይህንን ድረ-ገጽ እንደገና ያገናኙ"
 
@@ -624,111 +628,111 @@ msgstr "ከተፈጠረ ከሰላሳ ደቂቃ በኋላ የሚያበቃ ሲሆ�
 msgid "You are not allowed to connect this site."
 msgstr "ይህንን ድር ጣቢያ ለማገናኘት አልተፈቀደልዎም።"
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "ይህ ድረ-ገጽ ከ Zinn Digital® ጋር ግንኙነት የለውም።"
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "ምንም ችግር የለም — አሁንም አልተጣመረም። ከ Zinn® ዳሽቦርድዎ የማጣመሪያ ኮድ ያግኙ እና ከዚህ በታች ይለጥፉት።"
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "ምንም ችግር የለም — አሁንም አልተጣመረም። ከእርስዎ Zinn® ዳሽቦርድ የማጣመሪያ ኮድ ያግኙ እና በዚህ ተሰኪ (plugin) መቼቶች ውስጥ ይለጥፉት።"
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "የእኔን የZinn® ዳሽቦርድ ክፈት"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "ግንኙነቱ ተቋርጧል።"
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "የመታወቂያው ባለቤት የነበረው የ WordPress ተጠቃሚ (%s) በዚህ ድር ጣቢያ ላይ ከእንግዲህ የለም፣ ስለዚህ የምንልከው ማንኛውም ነገር ሊታተም አይችልም። ማተም የሚችል ተጠቃሚ በመሆን እንደገና ይገናኙ።"
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "የ“Zinn Digital® (publishing)” የመተግበሪያ የይለፍ ቃል ከዚህ ጣቢያ ተሰርዟል፣ ስለዚህ ከአሁን በኋላ መግባት አንችልም። አዲስ ለመፍጠር እንደገና ይገናኙ — ሌላ የጠፋ ነገር የለም።"
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "ይህንን የጣቢያ መተግበሪያ የይለፍ ቃላት ይመልከቱ"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "ተገናኝቷል፣ ግን ማተም አይሳካም።"
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "የመግቢያ ማስረጃው የ%s ነው፣ እና ያ ተጠቃሚ ልጥፎችን ማተም አይችልም። መግቢያው አሁንም ይሰራል፣ ስለዚህ ጽሑፍ እስኪወጣ ድረስ ምንም ስህተት አይመስልም። ለዚያ ተጠቃሚ የማተም ፈቃድ ይስጡ፣ ወይም ማተም ከሚችል ሌላ ተጠቃሚ ጋር እንደገና ይገናኙ።"
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "የዚያን ተጠቃሚ አርትዕ"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "እዚህ ተገናኝቷል — ለማረጋገጥ Zinn Digital® ሊን ደርሰን አልቻልንም።"
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "ተገናኝቷል፣ ነገር ግን የእርስዎ የZinn® መለያ ትኩረት ይሻል።"
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "ከ Zinn Digital® ጋር ተገናኝቷል።"
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "እንደ %s ከ Zinn Digital® ጋር ተገናኝቷል።"
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "እንደ ታተመ አሳይ"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "የZinn® የድር ጣቢያ መታወቂያ"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "ይህ ሰርቨር api.zinndigital.com (%s) ማግኘት አልቻለም። ይህ አብዛኛውን ጊዜ በእርስዎ አስተናጋጅ ላይ ያለ ፋየርዎል ወይም የወጪ ግንኙነት ደንብ ነው እንጂ በ Zinn® መለያዎ ላይ ያለ ችግር አይደለም—ማተም አሁንም ሊሰራ ይችላል።"
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® በራሱ ስህተት ምላሽ ሰጥቷል — ይህ የእኛ መጨረሻ እንጂ የእርስዎ አይደለም። ይህ እስኪስተካከል ድረስ ማተም አልተነካም።"
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "የእርስዎ የ Zinn® መለያ በአሁኑ ጊዜ ወደዚህ ድር ጣቢያ ማተም አይችልም። ዳሽቦርድዎ ምክንያቱን ያሳያል።"
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® የሰጠው HTTP %d ምላሽ የታወቀ አይደለም። ከድጋፍ (Support) ትር ላይ የምርመራ ሪፖርት ይላኩና እንመረዋለን—ከዚህ በፊት ማንኛውንም ነገር አይቀይሩ።"
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "አሁኑኑ እንደገና ያረጋግጡ"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "ተረጋግጧል። ግንኙነቱ በቀጥታ (ላይቭ) ላይ ነው።"
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "የመተግበሪያውን የይለፍ ቃል ማስወገድ አልቻልንም፣ ስለዚህ ይህ ድር ጣቢያ አሁንም ተገናኝቷል። በመገለጫዎ ማያ ገጽ ላይ “Zinn Digital® (publishing)” የሚለውን ይሰርዙ እና እንደገና ይሞክሩ — ምንም ነገር አልቀየርንም።"
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "ግንኙነት ተቋርጧል። የመተግበሪያው የይለፍ ቃል ተሰርዟል፣ ስለዚህ Zinn Digital® ወደዚህ ጣቢያ ማተም አያችም። ቀደም ሲል የታተመ ማንኛውም ነገር አልተነካም።"
 

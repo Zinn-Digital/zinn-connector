@@ -3,25 +3,42 @@ Contributors: zinndigital
 Plugin URI: https://zinndigital.com/wordpress-plugins/zinn-connector
 Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
-Tags: publishing, content, api, automation, seo
+Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Connect this site to Zinn Digital® so scheduled articles can be published to it, without copying a credential by hand.
+Auto-publish articles from Zinn Digital® to this WordPress site, with optional off-site backups. Pair once with a code — no password to copy.
 
 == Description ==
+
+**Zinn® Connector links a WordPress site hosted anywhere to Zinn Digital®, so the articles you write and schedule there are published here automatically — with their images, in the category and under the author you choose — and, if you want it, the whole site is backed up off-site.**
 
 If you write your articles in Zinn Digital® and this WordPress site is hosted somewhere else, this plugin is how the two are introduced.
 
 Paste a pairing code from your Zinn Digital® dashboard and the plugin creates a WordPress **application password** for itself and hands it to Zinn Digital®. You never see or copy the credential, so it cannot be pasted into the wrong window or left in a support ticket.
 
-The plugin does not change your site. It adds no endpoint, no shortcode and nothing to your public pages, and it makes no outbound request at all until you pair it. It shows a dashboard panel with links to Zinn Digital®'s own services.
+The plugin does not change your site. It adds no endpoint, no shortcode and nothing to your public pages, and it makes no outbound request at all until you pair it.
 
-Everything it sends is listed under **External services** below. In short: one request when you press Connect, and — only if you switch scheduled backups on in your Zinn Digital® dashboard — an hourly check for a due backup, plus the upload itself when one is due.
+Everything it sends is listed under **External services** below. In short: one request when you press Connect, a connection-status check for its own screen, and — only if you switch scheduled backups on in your Zinn Digital® dashboard — an hourly check for a due backup, plus the upload itself when one is due.
+
+= What you can do with it =
+
+* **Pair in one step.** A single-use pairing code replaces copying an application password between two browser tabs.
+* **Publish scheduled articles automatically.** Articles go live straight away, or arrive as drafts if you would rather read everything first.
+* **Decide what may happen on your site.** Choose the author shown on each article and the category it lands in, and switch image uploads, edits to earlier articles and a per-article email notification on or off.
+* **See whether the connection works.** The status panel says whether the site is paired and, when something is wrong, what is wrong and what to do about it — with a button to check again.
+* **Disconnect for real.** "Disconnect this site" deletes the application password, so the credential Zinn Digital® holds stops working at once.
+* **Back the site up off-site (optional).** Files and database are archived and streamed in fixed-size chunks straight to object storage, so memory use does not grow with the site. Leave folders out, set a size limit, and a backup is skipped rather than started when the disk has no room for it.
+* **Ask for help without exposing secrets.** A support report shows you the exact, already-redacted payload before anything is sent.
+* **Use it in your language.** Every screen is translated into 57 languages, right-to-left included.
+
+= Who it is for =
+
+Anyone who writes, schedules or commissions articles in Zinn Digital® for a WordPress site that Zinn Digital® does not host — a client's site, a brand site on another host, or a network of sites. Sites hosted with Zinn Digital® are connected for you and do not need it.
 
 = What it needs =
 
@@ -30,13 +47,21 @@ Everything it sends is listed under **External services** below. In short: one r
 
 = Disconnecting =
 
-Revoke the "Zinn Digital® (publishing)" application password under Users → Profile → Application Passwords. Deactivating the plugin does **not** revoke it, deliberately — deactivating a connector to test something should not silently stop your publishing.
+Press **Disconnect this site** on the plugin's Connection tab, or revoke the "Zinn Digital® (publishing)" application password under Users → Profile → Application Passwords. Deactivating the plugin does **not** revoke it, deliberately — deactivating a connector to test something should not silently stop your publishing.
 
 == Installation ==
 
-1. Upload the plugin and activate it.
+1. In wp-admin, open Plugins → Add New Plugin, search for **Zinn® Connector**, then choose Install Now and Activate.
 2. In Zinn Digital®, open Content → Other sites and press "Get a pairing code".
-3. In WordPress, go to Settings → Zinn Digital®, paste the code, and press Connect.
+3. In WordPress, open Zinn Digital® → Connector, paste the code, and press Connect this site.
+
+== Screenshots ==
+
+1. Pairing: paste the code from your Zinn Digital® dashboard and press Connect — the plugin creates and hands over its own credential.
+2. Publishing controls: live or draft, the author and category to use, whether images and edits are allowed, and an email per published article.
+3. Off-site backups: switch them on, leave folders out, and set a size limit so a large site stops with a message instead of failing silently.
+4. The Zinn Digital® overview in wp-admin shows whether each Zinn® plugin on the site is working.
+5. Every screen is translated — here the Connection tab in Arabic, right to left.
 
 == External services ==
 
@@ -122,6 +147,18 @@ corrections and new languages can be contributed directly.
 
 == Frequently Asked Questions ==
 
+= Is the plugin free? =
+
+Yes. The plugin is free and GPL-licensed. It connects your site to a Zinn Digital® account, which is where articles are written and scheduled; there is no paid version of the plugin and nothing in it is locked.
+
+= Does it work with any host? =
+
+Yes. It runs on any WordPress 6.6 or later with PHP 8.2 or later, wherever the site is hosted. The only requirement is that WordPress application passwords are enabled, which they are by default on any site served over HTTPS.
+
+= Can articles arrive as drafts instead of going live? =
+
+Yes. On the Publishing tab, set "Publish articles as" to a draft and every article waits for you to review and publish it yourself.
+
 = Does it send my content anywhere? =
 
 No. It sends the site's address, the WordPress username, and a credential it creates for Zinn Digital®. Nothing else leaves the site.
@@ -141,6 +178,12 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.2.2 =
+* Fixed: when Zinn Digital® could not finish a connection, the plugin said your pairing code had been refused and told you to generate a new one. It now says the problem is on our side and that the same code still works.
+* Fixed: the "not connected" notice on the Zinn Digital® overview told you to paste the code "below", where there is no field. It now points to this plugin’s settings.
+* Fixed three translations: Arabic showed "ثلاث0" instead of "thirty" minutes, Amharic showed a garbled label for Backups, and Thai carried a stray digit in the settings-import message.
+* Now listed in the WordPress.org plugin directory, so you can install it from Plugins → Add New Plugin by searching for "Zinn® Connector".
 
 = 1.2.1 =
 * Hardening: a settings rule can no longer be mistaken for a PHP function with the same name. The same shared settings code is what stopped Zinn® Translate saving its settings. Nothing about how this plugin behaves changes.
@@ -162,3 +205,8 @@ A real connection status that says what is wrong and what to do about it, a Disc
 
 = 1.0.0 =
 * First release.
+
+== Upgrade Notice ==
+
+= 1.2.2 =
+Clearer messages when a connection cannot be completed, and three translation fixes. Recommended for everyone.

@@ -227,16 +227,20 @@ msgstr "WordPress không thể tạo thông tin đăng nhập cho trang web này
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "Chúng tôi không thể kết nối với Zinn Digital® từ trang web này. Không có gì được kết nối và thông tin xác thực chúng tôi tạo đã bị xóa. Hãy kiểm tra xem trang web có thể thực hiện các yêu cầu đi hay không và thử lại."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® không thể hoàn tất việc kết nối trang web này. Vấn đề nằm ở phía chúng tôi chứ không phải do mã ghép nối của bạn — không có gì được kết nối và thông tin xác thực do chúng tôi tạo đã bị xóa. Mã ghép nối đó vẫn hoạt động: hãy thử lại sau vài phút."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® đã không chấp nhận mã kết nối đó. Không có gì được kết nối. Hãy tạo mã mới trong bảng điều khiển của bạn và thử lại."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Đã kết nối. Zinn Digital® giờ đây có thể xuất bản lên trang web này."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "Đã kết nối"
 
@@ -594,7 +598,7 @@ msgid "The site’s default category"
 msgstr "Danh mục mặc định của trang web"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "Kết nối lại trang web này"
 
@@ -623,111 +627,111 @@ msgstr "Nó sẽ hết hạn sau ba mươi phút kể từ khi bạn tạo và c
 msgid "You are not allowed to connect this site."
 msgstr "Bạn không được phép kết nối trang web này."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "Trang web này không liên kết với Zinn Digital®."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "Không có lỗi gì xảy ra cả — nó chỉ đơn giản là chưa được ghép nối. Lấy mã ghép nối từ bảng điều khiển Zinn® của bạn và dán vào bên dưới."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "Không có lỗi gì xảy ra cả — nó chỉ đơn giản là chưa được ghép nối. Hãy lấy mã ghép nối từ bảng điều khiển Zinn® của bạn và dán mã đó vào phần cài đặt của plugin này."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Mở bảng điều khiển Zinn® của tôi"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "Kết nối đã bị ngắt."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "Người dùng WordPress sở hữu thông tin xác thực (%s) không còn tồn tại trên trang web này, vì vậy không có nội dung nào chúng tôi gửi có thể được xuất bản. Hãy kết nối lại với tư cách là người dùng có quyền xuất bản."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "Mật khẩu ứng dụng “Zinn Digital® (publishing)” đã bị xóa khỏi trang web này, vì vậy chúng tôi không thể đăng nhập được nữa. Hãy kết nối lại để tạo mật khẩu mới — không có dữ liệu nào khác bị mất."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "Xem mật khẩu ứng dụng của trang web này"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "Đã kết nối, nhưng việc xuất bản sẽ thất bại."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "Thông tin đăng nhập thuộc về %s và người dùng đó không còn có thể xuất bản bài viết nữa. Việc đăng nhập vẫn hoạt động, vì vậy mọi thứ trông có vẻ bình thường cho đến khi đến hạn đăng bài. Hãy cấp quyền xuất bản cho người dùng đó hoặc kết nối lại bằng tài khoản của người có quyền đó."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "Chỉnh sửa người dùng đó"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "Đã kết nối — chúng tôi không thể liên hệ với Zinn Digital® để xác nhận."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "Đã kết nối, nhưng tài khoản Zinn® của bạn cần được chú ý."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Đã kết nối với Zinn Digital®."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "Đã kết nối với Zinn Digital® với tư cách là %s."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "Đang xuất bản dưới dạng"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Mã trang web Zinn®"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "Máy chủ này không thể kết nối tới api.zinndigital.com (%s). Đây thường là do tường lửa hoặc quy tắc kết nối đi trên máy chủ của bạn, không phải sự cố với tài khoản Zinn® của bạn — quá trình xuất bản có thể vẫn đang hoạt động."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® đã phản hồi bằng một lỗi của riêng họ — đó là sự cố phía chúng tôi, không phải của bạn. Quá trình xuất bản không bị ảnh hưởng trong khi sự cố này được khắc phục."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "Tài khoản Zinn® của bạn hiện không thể xuất bản lên trang web này. Trang tổng quan của bạn cho biết lý do."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® đã phản hồi HTTP %d, mã này không được chúng tôi nhận dạng. Hãy gửi báo cáo chẩn đoán từ tab Support và chúng tôi sẽ xem xét — trước tiên đừng thay đổi bất kỳ điều gì ở đây."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "Kiểm tra lại ngay"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "Đã kiểm tra. Kết nối đang hoạt động."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "Chúng tôi không thể xóa mật khẩu ứng dụng, vì vậy trang web này vẫn được kết nối. Hãy xóa “Zinn Digital® (publishing)” trên màn hình hồ sơ của bạn và thử lại — chúng tôi chưa thay đổi gì cả."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "Đã ngắt kết nối. Mật khẩu ứng dụng đã bị thu hồi, do đó Zinn Digital® không thể tiếp tục đăng bài lên trang web này. Không có nội dung nào đã được đăng trước đó bị ảnh hưởng."
 

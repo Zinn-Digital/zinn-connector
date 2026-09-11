@@ -228,16 +228,20 @@ msgstr "ఈ సైట్ కోసం WordPress క్రెడెన్షి�
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "ఈ సైట్ నుండి మేము Zinn Digital®ని చేరుకోలేకపోయాము. ఏదీ కనెక్ట్ కాలేదు మరియు మేము సృష్టించిన క్రెడెన్షియల్ తీసివేయబడింది. ఈ సైట్ బయటికి రిక్వెస్ట్‌లను పంపగలదని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® ఈ సైట్‌ను కనెక్ట్ చేయడాన్ని ముగించలేకపోయింది. సమస్య మా వైపు ఉంది, మీ పెయిరింగ్ కోడ్‌లో కాదు — ఏదీ కనెక్ట్ కాలేదు మరియు మేము సృష్టించిన క్రెడెన్షియల్ తొలగించబడింది. అదే పెయిరింగ్ కోడ్ ఇప్పటికీ పని చేస్తుంది: కొన్ని నిమిషాలలో మళ్లీ ప్రయత్నించండి."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® ఆ జత చేసే కోడ్‌ను అంగీకరించలేదు. ఏదీ కనెక్ట్ కాలేదు. మీ డాష్‌బోర్డ్‌లో కొత్త కోడ్‌ను జనరేట్ చేసి, మళ్లీ ప్రయత్నించండి."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "కనెక్ట్ చేయబడింది. Zinn Digital® ఇప్పుడు ఈ సైట్‌కి ప్రచురించగలదు."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "కనెక్ట్ చేయబడింది"
 
@@ -595,7 +599,7 @@ msgid "The site’s default category"
 msgstr "సైట్ యొక్క డిఫాల్ట్ వర్గం"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "ఈ సైట్‌ను మళ్లీ కనెక్ట్ చేయండి"
 
@@ -624,111 +628,111 @@ msgstr "ఇది మీరు సృష్టించిన ముప్పై
 msgid "You are not allowed to connect this site."
 msgstr "ఈ సైట్‌ను కనెక్ట్ చేయడానికి మీకు అనుమతి లేదు."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "ఈ సైట్ Zinn Digital®కి కనెక్ట్ చేయబడలేదు."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "ఏ లోపమూ లేదు — అది ఇంకా జత చేయబడలేదు. మీ Zinn® డాష్‌బోర్డ్ నుండి జత చేసే కోడ్‌ను పొంది, దానిని క్రింద పేస్ట్ చేయండి."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "ఏ సమస్య లేదు — అది ఇంకా పెయిర్ చేయబడలేదు. మీ Zinn® డాష్‌బోర్డ్ నుండి పెయిరింగ్ కోడ్‌ను పొందండి మరియు దాన్ని ఈ ప్లగిన్ సెట్టింగ్‌లలో పేస్ట్ చేయండి."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "నా Zinn® డాష్‌బోర్డ్‌ని తెరువుము"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "కనెక్షన్ తెగిపోయింది."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "ఈ ఆధారాలు చెందిన WordPress వినియోగదారు (%s) ఇకపై ఈ సైట్‌లో లేరు, కాబట్టి మేము పంపేది ఏదీ ప్రచురించబడదు. ప్రచురించగల వినియోగదారుగా మళ్లీ కనెక్ట్ చేయండి."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "ఈ సైట్ నుండి “Zinn Digital® (publishing)” అప్లికేషన్ పాస్‌వర్డ్ తొలగించబడింది, కాబట్టి మేము ఇకపై సైన్ ఇన్ చేయలేము. కొత్తదాన్ని సృష్టించడానికి మళ్లీ కనెక్ట్ చేయండి - ఏదీ పోలేదు."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "ఈ సైట్ యొక్క అప్లికేషన్ పాస్‌వర్డ్‌లను చూడండి"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "కనెక్ట్ చేయబడింది, కానీ ప్రచురించడం విఫలమవుతుంది."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "ఈ ఆధారాలు %s కి చెందినవి, మరియు ఆ వినియోగదారు ఇకపై పోస్ట్‌లను ప్రచురించలేరు. సైన్-ఇన్ ఇప్పటికీ పనిచేస్తుంది, కాబట్టి ఒక కథనం సమర్పించాల్సిన సమయం వచ్చే వరకు అంతా సరిగ్గా ఉన్నట్లు అనిపిస్తుంది. ఆ వినియోగదారుకు ప్రచురించే సామర్థ్యాన్ని ఇవ్వండి, లేదా ప్రచురించగల మరొకరిగా మళ్లీ కనెక్ట్ అవ్వండి."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "ఆ వినియోగదారుని సవరించండి"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "ఇక్కడ కనెక్ట్ చేయబడింది — నిర్ధారించడానికి మేము Zinn Digital®ను చేరుకోలేకపోయాము."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "కనెక్ట్ చేయబడింది, కానీ మీ Zinn® ఖాతాకు శ్రద్ధ అవసరం."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Zinn Digital®కి కనెక్ట్ చేయబడింది."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "%s వలె Zinn Digital®కి కనెక్ట్ చేయబడింది."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "ఇలా ప్రచురించబడుతోంది"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® సైట్ ఐడీ"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "ఈ సర్వర్ api.zinndigital.com (%s)ని చేరుకోలేకపోయింది. ఇది సాధారణంగా మీ హోస్ట్‌లో ఫైర్‌వాల్ లేదా అవుట్‌బౌండ్-కనెక్షన్ నియమం వల్ల జరుగుతుంది, మీ Zinn® ఖాతాతో సమస్య కాదు — ప్రచురణ ఇంకా పని చేస్తూ ఉండవచ్చు."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® దాని స్వంత లోపంతో ప్రతిస్పందించింది — అది మా వైపు సమస్య, మీ వైపు కాదు. ఇది పరిష్కారమయ్యే వరకు పబ్లిషింగ్ ప్రభావితం కాదు."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "ప్రస్తుతం మీ Zinn® ఖాతా ఈ సైట్‌కి పబ్లిష్ చేయడానికి వీలుగా లేదు. దీనికి కారణం ఏమిటో మీ డాష్‌బోర్డ్ తెలియజేస్తుంది."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® HTTP %d కి సమాధానం ఇచ్చింది, ఇది మాకు గుర్తింపు లేదు. మద్దతు ట్యాబ్ నుండి డయాగ్నస్టిక్స్ నివేదికను పంపండి మరియు మేము పరిశీలిస్తాము — ముందుగా ఇక్కడ ఏదీ మార్చవద్దు."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "ఇప్పుడు మళ్లీ తనిఖీ చేయండి"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "తనిఖీ చేయబడింది. కనెక్షన్ లైవ్‌లో ఉంది."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "అప్లికేషన్ పాస్‌వర్డ్‌ను మేము తొలగించలేకపోయాము, కాబట్టి ఈ సైట్ ఇంకా కనెక్ట్ చేయబడి ఉంది. మీ ప్రొఫైల్ స్క్రీన్‌పై “Zinn Digital® (publishing)”ని తొలగించి, మళ్లీ ప్రయత్నించండి — మేము ఏమీ మార్చలేదు."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "కనెక్ట్ కాలేదు. అప్లికేషన్ పాస్‌వర్డ్ రద్దు చేయబడింది, కాబట్టి Zinn Digital® ఇకపై ఈ సైట్‌కి పబ్లిష్ చేయలేదు. ఇప్పటికే పబ్లిష్ చేసిన వాటిలో దేనినీ మార్చలేదు."
 

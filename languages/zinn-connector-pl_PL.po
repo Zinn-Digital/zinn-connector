@@ -229,16 +229,20 @@ msgstr "WordPress nie utworzył poświadczeń dla tej witryny. Nigdzie nic nie z
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "Nie mogliśmy połączyć się z Zinn Digital® z tej witryny. Nic nie zostało połączone, a utworzone poświadczenie zostało usunięte. Sprawdź, czy witryna może wysyłać żądania wychodzące, i spróbuj ponownie."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "System Zinn Digital® nie mógł zakończyć łączenia tej witryny. Problem leży po naszej stronie, a nie w Twoim kodzie parowania — nic nie zostało połączone, a utworzone przez nas poświadczenie zostało usunięte. Ten sam kod parowania nadal działa: spróbuj ponownie za kilka minut."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® nie zaakceptował tego kodu parowania. Nic nie zostało połączone. Wygeneruj nowy kod w swoim panelu i spróbuj ponownie."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Połączono. Zinn Digital® może teraz publikować na tej stronie."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "Połączono"
 
@@ -596,7 +600,7 @@ msgid "The site’s default category"
 msgstr "Domyślna kategoria witryny"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "Połącz tę witrynę ponownie"
 
@@ -625,111 +629,111 @@ msgstr "Wygasa trzydzieści minut po wygenerowaniu i może zostać użyty tylko 
 msgid "You are not allowed to connect this site."
 msgstr "Nie masz uprawnień do połączenia tej witryny."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "Ta strona nie jest powiązana z Zinn Digital®."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "Nic jest nie tak — po prostu nie zostało to jeszcze sparowane. Pobierz kod parowania ze swojego panelu Zinn® i wklej go poniżej."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "Nic nie jest nie tak — nie zostało ono jeszcze sparowane. Pobierz kod parowania ze swojego panelu Zinn® i wklej go w ustawieniach tej wtyczki."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Otwórz mój pulpit nawigacyjny Zinn®"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "Połączenie zostało przerwane."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "Użytkownik WordPress, do którego należały dane uwierzytelniające (%s), nie istnieje już w tej witrynie, więc nic, co wyślemy, nie może zostać opublikowane. Połącz się ponownie jako użytkownik, który może publikować."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "Hasło aplikacji „Zinn Digital® (publishing)” zostało usunięte z tej witryny, więc nie możemy się już zalogować. Połącz się ponownie, aby utworzyć nowe – nic innego nie zostało utracone."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "Zobacz hasła aplikacji tej witryny"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "Połączono, ale publikacja nie powiodłaby się."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "Dane logowania należą do użytkownika %s, który nie może już publikować postów. Logowanie nadal działa, więc wszystko wydaje się w porządku do momentu, gdy trzeba opublikować artykuł. Przyznaj temu użytkownikowi uprawnienia do publikowania lub połącz się ponownie jako ktoś, kto je posiada."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "Edytuj tego użytkownika"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "Połączono tutaj — nie mogliśmy skontaktować się z Zinn Digital®, aby to potwierdzić."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "Połączenie jest aktywne, ale Twoje konto Zinn® wymaga uwagi."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Połączono z Zinn Digital®."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "Połączono z Zinn Digital® jako %s."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "Publikowanie jako"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Identyfikator witryny Zinn®"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "Ten serwer nie mógł połączyć się z api.zinndigital.com (%s). Zazwyczaj jest to spowodowane działaniem zapory sieciowej lub reguły połączeń wychodzących na Twoim hoście, a nie problemem z Twoim kontem Zinn® – publikowanie może nadal działać."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® odpowiedział własnym błędem – to po naszej stronie, nie Twojej. Publikowanie pozostaje bez zmian na czas usunięcia tego problemu."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "Twoje konto Zinn® nie ma obecnie uprawnień do publikowania w tej witrynie. Twój panel sterowania wyjaśnia dlaczego."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® odpowiedział kodem HTTP %d, którego nie rozpoznajemy. Wyślij raport diagnostyczny z karty Pomoc, a my to sprawdzimy – najpierw niczego tutaj nie zmieniaj."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "Sprawdź ponownie teraz"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "Sprawdzono. Połączenie jest aktywne."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "Nie mogliśmy usunąć hasła aplikacji, więc ta witryna jest nadal połączona. Usuń „Zinn Digital® (publishing)” na ekranie swojego profilu i spróbuj ponownie — niczego nie zmieniliśmy."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "Rozłączono. Hasło aplikacji zostało cofnięte, więc Zinn Digital® nie może już publikować na tej stronie. Żadne opublikowane wcześniej treści nie zostały zmienione."
 

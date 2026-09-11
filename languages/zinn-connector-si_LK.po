@@ -228,16 +228,20 @@ msgstr "වර්ඩ්ප්‍රෙස් (WordPress) මෙම වෙබ් 
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "මෙම අඩවියෙන් Zinn Digital® වෙත ළඟා වීමට අපට නොහැකි විය. කිසිවක් සම්බන්ධ කර නොතිබූ අතර, අපි සැකසූ අක්තපත්‍රය ඉවත් කර ඇත. අඩවියට පිටතට යන ඉල්ලීම් කිරීමට හැකි බව පරීක්ෂා කර, නැවත උත්සාහ කරන්න."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® වෙත මෙම අඩවිය සම්බන්ධ කිරීම අවසන් කිරීමට නොහැකි විය. ගැටළුව ඇත්තේ අපගේ පැත්තෙනි, ඔබේ යුගල කිරීමේ කේතයේ නොවේ — කිසිවක් සම්බන්ධ කර නොමැති අතර, අපි සාදන ලද අක්තපත්‍රය ඉවත් කර ඇත. එකම යුගල කිරීමේ කේතය තවමත් ක්‍රියාත්මක වේ: මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® එම යුගල කිරීමේ කේතය පිළිගත්තේ නැත. කිසිවක් සම්බන්ධ කර නැත. ඔබේ උපකරණ පුවරුවෙන් නව කේතයක් ජනනය කර නැවත උත්සාහ කරන්න."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "සම්බන්ධ කර ඇත. Zinn Digital® වෙත දැන් මෙම වෙබ් අඩවියට ප්‍රකාශයට පත් කළ හැක."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "සම්බන්ධ වී ඇත"
 
@@ -595,7 +599,7 @@ msgid "The site’s default category"
 msgstr "අඩවියේ පෙරනිමි ප්‍රවර්ගය"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "මෙම අඩවිය නැවත සම්බන්ධ කරන්න"
 
@@ -624,111 +628,111 @@ msgstr "එය ඔබ ජනනය කර විනාඩි තිස් අක
 msgid "You are not allowed to connect this site."
 msgstr "මෙම වෙබ් අඩවිය සම්බන්ධ කිරීමට ඔබට අවසර නැත."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "මෙම අඩවිය Zinn Digital® වෙත සම්බන්ධ කර නැත."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "කිසිදු දෝෂයක් නැත — එය තවමත් යුගල කර නොමැත. ඔබගේ Zinn® උපකරණ පුවරුවෙන් යුගල කිරීමේ කේතයක් ලබාගෙන එය පහතින් අලවන්න."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "කිසිදු දෝෂයක් නොමැත — එය තවමත් යුගල කර නොමැත. ඔබේ Zinn® උපකරණ පුවරුවෙන් යුගල කිරීමේ කේතයක් ලබාගෙන එය මෙම ප්ලගීනයේ සැකසීම් තුළට අලවන්න."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Zinn® උපකරණ පුවරුව විවෘත කරන්න"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "සම්බන්ධතාවය බිඳී ඇත."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "මෙම අක්පත්‍රය අයත්ව තිබූ WordPress පරිශීලකයා (%s) දැන් මෙම වෙබ් අඩවියේ නොමැත, එබැවින් අප විසින් යවන කිසිවක් ප්‍රකාශයට පත් කළ නොහැක. ප්‍රකාශයට පත් කළ හැකි පරිශීලකයෙකු ලෙස නැවත සම්බන්ධ වන්න."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "Zinn Digital® (publishing) යෙදුම් මුුපදය මෙම වෙබ් අඩවියෙන් මකා දමා ඇති බැවින්, අපට තවදුරටත් පුරනය විය නොහැක. නව එකක් සෑදීමට නැවත සම්බන්ධ වන්න — වෙන කිසිවක් අහිමි වී නැත."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "මෙම වෙබ් අඩවියේ යෙදුම් මුරපද බලන්න"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "සම්බන්ධ වී ඇත, නමුත් ප්‍රකාශයට පත් කිරීම අසාර්ථක විය හැක."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "මෙම අක්පත්‍රය %s ට අයත් වන අතර, එම පරිශීලකයාට තවදුරටත් ලිපි පළ කළ නොහැක. පිවිසීම තවමත් ක්‍රියාත්මක වන බැවින් ලිපියක් පළ කිරීමට නියමිත වන තුරු කිසිදු දෝෂයක් පෙනෙන්නේ නැත. එම පරිශීලකයාට ලිපි පළ කිරීමේ හැකියාව ලබා දෙන්න, නැතහොත් එසේ කළ හැකි වෙනත් අයෙකු ලෙස නැවත සම්බන්ධ වන්න."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "එම පරිශීලකයා සංස්කරණය කරන්න"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "මෙHහි සම්බන්ධ කර ඇත — තහවුරු කිරීමට අපට Zinn Digital® වෙත ළඟා වීමට නොහැකි විය."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "සම්බන්ධ වී ඇත, නමුත් ඔබේ Zinn® ගිණුමට අවධානය යොමු කිරීම අවශ්‍ය වේ."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Zinn Digital® වෙත සම්බන්ධ කර ඇත."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "%s ලෙස Zinn Digital® වෙත සම්බන්ධ වී ඇත."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "ලෙස ප්‍රකාශනය කෙරෙමින් පවතී"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® අඩවි හැඳුනුම් අංකය"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "මෙම සර්වරයට api.zinndigital.com (%s) වෙත ළඟා වීමට නොහැකි විය. මෙය සාමාන්‍යයෙන් ඔබගේ හෝස්ට් එකේ ෆයර්වෝල් එකක් හෝ පිටතට යන සම්බන්ධතා නීතියක් නිසා සිදුවන්නකි, ඔබේ Zinn® ගිණුමේ ගැටළුවක් නිසා නොවේ - ප්‍රකාශනය තවමත් ක්‍රියාත්මක විය හැක."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® විසින් දෝෂයක් සමඟ ප්‍රතිචාර දක්වා ඇත — එය අපගේ අන්තයයි, ඔබේ නොවේ. මෙය නිරවුල් වන අතරතුර ප්‍රකාශනයට කිසිදු බලපෑමක් සිදු නොවේ."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "ඔableZinn® ගිණුමට දැනට මෙම වෙබ් අඩවියට ප්‍රකාශයට පත් කිරීමට නොහැකිය. ඔබේ ඩෑෂ්බෝඩ් එකෙන් ඒ සඳහා හේතුව පෙන්වයි."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® විසින් හඳුනා නොගත් HTTP %d ප්‍රතිචාරයක් ලබා දී ඇත. සහාය (Support) පටිත්තෙන් රෝග විනිර්චය වාර්තාවක් එවන්න, එවිට අපි එය පරීක්ෂා කරන්නෙමු — පළමුව මෙහි කිසිවක් වෙනස් නොකරන්න."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "දැන් නැවත පරීක්ෂා කරන්න"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "පරීක්ෂා කරන ලදී. සම්බන්ධතාවය සජීවී වේ."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "අnous සජීවීකරණ මුරපදය ඉවත් කිරීමට නොහැකි විය, එබැවින් මෙම අඩවිය තවමත් සම්බන්ධ කර ඇත. ඔබේ පැතිකඩ තිරයේ ඇති “Zinn Digital® (publishing)” මකා දමා නැවත උත්සාහ කරන්න — අපි කිසිවක් වෙනස් කර නැත."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "සම්බන්ධතාව විසන්ධි වී ඇත. යෙදුම් මුරපදය අවලංගු කර ඇති බැවින් Zinn Digital® වෙත දැන් මෙම වෙබ් අඩවියට ප්‍රකාශයට පත් කිරීමට නොහැකිය. දැනටමත් ප්‍රකාශයට පත් කර ඇති කිසිවකට බලපෑමක් කර නැත."
 

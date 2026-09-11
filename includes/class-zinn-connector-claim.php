@@ -107,6 +107,18 @@ class Zinn_Connector_Claim {
 		if ( 201 !== $status ) {
 			$this->forget( $user->ID, (string) ( $item['uuid'] ?? '' ) );
 			$detail = is_array( $body ) && isset( $body['detail'] ) ? (string) $body['detail'] : '';
+			if ( $status >= 500 ) {
+				// ⛔⛔ A 5xx is OUR failure, and it used to fall through to "did not accept that
+				// pairing code" (D24631). That sentence blames the customer's code and sends
+				// them to generate another — which cannot help, burns their thirty minutes, and
+				// was exactly what the first copy installed from wordpress.org said on
+				// 2026-09-11 while the engine answered 500 to every claim. The code is NOT
+				// consumed on a failed claim, so the honest remedy is simply to try again.
+				return array(
+					'ok'      => false,
+					'message' => __( 'Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes.', 'zinn-connector' ),
+				);
+			}
 			return array(
 				'ok'      => false,
 				// ⭐ The engine's own sentence when there is one — it is authored for this

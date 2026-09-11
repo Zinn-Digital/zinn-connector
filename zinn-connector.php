@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Connector
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-connector
  * Description:       Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand.
- * Version:           1.2.1
+ * Version:           1.2.2
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -59,7 +59,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ZINN_CONNECTOR_VERSION', '1.2.1' );
+define( 'ZINN_CONNECTOR_VERSION', '1.2.2' );
 define( 'ZINN_CONNECTOR_FILE', __FILE__ );
 
 /**

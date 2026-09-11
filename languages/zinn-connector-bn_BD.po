@@ -228,16 +228,20 @@ msgstr "WordPress এই সাইটের জন্য কোনো ক্র�
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "আমরা এই সাইট থেকে Zinn Digital®-এ পৌঁছাতে পারিনি। কোনো সংযোগ স্থাপন করা হয়নি, এবং আমাদের তৈরি করা শংসাপত্রটি মুছে ফেলা হয়েছে। সাইটটি বহির্গামী অনুরোধ করতে পারে কিনা তা পরীক্ষা করুন এবং আবার চেষ্টা করুন।"
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® এই সাইটটির সংযোগ সম্পন্ন করতে পারেনি। সমস্যাটি আমাদের দিকে, আপনার পেয়ারিং কোডের সাথে নয় — কিছুই সংযুক্ত করা হয়নি, এবং আমরা যে শংসাপত্রটি তৈরি করেছি তা সরানো হয়েছে। একই পেয়ারিং কোড এখনও কাজ করছে: কয়েক মিনিটের মধ্যে আবার চেষ্টা করুন।"
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® পেয়ারিং কোডটি গ্রহণ করেনি। কোনো কিছু সংযুক্ত করা হয়নি। আপনার ড্যাশবোর্ড থেকে একটি নতুন কোড তৈরি করুন এবং আবার চেষ্টা করুন।"
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "সংযুক্ত। Zinn Digital® এখন এই সাইটে প্রকাশ করতে পারে।"
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "সংযুক্ত"
 
@@ -595,7 +599,7 @@ msgid "The site’s default category"
 msgstr "সাইটের ডিফল্ট বিভাগ"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "এই সাইটটি আবার সংযুক্ত করুন"
 
@@ -624,111 +628,111 @@ msgstr "এটি তৈরি করার ত্রিশ মিনিট প�
 msgid "You are not allowed to connect this site."
 msgstr "এই সাইটটি সংযোগ করার অনুমতি আপনার নেই।"
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "এই সাইটটি Zinn Digital®-এর সাথে সংযুক্ত নয়।"
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "কোনো সমস্যা নেই — এটি কেবল এখনও পেয়ার করা হয়নি। আপনার Zinn® ড্যাশবোর্ড থেকে একটি পেয়ারিং কোড নিন এবং নিচে পেস্ট করুন।"
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "কোনো সমস্যা নেই—এটি কেবল এখনো পেয়ার করা হয়নি। আপনার Zinn® ড্যাশবোর্ড থেকে একটি পেয়ারিং কোড নিন এবং এই প্লাগইনের সেটিংসে পেস্ট করুন।"
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "আমার Zinn® ড্যাশবোর্ড খুলুন"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "সংযোগ বিচ্ছিন্ন হয়ে গেছে।"
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "যে WordPress ব্যবহারকারীর কাছে এই শংসাপত্রটি ছিল (%s) তা এই সাইটে আর নেই, তাই আমরা যা পাঠাই তা প্রকাশ করা যাবে না। প্রকাশ করতে পারে এমন একজন ব্যবহারকারী হিসাবে আবার সংযোগ করুন।"
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "এই সাইট থেকে “Zinn Digital® (publishing)” অ্যাপ্লিকেশন পাসওয়ার্ডটি মুছে ফেলা হয়েছে, তাই আমরা আর সাইন ইন করতে পারছি না। নতুন একটি তৈরি করতে আবার সংযোগ করুন — অন্য কিছু হারায়নি।"
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "এই সাইটের অ্যাপ্লিকেশন পাসওয়ার্ডগুলো দেখুন"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "সংযুক্ত রয়েছে, কিন্তু প্রকাশ করা ব্যর্থ হবে।"
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "তথ্যসূত্রটি %s-এর এবং ওই ব্যবহারকারী আর পোস্ট প্রকাশ করতে পারবেন না। সাইন-ইন করা যাচ্ছে, তাই কোনো নিবন্ধ প্রকাশের সময় না হওয়া পর্যন্ত কোনো সমস্যা ধরা পড়ে না। ওই ব্যবহারকারীকে প্রকাশের অনুমতি দিন অথবা প্রকাশ করতে পারেন এমন কারও মাধ্যমে পুনরায় সংযোগ স্থাপন করুন।"
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "ওই ব্যবহারকারীকে সম্পাদনা করুন"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "এখানে সংযুক্ত — নিশ্চিত করতে আমরা Zinn Digital®-এর সাথে যোগাযোগ করতে পারিনি।"
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "সংযুক্ত আছেন, কিন্তু আপনার Zinn® অ্যাকাউন্টে মনোযোগ দেওয়া প্রয়োজন।"
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Zinn Digital® এর সাথে সংযুক্ত।"
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "%s হিসেবে Zinn Digital®-এর সাথে সংযুক্ত।"
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "যেভাবে প্রকাশ করা হচ্ছে"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® সাইট আইডি"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "এই সার্ভারটি api.zinndigital.com (%s)-এ পৌঁছাতে পারেনি। এটি সাধারণত আপনার হোস্টের ফায়ারওয়াল বা আউটবাউন্ড-কানেকশন নিয়মের সমস্যা, আপনার Zinn® অ্যাকাউন্টের সমস্যা নয়—পাবলিশিং হয়তো এখনও কাজ করছে।"
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® একটি ত্রুটির কারণে ব্যর্থ হয়েছে — এটি আমাদের দিক থেকে সমস্যা, আপনার নয়। এটি সমাধান হওয়ার সময় প্রকাশনা অপরিবর্তিত থাকে।"
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "আপনার Zinn® অ্যাকাউন্টটি বর্তমানে এই সাইটে প্রকাশ করতে সক্ষম নয়। আপনার ড্যাশবোর্ডে কারণটি উল্লেখ করা আছে।"
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® HTTP %d ফেরত দিয়েছে, যা আমরা শনাক্ত করতে পারছি না। সাপোর্ট ট্যাব থেকে একটি ডায়াগনস্টিক রিপোর্ট পাঠান এবং আমরা এটি খতিয়ে দেখব—প্রথমে এখানে কোনো কিছু পরিবর্তন করবেন না।"
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "এখনই আবার চেক করুন"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "যাচাই করা হয়েছে। সংযোগটি সচল রয়েছে।"
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "আমরা অ্যাপ্লিকেশন পাসওয়ার্ডটি সরাতে পারিনি, তাই এই সাইটটি এখনও সংযুক্ত রয়েছে। আপনার প্রোফাইল স্ক্রিনে “Zinn Digital® (publishing)” মুছে ফেলুন এবং আবার চেষ্টা করুন — আমরাচ্ছু কিছু পরিবর্তন করিনি।"
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "সংযোগ বিচ্ছিন্ন হয়েছে। অ্যাপ্লিকেশন পাসওয়ার্ডটি প্রত্যাহার করা হয়েছে, তাই Zinn Digital® আর এই সাইটে প্রকাশ করতে পারবে না। ইতিমধ্যে প্রকাশিত কোনো কিছুতে পরিবর্তন করা হয়নি।"
 

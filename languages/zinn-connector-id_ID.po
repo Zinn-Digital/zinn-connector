@@ -227,16 +227,20 @@ msgstr "WordPress tidak dapat membuat kredensial untuk situs ini. Tidak ada yang
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "Kami tidak dapat mengakses Zinn Digital® dari situs ini. Tidak ada yang terhubung, dan kredensial yang kami buat telah dihapus. Pastikan situs dapat membuat permintaan keluar, lalu coba lagi."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® tidak dapat menyelesaikan penyambungan situs ini. Masalahnya ada di pihak kami, bukan pada kode pemasangan Anda — tidak ada yang tersambung, dan kredensial yang kami buat telah dihapus. Kode pemasangan yang sama masih berfungsi: coba lagi dalam beberapa menit."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® tidak menerima kode pasang tersebut. Tidak ada yang terhubung. Hasilkan kode baru di dasbor Anda dan coba lagi."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Terhubung. Zinn Digital® kini dapat menerbitkan ke situs ini."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "Terhubung"
 
@@ -594,7 +598,7 @@ msgid "The site’s default category"
 msgstr "Kategori default situs"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "Hubungkan situs ini kembali"
 
@@ -623,111 +627,111 @@ msgstr "Token tersebut kedaluwarsa tiga puluh menit setelah Anda membuatnya, dan
 msgid "You are not allowed to connect this site."
 msgstr "Anda tidak diizinkan untuk menyambungkan situs ini."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "Situs ini tidak terhubung dengan Zinn Digital®."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "Tidak ada yang salah — perangkat ini belum dipasangkan. Dapatkan kode pasangan dari dasbor Zinn® Anda dan tempel di bawah."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "Tidak ada yang salah — perangkat ini belum dipasangkan. Dapatkan kode pemasangan dari dasbor Zinn® Anda dan tempelkan ke dalam pengaturan plugin ini."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Buka dasbor Zinn® saya"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "Koneksi terputus."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "Pengguna WordPress yang memiliki kredensial tersebut (%s) sudah tidak ada lagi di situs ini, sehingga tidak ada yang kami kirim dapat dipublikasikan. Hubungkan kembali sebagai pengguna yang dapat mempublikasikan."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "Kata sandi aplikasi “Zinn Digital® (publishing)” telah dihapus dari situs ini, sehingga kami tidak dapat lagi masuk. Hubungkan kembali untuk membuat yang baru — tidak ada hal lain yang hilang."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "Lihat kata sandi aplikasi situs ini"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "Terhubung, tetapi penerbitan akan gagal."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "Kredensial tersebut milik %s, dan pengguna tersebut tidak dapat lagi menerbitkan postingan. Masuk tetap berfungsi, jadi semuanya tampak normal hingga saat artikel harus diterbitkan. Berikan kemampuan kepada pengguna tersebut untuk menerbitkan, atau hubungkan kembali sebagai seseorang yang dapat melakukannya."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "Edit pengguna itu"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "Terhubung di sini — kami tidak dapat menghubungi Zinn Digital® untuk mengonfirmasi."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "Terhubung, tetapi akun Zinn® Anda memerlukan perhatian."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Terhubung ke Zinn Digital®."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "Terhubung ke Zinn Digital® sebagai %s."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "Menerbitkan sebagai"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "ID situs Zinn®"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "Server ini tidak dapat menjangkau api.zinndigital.com (%s). Masalah tersebut biasanya disebabkan oleh firewall atau aturan koneksi keluar pada host Anda, bukan masalah pada akun Zinn® Anda—penerbitan mungkin masih berfungsi."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® memberikan respons dengan erornya sendiri — itu masalah di pihak kami, bukan Anda. Publikasi tidak terpengaruh saat masalah ini diselesaikan."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "Akun Zinn® Anda saat ini tidak dapat mempublikasikan ke situs ini. Dasbor Anda menjelaskan alasannya."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® merespons dengan HTTP %d, yang tidak kami kenali. Kirim laporan diagnostik dari tab Support dan kami akan memeriksanya — jangan ubah apa pun di sini terlebih dahulu."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "Periksa kembali sekarang"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "Diperiksa. Koneksi aktif."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "Kami tidak dapat menghapus kata sandi aplikasi, jadi situs ini masih terhubung. Hapus “Zinn Digital® (publishing)” di layar profil Anda dan coba lagi — tidak ada yang kami ubah."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "Terputus. Kata sandi aplikasi telah dicabut, sehingga Zinn Digital® tidak dapat lagi mempublikasikan ke situs ini. Tidak ada yang sudah dipublikasikan yang terpengaruh."
 

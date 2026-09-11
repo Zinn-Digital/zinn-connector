@@ -227,16 +227,20 @@ msgstr "WordPress는 이 사이트에 대한 자격 증명을 생성하지 않�
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "이 사이트에서 Zinn Digital®에 연결할 수 없습니다. 아무것도 연결되지 않았으며, 생성된 자격 증명은 삭제되었습니다. 사이트에서 나가는 요청을 보낼 수 있는지 확인한 후 다시 시도하세요."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital®에서 이 사이트 연결을 완료하지 못했습니다. 페어링 코드의 문제가 아니라 당사 측의 문제로 인해 연결되지 않았으며 생성된 자격 증명도 삭제되었습니다. 동일한 페어링 코드를 계속 사용할 수 있으므로 몇 분 후에 다시 시도하세요."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital®에서 해당 페어링 코드를 거부했습니다. 연결된 항목이 없습니다. 대시보드에서 새 코드를 생성한 후 다시 시도하세요."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "연결되었습니다. 이제 Zinn Digital®에서 이 사이트에 게시할 수 있습니다."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "연결됨"
 
@@ -594,7 +598,7 @@ msgid "The site’s default category"
 msgstr "사이트의 기본 카테고리"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "이 사이트 다시 연결"
 
@@ -623,111 +627,111 @@ msgstr "생성 후 30분이 지나면 만료되며, 한 번만 사용할 수 있
 msgid "You are not allowed to connect this site."
 msgstr "이 사이트에 연결할 수 없습니다."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "이 사이트는 Zinn Digital®과 연결되어 있지 않습니다."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "문제가 있는 것이 아니라 아직 페어링되지 않은 것입니다. Zinn® 대시보드에서 페어링 코드를 받아 아래에 붙여넣으세요."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "문제가 있는 것이 아니라 아직 페어링되지 않은 상태입니다. Zinn® 대시보드에서 페어링 코드를 받아 이 플러그인의 설정에 붙여넣으세요."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Zinn® 대시보드 열기"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "연결이 끊어졌습니다."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "이 자격 증명이 속해 있던 WordPress 사용자(%s)가 더 이상 이 사이트에 존재하지 않으므로, 당사가 전송하는 어떤 내용도 게시할 수 없습니다. 게시 권한이 있는 사용자로 다시 연결하세요."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "이 사이트에서 “Zinn Digital® (publishing)” 애플리케이션 비밀번호가 삭제되어 더 이상 로그인할 수 없습니다. 다시 연결하여 새로 만드세요. 다른 데이터는 손실되지 않았습니다."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "이 사이트의 애플리케이션 비밀번호 보기"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "연결되어 있지만 발행이 실패합니다."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "해당 자격 증명은 %s의 것이며, 해당 사용자는 더 이상 게시물을 발행할 수 없습니다. 로그인은 정상적으로 작동하므로 발행 시점이 되기 전까지는 문제가 없어 보입니다. 해당 사용자에게 발행 권한을 부여하거나, 발행 권한이 있는 다른 사용자로 다시 연결하세요."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "해당 사용자 편집"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "여기에 연결되었습니다 — 확인을 위해 Zinn Digital®에 연락할 수 없습니다."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "연결되었으나 Zinn® 계정의 조치가 필요합니다."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Zinn Digital®에 연결됨."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "%s(으)로 Zinn Digital®에 연결되었습니다."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "게시자:"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® 사이트 ID"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "이 서버는 api.zinndigital.com (%s)에 도달할 수 없습니다. 이는 일반적으로 Zinn® 계정의 문제가 아니라 호스트의 방화벽이나 아웃바운드 연결 규칙 때문이며, 게시 기능은 계속 작동할 수 있습니다."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital®에서 자체 오류로 응답했습니다. 저희 쪽 문제이며 고객님의 문제가 아닙니다. 이 문제가 해결되는 동안 퍼블리싱은 영향을 받지 않습니다."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "현재 Zinn® 계정으로는 이 사이트에 게시할 수 없습니다. 대시보드에 그 이유가 나와 있습니다."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital®에서 알 수 없는 HTTP %d 응답을 반환했습니다. 지원 탭에서 진단 보고서를 보내주시면 확인해 드리겠습니다. 먼저 여기에서 어떤 설정도 변경하지 마세요."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "지금 다시 확인"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "확인되었습니다. 연결이 활성화되어 있습니다."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "애플리케이션 비밀번호를 제거할 수 없어 이 사이트가 여전히 연결되어 있습니다. 프로필 화면에서 “Zinn Digital® (publishing)”을 삭제한 후 다시 시도해 주세요. 변경된 사항은 없습니다."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "연결이 끊어졌습니다. 애플리케이션 비밀번호가 취소되어 Zinn Digital®이 더 이상 이 사이트에 게시할 수 없습니다. 이미 게시된 콘텐츠는 변경되지 않았습니다."
 

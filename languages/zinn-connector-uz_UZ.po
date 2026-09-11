@@ -228,16 +228,20 @@ msgstr "WordPress ushbu sayt uchun ma’lumotnoma yarata olmadi. Hech qaerga hec
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "Ushbu saytdan Zinn Digital® bilan bog‘lanib bo‘lmadi. Hech narsa ulanmagan va biz yaratgan ma'lumotlar o‘chirib tashlangan. Sayt chiquvchi so‘rovlarni yubora olishini tekshirib, qaytadan urinib ko‘ring."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® ushbu saytni ulashni yakunlay olmadi. Muammo bizning tarafimizda, juftlashtirish kodingizda emas — hech narsa ulanmadi va biz yaratgan ma'lumot olib tashlandi. Xuddi shu juftlashtirish kodi hali ham ishlaydi: bir necha daqiqadan so'ng yana urinib ko'ring."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® juftlash kodini qabul qilmadi. Hech narsa ulanmadi. Boshqaruv panelingizda yangi kod yarating va qayta urinib ko'ring."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "Ulandi. Zinn Digital® endi ushbu saytga e'lon qilishi mumkin."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "Ulandi"
 
@@ -595,7 +599,7 @@ msgid "The site’s default category"
 msgstr "Saytning standart toifasi"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "Ushbu saytni qayta ulang"
 
@@ -624,111 +628,111 @@ msgstr "U uni yaratganingizdan keyin o‘ttiz daqiqa o‘tib o‘z kuchini yo‘
 msgid "You are not allowed to connect this site."
 msgstr "Ushbu saytni ulashga ruxsat berilmagan."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "Bu sayt Zinn Digital® bilan bogʻlanmagan."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "Hech qanday xatolik yo'q — u shunchaki hali juftlashtirilmagan. Zinn® boshqaruv panelingizdan juftlashtirish kodini oling va uni quyiga kiriting."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "Hech qanday xatolik yo‘q — u shunchaki hali juftlashtirilmagan. Zinn® boshqaruv panelingizdan juftlashtirish kodini oling va uni ushbu plagin sozlamalariga kiriting."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Zinn® boshqaruv panelimni ochish"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "Aloqa uzildi."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "Ushbu maʼlumot tegishli boʻlgan WordPress foydalanuvchisi (%s) ushbu saytda endi mavjud emas, shuning uchun biz yuborgan hech qanday maʼlumot chop etilishi mumkin emas. Maʼlumotlarni chop etish huquqiga ega foydalanuvchi sifatida qayta ulaning."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "“Zinn Digital® (publishing)” ilova paroli ushbu saytdan oʻchirib tashlandi, shuning uchun biz endi tizimga kira olmaymiz. Yangisini yaratish uchun qaytadan ulaning — boshqa hech narsa yoʻqotilmadi."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "Ushbu saytning dastur parollarini ko'rish"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "Bog'langan, ammo chop etish muvaffaqiyatsiz tugashi mumkin."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "Hisob maʼlumotlari %s ga tegishli va bu foydalanuvchi endi post chop eta olmaydi. Tizimga kirish ishlayveradi, shuning uchun maqola e'lon qilinishi kerak bo'lgunga qadar hamma narsa joyidagidek ko'rinadi. O'sha foydalanuvchiga chop etish huquqini bering yoki chop eta oladigan boshqa foydalanuvchi sifatida qayta ulang."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "Ushbu foydalanuvchini tahrirlash"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "Bu yerda ulangan — tasdiqlash uchun Zinn Digital® bilan bog‘lanib bo‘lmadi."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "Ulanish hosil qilindi, ammo Zinn® hisobingiz e'tiborni talab qiladi."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "Zinn Digital® ga ulangan."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "Zinn Digital® sifatida %s ga ulangan."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "Sifatida nashr etilmoqda"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Zinn® sayt identifikatori"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "Bu server api.zinndigital.com (%s) manziliga ulanib ololmadi. Bu odatda Zinn® hisobingizdagi muammo emas, balki xostingizdagi xavfsizlik devori yoki chiquvchi ulanish qoidasi bilan bogʻliq — nashr qilish hali ham ishlayotgan boʻlishi mumkin."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® o‘z xatosiga duch keldi — bu bizning tomonimiz, sizniki emas. Bu holat bartaraf etilgunga qadar nashr qilishga ta’sir qilmaydi."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "Sizning Zinn® hisobingiz hozirda ushbu saytga e'lon qilish imkoniyatiga ega emas. Boshqaruv panelingizda buning sababi ko'rsatilgan."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® HTTP %d javobini qaytardi, biz buni tanimayapmiz. Qo'llab-quvvatlash (Support) yorlig'idan diagnostika hisobotini yuboring va biz buni ko'rib chiqamiz — avval bu yerda hech narsani o'zgartirmang."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "Hozir qayta tekshirish"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "Tekshirildi. Ulanish faol."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "Ilova parolini o‘chirib bo‘lmadi, shuning uchun bu sayt hamon ulangan. Profil ekraningizdagi “Zinn Digital® (publishing)” ni o‘chirib tashlang va qaytadan urinib ko‘ring — hech narsani o‘zgartirmadik."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "Aloqa uzildi. Ilova paroli bekor qilindi, shuning uchun Zinn Digital® endi bu saytga nashr qila olmaydi. Allaqachon nashr etilgan hech qanday narsaga tegilmadi."
 

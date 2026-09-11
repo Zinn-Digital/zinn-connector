@@ -227,16 +227,20 @@ msgstr "WordPress kò lè dá ìwé ẹ̀rí sílẹ̀ fún ojú òpó wẹ́bù
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
 msgstr "A ko le kan Zinn Digital® lati aaye yii. Ko si ohun ti o ni asopọ, ati pe iledi ti a ṣe ti yọ kuro. Ṣayẹwo pe aaye naa le ṣe awọn ibeere ti njade, ki o tun gbiyanju lẹẹkan si."
 
-#: includes/class-zinn-connector-claim.php:116
+#: includes/class-zinn-connector-claim.php:119
+msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
+msgstr "Zinn Digital® ko le pari sisopọ aaye yii. Ìṣòro naa wa ni ikàn wa, kii ṣe pẹlu koodu asopọ rẹ — ko si ohun ti o sopọ, ati pe credential ti a ṣe ti yọ kuro. Koodu asopọ kanna tun n ṣiṣẹ: tun gbiyanju lẹẹkan si ni iṣẹju diẹ."
+
+#: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
 msgstr "Zinn Digital® kò gba koodu ìsopọ̀ yẹn. Kò sí ohun tí ó sopọ̀. Ṣẹ̀dá koodu tuntun kan nínú daṣibọọdu rẹ kí o sì tún gbiyanju lẹ́ẹ̀kan sí i."
 
-#: includes/class-zinn-connector-claim.php:136
+#: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
 msgstr "A ti sopọ. Zinn Digital® le tẹjade si aaye yii ni bayi."
 
 #: includes/class-zinn-connector-connection.php:58
-#: includes/class-zinn-connector-status.php:199
+#: includes/class-zinn-connector-status.php:201
 msgid "Connected"
 msgstr "Ti sopọ"
 
@@ -594,7 +598,7 @@ msgid "The site’s default category"
 msgstr "Ẹka aiyipada ti aaye naa"
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:351
+#: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
 msgstr "So pọ̀ mọ́ ojula yii lẹẹkan si"
 
@@ -623,111 +627,111 @@ msgstr "Ó parí lẹ́yìn ìṣẹ́jú ogójì lẹ́yìn tí o bá dá a, a 
 msgid "You are not allowed to connect this site."
 msgstr "A kò yọ̀ǹda fún ọ láti so ojú òpó wẹ̀bù yìí pọ̀."
 
-#: includes/class-zinn-connector-status.php:59
+#: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
 msgstr "Ojula yi ko ni asopọ si Zinn Digital®."
 
-#: includes/class-zinn-connector-status.php:60
-msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it below."
-msgstr "Kò sí ohun tó burú — kò tíì jẹ́ alábàárò ni. Gba kódù ìbàárò láti inú daṣibọọ̀du Zinn® rẹ kí o sì lẹ̀ mọ́ isàlẹ̀ yìí."
-
 #: includes/class-zinn-connector-status.php:62
-#: includes/class-zinn-connector-status.php:155
+msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
+msgstr "Kò sí ohun tó burú — kò tíì jẹ́ alábàákẹ́gbẹ́ ni. Gba koodu ìsopọ̀ kan láti ojú-ìwé ìṣàkóso Zinn® rẹ kí o sì lẹ̀ é mọ́ inú àwọn ètò plọ́gìn yìí."
+
+#: includes/class-zinn-connector-status.php:64
+#: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
 msgstr "Ṣí dasíbọọdù Zinn® mi"
 
-#: includes/class-zinn-connector-status.php:78
-#: includes/class-zinn-connector-status.php:96
+#: includes/class-zinn-connector-status.php:80
+#: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
 msgstr "Asopọ na ti dẹ́kun."
 
 #. translators: %s: the WordPress username the credential belonged to.
-#: includes/class-zinn-connector-status.php:81
+#: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
 msgstr "Olumulo WordPress tí ẹ̀rí ìdánimọ̀ yẹn jẹ́ ti rẹ̀ (%s) kò sí mọ́ lórí ojula yìí, nitorinaa kò sí ohunkohun ti a rán sí e ti a le tẹjade. Tun sopọ mọ bi olumulo ti o le ṣe atẹjade."
 
-#: includes/class-zinn-connector-status.php:97
+#: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
 msgstr "A ti pa ọrọ igbaniوەlu app ti “Zinn Digital® (publishing)” rẹ kuro lori aaye yii, nitorinaa a ko le wọle mọ. Tun sopọ lati ṣẹda tuntun kan — ko si ohun miiran ti o sọnu."
 
-#: includes/class-zinn-connector-status.php:101
+#: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
 msgstr "Wo awọn ọrọ igbaniwọle ohun elo ti aaye yii"
 
-#: includes/class-zinn-connector-status.php:116
+#: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
 msgstr "Ó ti sopọ, ṣugbọn atẹ̀jade náa le kùnà."
 
 #. translators: %s: the WordPress username the credential belongs to.
-#: includes/class-zinn-connector-status.php:119
+#: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
 msgstr "Ìwwè ètó yẹn jé ti %s, àti pé olùlò yẹn kò lè ṣe àtèjadé àwọn àkànṣe mọ́. Ìwọlé sìí ṣì ń ṣíṣẹ́, nítorí náà kò sí ohun tí ó ń rí bùrú títí tí àkólé àkànṣe yiò fi dé. Fún olùlò náà ní ànfanì láti ṣe àtèjadé, tàbí tun gbà tì mìíràn bíi ènìyàn tí ò lè ṣe é."
 
-#: includes/class-zinn-connector-status.php:124
+#: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
 msgstr "Ṣatunkọ olumulo yẹn"
 
-#: includes/class-zinn-connector-status.php:140
+#: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
 msgstr "A sopọ nibi — a ko le de ọdọ Zinn Digital® lati jẹrisi."
 
-#: includes/class-zinn-connector-status.php:151
+#: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
 msgstr "Asopọ wà, ṣugbọn àkántì Zinn® rẹ nilo àkíyèsí."
 
-#: includes/class-zinn-connector-status.php:167
+#: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
 msgstr "A ti sopọ mọ Zinn Digital®."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
-#: includes/class-zinn-connector-status.php:170
+#: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
 msgstr "A sopọ pọ mọ Zinn Digital® gẹgẹ bi %s."
 
-#: includes/class-zinn-connector-status.php:195
+#: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
 msgstr "Títẹ jáde gẹ́gẹ́ bí"
 
-#: includes/class-zinn-connector-status.php:207
+#: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
 msgstr "Ìdámọ̀ ojú opó wébusì Zinn®"
 
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:290
+#: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr "Olupèsì yìí kò lè dé api.zinndigital.com (%s). Èyí sábà máa ń jẹ́ àṣẹ firewall tàbí ti ìsopọ̀ ìta lórí olupèsì rẹ̀, kì í ṣe ìṣòro pẹ̀lú àkántì Zinn® rẹ̀ — ìtẹ̀jáde le ṣì wà ní ṣíṣe."
 
-#: includes/class-zinn-connector-status.php:303
+#: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr "Zinn Digital® fesi pẹlu aṣiṣe tirẹ — iyẹn jẹ apakan wa, kii ṣe tirẹ. Atẹjade ko ni ipa lakoko ti eyi n kuro."
 
-#: includes/class-zinn-connector-status.php:310
+#: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
 msgstr "Akọọlu Zinn® rẹ ko lagbara lọwọlọwọ lati tẹjade si aaye yii. Dasibodu rẹ sọ idi rẹ."
 
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:320
+#: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr "Zinn Digital® dáhùn HTTP %d, èyí tí a kò mọ̀. Fi ìjábọ̀ àyẹ̀wò ránṣè láti inú tàábù Support, a ó sì wo ọ̀rọ̀ náà — má ṣe yí ohunkohun padà níbí yìí ní àkọ́kọ́."
 
-#: includes/class-zinn-connector-status.php:339
+#: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
 msgstr "Ṣàyẹ̀wò lẹ́ẹ̀kan sí i báyìí"
 
-#: includes/class-zinn-connector-status.php:368
+#: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
 msgstr "A ti ṣàyẹ̀wò rẹ̀. Ìsopọ̀ náà wà lórí afẹ́fẹ́."
 
-#: includes/class-zinn-connector-status.php:409
+#: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr "A o le yọ ọrọ igbani si eto naa kuro, nitorina aaye yii tun ni asopọ. Pa “Zinn Digital® (publishing)” rẹ lori aworan profaili rẹ ki o tun gbiyanju lẹẹkan si — a ko tii yipada ohunkohun."
 
-#: includes/class-zinn-connector-status.php:428
+#: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr "Ko sopọ mọ. A ti fagile ọrọ igbaniwọle ohun elo naa, nitorinaa Zinn Digital® ko le ṣe atjade si aaye yii mọ. Ohunkohun ti a ti tẹjade tẹlẹ ko ni iṣoro kan."
 
