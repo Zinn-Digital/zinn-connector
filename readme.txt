@@ -7,7 +7,7 @@ Tags: publishing, content, api, automation, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.2.1 =
+* Hardening: a settings rule can no longer be mistaken for a PHP function with the same name. The same shared settings code is what stopped Zinn® Translate saving its settings. Nothing about how this plugin behaves changes.
 
 = 1.2.0 =
 A real connection status that says what is wrong and what to do about it, a Disconnect button that actually revokes the credential, and full control over what may be published to your site — status, author, category, images, edits and email notifications. Backups gain an on/off switch, exclusions and a size limit.
