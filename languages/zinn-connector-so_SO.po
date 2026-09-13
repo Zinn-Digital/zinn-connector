@@ -566,10 +566,10 @@ msgstr "Istaag haddii kaydku uu dhaafi lahaa"
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
 msgstr "Megabytes. Hostiif la wadaago badanaa waxay dhimaysaa kayd aad u weyn qayb ka mid ah; xadka ayaa taas u beddelaya fariin halkii ay ka noqon lahayd guul-darro aamusan."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'faahfaahsan', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
-msgstr ""
+msgstr "Diiwaangelin faahfaahsan"
 
 #: includes/class-zinn-connector-settings.php:244
 msgid "Record what this plugin does, for support"

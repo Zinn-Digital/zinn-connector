@@ -563,7 +563,7 @@ msgstr "မော်ကွန်းတိုက်သည် ကျော်လ�
 
 #: includes/class-zinn-connector-settings.php:223
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
-msgstr "မက်ဂါဘိုက်။ မျှဝေသုံးစွဲသော ဟိုစ်ဆာဗာ (shared host) တစ်ခုသည် အလွန်ကြီးမားသော မော်ကွန်းတိုက် (archive) တစ်ခုကို တစ်၀က်တစ်ပျက်တွင် ပုံမှန်အားဖြင့် ရပ်တန့်ပစ်တတ်ပြီး ကန့်သတ်ချက် (bound) တစ်ခုက ၎င်းကို အသံတိတ်ချို့ယွင်းမှုတစ်ခုအစား မက်ဆေ့ချ်တစ်ခုအဖြစ်သို့ ပြောင်းလဲပေးပါသည်။"
+msgstr "မက်ဂါဘိုက်။ မျှဝေသုံးစွဲသော ဟိုစ်ဆာဗာ (shared host) တစ်ခုသည် အလွန်ကြီးမားသော မော်ကွန်းတိုက် (archive) တစ်ခုကို တစ်ဝက်တစ်ပျက်တွင် ပုံမှန်အားဖြင့် ရပ်တန့်ပစ်တတ်ပြီး ကန့်သတ်ချက် (bound) တစ်ခုက ၎င်းကို အသံတိတ်ချို့ယွင်းမှုတစ်ခုအစား မက်ဆေ့ချ်တစ်ခုအဖြစ်သို့ ပြောင်းလဲပေးပါသည်။"
 
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
