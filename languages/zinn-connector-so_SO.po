@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-admin-fields.php:575
+#: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "Keydso. Ku qor qiime cusub si aad u bedesho."
 
-#: includes/class-zinn-connector-admin-fields.php:635
+#: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "Sifeey liiskan…"
 
-#: includes/class-zinn-connector-admin-fields.php:636
+#: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
 msgstr "Miir liiskaan"
 
-#: includes/class-zinn-connector-admin-fields.php:652
+#: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "Ma jiraan wax u dhigma miirahaas."
 
-#: includes/class-zinn-connector-admin-fields.php:683
+#: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
 msgstr "Ku dar saf"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
 msgstr "Ka saar safkan"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
 msgstr "Ka tirtir"
 
-#: includes/class-zinn-connector-admin-ui.php:264
-#: includes/class-zinn-connector-admin-ui.php:265
-#: includes/class-zinn-connector-admin-ui.php:335
+#: includes/class-zinn-connector-admin-ui.php:276
+#: includes/class-zinn-connector-admin-ui.php:277
+#: includes/class-zinn-connector-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:278
+#: includes/class-zinn-connector-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — dulmar"
 
-#: includes/class-zinn-connector-admin-ui.php:279
+#: includes/class-zinn-connector-admin-ui.php:291
 msgid "Overview"
 msgstr "Dulucda Guud"
 
-#: includes/class-zinn-connector-admin-ui.php:336
+#: includes/class-zinn-connector-admin-ui.php:379
+msgid "Copied"
+msgstr "La nuqulaystay"
+
+#: includes/class-zinn-connector-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Kasta oo ka mid ah fiilooyinka Zinn® ee ku yaal boggan, iyo inuu shaqeynayo iyo in kale."
 
-#: includes/class-zinn-connector-admin-ui.php:352
+#: includes/class-zinn-connector-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr "Looma baahna xiriir plugin-kan."
 
-#: includes/class-zinn-connector-admin-ui.php:357
+#: includes/class-zinn-connector-admin-ui.php:438
 msgid "Open settings"
 msgstr "Fur dejinta"
 
-#: includes/class-zinn-connector-admin-ui.php:685
-#: includes/class-zinn-connector-admin-ui.php:1248
+#: includes/class-zinn-connector-admin-ui.php:766
+#: includes/class-zinn-connector-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr "Ma haysto ogolaansho aad ku beddesho dejiintan."
 
-#: includes/class-zinn-connector-admin-ui.php:715
+#: includes/class-zinn-connector-admin-ui.php:795
 msgid "Settings sections"
 msgstr "Qaybaha dejinta"
 
-#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:867
 msgid "Support"
 msgstr "Taageero"
 
-#: includes/class-zinn-connector-admin-ui.php:846
+#: includes/class-zinn-connector-admin-ui.php:925
 msgid "Save changes"
 msgstr "Keydi isbeddellada"
 
-#: includes/class-zinn-connector-admin-ui.php:875
+#: includes/class-zinn-connector-admin-ui.php:954
 msgid "Tools"
 msgstr "Qalabka"
 
-#: includes/class-zinn-connector-admin-ui.php:890
+#: includes/class-zinn-connector-admin-ui.php:969
 msgid "Export settings"
 msgstr "Dejinta dhoofinta"
 
-#: includes/class-zinn-connector-admin-ui.php:893
+#: includes/class-zinn-connector-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr "Dib ugu deji sida caadiga ah"
 
-#: includes/class-zinn-connector-admin-ui.php:894
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Tani waxay dhammaan dejinta barnaamijkan ku celinaysaa sidii ay asalka ahaan ahayd. Ma rabtaa inaad sii waddo?"
 
-#: includes/class-zinn-connector-admin-ui.php:901
+#: includes/class-zinn-connector-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr "Baaritaannada taageerada"
 
-#: includes/class-zinn-connector-admin-ui.php:910
+#: includes/class-zinn-connector-admin-ui.php:989
 msgid "Import a settings file"
 msgstr "Sooji geli faylka dejinta"
 
-#: includes/class-zinn-connector-admin-ui.php:912
+#: includes/class-zinn-connector-admin-ui.php:991
 msgid "Import"
 msgstr "Keenso"
 
-#: includes/class-zinn-connector-admin-ui.php:914
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Faylalka la dhoofiyay waligood ma kooban yihiin eray-siraha, calaamadaha (tokens) ama furayaasha API-ga — waxaad u baahan doontaa inaad kuwan dib u geliso bogga cusub."
 
-#: includes/class-zinn-connector-admin-ui.php:1013
+#: includes/class-zinn-connector-admin-ui.php:1092
 msgid "Settings saved."
 msgstr "Dejinta waa la keydiyay."
 
-#: includes/class-zinn-connector-admin-ui.php:1060
+#: includes/class-zinn-connector-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr "Dhammaan goobaha ku jira furahan waxay ku noqdeen halkii ay ka bilaabmeen."
 
-#: includes/class-zinn-connector-admin-ui.php:1103
+#: includes/class-zinn-connector-admin-ui.php:1182
 msgid "Done."
 msgstr "La dhammeeyey."
 
-#: includes/class-zinn-connector-admin-ui.php:1107
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "That action is not available."
 msgstr "Ficilkaasi ma heli karo."
 
-#: includes/class-zinn-connector-admin-ui.php:1174
+#: includes/class-zinn-connector-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Feylkaas lama akhriyi karo. Dooro faylka dejinta ee laga soo dhoofiyay Zinn® plugin."
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr "Feylkaasi waa mid aad u weyn oo aan noqon karin dhoofinta dejinta."
 
-#: includes/class-zinn-connector-admin-ui.php:1195
+#: includes/class-zinn-connector-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr "Faylkaasi ma aha dhoofinta dejinta Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1203
+#: includes/class-zinn-connector-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Feylkaas waxaa laga soo dhoofiyay qalab kale (%s), markaa halkan lagu soo dejiyo waxay keydin doontaa dejinta uusan qalabkani fahmin."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1233
+#: includes/class-zinn-connector-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -307,36 +311,32 @@ msgstr "U dir warbixintaan taageerada Zinn®"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "Waxaan kuu fureynaa tigidh taageero ah oo aan iimayl kugu soo jawaabeynaa. Haddii aad doorbideyso inaadan dirin, kor ka koobi oo naftaada ku dheji tigidh dhexdiisa."
 
-#: includes/class-zinn-connector-diagnostics.php:228
-msgid "Copied"
-msgstr "La nuqulaystay"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-connector-diagnostics.php:274
+#: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "Ma aynaan gaari karin Zinn Digital® server-kan (%s) laga bilaabo. Nuqul ka yeero warbixinta sare oo halkii adeeg fur — wax khalad ah oo ku jira dejintaada ma jiraan."
 
-#: includes/class-zinn-connector-diagnostics.php:288
+#: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Taageerada Zinn® waxay heshay warbixintaada waxaana laguugu soo jawaabi doonaa email."
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-connector-diagnostics.php:291
+#: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Taageerada Zinn® waxay haysaa warbixintaada — tixraaca %s — waxayna kuugu soo jawaabi doontaa iimayl ahaan."
 
-#: includes/class-zinn-connector-diagnostics.php:300
+#: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "Waxaad dirtay warbixino dhowr ah waqti gaaban gudahood. Sug daqiiqado yar dabadeedna mar kale isku day — kuwii hore way yimaadeen."
 
-#: includes/class-zinn-connector-diagnostics.php:307
+#: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® ma awoorin in ay aqbasho warbixinta hadda — taasi waa dhinankeenna, ee maaha kanaga. Mar labaad isku day dhawaan, ama koobiyey warbixinta kore kuna dar tikidh."
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-connector-diagnostics.php:315
+#: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "Warbixinta waa la diiday (HTTP %d). Koobi garso kore oo fur tigidh, adigoo xiganaya lambarkaas."
@@ -547,8 +547,8 @@ msgid "Backup token"
 msgstr "Calaamadda keydka xogta"
 
 #: includes/class-zinn-connector-settings.php:205
-msgid "Set for you when the site was connected. You will only need to touch this if support asks."
-msgstr "Waxaa loo dejiyay adiga markii bogga la xirxiiray. Waxaad u baahan doontaa inaad taabato tan haddii taageeradu waydiiso oo keliya."
+msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
+msgstr "Geli astaamaha lagu tusay tab-ka Kaydinta ee boggan oo ku yaal sabuuraddaada Zinn Digital® markaad dooranayso isku xirka plugin-ka. Halkaas waxaa lagu tusayaa hal mar oo keliya; keydinta isku xirka mar labaad waxay soo saaraysaa mid cusub."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -764,19 +764,19 @@ msgstr "So dejinta lama soo gabagabeeyo karin."
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "Kaydku wuu diiday soo gelinta (HTTP %d)."
 
-#: includes/class-zinn-connector-style-presets.php:109
+#: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
 msgstr "Habka qaabeynta"
 
-#: includes/class-zinn-connector-style-presets.php:110
+#: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "Bisha u horreysa. Wax kasta oo hoose ayaa ka sarreeya."
 
-#: includes/class-zinn-connector-style-presets.php:117
+#: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "Isticmaal midabada iyo cabbirrada aniga ii gaarka ah"
 
-#: includes/class-zinn-connector-style-presets.php:118
+#: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Tan ha tuman si horay loogu habeeyay sida ay tahay loogu isticmaalo."
 

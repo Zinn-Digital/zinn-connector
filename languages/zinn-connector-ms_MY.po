@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-admin-fields.php:575
+#: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "Disimpan. Taip nilai baharu untuk menggantikannya."
 
-#: includes/class-zinn-connector-admin-fields.php:635
+#: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "Tapis senarai ini…"
 
-#: includes/class-zinn-connector-admin-fields.php:636
+#: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
 msgstr "Tapis senarai ini"
 
-#: includes/class-zinn-connector-admin-fields.php:652
+#: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "Tiada apa yang sepadan dengan penapis tersebut."
 
-#: includes/class-zinn-connector-admin-fields.php:683
+#: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
 msgstr "Tambah baris"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
 msgstr "Buang baris ini"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
 msgstr "Buang"
 
-#: includes/class-zinn-connector-admin-ui.php:264
-#: includes/class-zinn-connector-admin-ui.php:265
-#: includes/class-zinn-connector-admin-ui.php:335
+#: includes/class-zinn-connector-admin-ui.php:276
+#: includes/class-zinn-connector-admin-ui.php:277
+#: includes/class-zinn-connector-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:278
+#: includes/class-zinn-connector-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — gambaran keseluruhan"
 
-#: includes/class-zinn-connector-admin-ui.php:279
+#: includes/class-zinn-connector-admin-ui.php:291
 msgid "Overview"
 msgstr "Gambaran Keseluruhan"
 
-#: includes/class-zinn-connector-admin-ui.php:336
+#: includes/class-zinn-connector-admin-ui.php:379
+msgid "Copied"
+msgstr "Disalin"
+
+#: includes/class-zinn-connector-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Setiap palam Zinn® pada tapak web ini, dan sama ada ia berfungsi."
 
-#: includes/class-zinn-connector-admin-ui.php:352
+#: includes/class-zinn-connector-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr "Tiada sambungan diperlukan untuk palam masuk ini."
 
-#: includes/class-zinn-connector-admin-ui.php:357
+#: includes/class-zinn-connector-admin-ui.php:438
 msgid "Open settings"
 msgstr "Buka tetapan"
 
-#: includes/class-zinn-connector-admin-ui.php:685
-#: includes/class-zinn-connector-admin-ui.php:1248
+#: includes/class-zinn-connector-admin-ui.php:766
+#: includes/class-zinn-connector-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr "Anda tidak mempunyai kebenaran untuk mengubah tetapan ini."
 
-#: includes/class-zinn-connector-admin-ui.php:715
+#: includes/class-zinn-connector-admin-ui.php:795
 msgid "Settings sections"
 msgstr "Bahagian tetapan"
 
-#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:867
 msgid "Support"
 msgstr "Sokongan"
 
-#: includes/class-zinn-connector-admin-ui.php:846
+#: includes/class-zinn-connector-admin-ui.php:925
 msgid "Save changes"
 msgstr "Simpan perubahan"
 
-#: includes/class-zinn-connector-admin-ui.php:875
+#: includes/class-zinn-connector-admin-ui.php:954
 msgid "Tools"
 msgstr "Alat"
 
-#: includes/class-zinn-connector-admin-ui.php:890
+#: includes/class-zinn-connector-admin-ui.php:969
 msgid "Export settings"
 msgstr "Eksport tetapan"
 
-#: includes/class-zinn-connector-admin-ui.php:893
+#: includes/class-zinn-connector-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr "Tetapkan semula kepada lalai"
 
-#: includes/class-zinn-connector-admin-ui.php:894
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Ini akan menetapkan semula setiap tetapan pada palam ini kepada lalai. Teruskan?"
 
-#: includes/class-zinn-connector-admin-ui.php:901
+#: includes/class-zinn-connector-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr "Diagnostik untuk sokongan"
 
-#: includes/class-zinn-connector-admin-ui.php:910
+#: includes/class-zinn-connector-admin-ui.php:989
 msgid "Import a settings file"
 msgstr "Import fail tetapan"
 
-#: includes/class-zinn-connector-admin-ui.php:912
+#: includes/class-zinn-connector-admin-ui.php:991
 msgid "Import"
 msgstr "Import"
 
-#: includes/class-zinn-connector-admin-ui.php:914
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Fail yang dieksport tidak mengandungi kata laluan, token atau kekunci API — anda perlu memasukkannya semula pada tapak baharu."
 
-#: includes/class-zinn-connector-admin-ui.php:1013
+#: includes/class-zinn-connector-admin-ui.php:1092
 msgid "Settings saved."
 msgstr "Tetapan disimpan."
 
-#: includes/class-zinn-connector-admin-ui.php:1060
+#: includes/class-zinn-connector-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr "Semua tetapan pada palam masuk ini telah kembali kepada lalai."
 
-#: includes/class-zinn-connector-admin-ui.php:1103
+#: includes/class-zinn-connector-admin-ui.php:1182
 msgid "Done."
 msgstr "Selesai."
 
-#: includes/class-zinn-connector-admin-ui.php:1107
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "That action is not available."
 msgstr "Tindakan itu tidak tersedia."
 
-#: includes/class-zinn-connector-admin-ui.php:1174
+#: includes/class-zinn-connector-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Fail tersebut tidak dapat dibaca. Pilih fail tetapan yang dieksport daripada pelatah Zinn®."
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr "Fail tersebut terlalu besar untuk menjadi eksport tetapan."
 
-#: includes/class-zinn-connector-admin-ui.php:1195
+#: includes/class-zinn-connector-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr "Fail tersebut bukanlah eksport tetapan Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1203
+#: includes/class-zinn-connector-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Fail itu dieksport daripada pelayan pemalam yang lain (%s), jadi mengimportnya di sini akan menyimpan tetapan yang tidak difahami oleh pemalam ini."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1233
+#: includes/class-zinn-connector-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -306,36 +310,32 @@ msgstr "Hantar laporan ini kepada sokongan Zinn®"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "Kami membuka tiket sokongan untuk anda dan membalas melalui e-mel. Jika anda lebih suka tidak menghantarnya, salin di atas dan tampalkannya sendiri ke dalam tiket."
 
-#: includes/class-zinn-connector-diagnostics.php:228
-msgid "Copied"
-msgstr "Disalin"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-connector-diagnostics.php:274
+#: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "Kami tidak dapat menghubungi Zinn Digital® dari pelayan ini (%s). Salin laporan di atas dan buka tiket sebagai gantinya — tiada apa yang salah dengan tetapan anda."
 
-#: includes/class-zinn-connector-diagnostics.php:288
+#: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Sokongan Zinn® telah menerima laporan anda dan akan membalas melalui e-mel."
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-connector-diagnostics.php:291
+#: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Dihantar. Sokongan Zinn® telah menerima laporan anda — rujukan %s — dan akan membalas melalui e-mel."
 
-#: includes/class-zinn-connector-diagnostics.php:300
+#: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "Anda telah menghantar beberapa laporan dalam masa yang singkat. Sila tunggu beberapa minit dan cuba lagi — laporan yang terdahulu telahpun diterima."
 
-#: includes/class-zinn-connector-diagnostics.php:307
+#: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® tidak dapat menerima laporan tersebut buat masa ini — itu masalah dari pihak kami, bukan anda. Cuba sebentar lagi, atau salin laporan di atas ke dalam tiket."
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-connector-diagnostics.php:315
+#: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "Laporan tersebut ditolak (HTTP %d). Salin di atas dan buka tiket dengan menyertakan nombor tersebut."
@@ -546,8 +546,8 @@ msgid "Backup token"
 msgstr "Token sandaran"
 
 #: includes/class-zinn-connector-settings.php:205
-msgid "Set for you when the site was connected. You will only need to touch this if support asks."
-msgstr "Ditetapkan untuk anda apabila tapak disambungkan. Anda hanya perlu menyentuhnya jika sokongan memintanya."
+msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
+msgstr "Tampal token yang ditunjukkan pada tab Sandaran tapak ini dalam papan pemuka Zinn Digital® anda apabila anda memilih sambungan plugin. Ia ditunjukkan di situ hanya sekali; menyimpan sambungan itu sekali lagi akan mengeluarkan yang baharu."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -762,19 +762,19 @@ msgstr "Muat naik tidak dapat disiapkan."
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "Storan menolak muat naik tersebut (HTTP %d)."
 
-#: includes/class-zinn-connector-style-presets.php:109
+#: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
 msgstr "Pratet gaya"
 
-#: includes/class-zinn-connector-style-presets.php:110
+#: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "Titik permulaan. Apa sahaja di bawahnya akan mengutamakannya."
 
-#: includes/class-zinn-connector-style-presets.php:117
+#: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "Gunakan warna dan saiz saya sendiri"
 
-#: includes/class-zinn-connector-style-presets.php:118
+#: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Biarkan ini dimatikan dan pratetap digunakan tepat seperti adanya."
 

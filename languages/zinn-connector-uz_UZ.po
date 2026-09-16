@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-admin-fields.php:575
+#: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "Saqlandi. Uni almashtirish uchun yangi qiymat kiriting."
 
-#: includes/class-zinn-connector-admin-fields.php:635
+#: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "Bu roʻyxatni filtrlash…"
 
-#: includes/class-zinn-connector-admin-fields.php:636
+#: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
 msgstr "Ushbu ro'yxatni filtrlash"
 
-#: includes/class-zinn-connector-admin-fields.php:652
+#: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "Ushbu filtrga hech narsa mos kelmadi."
 
-#: includes/class-zinn-connector-admin-fields.php:683
+#: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
 msgstr "Qator qo‘shish"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
 msgstr "Ushbu qatorni olib tashlash"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
 msgstr "O‘chirish"
 
-#: includes/class-zinn-connector-admin-ui.php:264
-#: includes/class-zinn-connector-admin-ui.php:265
-#: includes/class-zinn-connector-admin-ui.php:335
+#: includes/class-zinn-connector-admin-ui.php:276
+#: includes/class-zinn-connector-admin-ui.php:277
+#: includes/class-zinn-connector-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:278
+#: includes/class-zinn-connector-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — umumiy ko‘rinish"
 
-#: includes/class-zinn-connector-admin-ui.php:279
+#: includes/class-zinn-connector-admin-ui.php:291
 msgid "Overview"
 msgstr "Umumiy koʻrinish"
 
-#: includes/class-zinn-connector-admin-ui.php:336
+#: includes/class-zinn-connector-admin-ui.php:379
+msgid "Copied"
+msgstr "Nusxa olindi"
+
+#: includes/class-zinn-connector-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Ushbu saytdagi har bir Zinn® plagin va uning ishlayotgani."
 
-#: includes/class-zinn-connector-admin-ui.php:352
+#: includes/class-zinn-connector-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr "Bu plagin uchun ulanish talab qilinmaydi."
 
-#: includes/class-zinn-connector-admin-ui.php:357
+#: includes/class-zinn-connector-admin-ui.php:438
 msgid "Open settings"
 msgstr "Sozlamalarni ochish"
 
-#: includes/class-zinn-connector-admin-ui.php:685
-#: includes/class-zinn-connector-admin-ui.php:1248
+#: includes/class-zinn-connector-admin-ui.php:766
+#: includes/class-zinn-connector-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr "Bu sozlamalarni oʻzgartirish uchun ruxsatingiz yoʻq."
 
-#: includes/class-zinn-connector-admin-ui.php:715
+#: includes/class-zinn-connector-admin-ui.php:795
 msgid "Settings sections"
 msgstr "Sozlamalar bo'limlari"
 
-#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:867
 msgid "Support"
 msgstr "Qo'llab-quvvatlash"
 
-#: includes/class-zinn-connector-admin-ui.php:846
+#: includes/class-zinn-connector-admin-ui.php:925
 msgid "Save changes"
 msgstr "O‘zgarishlarni saqlash"
 
-#: includes/class-zinn-connector-admin-ui.php:875
+#: includes/class-zinn-connector-admin-ui.php:954
 msgid "Tools"
 msgstr "Asboblar"
 
-#: includes/class-zinn-connector-admin-ui.php:890
+#: includes/class-zinn-connector-admin-ui.php:969
 msgid "Export settings"
 msgstr "Sozlamalarni eksport qilish"
 
-#: includes/class-zinn-connector-admin-ui.php:893
+#: includes/class-zinn-connector-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr "Standart holatga qaytarish"
 
-#: includes/class-zinn-connector-admin-ui.php:894
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Bu ushbu plaginning barcha sozlamalarini standart holatiga qaytaradi. Davom etasizmi?"
 
-#: includes/class-zinn-connector-admin-ui.php:901
+#: includes/class-zinn-connector-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr "Qo‘llab-quvvatlash uchun diagnostika"
 
-#: includes/class-zinn-connector-admin-ui.php:910
+#: includes/class-zinn-connector-admin-ui.php:989
 msgid "Import a settings file"
 msgstr "Sozlamalar faylini import qilish"
 
-#: includes/class-zinn-connector-admin-ui.php:912
+#: includes/class-zinn-connector-admin-ui.php:991
 msgid "Import"
 msgstr "Import qilish"
 
-#: includes/class-zinn-connector-admin-ui.php:914
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Eksport qilingan fayllarda hech qachon parollar, tokenlar yoki API kalitlari bo'lmaydi — ularni yangi saytda qaytadan kiritishingiz kerak bo'ladi."
 
-#: includes/class-zinn-connector-admin-ui.php:1013
+#: includes/class-zinn-connector-admin-ui.php:1092
 msgid "Settings saved."
 msgstr "Sozlamalar saqlandi."
 
-#: includes/class-zinn-connector-admin-ui.php:1060
+#: includes/class-zinn-connector-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr "Ushbu plaginning barcha sozlamalari odatiy holatiga qaytarildi."
 
-#: includes/class-zinn-connector-admin-ui.php:1103
+#: includes/class-zinn-connector-admin-ui.php:1182
 msgid "Done."
 msgstr "Bajarildi."
 
-#: includes/class-zinn-connector-admin-ui.php:1107
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "That action is not available."
 msgstr "Bu amal mavjud emas."
 
-#: includes/class-zinn-connector-admin-ui.php:1174
+#: includes/class-zinn-connector-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Ushbu faylni oʻqib boʻlmadi. Zinn® plaginidan eksport qilingan sozlamalar faylini tanlang."
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr "Bu fayl sozlamalar eksporti uchun juda katta."
 
-#: includes/class-zinn-connector-admin-ui.php:1195
+#: includes/class-zinn-connector-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr "Ushbu fayl Zinn® sozlamalari eksporti emas."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1203
+#: includes/class-zinn-connector-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Ushbu fayl boshqa plugindan (%s) eksport qilingan, shuning uchun uni bu yerga import qilish ushbu plagin tushunmaydigan sozlamalarni saqlaydi."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1233
+#: includes/class-zinn-connector-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -307,36 +311,32 @@ msgstr "Ushbu hisobotni Zinn® qo'llab-quvvatlash xizmatiga yuboring"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "Biz siz uchun qo'llab-quvvatlash so'rovini ochamiz va elektron pochta orqali javob beramiz. Agar buni yuborishni xohlamasangiz, yuqoridagidan nusxa oling va uni o'zingiz so'rovga joylashtiring."
 
-#: includes/class-zinn-connector-diagnostics.php:228
-msgid "Copied"
-msgstr "Nusxa olindi"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-connector-diagnostics.php:274
+#: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "Ushbu serverdan (%s) Zinn Digital® xizmatiga ulanib bo‘lmadi. Yuqoridagi hisobotni nusxalab oling va uning o‘rniga murojaat oching — sozlamalaringizda hech qanday xato yo‘q."
 
-#: includes/class-zinn-connector-diagnostics.php:288
+#: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Zinn® qo‘llab-quvvatlash xizmati xabaringizni qabul qildi va elektron pochta orqali javob beradi."
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-connector-diagnostics.php:291
+#: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Zinn® qo‘llab-quvvatlash xizmati xabaringizni qabul qildi — maʼlumot raqami %s — va elektron pochta orqali javob beradi."
 
-#: includes/class-zinn-connector-diagnostics.php:300
+#: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "Qisqa vaqt ichida bir nechta hisobot yubordingiz. Bir necha daqiqa kutib, qayta urinib ko'ring — avvalgilari yetib kelgan."
 
-#: includes/class-zinn-connector-diagnostics.php:307
+#: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® hozircha hisobotni qabul qila olmadi — bu bizning tomonda, siz tomonda emas. Qisqa vaqtdan keyin qayta urinib ko'ring yoki yuqoridagi hisobotni tiketga nusxalang."
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-connector-diagnostics.php:315
+#: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "Hisobot rad etildi (HTTP %d). Uni yuqoridan nusxalab oling va o'sha raqamni ko'rsatgan holda tiket oching."
@@ -547,8 +547,8 @@ msgid "Backup token"
 msgstr "Zaxira tokeni"
 
 #: includes/class-zinn-connector-settings.php:205
-msgid "Set for you when the site was connected. You will only need to touch this if support asks."
-msgstr "Sayt ulangan vaqtda siz uchun o'rnatilgan. Bunga faqat qo'llab-quvvatlash xizmati so'rasagina tegishingiz kerak bo'ladi."
+msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
+msgstr "Plagin ulanishini tanlaganingizda, Zinn Digital® boshqaruv panelining Ziaholar (Backups) yorlig‘ida ko‘rsatilgan tokenni nusxalab qo‘ying. U yerda u faqat bir marta ko‘rsatiladi; ulanishni qayta saqlash yangisini beradi."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -763,19 +763,19 @@ msgstr "Yuklash bajarilmadi."
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "Saqlash xotirasi yuklashni rad etdi (HTTP %d)."
 
-#: includes/class-zinn-connector-style-presets.php:109
+#: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
 msgstr "Uslub sozlamasi"
 
-#: includes/class-zinn-connector-style-presets.php:110
+#: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "Boshlang'ich nuqta. Undan pastdagi har qanday narsa buni bekor qiladi."
 
-#: includes/class-zinn-connector-style-presets.php:117
+#: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "O'z ranglarim va o'lchamlarimdan foydalanish"
 
-#: includes/class-zinn-connector-style-presets.php:118
+#: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Buni o'chirib qo'ying va andoza o'z holicha ishlatiladi."
 

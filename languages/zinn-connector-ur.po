@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-admin-fields.php:575
+#: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "محفوظ کر لیا گیا۔ اسے تبدیل کرنے کے لیے ایک نئی قدر درج کریں۔"
 
-#: includes/class-zinn-connector-admin-fields.php:635
+#: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "اس فہرست کو فلٹر کریں…"
 
-#: includes/class-zinn-connector-admin-fields.php:636
+#: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
 msgstr "اس فہرست کو فلٹر کریں"
 
-#: includes/class-zinn-connector-admin-fields.php:652
+#: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "اس فلٹر سے کوئی مطابقت نہیں رکھتی۔"
 
-#: includes/class-zinn-connector-admin-fields.php:683
+#: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
 msgstr "ایک قطرہ شامل کریں"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
 msgstr "اس قطار کو ہٹائیں"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
 msgstr "حذف کریں"
 
-#: includes/class-zinn-connector-admin-ui.php:264
-#: includes/class-zinn-connector-admin-ui.php:265
-#: includes/class-zinn-connector-admin-ui.php:335
+#: includes/class-zinn-connector-admin-ui.php:276
+#: includes/class-zinn-connector-admin-ui.php:277
+#: includes/class-zinn-connector-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:278
+#: includes/class-zinn-connector-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — جائزہ"
 
-#: includes/class-zinn-connector-admin-ui.php:279
+#: includes/class-zinn-connector-admin-ui.php:291
 msgid "Overview"
 msgstr "جائزہ"
 
-#: includes/class-zinn-connector-admin-ui.php:336
+#: includes/class-zinn-connector-admin-ui.php:379
+msgid "Copied"
+msgstr "نقل ہو گیا"
+
+#: includes/class-zinn-connector-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "اس سائٹ پر موجود ہر Zinn® پلگ ان، اور آیا وہ کام کر رہا ہے۔"
 
-#: includes/class-zinn-connector-admin-ui.php:352
+#: includes/class-zinn-connector-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr "اس پلگ ان کے لیے کسی کنکشن کی ضرورت نہیں ہے۔"
 
-#: includes/class-zinn-connector-admin-ui.php:357
+#: includes/class-zinn-connector-admin-ui.php:438
 msgid "Open settings"
 msgstr "ترتيبات کھولیں"
 
-#: includes/class-zinn-connector-admin-ui.php:685
-#: includes/class-zinn-connector-admin-ui.php:1248
+#: includes/class-zinn-connector-admin-ui.php:766
+#: includes/class-zinn-connector-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr "آپ کو ان ترمیمات کو تبدیل کرنے کی اجازت نہیں ہے۔"
 
-#: includes/class-zinn-connector-admin-ui.php:715
+#: includes/class-zinn-connector-admin-ui.php:795
 msgid "Settings sections"
 msgstr "ترتیبات کے حصے"
 
-#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:867
 msgid "Support"
 msgstr "سپورٹ"
 
-#: includes/class-zinn-connector-admin-ui.php:846
+#: includes/class-zinn-connector-admin-ui.php:925
 msgid "Save changes"
 msgstr "تبدیلیاں محفوظ کریں"
 
-#: includes/class-zinn-connector-admin-ui.php:875
+#: includes/class-zinn-connector-admin-ui.php:954
 msgid "Tools"
 msgstr "آلات"
 
-#: includes/class-zinn-connector-admin-ui.php:890
+#: includes/class-zinn-connector-admin-ui.php:969
 msgid "Export settings"
 msgstr "سیٹنگز برآمد کریں"
 
-#: includes/class-zinn-connector-admin-ui.php:893
+#: includes/class-zinn-connector-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr "پہلی حالت پر بحال کریں"
 
-#: includes/class-zinn-connector-admin-ui.php:894
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "اس سے اس پلگ ان کی ہر سیٹنگ اس کی ڈیفالٹ حالت پر واپس چلی جائے گی۔ کیا آپ جاری رکھنا چاہتے ہیں؟"
 
-#: includes/class-zinn-connector-admin-ui.php:901
+#: includes/class-zinn-connector-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr "سپورٹ کے لیے ڈائیگنوسٹکس"
 
-#: includes/class-zinn-connector-admin-ui.php:910
+#: includes/class-zinn-connector-admin-ui.php:989
 msgid "Import a settings file"
 msgstr "ایک ترتیبات کی فائل درآمد کریں"
 
-#: includes/class-zinn-connector-admin-ui.php:912
+#: includes/class-zinn-connector-admin-ui.php:991
 msgid "Import"
 msgstr "درآمد کریں"
 
-#: includes/class-zinn-connector-admin-ui.php:914
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "برآمد شدہ فائلوں میں کبھی بھی پاس ورڈز، ٹوکنز یا API کیز شامل نہیں ہوتیں — آپ کو نئی سائٹ پر انہیں دوبارہ درج کرنا ہوگا۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1013
+#: includes/class-zinn-connector-admin-ui.php:1092
 msgid "Settings saved."
 msgstr "ترتیب محفوظ ہو گئی۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1060
+#: includes/class-zinn-connector-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr "اس پلگ ان کی ہر سیٹنگ اس کی ڈیفالٹ حالت پر واپس آ گئی ہے۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1103
+#: includes/class-zinn-connector-admin-ui.php:1182
 msgid "Done."
 msgstr "مکمل ہو گیا۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1107
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "That action is not available."
 msgstr "وہ عمل دستیاب نہیں ہے۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1174
+#: includes/class-zinn-connector-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "وہ فائل نہیں پڑھی جا سکی۔ Zinn® پلگ ان سے برآمد کی گئی سیٹنگز کی کوئی فائل منتخب کریں۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr "وہ فائل سیٹنگز کی برآمد کے لیے بہت بڑی ہے۔"
 
-#: includes/class-zinn-connector-admin-ui.php:1195
+#: includes/class-zinn-connector-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr "وہ فائل Zinn® سیٹنگز کا ایکسپورٹ نہیں ہے۔"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1203
+#: includes/class-zinn-connector-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "وہ فائل ایک مختلف پلگ ان (%s) سے ایکسپورٹ کی گئی تھی، اس لیے اسے یہاں درآمد کرنے سے ایسی ترتیبات محفوظ ہو جائیں گی جنہیں یہ پلگ ان نہیں سمجھتا۔"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1233
+#: includes/class-zinn-connector-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -307,36 +311,32 @@ msgstr "یہ رپورٹ Zinn® سپورٹ کو بھیجیں"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "ہم آپ کے لیے ایک سپورٹ ٹکٹ کھولتے ہیں اور ای میل کے ذریعے جواب دیتے ہیں۔ اگر آپ اسے بھیجنا نہیں چاہتے ہیں، تو اسے اوپر سے کاپی کریں اور خود کسی ٹکٹ میں پیسٹ کر دیں۔"
 
-#: includes/class-zinn-connector-diagnostics.php:228
-msgid "Copied"
-msgstr "نقل ہو گیا"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-connector-diagnostics.php:274
+#: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "ہم اس سرور (%s) سے Zinn Digital® تک نہیں پہنچ سکے۔ اس کے بجائے اوپر والی رپورٹ کاپی کریں اور ایک ٹکٹ کھولیں — آپ کی ترتیبات میں کچھ بھی غلط نہیں ہے۔"
 
-#: includes/class-zinn-connector-diagnostics.php:288
+#: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Zinn® سپورٹ کو آپ کی رپورٹ موصول ہو چکی ہے اور وہ ای میل کے ذریعے جواب دیں گے۔"
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-connector-diagnostics.php:291
+#: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Zinn® سپورٹ کو آپ کی رپورٹ موصول ہو گئی ہے — حوالہ %s — اور ای میل کے ذریعے جواب دیا جائے گا۔"
 
-#: includes/class-zinn-connector-diagnostics.php:300
+#: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "آپ نے کم وقت میں کئی رپورٹس بھیجی ہیں۔ چند منٹ انتظار کریں اور دوبارہ کوشش کریں — پچھلی رپورٹس موصول ہو چکی ہیں۔"
 
-#: includes/class-zinn-connector-diagnostics.php:307
+#: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® اس وقت رپورٹ قبول نہیں کر سکا — یہ ہماری طرف سے مسئلہ ہے، آپ کی طرف سے نہیں۔ تھوڑی دیر میں دوبارہ کوشش کریں، یا اوپر دی گئی رپورٹ کو کسی ٹکٹ میں کاپی کر لیں۔"
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-connector-diagnostics.php:315
+#: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "رپورٹ مسترد کر دی گئی (HTTP %d)۔ اسے اوپر کاپی کریں اور وہ نمبر بتا کر ٹکٹ کھولیں۔"
@@ -547,8 +547,8 @@ msgid "Backup token"
 msgstr "بیک اپ ٹوکن"
 
 #: includes/class-zinn-connector-settings.php:205
-msgid "Set for you when the site was connected. You will only need to touch this if support asks."
-msgstr "جب سائٹ منسلک کی گئی تھی تو آپ کے لیے سیٹ کیا گیا۔ سپورٹ ٹیم کے کہنے پر ہی آپ کو اسے تبدیل کرنے کی ضرورت ہوگی۔"
+msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
+msgstr "جب آپ نے پلگ ان کنکشن کا انتخاب کیا تھا، تو اس ٹوکن کو پیسٹ کریں جو آپ کے Zinn Digital® ڈیش بورڈ پر اس سائیٹ کے بیک اپس (Backups) ٹیب پر دکھایا گیا ہے۔ یہ وہاں صرف ایک بار دکھایا جاتا ہے؛ کنکشن کو دوبارہ محفوظ کرنے سے ایک نیا ٹوکن جاری ہوتا ہے۔"
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -763,19 +763,19 @@ msgstr "اپ لوڈ مکمل نہیں ہو سکا۔"
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "اسٹوریج نے اپ لوڈ مسترد کر دیا (HTTP %d)۔"
 
-#: includes/class-zinn-connector-style-presets.php:109
+#: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
 msgstr "طرز کا پیش سیٹ"
 
-#: includes/class-zinn-connector-style-presets.php:110
+#: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "ایک نقطہ آغاز۔ اس سے نیچے کی ہر چیز اس کو اوور رائیڈ کرتی ہے۔"
 
-#: includes/class-zinn-connector-style-presets.php:117
+#: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "اپنے رنگ اور سائز استعمال کریں"
 
-#: includes/class-zinn-connector-style-presets.php:118
+#: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "اسے بند رکھیں اور پری سیٹ بالکل ویسا ہی استعمال کیا جاتا ہے جیسا کہ یہ ہے۔"
 

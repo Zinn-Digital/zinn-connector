@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-admin-fields.php:575
+#: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "បានរក្សាទុក។ សូមបញ្ចូលតម្លៃថ្មីដើម្បីជំនួសវា។"
 
-#: includes/class-zinn-connector-admin-fields.php:635
+#: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "ត្រងបញ្ជីនេះ…"
 
-#: includes/class-zinn-connector-admin-fields.php:636
+#: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
 msgstr "ត្រងបញ្ជីនេះ"
 
-#: includes/class-zinn-connector-admin-fields.php:652
+#: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "គ្មានអ្វីដែលត្រូវគ្នាជាមួយតម្រងនេះទេ។"
 
-#: includes/class-zinn-connector-admin-fields.php:683
+#: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
 msgstr "បន្ថែមជួរដេក"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
 msgstr "លុបជួរនេះចេញ"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
 msgstr "លុបចេញ"
 
-#: includes/class-zinn-connector-admin-ui.php:264
-#: includes/class-zinn-connector-admin-ui.php:265
-#: includes/class-zinn-connector-admin-ui.php:335
+#: includes/class-zinn-connector-admin-ui.php:276
+#: includes/class-zinn-connector-admin-ui.php:277
+#: includes/class-zinn-connector-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:278
+#: includes/class-zinn-connector-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — ទិដ្ឋភាពទូទៅ"
 
-#: includes/class-zinn-connector-admin-ui.php:279
+#: includes/class-zinn-connector-admin-ui.php:291
 msgid "Overview"
 msgstr "ទិដ្ឋភាពទូទៅ"
 
-#: includes/class-zinn-connector-admin-ui.php:336
+#: includes/class-zinn-connector-admin-ui.php:379
+msgid "Copied"
+msgstr "បានចម្លង"
+
+#: includes/class-zinn-connector-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ផ្លាស៊ីន Zinn® ទាំងអស់នៅលើគេហទំព័រនេះ និងថាតើវាដំណើរការឬអត់។"
 
-#: includes/class-zinn-connector-admin-ui.php:352
+#: includes/class-zinn-connector-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr "ភ្លុចហ្គីននេះមិនចាំបាច់មានការតភ្ជាប់អ៊ីនធឺណិតទេ។"
 
-#: includes/class-zinn-connector-admin-ui.php:357
+#: includes/class-zinn-connector-admin-ui.php:438
 msgid "Open settings"
 msgstr "បើកការកំណត់"
 
-#: includes/class-zinn-connector-admin-ui.php:685
-#: includes/class-zinn-connector-admin-ui.php:1248
+#: includes/class-zinn-connector-admin-ui.php:766
+#: includes/class-zinn-connector-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr "អ្នកមិនមានសិទ្ធិផ្លាស់ប្តូរការកំណត់ទាំងនេះទេ។"
 
-#: includes/class-zinn-connector-admin-ui.php:715
+#: includes/class-zinn-connector-admin-ui.php:795
 msgid "Settings sections"
 msgstr "ផ្នែកកំណត់ការ៉ា"
 
-#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:867
 msgid "Support"
 msgstr "ជំនួយ"
 
-#: includes/class-zinn-connector-admin-ui.php:846
+#: includes/class-zinn-connector-admin-ui.php:925
 msgid "Save changes"
 msgstr "រក្សាទុកការផ្លាស់ប្តូរ"
 
-#: includes/class-zinn-connector-admin-ui.php:875
+#: includes/class-zinn-connector-admin-ui.php:954
 msgid "Tools"
 msgstr "ឧបករណ៍"
 
-#: includes/class-zinn-connector-admin-ui.php:890
+#: includes/class-zinn-connector-admin-ui.php:969
 msgid "Export settings"
 msgstr "នាំចេញការកំណត់"
 
-#: includes/class-zinn-connector-admin-ui.php:893
+#: includes/class-zinn-connector-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr "កំណត់ឡើងវិញទៅជាតម្លៃដើម"
 
-#: includes/class-zinn-connector-admin-ui.php:894
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "សកម្មភាពនេះនឹងដាក់រាល់ការកំណត់ទាំងអស់នៅលើកម្មវិធីជំនួយនេះទៅជាស្ថានភាពដើមវិញ។ តើអ្នកចង់បន្តទេ?"
 
-#: includes/class-zinn-connector-admin-ui.php:901
+#: includes/class-zinn-connector-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr "រោគវិនិច្ឆ័យសម្រាប់ជំនួយ"
 
-#: includes/class-zinn-connector-admin-ui.php:910
+#: includes/class-zinn-connector-admin-ui.php:989
 msgid "Import a settings file"
 msgstr "នាំចូលឯកសារការកំណត់"
 
-#: includes/class-zinn-connector-admin-ui.php:912
+#: includes/class-zinn-connector-admin-ui.php:991
 msgid "Import"
 msgstr "នាំចូល"
 
-#: includes/class-zinn-connector-admin-ui.php:914
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ឯកសារដែលបាននាំចេញមិនមានពាក្យសម្ងាត់ ថូខឹន ឬគ្រាប់ចុច API ទេ អ្នកនឹងត្រូវបញ្ចូលវាម្ដងទៀតនៅលើគេហទំព័រថ្មី។"
 
-#: includes/class-zinn-connector-admin-ui.php:1013
+#: includes/class-zinn-connector-admin-ui.php:1092
 msgid "Settings saved."
 msgstr "បានរក្សាទុកការកំណត់។"
 
-#: includes/class-zinn-connector-admin-ui.php:1060
+#: includes/class-zinn-connector-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr "រាល់ការកំណត់នៅលើកលងឥនដេននេះគឺត្រូវបានកំណត់ឡើងវិញដូចដើម។"
 
-#: includes/class-zinn-connector-admin-ui.php:1103
+#: includes/class-zinn-connector-admin-ui.php:1182
 msgid "Done."
 msgstr "បានរួចរាល់។"
 
-#: includes/class-zinn-connector-admin-ui.php:1107
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "That action is not available."
 msgstr "សកម្មភាព​នោះ​មិន​មាន​ទេ។"
 
-#: includes/class-zinn-connector-admin-ui.php:1174
+#: includes/class-zinn-connector-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "មិនអាចអានឯកសារនោះបានទេ។ សូមជ្រើសរើសឯកសារការកំណត់ដែលបាននាំចេញពីកម្មវិធីជំនួយ Zinn®។"
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr "ឯកសារនោះធំពេកមិនអាចជាការនាំចេញការកំណត់នោះទេ។"
 
-#: includes/class-zinn-connector-admin-ui.php:1195
+#: includes/class-zinn-connector-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr "ឯកសារនោះមិនមែនជាការនាំចេញការកំណត់របស់ Zinn® ទេ។"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1203
+#: includes/class-zinn-connector-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ឯកសារនោះត្រូវបាននាំចេញពីកម្មវិធីជំនួយផ្សេងទៀត (%s) ដូច្នេះការនាំចូលវាទីនេះនឹងរក្សាទុកការកំណត់ដែលកម្មវិធីជំនួយនេះមិនយល់។"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1233
+#: includes/class-zinn-connector-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -306,36 +310,32 @@ msgstr "ផ្ញើរបាយការណ៍នេះទៅកាន់ផ្
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "ពួកយើងបើកសំបុត្រគាំទ្រមួយសម្រាប់អ្នក ហើយឆ្លើយតបតាមអ៊ីមែល។ ប្រសិនបើអ្នកមិនចង់ផ្ញើវាទេ សូមចម្លងវាខាងលើ ហើយបិទភ្ជាប់វាទៅក្នុងសំបុត្រដោយខ្លួនឯង។"
 
-#: includes/class-zinn-connector-diagnostics.php:228
-msgid "Copied"
-msgstr "បានចម្លង"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-connector-diagnostics.php:274
+#: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "យើងមិនអាចទាក់ទង Zinn Digital® ពីម៉ាស៊ីនបម្រើនេះ (%s) បានទេ។ សូមចម្លងរបាយការណ៍ខាងលើ ហើយបើកសំបុត្រសំណួរជំនួសវិញ — គ្មានអ្វីខុសជាមួយការកំណត់របស់អ្នកទេ។"
 
-#: includes/class-zinn-connector-diagnostics.php:288
+#: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "ផ្នែកជំនួយរបស់ Zinn® បានទទួលរបាយការណ៍របស់អ្នកហើយ នឹងឆ្លើយតបតាមរយៈអ៊ីមែល។"
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-connector-diagnostics.php:291
+#: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "ការ support របស់ Zinn® បានទទួលរបាយការណ៍របស់អ្នកហើយ — លេខោងមីgetReference %s — ហើយនឹងឆ្លើយតបតាមរយៈអ៊ីមែល។"
 
-#: includes/class-zinn-connector-diagnostics.php:300
+#: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "អ្នកបានផ្ញើរបាយការណ៍ជាច្រើនក្នុងរយៈពេលខ្លី។ សូមរង់ចាំបន្តិចហើយព្យាយាមម្តងទៀត ព្រោះរបាយការណ៍មុនៗបានមកដល់រួចហើយ។"
 
-#: includes/class-zinn-connector-diagnostics.php:307
+#: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® មិនអាចទទួលយករបាយការណ៍នេះបានទេនៅពេលនេះ — នោះគឺជាបញ្ហាខាងយើង មិនមែនខាងអ្នកទេ។ សូមព្យាយាមម្តងទៀតក្នុងពេលឆាប់ៗនេះ ឬចម្លងរបាយការណ៍ខាងលើដាក់ក្នុងសំបុត្រជំនួយ (ticket)។"
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-connector-diagnostics.php:315
+#: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "របាយការណ៍ត្រូវបានបដិសេធ (HTTP %d)។ ចម្លងវាខាងលើហើយបើកសំបុត្រគាំទ្រមួយ ដោយយោងលេខនោះ។"
@@ -546,8 +546,8 @@ msgid "Backup token"
 msgstr "ថូខិនបម្រុងទុក"
 
 #: includes/class-zinn-connector-settings.php:205
-msgid "Set for you when the site was connected. You will only need to touch this if support asks."
-msgstr "កំណត់ឱ្យអ្នកនៅពេលដែលគេហទំព័រត្រូវបានតភ្ជាប់។ អ្នកត្រូវប៉ះពាល់វាលុះត្រាតែផ្នែកជំនួយស្នើសុំប៉ុណ្ណោះ។"
+msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
+msgstr "សូមបិទភ្ជាប់ថូខែនដែលបានបង្ហាញនៅលើផ្ទាំងបម្រុងទុក (Backups) នៃគេហទំព័រនេះ ក្នុងផ្ទាំងគ្រប់គ្រង Zinn Digital® របស់អ្នក នៅពេលអ្នកជ្រើសរើសការតភ្ជាប់កម្មវិធីជំនួយ។ វាត្រូវបានបង្ហាញនៅទីនោះតែម្តងគត់ ដោយការរក្សាទុកការតភ្ជាប់ម្តងទៀតនឹងចេញថូខែនថ្មីមួយ។"
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -762,19 +762,19 @@ msgstr "មិនអាចបញ្ចប់ការបង្ហោះបាន
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "ទំហំផ្ទុកបានបដិសេធការបង្ហោះ (HTTP %d)។"
 
-#: includes/class-zinn-connector-style-presets.php:109
+#: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
 msgstr "ការកំណត់រចនាប័ទ្មទុកជាមុន"
 
-#: includes/class-zinn-connector-style-presets.php:110
+#: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "ចំណុចចាប់ផ្តើម។ អ្វីៗដែលនៅខាងក្រោមនេះជំនួសវា។"
 
-#: includes/class-zinn-connector-style-presets.php:117
+#: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "ប្រើពណ៌ និងទំហំផ្ទាល់ខ្លួនរបស់ខ្ញុំ"
 
-#: includes/class-zinn-connector-style-presets.php:118
+#: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "បិទជម្រើសនេះ នោះតម្លៃកំណត់ជាមុននឹងត្រូវបានប្រើប្រាស់យ៉ាងត្រឹមត្រូវដូចដើម។"
 

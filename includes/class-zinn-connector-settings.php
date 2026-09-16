@@ -202,7 +202,7 @@ class Zinn_Connector_Settings {
 				'type'        => 'password',
 				'secret'      => true,
 				'label'       => __( 'Backup token', 'zinn-connector' ),
-				'description' => __( 'Set for you when the site was connected. You will only need to touch this if support asks.', 'zinn-connector' ),
+				'description' => __( 'Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one.', 'zinn-connector' ),
 				'default'     => '',
 				'show_if'     => array( 'backups_enabled' => true ),
 			),

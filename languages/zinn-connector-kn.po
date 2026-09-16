@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-connector-admin-fields.php:575
+#: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ಇದನ್ನು ಬದಲಿ ಮಾಡಲು ಹೊಸ ಮೌಲ್ಯವನ್ನು ಟೈಪ್ ಮಾಡಿ."
 
-#: includes/class-zinn-connector-admin-fields.php:635
+#: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "ಈ ಪಟ್ಟಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ…"
 
-#: includes/class-zinn-connector-admin-fields.php:636
+#: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
 msgstr "ಈ ಪಟ್ಟಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ"
 
-#: includes/class-zinn-connector-admin-fields.php:652
+#: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "ಆ ಫಿಲ್ಟರ್‌ಗೆ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ತಾಳೆಯಾಗುವುದಿಲ್ಲ."
 
-#: includes/class-zinn-connector-admin-fields.php:683
+#: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
 msgstr "ಸಾಲು ಸೇರಿಸಿ"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
 msgstr "ಈ ಸಾಲನ್ನು ತೆಗೆದುಹಾಕಿ"
 
-#: includes/class-zinn-connector-admin-fields.php:720
+#: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
 msgstr "ತೆಗೆದುಹಾಕು"
 
-#: includes/class-zinn-connector-admin-ui.php:264
-#: includes/class-zinn-connector-admin-ui.php:265
-#: includes/class-zinn-connector-admin-ui.php:335
+#: includes/class-zinn-connector-admin-ui.php:276
+#: includes/class-zinn-connector-admin-ui.php:277
+#: includes/class-zinn-connector-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:278
+#: includes/class-zinn-connector-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — ಅವಲೋಕನ"
 
-#: includes/class-zinn-connector-admin-ui.php:279
+#: includes/class-zinn-connector-admin-ui.php:291
 msgid "Overview"
 msgstr "ಅವಲೋಕನ"
 
-#: includes/class-zinn-connector-admin-ui.php:336
+#: includes/class-zinn-connector-admin-ui.php:379
+msgid "Copied"
+msgstr "ಕಾಪಿ ಮಾಡಲಾಗಿದೆ"
+
+#: includes/class-zinn-connector-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ಈ ಸೈಟ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು Zinn® ಪ್ಲಗಿನ್ ಮತ್ತು ಅದು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆಯೇ ಎಂಬುದು."
 
-#: includes/class-zinn-connector-admin-ui.php:352
+#: includes/class-zinn-connector-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr "ಈ ಪ್ಲಗಿನ್‌ಗಾಗಿ ಯಾವುದೇ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿಲ್ಲ."
 
-#: includes/class-zinn-connector-admin-ui.php:357
+#: includes/class-zinn-connector-admin-ui.php:438
 msgid "Open settings"
 msgstr "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ"
 
-#: includes/class-zinn-connector-admin-ui.php:685
-#: includes/class-zinn-connector-admin-ui.php:1248
+#: includes/class-zinn-connector-admin-ui.php:766
+#: includes/class-zinn-connector-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr "ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ."
 
-#: includes/class-zinn-connector-admin-ui.php:715
+#: includes/class-zinn-connector-admin-ui.php:795
 msgid "Settings sections"
 msgstr "ಸೇಟಿಂಗ್ಸ್ ವಿಭಾಗಗಳು"
 
-#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:867
 msgid "Support"
 msgstr "ಬೆಂಬಲ"
 
-#: includes/class-zinn-connector-admin-ui.php:846
+#: includes/class-zinn-connector-admin-ui.php:925
 msgid "Save changes"
 msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ"
 
-#: includes/class-zinn-connector-admin-ui.php:875
+#: includes/class-zinn-connector-admin-ui.php:954
 msgid "Tools"
 msgstr "ಸಾಧನಗಳು"
 
-#: includes/class-zinn-connector-admin-ui.php:890
+#: includes/class-zinn-connector-admin-ui.php:969
 msgid "Export settings"
 msgstr "ರಫ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 
-#: includes/class-zinn-connector-admin-ui.php:893
+#: includes/class-zinn-connector-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ"
 
-#: includes/class-zinn-connector-admin-ui.php:894
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ಇದು ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಸಂಯೋಜನೆಯನ್ನು ಅದರ ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರುಹೊಂದಿಸುತ್ತದೆ. ಮುಂದುವರಿಸಬೇಕೇ?"
 
-#: includes/class-zinn-connector-admin-ui.php:901
+#: includes/class-zinn-connector-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr "ಬೆಂಬಲಕ್ಕಾಗಿ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್"
 
-#: includes/class-zinn-connector-admin-ui.php:910
+#: includes/class-zinn-connector-admin-ui.php:989
 msgid "Import a settings file"
 msgstr "ಸೆಟ್ಟಿಂಗ್ಸ್ ಫೈಲ್ ಅನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ"
 
-#: includes/class-zinn-connector-admin-ui.php:912
+#: includes/class-zinn-connector-admin-ui.php:991
 msgid "Import"
 msgstr "ಆಮದು ಮಾಡಿ"
 
-#: includes/class-zinn-connector-admin-ui.php:914
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ರಪ್ಟು ಮಾಡಿದ ಫೈಲ್‌ಗಳಲ್ಲಿ ಎಂದಿಗೂ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, ಟೋಕನ್‌ಗಳು ಅಥವಾ API ಕೀಗಳು ಇರುವುದಿಲ್ಲ — ಹೊಸ ಸೈಟ್‌ನಲ್ಲಿ ನೀವು ಅವನ್ನು ಮರುನಮೂದಿಸಬೇಕಾಗುತ್ತದೆ."
 
-#: includes/class-zinn-connector-admin-ui.php:1013
+#: includes/class-zinn-connector-admin-ui.php:1092
 msgid "Settings saved."
 msgstr "ಸೇರ್ಪಡೆಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ."
 
-#: includes/class-zinn-connector-admin-ui.php:1060
+#: includes/class-zinn-connector-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr "ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಸೆಟ್ಟಿಂಗ್ ಅದರ ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರಳಿದೆ."
 
-#: includes/class-zinn-connector-admin-ui.php:1103
+#: includes/class-zinn-connector-admin-ui.php:1182
 msgid "Done."
 msgstr "ಮುಗಿದಿದೆ."
 
-#: includes/class-zinn-connector-admin-ui.php:1107
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "That action is not available."
 msgstr "ಆ ಕ್ರಿಯೆಯು ಲಭ್ಯವಿಲ್ಲ."
 
-#: includes/class-zinn-connector-admin-ui.php:1174
+#: includes/class-zinn-connector-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ಆ ಫೈಲ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. Zinn® ಪ್ಲಗಿನ್‌ನಿಂದ ರಫ್ತು ಮಾಡಲಾದ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr "ಆ ಫೈಲ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಆಗಿರಲು ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ."
 
-#: includes/class-zinn-connector-admin-ui.php:1195
+#: includes/class-zinn-connector-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr "ಆ ಕಡತವು Zinn® ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಅಲ್ಲ."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1203
+#: includes/class-zinn-connector-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ಆ ಫೈಲ್ ಅನ್ನು ಬೇರೆ ಪ್ಲಗ್‌ಇನ್ (%s) ನಿಂದ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಲಾಗಿದೆ, ಆದ್ದರಿಂದ ಅದನ್ನು ಇಲ್ಲಿ ಇಂಪೋರ್ಟ್ ಮಾಡುವುದರಿಂದ ಈ ಪ್ಲಗ್‌ಇನ್‌ಗೆ ಅರ್ಥವಾಗದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1233
+#: includes/class-zinn-connector-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -307,36 +311,32 @@ msgstr "ಈ ವರದಿಯನ್ನು Zinn® ಬೆಂಬಲ ತಂಡಕ್�
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "ನಾವು ನಿಮಗಾಗಿ ಬೆಂಬಲ ಟಿಕೆಟ್ ಅನ್ನು ತೆರೆಯುತ್ತೇವೆ ಮತ್ತು ಇಮೇಲ್ ಮೂಲಕ ಉತ್ತರಿಸುತ್ತೇವೆ. ನೀವು ಅದನ್ನು ಕಳುಹಿಸಲು ಬಯಸದಿದ್ದರೆ, ಅದನ್ನು ಮೇಲೆ ನಕಲಿಸಿ ಮತ್ತು ನೀವೇ ಟಿಕೆಟ್‌ನಲ್ಲಿ ಅಂಟಿಸಿ."
 
-#: includes/class-zinn-connector-diagnostics.php:228
-msgid "Copied"
-msgstr "ಕಾಪಿ ಮಾಡಲಾಗಿದೆ"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-connector-diagnostics.php:274
+#: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "ಈ ಸರ್ವರ್‌ನಿಂದ (%s) Zinn Digital® ಅನ್ನು ತಲುಪಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮೇಲಿನ ವರದಿಯನ್ನು ನಕಲು ಮಾಡಿ ಮತ್ತು ಬದಲಿಗೆ ಟಿಕೆಟ್ ಅನ್ನು ತೆರೆಯಿರಿ — ನಿಮ್ಮ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಯಾವುದೂ ತಪ್ಪಿಲ್ಲ."
 
-#: includes/class-zinn-connector-diagnostics.php:288
+#: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "ಕಳುಹಿಸಲಾಗಿದೆ. Zinn® ಬೆಂಬಲ ತಂಡವು ನಿಮ್ಮ ವರದಿಯನ್ನು ಸ್ವೀಕರಿಸಿದೆ ಮತ್ತು ಇಮೇಲ್ ಮೂಲಕ ಉತ್ತರಿಸುತ್ತದೆ."
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-connector-diagnostics.php:291
+#: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Zinn® ಬೆಂಬಲ ತಂಡವು ನಿಮ್ಮ ವರದಿಯನ್ನು ಸ್ವೀಕರಿಸಿದೆ — ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ %s — ಮತ್ತು ಇಮೇಲ್ ಮೂಲಕ ಉತ್ತರಿಸುತ್ತದೆ."
 
-#: includes/class-zinn-connector-diagnostics.php:300
+#: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "ನೀವು ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹಲವು ವರದಿಗಳನ್ನು ಕಳುಹಿಸಿದ್ದೀರಿ. ಕೆಲವು ನಿಮಿಷಗಳ ಕಾಲ ಕಾಯ್ದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ — ಹಿಂದಿನವು ತಲುಪಿವೆ."
 
-#: includes/class-zinn-connector-diagnostics.php:307
+#: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® ವರದಿಯನ್ನು ಇದೀಗ ಸ್ವೀಕರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ — ಇದು ನಮ್ಮ ಕಡೆಯಿಂದ, ನಿಮ್ಮದಲ್ಲ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಮೇಲಿನ ವರದಿಯನ್ನು ಟಿಕೆಟ್‌ಗೆ ನಕಲಿಸಿ."
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-connector-diagnostics.php:315
+#: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "ವರದಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ (HTTP %d). ಅದನ್ನು ಮೇಲೆ ನಕಲಿಸಿ ಮತ್ತು ಆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ ಟಿಕೆಟ್ ಒಂದನ್ನು ತೆರೆಯಿರಿ."
@@ -547,8 +547,8 @@ msgid "Backup token"
 msgstr "ಬ್ಯಾಕಪ್ ಟೋಕನ್"
 
 #: includes/class-zinn-connector-settings.php:205
-msgid "Set for you when the site was connected. You will only need to touch this if support asks."
-msgstr "ಸೈಟ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿದಾಗ ನಿಮಗಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆ. ಬೆಂಬಲ ತಂಡವು ಕೇಳಿದರೆ ಮಾತ್ರ ನೀವು ಇದನ್ನು ಬದಲಾಯಿಸಬೇಕಾಗುತ್ತದೆ."
+msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
+msgstr "ಪ್ಲಗಿನ್ ಸಂಪರ್ಕವನ್ನು ಆರಿಸಿಕೊಂಡಾಗ ನಿಮ್ಮ Zinn Digital® ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿರುವ ಈ ಸೈಟ್‌ನ ಬ್ಯಾಕಪ್‌ಗಳ (Backups) ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೋರಿಸಲಾದ ಟೋಕನ್ ಅನ್ನು ಅಂಟಿಸಿ. ಇದು ಅಲ್ಲಿ ಒಮ್ಮೆ ಮಾತ್ರ ಗೋಚರಿಸುತ್ತದೆ; ಸಂಪರ್ಕವನ್ನು ಮತ್ತೆ ಉಳಿಸುವುದರಿಂದ ಹೊಸದು ಜಾರಿಯಾಗುತ್ತದೆ."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -763,19 +763,19 @@ msgstr "ಅಪ್‌ಲೋಡ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸ�
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "ಸಂಗ್ರಹಣೆಯು ಅಪ್‌ಲೋಡ್ ಅನ್ನು ತಿರಸ್ಕರಿಸಿದೆ (HTTP %d)."
 
-#: includes/class-zinn-connector-style-presets.php:109
+#: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
 msgstr "ಶೈಲಿ ಪೂರ್ವನಿಯೋಜಿತ"
 
-#: includes/class-zinn-connector-style-presets.php:110
+#: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "ಒಂದು ಆರಂಭಿಕ ಬಿಂದು. ಇದರ ಕೆಳಗಿನ ಯಾವುದೇ ಅಂಶವು ಅದನ್ನು ಅತಿಕ್ರಮಿಸುತ್ತದೆ."
 
-#: includes/class-zinn-connector-style-presets.php:117
+#: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "ನನ್ನ ಸ್ವಂತ ಬಣ್ಣಗಳು ಮತ್ತು ಗಾತ್ರಗಳನ್ನು ಬಳಸಿ"
 
-#: includes/class-zinn-connector-style-presets.php:118
+#: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ಇದನ್ನು ಆಫ್‌ನಲ್ಲಿ ಬಿಡಿ ಮತ್ತು ಪೂರ್ವನಿಗದಿಯನ್ನು ನಿಖರವಾಗಿ ಇರುವಂತೆಯೇ ಬಳಸಲಾಗುತ್ತದೆ."
 

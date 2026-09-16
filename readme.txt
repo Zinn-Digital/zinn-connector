@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,7 +59,7 @@ Press **Disconnect this site** on the plugin's Connection tab, or revoke the "Zi
 
 1. Pairing: paste the code from your Zinn Digital® dashboard and press Connect — the plugin creates and hands over its own credential.
 2. Publishing controls: live or draft, the author and category to use, whether images and edits are allowed, and an email per published article.
-3. Off-site backups: switch them on, leave folders out, and set a size limit so a large site stops with a message instead of failing silently.
+3. Off-site backups: choose the plugin connection on the site's Backups tab in your Zinn Digital® dashboard, paste the backup token it shows into Backup token, leave folders out, and set a size limit so a large site stops with a message instead of failing silently.
 4. The Zinn Digital® overview in wp-admin shows whether each Zinn® plugin on the site is working.
 5. Every screen is translated — here the Connection tab in Arabic, right to left.
 
@@ -79,14 +79,14 @@ published to this site. It is useless without that service, and it only ever tal
   under **Users → Profile → Application Passwords**.
 * **Disconnecting.** Removing the connection deletes that application password from this site, so
   the credential Zinn Digital® holds stops working immediately.
-* **Scheduled backups — only after you switch them on in your Zinn Digital® dashboard.** A
+* **Scheduled backups — only after you connect them in your Zinn Digital® dashboard and paste the backup token here.** A
   WordPress cron event then asks `https://api.zinndigital.com/v1/connector/backup/claim`, once
   an hour, whether a backup is due; the answer is normally "no" and nothing else happens. When
   one *is* due the plugin builds a `.tar.gz` of this site's files and database, **uploads it
   straight to object storage** using a short-lived, single-use URL the previous answer supplied
   — the archive never passes through Zinn Digital®'s own servers — and then posts the outcome
-  to `/v1/connector/backup/complete`. Until you switch backups on, that hourly event finds no
-  backup token and returns without contacting anything.
+  to `/v1/connector/backup/complete`. Until you paste a backup token, that hourly event finds no
+  token and returns without contacting anything.
 * **Update checks.** The plugin asks Zinn Digital® whether a newer version of itself exists.
   Only the plugin's own slug and version are sent.
 
@@ -179,6 +179,9 @@ anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
 
+= 1.2.5 =
+* Backups: the Backup token setting now says where the token comes from — the site's Backups tab in your Zinn Digital® dashboard, where it is shown once when you choose the plugin connection. It previously said the token was set for you, which it never was.
+
 = 1.2.4 =
 * The admin screens' styles and scripts are now enqueued through WordPress rather than printed into the page, so they can be dequeued, deferred or optimised by your site like any other asset — and they still work on a site whose security policy forbids inline code.
 
@@ -213,6 +216,9 @@ A real connection status that says what is wrong and what to do about it, a Disc
 * First release.
 
 == Upgrade Notice ==
+
+= 1.2.5 =
+Corrects the instructions for connecting off-site backups.
 
 = 1.2.2 =
 Clearer messages when a connection cannot be completed, and three translation fixes. Recommended for everyone.
