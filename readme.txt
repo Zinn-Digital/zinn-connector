@@ -5,9 +5,9 @@ Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
 Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
-Tested up to: 7.1
+Tested up to: 7.1.1
 Requires PHP: 8.2
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -178,6 +178,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.2.7 =
+* Tested up to WordPress 7.1.1.
 
 = 1.2.6 =
 * In a right-to-left admin language, the Zinn Digital® menu entry showed its trademark symbol on the wrong side of the name. The name is now isolated so it reads correctly in Arabic, Hebrew, Persian, Pashto and Urdu.
