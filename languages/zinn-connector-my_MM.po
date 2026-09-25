@@ -62,121 +62,121 @@ msgstr "ဤအတန်းကို ဖယ်ရှားပါ"
 msgid "Remove"
 msgstr "ဖယ်ရှားရန်"
 
-#: includes/class-zinn-connector-admin-ui.php:276
-#: includes/class-zinn-connector-admin-ui.php:277
-#: includes/class-zinn-connector-admin-ui.php:417
+#: includes/class-zinn-connector-admin-ui.php:280
+#: includes/class-zinn-connector-admin-ui.php:281
+#: includes/class-zinn-connector-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:290
+#: includes/class-zinn-connector-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — သုံးသပ်ချက်"
 
-#: includes/class-zinn-connector-admin-ui.php:291
+#: includes/class-zinn-connector-admin-ui.php:295
 msgid "Overview"
 msgstr "သုံးသပ်ချက်"
 
-#: includes/class-zinn-connector-admin-ui.php:379
+#: includes/class-zinn-connector-admin-ui.php:383
 msgid "Copied"
 msgstr "ကူးယူပြီးပါပြီ"
 
-#: includes/class-zinn-connector-admin-ui.php:418
+#: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ဤဆိုဒ်ရှိ Zinn® ပလပ်အင်တိုင်းနှင့် ၎င်းတို့ အလုပ်လုပ်နေခြင်း ရှိမရှိ။"
 
-#: includes/class-zinn-connector-admin-ui.php:433
+#: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "ဤပလပ်အင်အတွက် ချိတ်ဆက်မှု မလိုအပ်ပါ။"
 
-#: includes/class-zinn-connector-admin-ui.php:438
+#: includes/class-zinn-connector-admin-ui.php:442
 msgid "Open settings"
 msgstr "ဆက်တင်များကို ဖွင့်ရန်"
 
-#: includes/class-zinn-connector-admin-ui.php:766
-#: includes/class-zinn-connector-admin-ui.php:1327
+#: includes/class-zinn-connector-admin-ui.php:770
+#: includes/class-zinn-connector-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "ဤဆက်တင်များကို ပြောင်းလဲရန် သင့်တွင် ခွင့်ပြုချက်မရှိပါ။"
 
-#: includes/class-zinn-connector-admin-ui.php:795
+#: includes/class-zinn-connector-admin-ui.php:799
 msgid "Settings sections"
 msgstr "ဆက်တင် ကဏ္ဍများ"
 
-#: includes/class-zinn-connector-admin-ui.php:867
+#: includes/class-zinn-connector-admin-ui.php:871
 msgid "Support"
 msgstr "ပံ့ပိုးကူညီမှု"
 
-#: includes/class-zinn-connector-admin-ui.php:925
+#: includes/class-zinn-connector-admin-ui.php:929
 msgid "Save changes"
 msgstr "ပြောင်းလဲမှုများကို သိမ်းဆည်းရန်"
 
-#: includes/class-zinn-connector-admin-ui.php:954
+#: includes/class-zinn-connector-admin-ui.php:958
 msgid "Tools"
 msgstr "တူးလ်များ"
 
-#: includes/class-zinn-connector-admin-ui.php:969
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "Export settings"
 msgstr "ဆက်တင်များကို ထုတ်ယူရန်"
 
-#: includes/class-zinn-connector-admin-ui.php:972
+#: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "မူလအတိုင်းသို့ ပြန်လည်သတ်မှတ်ရန်"
 
-#: includes/class-zinn-connector-admin-ui.php:973
+#: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ဤပလပ်အင်ရှိ ဆက်တင်အားလုံးကို မူလအတိုင်းသို့ ပြန်လည်သတ်မှတ်မည်ဖြစ်သည်။ ဆက်လက်လုပ်ဆောင်မည်လား။"
 
-#: includes/class-zinn-connector-admin-ui.php:980
+#: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "ပံ့ပိုးကူညီမှုအတွက် ရောဂါရှာဖွေစစ်ဆေးမှုများ"
 
-#: includes/class-zinn-connector-admin-ui.php:989
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "ဆက်တင်ဖိုင်တစ်ခုကို တင်သွင်းပါ"
 
-#: includes/class-zinn-connector-admin-ui.php:991
+#: includes/class-zinn-connector-admin-ui.php:995
 msgid "Import"
 msgstr "တင်သွင်းရန်"
 
-#: includes/class-zinn-connector-admin-ui.php:993
+#: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ထုတ်ယူထားသော ဖိုင်များတွင် စကားဝှက်များ၊ တိုကင်များ သို့မဟုတ် API သော့ချက်များ လုံးဝမပါဝင်ပါ — ၎င်းတို့ကို ဆိုက်အသစ်တွင် ထပ်မံထည့်သွင်းရန် လိုအပ်မည်ဖြစ်သည်။"
 
-#: includes/class-zinn-connector-admin-ui.php:1092
+#: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "ဆက်တင်များကို သိမ်းဆည်းပြီးပါပြီ။"
 
-#: includes/class-zinn-connector-admin-ui.php:1139
+#: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "ဤပလပ်ဂင်ရှိ ဆက်တင်အားလုံးသည် မူလအတိုင်းသို့ ပြန်ရောက်သွားပါပြီ။"
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
 msgstr "ပြီးပါပြီ။"
 
-#: includes/class-zinn-connector-admin-ui.php:1186
+#: includes/class-zinn-connector-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "ထိုလုပ်ဆောင်ချက်ကို အသုံးမပြုနိုင်ပါ။"
 
-#: includes/class-zinn-connector-admin-ui.php:1253
+#: includes/class-zinn-connector-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ထိုဖိုင်ကို ဖတ်မရပါ။ Zinn® ပလပ်အင်တစ်ခုမှ တင်ပို့ထားသော ဆက်တင်ဖိုင်တစ်ခုကို ရွေးပါ။"
 
-#: includes/class-zinn-connector-admin-ui.php:1261
+#: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "ထိုဖိုင်သည် ဆက်တင်များ တင်ပို့မှုတစ်ခု ဖြစ်ရန်အတွက် ကြီးလွန်းနေပါသည်။"
 
-#: includes/class-zinn-connector-admin-ui.php:1274
+#: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "ထိုဖိုင်သည် Zinn® ဆက်တင်များ တင်ပို့မှု မဟုတ်ပါ။"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1282
+#: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ထိုဖိုင်ကို အခြား ပလပ်အင် (%s) တစ်ခုမှ ထုတ်ယူထားခြင်းဖြစ်သောကြောင့် ဤနေရာတွင် တင်သွင်းခြင်းဖြင့် ဤပလပ်အင် နားမလည်သော ဆက်တင်များကို သိမ်းဆည်းသွားမည် ဖြစ်သည်။"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1312
+#: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -186,7 +186,7 @@ msgstr[0] "ဆက်တင် %d ခု တင်သွင်းပြီးပ�
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "archive သည် %1$d MB ရှိပြီး၊ ဤဆိုက်တွင် သတ်မှတ်ထားသော %2$d MB ကန့်သတ်ချက်ထက် ကျော်လွန်နေပါသည်။ Zinn Digital® → Connector → Backups မျက်နှာပြင်တွင် ကန့်သတ်ချက်ကို မြှင့်ပါ သို့မဟုတ် φ ဖိုင်တွဲအချို့ကို ချန်လှပ်ပါ။"
+msgstr "ဤ မော်ကွန်းတိုက်သည် %1$d MB ဖြစ်ပြီး၊ ဤဆိုက်တွင် သတ်မှတ်ထားသော %2$d MB ကန့်သတ်ချက်ထက် ကျော်လွန်နေပါသည်။ Zinn Digital® → Connector → Backups မျက်နှာပြင်တွင် ကန့်သတ်ချက်ကို မြှင့်တင်ပါ သို့မဟုတ် ဖိုင်တွဲအချို့ကို ချန်လှပ်ပါ။"
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
@@ -395,27 +395,27 @@ msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို �
 msgid "Hide this"
 msgstr "ဒါကို ဝှက်ရန်"
 
-#: includes/class-zinn-connector-promo.php:374
+#: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress အတွက် Zinn® ဟိုစတင်င်မ်"
 
-#: includes/class-zinn-connector-promo.php:375
+#: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed၊ နေ့စဉ်ဘက်ကပ်ပြုလုပ်ခြင်း၊ အခမဲ့ပြောင်းရွှေ့ပေးခြင်းနှင့် ဆိုက်တစ်ခုထက်ပို၍ လုပ်ကိုင်သူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်မှုပန်နယ်။"
 
-#: includes/class-zinn-connector-promo.php:381
+#: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "The Zinn® စျေးကွက်"
 
-#: includes/class-zinn-connector-promo.php:382
+#: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကြေးကို လုံခြုံစွာ သိမ်းဆည်းထားပြီး၊ တည်ထောင်ပြီးသား ဝက်ဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်နေရာချထားမှုများကို ဝယ်ယူပါ။"
 
-#: includes/class-zinn-connector-promo.php:429
+#: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ လုပ်ကိုင်သူများကို ငှားရမ်းပါ"
 
-#: includes/class-zinn-connector-promo.php:430
+#: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ ဖရီးလန်းဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဒေဗလော့ပါများနှင့် SEO ကျွမ်းကျင်သူများ၏ အဆင်သင့်ပြင်ဆင်ထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ဝင်ရောက်ကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခု တင်၍ ၎င်းတို့အား လေလံဆွဲခွင့်ပြုပါ။"
 

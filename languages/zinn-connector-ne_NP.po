@@ -62,121 +62,121 @@ msgstr "यो पङ्क्ति हटाउनुहोस्"
 msgid "Remove"
 msgstr "हटाउनुहोस्"
 
-#: includes/class-zinn-connector-admin-ui.php:276
-#: includes/class-zinn-connector-admin-ui.php:277
-#: includes/class-zinn-connector-admin-ui.php:417
+#: includes/class-zinn-connector-admin-ui.php:280
+#: includes/class-zinn-connector-admin-ui.php:281
+#: includes/class-zinn-connector-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:290
+#: includes/class-zinn-connector-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — सिंहावलोकन"
 
-#: includes/class-zinn-connector-admin-ui.php:291
+#: includes/class-zinn-connector-admin-ui.php:295
 msgid "Overview"
 msgstr "अवलोकन"
 
-#: includes/class-zinn-connector-admin-ui.php:379
+#: includes/class-zinn-connector-admin-ui.php:383
 msgid "Copied"
 msgstr "प्रतिलिपि गरियो"
 
-#: includes/class-zinn-connector-admin-ui.php:418
+#: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "यस साइटमा भएका प्रत्येक Zinn® प्लगइन, र यो काम गरिरहेको छ कि छैन।"
 
-#: includes/class-zinn-connector-admin-ui.php:433
+#: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "यो प्लगइनको लागि कुनै जडान आवश्यक पर्दैन।"
 
-#: includes/class-zinn-connector-admin-ui.php:438
+#: includes/class-zinn-connector-admin-ui.php:442
 msgid "Open settings"
 msgstr "सेटिङहरू खोल्नुहोस्"
 
-#: includes/class-zinn-connector-admin-ui.php:766
-#: includes/class-zinn-connector-admin-ui.php:1327
+#: includes/class-zinn-connector-admin-ui.php:770
+#: includes/class-zinn-connector-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "तपाईंलाई यी सेटिङहरू परिवर्तन गर्ने अनुमति छैन।"
 
-#: includes/class-zinn-connector-admin-ui.php:795
+#: includes/class-zinn-connector-admin-ui.php:799
 msgid "Settings sections"
 msgstr "सेटिङ खण्डहरू"
 
-#: includes/class-zinn-connector-admin-ui.php:867
+#: includes/class-zinn-connector-admin-ui.php:871
 msgid "Support"
 msgstr "समर्थन"
 
-#: includes/class-zinn-connector-admin-ui.php:925
+#: includes/class-zinn-connector-admin-ui.php:929
 msgid "Save changes"
 msgstr "परिवर्तनहरू बचत गर्नुहोस्"
 
-#: includes/class-zinn-connector-admin-ui.php:954
+#: includes/class-zinn-connector-admin-ui.php:958
 msgid "Tools"
 msgstr "उपकरणहरू"
 
-#: includes/class-zinn-connector-admin-ui.php:969
+#: includes/class-zinn-connector-admin-ui.php:973
 msgid "Export settings"
 msgstr "निर्यात सेटिङहरू"
 
-#: includes/class-zinn-connector-admin-ui.php:972
+#: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "पूर्वनिर्धारित मानहरूमा रिसेट गर्नुहोस्"
 
-#: includes/class-zinn-connector-admin-ui.php:973
+#: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "यसले यस प्लगइनका सबै सेटिङहरूलाई तिनीहरूको पूर्वनिर्धारित स्थितिमा फर्काउँछ। जारी राख्नुहुन्छ?"
 
-#: includes/class-zinn-connector-admin-ui.php:980
+#: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "समर्थनका लागि निदान"
 
-#: includes/class-zinn-connector-admin-ui.php:989
+#: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "सेटिङ्स फाइल इम्पोर्ट गर्नुहोस्"
 
-#: includes/class-zinn-connector-admin-ui.php:991
+#: includes/class-zinn-connector-admin-ui.php:995
 msgid "Import"
 msgstr "आयात गर्नुहोस्"
 
-#: includes/class-zinn-connector-admin-ui.php:993
+#: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "निर्यात गरिएका फाइलहरूमा कहिल्यै पनि पासवर्ड, टोकन वा API कुञ्जीहरू हुँदैनन् — तपाईंले नयाँ साइटमा ती फेरि प्रविष्ट गर्नुपर्नेछ।"
 
-#: includes/class-zinn-connector-admin-ui.php:1092
+#: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "सेटिङहरू सेभ गरियो।"
 
-#: includes/class-zinn-connector-admin-ui.php:1139
+#: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "यस प्लगइनका प्रत्येक सेटिङहरू तिनीहरूको पूर्वनिर्धारित स्थितिमा फर्किएका छन्।"
 
-#: includes/class-zinn-connector-admin-ui.php:1182
+#: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
 msgstr "सम्पन्न भयो।"
 
-#: includes/class-zinn-connector-admin-ui.php:1186
+#: includes/class-zinn-connector-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "त्यो कार्य उपलब्ध छैन।"
 
-#: includes/class-zinn-connector-admin-ui.php:1253
+#: includes/class-zinn-connector-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "त्यो फाइल पढ्न सकिएन। Zinn® प्लगइनबाट एक्सपोर्ट गरिएको सेटिङ फाइल छान्नुहोस्।"
 
-#: includes/class-zinn-connector-admin-ui.php:1261
+#: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "त्यो फाइल सेटिङ्स निर्यातका लागि धेरै ठूलो छ।"
 
-#: includes/class-zinn-connector-admin-ui.php:1274
+#: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "त्यो फाइल Zinn® सेटिङहरूको निर्यात होइन।"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1282
+#: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "त्यो फाइल फरक प्लगइन (%s) बाट निर्यात गरिएको हो, त्यसैले यसलाई यहाँ आयात गर्दा यो प्लगइनले नबुझ्ने सेटिङहरू भण्डार हुनेछ।"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1312
+#: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -396,27 +396,27 @@ msgstr "%s प्रयोगकर्ता गाइड पढ्नुहो�
 msgid "Hide this"
 msgstr "यसलाई लुकाउनुहोस्"
 
-#: includes/class-zinn-connector-promo.php:374
+#: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress को लागि Zinn® होस्टिङ"
 
-#: includes/class-zinn-connector-promo.php:375
+#: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, दैनिक ब्याकअपहरू, नि:शुल्क बसाइँसराइ र एकभन्दा बढी साइटहरू चलाउनेहरूका लागि बनाइएको कन्ट्रोल प्यानल।"
 
-#: includes/class-zinn-connector-promo.php:381
+#: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® बजार"
 
-#: includes/class-zinn-connector-promo.php:382
+#: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "स्थापित साइटहरू, डोमेनहरू र लिङ्क प्लेसमेन्टहरू खरिद र बिक्री गर्नुहोस्, दुवै पक्ष सन्तुष्ट नभएसम्म पैसा सुरक्षित रूपमा राखिन्छ।"
 
-#: includes/class-zinn-connector-promo.php:429
+#: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — यसैलाई आफ्नो पेसा बनाउने व्यक्तिहरूलाई काममा लगाउनुहोस्"
 
-#: includes/class-zinn-connector-promo.php:430
+#: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "हाम्रो विश्वव्यापी फ्रिलान्स बजार: लेखक, डिजाइनर, विकासकर्ता र SEO विशेषज्ञहरूबाट १०,००० भन्दा बढी तयार सेवाहरू ब्राउज गर्नुहोस्, वा परियोजना पोस्ट गर्नुहोस् र उनीहरूलाई बोलपत्र लगाउन दिनुहोस्।"
 
