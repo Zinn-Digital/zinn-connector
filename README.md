@@ -38,7 +38,7 @@ Installed from WordPress.org instead, it updates from the directory like any oth
 
 ## Our other WordPress plugins
 
-- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, remote purge from your dashboard and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead.
+- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, a signed purge endpoint for your own tools and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead.
 - **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — A complete caching and optimisation engine — full-page cache, object cache, database cleanup and CSS/JS optimisation — for WordPress sites hosted somewhere that provides no cache layer. On Zinn Digital® hosting, install Zinn® Cache instead. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-chat](https://github.com/Zinn-Digital/zinn-chat)** — A fast, privacy-respecting live chat for any WordPress site — answered by AI when you are busy, handed to a person when it matters, and emailed to you when you miss it. Under 10 KB on the page, and no requests at all until a visitor opens it.
 - **[zinn-migrate](https://github.com/Zinn-Digital/zinn-migrate)** — Install it on the WordPress site you are LEAVING. It packages that site — files and database — into one archive and gives you a private link to paste into your Zinn Digital® migration. For hosts that give you no FTP, no SSH and no control-panel API; if you have any of those, Zinn® can fetch the site directly and you do not need this.
