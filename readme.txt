@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.9
+Stable tag: 1.2.10
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -178,6 +178,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.2.10 =
+* Security hardening: the design-token stylesheet validates every component id and strips anything that could close the inline style.
 
 = 1.2.9 =
 * Translations: a word written in the wrong alphabet (for example a Korean word inside a Malayalam sentence, or an Urdu word ending a Punjabi one) is corrected in every language that had one. Each affected string was translated again and checked.
