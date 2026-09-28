@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "हे WordPress साइट Zinn Digital® शी जोडते जेणेकरून अनुसूचित लेख यावर प्रकाशित केले जाऊ शकतात. तुमच्या Zinn® डॅशबोर्डवरून पेअरिंग कोड पेस्ट करा आणि प्लगइन स्वतःचे क्रेडेंशियल सेट करते — हाताने काहीही कॉपी केले जात नाही."
+msgstr "हे WordPress साइट Connects ला Zinn Digital® सह जोडते जेणेकरून त्यावर शेड्यूल केलेले लेख प्रकाशित करता येतील. तुमच्या Zinn® डॅशबोर्डवरून एक पेअरिंग कोड पेस्ट करा आणि प्लगइन स्वतःचे क्रेडेन्शियल सेट अप करते — काहीही हाताने कॉपी केले जात नाही."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -779,10 +779,20 @@ msgstr "माझे स्वतःचे रंग आणि आकार व�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "हे बंद ठेवा आणि प्रीसेट जसेच्या तसे वापरले जाईल."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® च्या रिलीझ नोट्स पहा."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® अपडेट सेवेने या अपडेटसाठी डाउनलोड लिंक जारी केली नाही. हे साइट Zinn® प्लॅटफॉर्मशी कनेक्ट होऊ शकते का तपासा आणि नंतर पुन्हा प्रयत्न करा."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® अपडेट सर्व्हिसवरून (%s) अपडेट डाउनलोड करता आले नाही. काही मिनिटांनंतर पुन्हा प्रयत्न करा."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "डाउनलोड केलेल्या अपडेटची अखंडता चाचणी (इंटीग्रिटी चेक) अयशस्वी झाली आणि ते इन्स्टॉल केले गेले नाही."

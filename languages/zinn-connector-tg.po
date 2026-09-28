@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Ин сайти WordPress-ро ба Zinn Digital® пайваст мекунад, то мақолаҳои ба нақша гирифташуда дар он нашр карда шаванд. Рамзи пайвасткуниро аз панели идоракунии Zinn® гузоред ва плагин маълумоти боварии худро танзим мекунад — ҳеҷ чиз бо дасти худ нусхабардорӣ намешавад."
+msgstr "Connects ин сайти WordPress-ро ба Zinn Digital®, то мақолаҳои банақшагирифташуда дар он нашр карда шаванд. Коди ҷуфткуниро аз панели идоракунии Zinn®-и худ ворид кунед ва плагин эътимодномаи худро танзим мекунад — ҳеҷ чиз бо даст нусхабардорӣ карда намешавад."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -778,10 +778,20 @@ msgstr "Рангҳо ва андозаҳои шахсии худро истиф�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Инро хомӯш гузоред ва пешфарз дақиқ тавре ки ҳаст, истифода мешавад."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Эълонҳои нашри Zinn Digital®-ро бинед."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Хизматрасонии навсозии Zinn® истиноди зеркаширо барои ин навсозӣ пешниҳод накард. Санҷед, ки оё ин сайт ба платформаи Zinn® дастрас шуда метавонад ё не, сипас дубора кӯшиш кунед."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Навсозӣ аз хидмати навсозии Zinn® зеркашӣ карда нашуд (%s). Пас аз чанд дақиқа дубора кӯшиш кунед."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Азнавкарии зеркашишуда аз санҷиши бехатарӣ гузашта натавонист ва насб карда нашуд."

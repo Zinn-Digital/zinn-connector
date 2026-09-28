@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Verbindt deze WordPress site met Zinn Digital® zodat ingeplande artikelen erop kunnen worden gepubliceerd. Plak een koppelingscode uit uw Zinn®-dashboard en de plugin stelt zijn eigen inloggegevens in — er wordt niets met de hand gekopieerd."
+msgstr "Connects deze WordPress-site met Zinn Digital® zodat geplande artikelen erop gepubliceerd kunnen worden. Plak een koppelcode uit uw Zinn®-dashboard en de plugin stelt zijn eigen inloggegevens in — er wordt niets handmatig gekopieerd."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -779,10 +779,20 @@ msgstr "Eigen kleuren en formaten gebruiken"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Laat dit uitgeschakeld en de vooraf ingestelde waarde wordt precies zo gebruikt als deze is."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Bekijk de releaseopmerkingen van Zinn Digital®."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "De update-service van Zinn® heeft geen downloadlink afgegeven voor deze update. Controleer of deze site het Zinn®-platform kan bereiken en probeer het dan opnieuw."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "De update kon niet worden gedownload van de updatewachtdienst van Zinn® (%s). Probeer het over een paar minuten opnieuw."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "De gedownloade update is niet door de integriteitscontrole gekomen en is niet geïnstalleerd."

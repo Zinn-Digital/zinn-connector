@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Összeköti ezt a WordPress webhelyet a Zinn Digital® szolgáltatással, hogy az ütemezett cikkek publikálhatók legyenek rajta. Illesszen be egy párosítási kódot a Zinn® vezérlőpultjáról, és a bővítmény beállítja a saját hitelesítő adatait – semmit sem kell kézzel másolni."
+msgstr "Ez a Connects csatlakoztatja ezt a WordPress oldalt a Zinn Digital® szolgáltatáshoz, így az ütemezett cikkek publikálhatók rajta. Illessze be a párosítási kódot a Zinn® irányítópultjáról, és a bővítmény beállítja a saját hitelesítő adatait – semmit sem kell kézzel másolni."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -779,10 +779,20 @@ msgstr "Használjam a saját színeimet és méreteimet"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Hagyja ezt kikapcsolva, és az előbeállítás pontosan a megszokott módon lesz használva."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Tekintse meg a Zinn Digital® kiadási megjegyzéseit."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "A Zinn® frissítési szolgáltatás nem adott ki letöltési hivatkozást ehhez a frissítéshez. Ellenőrizze, hogy ez a webhely eléri-e a Zinn® platformot, majd próbálja meg újra."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgáltatásról (%s). Próbálja meg újra néhány perc múlva."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "A letöltött frissítés integritási ellenőrzése sikertelen volt, így nem lett a rendszerre telepítve."

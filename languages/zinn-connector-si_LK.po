@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "කාලසටහන්ගත ලිපි ප්‍රකාශයට පත් කළ හැකි වන පරිදි මෙම වෝඩ්ප්‍රෙස් (WordPress) අඩවිය Zinn Digital® වෙත සම්බන්ධ කරයි. ඔබේ Zinn® උපකරණ පුවරුවෙන් යුගල කිරීමේ කේතයක් අලවන්න; එවිට ප්ලගිනය මඟින් එයටම ආවේණික අක්තපත්‍ර සකස් කරනු ඇත — කිසිවක් අතින් පිටපත් කිරීමට අවශ්‍ය නොවේ."
+msgstr "මෙම WordPress අඩවිය Zinn Digital® වෙත Connects කරන බැවින් සැලසුම් කළ ලිපි එයට ප්‍රකාශයට පත් කළ හැක. ඔබේ Zinn® උපකරණ පුවරුවෙන් යුගල කිරීමේ කේතයක් අලවන්න සහ ප්ලගිනය එහිම අක්තපත්‍ර සකසයි — කිසිවක් අතින් පිටපත් නොකෙරේ."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -779,10 +779,20 @@ msgstr "මගේම වර්ණ සහ ප්‍රමාණ භාවිත�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "මෙය ක්‍රියා විරහිත කර තැබුවහොත්, පෙරසැකසුම ඇති ආකාරයටම භාවිතා වේ."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® නිකුතු සටහන් බලන්න."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® යාවත්කාලීන සේවය මෙම යාවත්කාලීනය සඳහා බාගත කිරීමේ සබැඳියක් නිකුත් කර නැත. මෙම වෙබ් අඩවියට Zinn® වේදිකාවට සම්බන්ධ විය හැකි බව තහවුරු කර, නැවත උත්සාහ කරන්න."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "යාවත්කාලීන කිරීම Zinn® යාවත්කාලීන සේවාවෙන් (%s) බාගත කර ගැනීමට නොහැකි විය. මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "බාගත කළ යාවත්කාලීන කිරීමේ අඛණ්ඩතා පරීක්ෂාව අසමත් වූ අතර එය ස්ථාපනය කර නොමැත."

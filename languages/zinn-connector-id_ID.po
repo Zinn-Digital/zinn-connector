@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Menghubungkan situs WordPress ini ke Zinn Digital® agar artikel terjadwal dapat dipublikasikan ke situs tersebut. Tempel kode penautan dari dasbor Zinn® Anda dan plugin ini akan menyiapkan kredensialnya sendiri—tidak ada yang disalin secara manual."
+msgstr "Connects situs WordPress ini ke Zinn Digital® agar artikel yang terjadwal dapat dipublikasikan ke dalamnya. Tempelkan kode penyandingan dari dasbor Zinn® Anda dan plugin akan menyiapkan kredensialnya sendiri — tidak ada yang disalin secara manual."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -778,10 +778,20 @@ msgstr "Gunakan warna dan ukuran saya sendiri"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Matikan ini dan prasetel akan digunakan persis seperti apa adanya."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Lihat catatan rilis Zinn Digital®."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Layanan pembaruan Zinn® tidak mengeluarkan tautan unduhan untuk pembaruan ini. Periksa apakah situs ini dapat menjangkau platform Zinn®, lalu coba lagi."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Pembaruan tidak dapat diunduh dari layanan pembaruan Zinn® (%s). Coba lagi dalam beberapa menit."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Pembaruan yang diunduh gagal dalam pemeriksaan integritas dan tidak diinstal."

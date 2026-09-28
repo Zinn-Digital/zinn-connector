@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Povezuje ovaj WordPress sajt sa Zinn Digital® kako bi se na njega mogli objavljivati zakazani članci. Nalepite kod za uparivanje sa vaše Zinn® kontrolne table i dodatak sam podešava svoje akreditive — ništa se ne kopira ručno."
+msgstr "Connects этот WordPress сајт са Zinn Digital® како би заказани чланци могли да се објављују на њему. Налепите код за упаривање са ваше Zinn® контролне табле и прикључак ће сам подесити сопствене параметре за пријаву — ништа се не копира ручно."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -780,10 +780,20 @@ msgstr "Koristi moje sopstvene boje i veličine"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Isključite ovo i unapred podešena vrednost se koristi tačno kakva jeste."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Pogledajte napomene o izdanju za Zinn Digital®."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Usluga ažuriranja Zinn® nije izdala vezu za preuzimanje za ovo ažuriranje. Proverite da li ovaj sajt može da pristupi platformi Zinn®, pa pokušajte ponovo."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Ažuriranje nije moglo da se preuzme sa Zinn® servisa za ažuriranje (%s). Pokušajte ponovo za nekoliko minuta."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Preuzeto ažuriranje nije prošlo proveru integriteta i nije instalirano."

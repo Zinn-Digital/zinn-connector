@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Rejalashtirilgan maqolalar chop etilishi uchun ushbu WordPress saytini Zinn Digital® ga ulaydi. Zinn® boshqaruv panelingizdan juftlashtirish kodini joylashtiring va plagin oʻzining hisob maʼlumotlarini oʻrnatadi — hech narsa qoʻlda nusxalanmaydi."
+msgstr "Rejalashtirilgan maqolalar unda chop etilishi uchun ushbu WordPress saytini Zinn Digital® ga Connects. Zinn® boshqaruv panelingizdan ulash kodini nusxalab joylashtiring va plagin oʻzining hisob maʼlumotlarini sozlaydi — hech narsa qoʻlda nusxalanmaydi."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -779,10 +779,20 @@ msgstr "O'z ranglarim va o'lchamlarimdan foydalanish"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Buni o'chirib qo'ying va andoza o'z holicha ishlatiladi."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® chiqarilish eslatmalarini ko'ring."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® yangilanish xizmati ushbu yangilanish uchun yuklab olish havolasini taqdim etmadi. Ushbu sayt Zinn® platformasiga ulanish imkoniyatiga ega ekanligini tekshiring va qayta urinib ko'ring."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Yangilanish Zinn® yangilanish xizmatidan (%s) yuklab olinmadi. Bir necha daqiqadan so'ng qayta urinib ko'ring."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Yuklab olingan yangilanish yaxlitlik tekshiruvidan o'tmadi va o'rnatilmadi."

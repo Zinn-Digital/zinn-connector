@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "このWordPressサイトをZinn Digital®に接続し、予約投稿された記事を公開できるようにします。Zinn®ダッシュボードからペアリングコードを貼り付けるだけで、プラグインが独自の認証情報を設定するため、手動でコピーする必要はありません。"
+msgstr "スケジュールされた記事を公開できるように、この WordPress サイトを Zinn Digital® に Connects してください。Zinn® ダッシュボードからペアリングコードを貼り付けると、プラグインが独自の資格情報を設定します。手動でコピーされるものは何もありません。"
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -778,10 +778,20 @@ msgstr "独自の配色とサイズを使用する"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "これをオフにすると、プリセットがそのまま使用されます。"
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® のリリースノートをご覧ください。"
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® 更新サービスはこの更新のダウンロードリンクを発行しませんでした。このサイトが Zinn® プラットフォームに接続できることを確認してから、もう一度やり直してください。"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® のアップデートサービスからアップデートをダウンロードできませんでした (%s)。数分後にもう一度お試しください。"
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ダウンロードしたアップデートの整合性チェックに失敗したため、インストールされませんでした。"

@@ -20,6 +20,7 @@ msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
 msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 
 #. Description of the plugin
+#. zinn-i18n: not translated — ProtectedTermError: protected term(s) did not survive translation into ar: Connects. These are glossary entries and must be reprod
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
 msgstr "يقوم بتوصيل موقع ووردبريس (WordPress) هذا بمنصة Zinn Digital® لتمكين نشر المقالات المجدولة عليه. الصق رمز الإقران من لوحة تحكم Zinn® وسيقوم المكون الإضافي بإعداد بيانات الاعتماد الخاصة به - فلا داعي لنسخ أي شيء يدويًا."
@@ -783,10 +784,20 @@ msgstr "استخدم ألواني ومقاساتي الخاصة"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "أبقِ هذا مغلقاً وسيتم استخدام الإعداد المسبق تماماً كما هو."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "راجع ملاحظات إصدار Zinn Digital®."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "لم تُصدر خدمة التحديث من Zinn® رابط تنزيل لهذا التحديث. تحقق من أن هذا الموقع يمكنه الوصول إلى منصة Zinn®، ثم حاول مرة أخرى."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "تعذر تنزيل التحديث من خدمة تحديث Zinn® (%s). حاول مرة أخرى خلال بضع دقائق."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "فشل التحقق من سلامة التحديث الذي تم تنزيله ولم يتم تثبيته."

@@ -20,6 +20,7 @@ msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
 msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 
 #. Description of the plugin
+#. zinn-i18n: not translated — ProtectedTermError: protected term(s) did not survive translation into lo: Connects. These are glossary entries and must be reprod
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
 msgstr "ເຊື່ອມຕໍ່ເວັບໄຊ WordPress ນີ້ກັບ Zinn Digital® ເພື່ອໃຫ້ສາມາດເຜີຍແຜ່ບົດຄວາມຕາມຕາຕະລາງເວລາໄດ້. ວາງລະຫັດຈັບຄູ່ຈາກໜ້າປັດ Zinn® ຂອງທ່ານແລ້ວປລັກອິນຈະຕັ້ງຄ່າຂໍ້ມູນປະຈຳຕົວຂອງມັນເອງ — ບໍ່ມີການຄັດລອກດ້ວຍມື."
@@ -778,10 +779,20 @@ msgstr "ໃຊ້ສີ ແລະ ຂະໜາດຂອງຂ້ອຍເອງ"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ປິດຄຳສັ່ງນີ້ໄວ້ ແລະ ການຕັ້ງຄ່າລ່ວງໜ້າຈະຖືກໃຊ້ຢ່າງແນ່ນອນຕາມທີ່ມັນເປັນ."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນຂອງ Zinn Digital®."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "ບໍລິການອັບເດດ Zinn® ບໍ່ໄດ້ອອກລິ້ງດາວໂຫຼດສຳລັບການອັບເດດນີ້. ກະລຸນາ ກວດສອບວ່າເວັບໄຊນີ້ສາມາດເຂົ້າເຖິງແພລັດຟອມ Zinn® ໄດ້ ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "ບໍ່ສາມາດດາວໂຫຼດການອັບເດດຈາກບໍລິການອັບເດດຂອງ Zinn® (%s) ໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກສອງສາມນາທີຂ້າງໜ້າ."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."

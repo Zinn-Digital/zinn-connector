@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "ချိန်းဆိုထားသည့်ဆောင်းပါးများကို ထုတ်ဝေနိုင်ရန် ဤ WordPressဆိုက်ကို Zinn Digital® သို့ ချိတ်ဆက်ပေးသည်။ သင့် Zinn® ဒက်ရှ်ဘုတ်မှ တွဲဖက်ကုဒ်တစ်ခုကို ကူးထည့်ပါက ပလပ်အင်က ၎င်း၏ကိုယ်ပိုင် အထောက်အထားကို သတ်မှတ်ပေးမည်ဖြစ်ရာ မည်သည့်အရာကိုမျှ လက်ဖြင့် ကူးယူရန် မလိုပါ။"
+msgstr "စီစဉ်ထားသောဆောင်းပါးများကို ၎င်းပေါ်တွင် ထုတ်ဝေနိုင်ရန် ဤ WordPressဆိုက်ကို Zinn Digital® သို့ Connects လုပ်ပေးသည်။ သင့် Zinn® ဒိုင်ခွက်မှ တွဲချိတ်ခြင်းကုဒ်တစ်ခုကို ကူးထည့်ပါက ပလပ်အင်သည် ၎င်း၏ကိုယ်ပိုင်အထောက်အထားကို သတ်မှတ်ပေးလိမ့်မည် — မည်သည့်အရာကိုမျှ လက်ဖြင့်ကူးယူရန်မလိုပါ။"
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -778,10 +778,20 @@ msgstr "ကျွန်ုပ်၏ ကိုယ်ပိုင်အရော�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ဒါကို ပိတ်ထားပါက ပုံသေချိန်ညှိချက်အတိုင်း ကွက်တိအသုံးပြုသွားမည်ဖြစ်သည်။"
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® ၏ ထုတ်ဝေမှု မှတ်စုများကို ကြည့်ပါ။"
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® အပ်ဒိတ်ဝန်ဆောင်မှုသည် ဤအပ်ဒိတ်အတွက် ဒေါင်းလုဒ်လင့်ခ်ကို မထုတ်ပေးခဲ့ပါ။ ဤဆိုက်သည် Zinn® ပလပ်ဖောင်းသို့ ချိတ်ဆက်နိုင်ခြင်း ရှိမရှိ စစ်ဆေးပြီးနောက် ထပ်မံကြိုးစားပါ။"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® အပ်ဒိတ်ဝန်ဆောင်မှု (%s) မှ အပ်ဒိတ်ကို ဒေါင်းလုဒ်လုပ်၍ မရပါ။ မိနစ်အနည်းငယ်ကြာမှ ထပ်ကြိုးစားပါ။"
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ဒေါင်းလုပ်လုပ်ထားသော အပ်ဒိတ်သည် ၎င်း၏ ခိုင်မာမှုစစ်ဆေးမှုကို မအောင်မြင်ခဲ့ပါ၊ ထို့ကြောင့် ထည့်သွင်းခြင်း မပြုလုပ်ခဲ့ပါ။"

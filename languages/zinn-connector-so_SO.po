@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Wuxuu ku xidhayaa boggatan WordPress adeegga Zinn Digital® si qoraallada loo qorsheeyay loogu daabaco. Ku dheji koodhka lammaanaynta ee laga keenay guddigaaga Zinn® waana in plugin-ku uu dejiyo aqoonsigiisa — waxna gacanta looma guuriyo."
+msgstr "Ku xidh Connects boggan WordPress iyo Zinn Digital® si maqaallada loo qorsheeyay loogu baahin karo. Kasoo nakali koodka isku-xidhka dashboodhkaaga Zinn® oo dib-u-dhagahu (plugin) wuxuu samaysan doonaa xogtiisa aqoonsiga — waxba gacanta loogu koobiyayn maayo."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -780,10 +780,20 @@ msgstr "Isticmaal midabada iyo cabbirrada aniga ii gaarka ah"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Tan ha tuman si horay loogu habeeyay sida ay tahay loogu isticmaalo."
 
-#: includes/class-zinn-connector-updater.php:233
+#: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Fiiri qoraallada sii-daynta ee Zinn Digital®."
 
-#: includes/class-zinn-connector-updater.php:288
+#: includes/class-zinn-connector-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Adeegga cusboonaysiinta ee Zinn® ayaan soo saarin xiriiriyaha soo dejinta ee cusboonaysiintan. Hubi in boggani uu gaari karo madal Zinn®, kadibna isku day mar labaad."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-connector-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Cusboonaysiinlama soo dejisan karo adeegga cusboonaysiin ee Zinn® (%s). Iskey mar kale daqiiqado kadib."
+
+#: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Cusboonaysiintii la soo dejiyey ayaa ku guuldareysatay baaritaanka hufnaanta waxaana la rakibay."
