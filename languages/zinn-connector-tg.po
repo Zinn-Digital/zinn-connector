@@ -375,47 +375,47 @@ msgstr ""
 "Ин паёмҳои почтаи электрониро дар экрани Zinn Digital® → Connector → Publishing хомӯш кунед."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-connector-promo.php:241
-#: includes/class-zinn-connector-promo.php:299
+#: includes/class-zinn-connector-promo.php:326
+#: includes/class-zinn-connector-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — дастурҳо ва хидматҳо"
 
-#: includes/class-zinn-connector-promo.php:256
+#: includes/class-zinn-connector-promo.php:341
 msgid "User guides"
 msgstr "Дастурҳои корбар"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-connector-promo.php:306
+#: includes/class-zinn-connector-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Дастури корбари %s-ро хонед"
 
-#: includes/class-zinn-connector-promo.php:314
+#: includes/class-zinn-connector-promo.php:399
 msgid "Hide this"
 msgstr "Инро пинҳон кунед"
 
-#: includes/class-zinn-connector-promo.php:424
+#: includes/class-zinn-connector-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Хостинги Zinn® барои WordPress"
 
-#: includes/class-zinn-connector-promo.php:425
+#: includes/class-zinn-connector-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, нусхабардориҳои эҳтиётии ҳаррӯза, кӯчонидани ройгон ва панели идоракуние, ки барои шахсони зиёда аз як сайт дошта сохта шудааст."
 
-#: includes/class-zinn-connector-promo.php:431
+#: includes/class-zinn-connector-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Бозори Zinn®"
 
-#: includes/class-zinn-connector-promo.php:432
+#: includes/class-zinn-connector-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Сомонаҳои муқарраршуда, доменҳо ва ҷойгиркунии пайвандҳоро бо нигоҳдории бехатари маблағ то қонеъ шудани ҳар ду ҷониб харед ва фурӯшед."
 
-#: includes/class-zinn-connector-promo.php:479
+#: includes/class-zinn-connector-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ашхосеро киро кунед, ки ин касби асосии онҳост"
 
-#: includes/class-zinn-connector-promo.php:480
+#: includes/class-zinn-connector-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори ҷаҳонии фриланси мо: беш аз 10 000 хидматҳои омодаи нависандагон, тарроҳон, барноманависон ва мутахассисони SEO-ро аз назар гузаронед, ё лоиҳаеро нашр кунед ва ба онҳо имкони пешниҳоди нарх диҳед."
 

@@ -376,47 +376,47 @@ msgstr ""
 "Ku dami iimaylladan shaashadda Zinn Digital® → Xiriiriyaha → Daabacaadda."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-connector-promo.php:241
-#: includes/class-zinn-connector-promo.php:299
+#: includes/class-zinn-connector-promo.php:326
+#: includes/class-zinn-connector-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — tilmaamaha iyo adeegyada"
 
-#: includes/class-zinn-connector-promo.php:256
+#: includes/class-zinn-connector-promo.php:341
 msgid "User guides"
 msgstr "Hagayaasha isticmaalaha"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-connector-promo.php:306
+#: includes/class-zinn-connector-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Akhri hagaha isticmaalaha %s"
 
-#: includes/class-zinn-connector-promo.php:314
+#: includes/class-zinn-connector-promo.php:399
 msgid "Hide this"
 msgstr "Qari kan"
 
-#: includes/class-zinn-connector-promo.php:424
+#: includes/class-zinn-connector-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Martigelinta Zinn® ee loogu talagalay WordPress"
 
-#: includes/class-zinn-connector-promo.php:425
+#: includes/class-zinn-connector-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, koobiyeyn maalinle ah, raritaan bilaash ah iyo qaybta koontaroolka oo loo dhisay dadka maamula wax ka badan hal goob."
 
-#: includes/class-zinn-connector-promo.php:431
+#: includes/class-zinn-connector-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Suuqa Zinn®"
 
-#: includes/class-zinn-connector-promo.php:432
+#: includes/class-zinn-connector-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Iibso oo iibi boggag dhisan, magacyada domain-ka iyo meelaynta xiriiriyaha, iyadoo lacagta si ammaan ah loo hayo ilaa labada dhinacba ay ku qancaan."
 
-#: includes/class-zinn-connector-promo.php:479
+#: includes/class-zinn-connector-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — shaqaaleyso dad noloshoodu ku tiirsan tahay shaqadan"
 
-#: includes/class-zinn-connector-promo.php:480
+#: includes/class-zinn-connector-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Suuqa xorta ah ee caalamiga ah: baadh in ka badan 10,000 oo adeegyo diyaarsan oo ka yimid qorayaasha, naqshadeeyayaasha, horumariyayaasha iyo khubarada SEO, ama soo dheji mashruuc oo u oggolow inay dalab ku darsadaan."
 

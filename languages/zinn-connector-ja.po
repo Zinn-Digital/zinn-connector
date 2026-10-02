@@ -173,7 +173,7 @@ msgstr "そのファイルは Zinn®の設定エクスポートではありま�
 #: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "そのファイルは別のプラグイン（%s）からエクスポートされたものであるため、ここにインポートすると、このプラグインが認識できない設定が保存されてしまいます。"
+msgstr "そのファイルは別のプラグイン (%s) からエクスポートされたものであるため、ここにインポートすると、このプラグインが認識できない設定が保存されてしまいます。"
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-connector-admin-ui.php:1316
@@ -314,7 +314,7 @@ msgstr "サポートチケットを作成し、メールで返信いたします
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "このサーバー（%s）から Zinn Digital® に接続できませんでした。上のレポートをコピーして、代わりにチケットを開いてください。設定に問題はありません。"
+msgstr "このサーバー (%s) から Zinn Digital® に接続できませんでした。上のレポートをコピーして、代わりにチケットを開いてください。設定に問題はありません。"
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
@@ -324,7 +324,7 @@ msgstr "送信されました。Zinn®サポートがレポートを受け取り
 #: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "送信完了。Zinn® サポートがレポート（参照: %s）を受け付けました。メールで返信いたします。"
+msgstr "送信完了。Zinn® サポートがレポート (参照: %s) を受け付けました。メールで返信いたします。"
 
 #: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."

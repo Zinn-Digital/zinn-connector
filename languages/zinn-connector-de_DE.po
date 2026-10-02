@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Verbindet diese WordPress-Website mit Zinn Digital®, damit geplante Artikel darauf veröffentlicht werden können. Füge einen Kopplungscode aus deinem Zinn®-Dashboard ein und das Plugin richtet seine eigenen Anmeldedaten ein – nichts wird manuell kopiert."
+msgstr "Verbindet diese WordPress-Website mit Zinn Digital®, damit geplante Artikel darauf veröffentlicht werden können. Füge einen Kopplungscode aus deinem Zinn®-Dashboard ein und das Plugin richtet seine eigenen Anmeldedaten ein – nichts wird manuell kopiert."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -139,7 +139,7 @@ msgstr "Importieren"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Exportierte Dateien enthalten niemals Passwörter, Tokens oder API-Schlüssel – du musst diese auf der neuen Website erneut eingeben."
+msgstr "Exportierte Dateien enthalten niemals Passwörter, Tokens oder API-Schlüssel – du musst diese auf der neuen Website erneut eingeben."
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
@@ -293,7 +293,7 @@ msgstr "Sende dies an den Zinn®-Support"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Genau das wird gesendet – nichts anderes und nichts Verborgenes. Deine Passwörter, Tokens und API-Schlüssel sind nicht darin enthalten."
+msgstr "Genau das wird gesendet – nichts anderes und nichts Verborgenes. Deine Passwörter, Tokens und API-Schlüssel sind nicht darin enthalten."
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -315,7 +315,7 @@ msgstr "Wir öffnen ein Support-Ticket für dich und antworten per E-Mail. Wenn 
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Wir konnten Zinn Digital® von diesem Server (%s) aus nicht erreichen. Kopiere den obigen Bericht und erstelle stattdessen ein Ticket – an deinen Einstellungen liegt es nicht."
+msgstr "Wir konnten Zinn Digital® von diesem Server (%s) aus nicht erreichen. Kopiere den obigen Bericht und erstelle stattdessen ein Ticket – an deinen Einstellungen liegt es nicht."
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
@@ -333,7 +333,7 @@ msgstr "Du hast innerhalb kurzer Zeit mehrere Berichte gesendet. Warte ein paar 
 
 #: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® konnte den Bericht gerade nicht annehmen – das liegt an uns, nicht an dir. Versuche es gleich noch einmal oder kopiere den obigen Bericht in ein Ticket."
+msgstr "Zinn Digital® konnte den Bericht gerade nicht annehmen – das liegt an uns, nicht an dir. Versuche es gleich noch einmal oder kopiere den obigen Bericht in ein Ticket."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-connector-diagnostics.php:311
@@ -376,47 +376,47 @@ msgstr ""
 "Deaktiviere diese E-Mails auf der Seite Zinn Digital® → Connector → Veröffentlichung."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-connector-promo.php:241
-#: includes/class-zinn-connector-promo.php:299
+#: includes/class-zinn-connector-promo.php:326
+#: includes/class-zinn-connector-promo.php:384
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s – Anleitungen und Dienste"
+msgstr "%s – Anleitungen und Dienste"
 
-#: includes/class-zinn-connector-promo.php:256
+#: includes/class-zinn-connector-promo.php:341
 msgid "User guides"
 msgstr "Benutzerhandbücher"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-connector-promo.php:306
+#: includes/class-zinn-connector-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Lies das %s-Benutzerhandbuch"
 
-#: includes/class-zinn-connector-promo.php:314
+#: includes/class-zinn-connector-promo.php:399
 msgid "Hide this"
 msgstr "Das hier ausblenden"
 
-#: includes/class-zinn-connector-promo.php:424
+#: includes/class-zinn-connector-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn®-Hosting für WordPress"
 
-#: includes/class-zinn-connector-promo.php:425
+#: includes/class-zinn-connector-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, tägliche Backups, kostenlose Migration und ein Control Panel für alle, die mehr als eine Website betreiben."
 
-#: includes/class-zinn-connector-promo.php:431
+#: includes/class-zinn-connector-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Der Zinn®-Marktplatz"
 
-#: includes/class-zinn-connector-promo.php:432
+#: includes/class-zinn-connector-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Kaufe und verkaufe etablierte Websites, Domains und Link-Platzierungen, wobei das Geld sicher verwahrt wird, bis beide Seiten zufrieden sind."
 
-#: includes/class-zinn-connector-promo.php:479
+#: includes/class-zinn-connector-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — heuere Leute an, die das beruflich machen"
 
-#: includes/class-zinn-connector-promo.php:480
+#: includes/class-zinn-connector-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Unser globaler Freelance-Marktplatz: Durchstöbere über 10.000 fertige Dienstleistungen von Textern, Designern, Entwicklern und SEO-Experten oder erstelle ein Projekt und lass Angebote abgeben."
 
@@ -556,7 +556,7 @@ msgstr "Diese weglassen"
 
 #: includes/class-zinn-connector-settings.php:214
 msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
-msgstr "Ein Pfad pro Zeile, relativ zu wp-content – zum Beispiel <code>cache</code> oder <code>uploads/backups</code>. Caches und Ordner anderer Backup-Plugins sind die üblichen Kandidaten."
+msgstr "Ein Pfad pro Zeile, relativ zu wp-content – zum Beispiel <code>cache</code> oder <code>uploads/backups</code>. Caches und Ordner anderer Backup-Plugins sind die üblichen Kandidaten."
 
 #: includes/class-zinn-connector-settings.php:222
 msgid "Stop if the archive would exceed"
@@ -588,7 +588,7 @@ msgstr "Einstellungen dieses Plugins beim Deinstallieren löschen"
 
 #: includes/class-zinn-connector-settings.php:253
 msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
-msgstr "Durch das Deinstallieren wird das Anwendungspasswort niemals widerrufen – das ist Absicht, damit das Deinstallieren zum Ausprobieren von etwas anderem deine Veröffentlichungen nicht beeinträchtigt. Verwende oben „Trennen“, wenn du die Anmeldeinformationen entfernen möchtest."
+msgstr "Durch das Deinstallieren wird das Anwendungspasswort niemals widerrufen – das ist Absicht, damit das Deinstallieren zum Ausprobieren von etwas anderem deine Veröffentlichungen nicht beeinträchtigt. Verwende oben „Trennen“, wenn du die Anmeldeinformationen entfernen möchtest."
 
 #: includes/class-zinn-connector-settings.php:269
 msgid "The user we sign in as"
@@ -614,7 +614,7 @@ msgstr "Öffne dein Zinn Digital®-Dashboard, gehe zu Inhalt → Andere Websites
 
 #: includes/class-zinn-connector-settings.php:345
 msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
-msgstr "Wenn du dich erneut verbindest, werden neue Anmeldedaten erstellt und die alten bleiben erhalten – verwende zuerst „Trennen“, wenn du die alten entfernen möchtest."
+msgstr "Wenn du dich erneut verbindest, werden neue Anmeldedaten erstellt und die alten bleiben erhalten – verwende zuerst „Trennen“, wenn du die alten entfernen möchtest."
 
 #: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
@@ -730,7 +730,7 @@ msgstr "Überprüft. Die Verbindung steht."
 
 #: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
-msgstr "Wir konnten das Anwendungspasswort nicht entfernen, daher ist diese Website immer noch verbunden. Lösche „Zinn Digital® (publishing)“ auf deiner Profilseite und versuche es erneut – wir haben nichts geändert."
+msgstr "Wir konnten das Anwendungspasswort nicht entfernen, daher ist diese Website immer noch verbunden. Lösche „Zinn Digital® (publishing)“ auf deiner Profilseite und versuche es erneut – wir haben nichts geändert."
 
 #: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
