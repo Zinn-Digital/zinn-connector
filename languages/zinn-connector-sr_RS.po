@@ -469,7 +469,7 @@ msgstr "Објави чланке као"
 
 #: includes/class-zinn-connector-settings.php:130
 msgid "Choose “a draft” if you would rather read everything before it goes live."
-msgstr "Изаберите „нацрт” ако више волите да прочитате све пре него што буде објављено."
+msgstr "Изаберите „нацрт“ ако више волите да прочитате све пре него што буде објављено."
 
 #: includes/class-zinn-connector-settings.php:132
 msgid "Published straight away"
@@ -655,7 +655,7 @@ msgstr "WordPress корисник коме су припадали подаци
 
 #: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
-msgstr "Лозинка апликације „Zinn Digital® (publishing)” је избрисана са овог веб-места, па се више не можемо пријавити. Повежите се поново да бисте направили нову — ништа друго није изгубљено."
+msgstr "Лозинка апликације „Zinn Digital® (publishing)“ је избрисана са овог веб-места, па се више не можемо пријавити. Повежите се поново да бисте направили нову — ништа друго није изгубљено."
 
 #: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
