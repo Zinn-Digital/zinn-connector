@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Connects acest site WordPress la Zinn Digital® pentru ca articolele programate să poată fi publicate pe acesta. Lipiți un cod de asociere din tabloul dumneavoastră de comandă Zinn®, iar modulul își va configura propriile date de autentificare — nimic nu este copiat manual."
+msgstr "Conectează acest site WordPress la Zinn Digital®, astfel încât articolele programate să poată fi publicate pe el. Lipește un cod de asociere din panoul tău de control Zinn®, iar modulul își configurează propriile date de autentificare — nimic nu este copiat manual."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -36,11 +36,11 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Salvat. Tastați o valoare nouă pentru a o înlocui."
+msgstr "Stocat. Tastează o nouă valoare pentru a o înlocui."
 
 #: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "Filtrați această listă…"
+msgstr "Filtrează această listă…"
 
 #: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
@@ -48,19 +48,19 @@ msgstr "Filtrează această listă"
 
 #: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Nu există niciun rezultat care să corespundă filtrului."
+msgstr "Nimic nu se potrivește cu acel filtru."
 
 #: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
-msgstr "Adăugați un rând"
+msgstr "Adaugă un rând"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Eliminați acest rând"
+msgstr "Elimină acest rând"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
-msgstr "Ștergeți"
+msgstr "Elimină"
 
 #: includes/class-zinn-connector-admin-ui.php:280
 #: includes/class-zinn-connector-admin-ui.php:281
@@ -82,20 +82,20 @@ msgstr "Copiat"
 
 #: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Fiecare plugin Zinn® de pe acest site și dacă funcționează."
+msgstr "Fiecare modul Zinn® de pe acest site și dacă funcționează."
 
 #: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Nu este necesară nicio conexiune pentru acest plugin."
+msgstr "Nu este necesară nicio conexiune pentru acest modul."
 
 #: includes/class-zinn-connector-admin-ui.php:442
 msgid "Open settings"
-msgstr "Deschideți setările"
+msgstr "Deschide setările"
 
 #: includes/class-zinn-connector-admin-ui.php:770
 #: includes/class-zinn-connector-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "Nu aveți permisiunea de a modifica aceste setări."
+msgstr "Nu ai permisiunea de a modifica aceste setări."
 
 #: includes/class-zinn-connector-admin-ui.php:799
 msgid "Settings sections"
@@ -103,7 +103,7 @@ msgstr "Secțiuni de setări"
 
 #: includes/class-zinn-connector-admin-ui.php:871
 msgid "Support"
-msgstr "Asistență"
+msgstr "Suport"
 
 #: includes/class-zinn-connector-admin-ui.php:929
 msgid "Save changes"
@@ -111,35 +111,35 @@ msgstr "Salvează modificările"
 
 #: includes/class-zinn-connector-admin-ui.php:958
 msgid "Tools"
-msgstr "Instrumente"
+msgstr "Unelte"
 
 #: includes/class-zinn-connector-admin-ui.php:973
 msgid "Export settings"
-msgstr "Export setări"
+msgstr "Exportă configurările"
 
 #: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Restabiliți la valorile implicite"
+msgstr "Resetează la implicite"
 
 #: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Aceasta va readuce toate setările acestui modul la valorile implicite. Doriți să continuați?"
+msgstr "Aceasta va reseta toate setările acestui modul la valorile implicite. Vrei să continui?"
 
 #: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "Diagnostic pentru asistență"
+msgstr "Diagnosticare pentru asistență"
 
 #: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Importați un fișier de setări"
+msgstr "Importă un fișier de configurări"
 
 #: includes/class-zinn-connector-admin-ui.php:995
 msgid "Import"
-msgstr "Importare"
+msgstr "Importă"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Fișierele exportate nu conțin niciodată parole, tokenuri sau chei API – va trebui să le reintroduceți pe noul site."
+msgstr "Fișierele exportate nu conțin niciodată parole, tokenuri sau chei API — va trebui să le introduci din nou pe noul site."
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
@@ -147,7 +147,7 @@ msgstr "Setări salvate."
 
 #: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Fiecare setare a acestui modul a revenit la valorile implicite."
+msgstr "Toate setările acestui modul au fost resetate la valorile implicite."
 
 #: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
@@ -159,40 +159,40 @@ msgstr "Această acțiune nu este disponibilă."
 
 #: includes/class-zinn-connector-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Fișierul respectiv nu a putut fi citit. Alegeți un fișier de setări exportat dintr-un modul Zinn®."
+msgstr "Acel fișier nu a putut fi citit. Alege un fișier de setări exportat dintr-un modul Zinn®."
 
 #: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "Fișierul este prea mare pentru a fi un export de setări."
+msgstr "Acel fișier este prea mare pentru a fi un export de configurări."
 
 #: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "Fișierul respectiv nu este un export de setări Zinn®."
+msgstr "Acel fișier nu este un export de setări Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Fișierul respectiv a fost exportat dintr-un alt modul (%s), așa că importarea lui aici ar stoca setări pe care acest modul nu le recunoaște."
+msgstr "Acel fișier a fost exportat dintr-un modul diferit (%s), așa că importarea lui aici ar stoca setări pe care acest modul nu le înțelege."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "Setarea %d a fost importată. Parolele și cheile API nu sunt niciodată incluse într-un export, așa că reintroduceți-le pe acestea."
-msgstr[1] "%d setări importate. Parolele și cheile API nu sunt incluse niciodată într-un export, așa că reintroduceți-le."
-msgstr[2] "%d setări importate. Parolele și cheile API nu sunt incluse niciodată într-un export, așa că reintroduceți-le."
+msgstr[0] "%d setare importată. Parolele și cheile API nu sunt incluse niciodată într-un export, așa că introdu-le din nou."
+msgstr[1] "%d setări importate. Parolele și cheile API nu sunt niciodată incluse într-un export, așa că introdu-le din nou."
+msgstr[2] "%d setări importate. Parolele și cheile API nu sunt niciodată incluse într-un export, așa că introdu-le din nou."
 
 #. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "Arhiva va avea %1$d MB, peste limita de %2$d MB setată pentru acest site. Măriți limita sau excludeți unele foldere în ecranul Zinn Digital® → Connector → Backups."
+msgstr "Arhiva ar avea %1$d MB, depășind limita de %2$d MB stabilită pe acest site. Mărește limita sau exclude unele dosare din ecranul Zinn Digital® → Conector → Copii de siguranță."
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr "PHP-ul acestui site nu poate crea arhive, așa că nu s-a putut efectua o copie de rezervă."
+msgstr "Configurația PHP a acestui site nu poate crea arhive, așadar nu s-a putut face o copie de siguranță."
 
 #: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
@@ -209,37 +209,37 @@ msgstr "Fișierele acestui site nu au putut fi arhivate."
 
 #: includes/class-zinn-connector-backup.php:384
 msgid "This site's PHP cannot compress archives, so a backup could not be made."
-msgstr "PHP-ul acestui site nu poate comprima arhivele, așa că nu s-a putut efectua o copie de rezervă."
+msgstr "Versiunea PHP a acestui site nu poate comprima arhive, așa că nu a putut fi creată o copie de siguranță."
 
 #. translators: 1: space required, 2: space available.
 #: includes/class-zinn-connector-backup.php:470
 #, php-format
 msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
-msgstr "O copie de rezervă a acestui site necesită aproximativ %1$s de spațiu temporar și doar %2$s este liber, prin urmare nu a fost încercată."
+msgstr "O copie de siguranță a acestui site are nevoie de aproximativ %1$s de spațiu temporar și doar %2$s este liber, prin urmare nu s-a încercat crearea ei."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr "Acest utilizator WordPress nu poate publica articole, așa că o conexiune realizată acum nu va putea publica nici ea. Conectați-vă ca un utilizator care are acest drept și încercați din nou."
+msgstr "Acest utilizator de WordPress nu poate publica articole, așa că o conexiune stabilită acum nu va putea publica nici ea. Autentifică-te ca un utilizator care are acest drept și încearcă din nou."
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr "Parolele pentru aplicații sunt dezactivate pe acest site, așa că nu putem crea o credențială. Rugați-ul pe furnizorul dumneavoastră de găzduire să le activeze sau conectați site-ul cu o parolă pe care o creați singur în panoul de control Zinn Digital®."
+msgstr "Parolele de aplicație sunt dezactivate pe acest site, așa că nu putem crea date de autentificare. Cere-i gazdei tale să le activeze sau conectează site-ul cu o parolă creată de tine în panoul de control Zinn Digital®."
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr "WordPress nu a putut crea o credențială pentru acest site. Nu s-a trimis nimic nicăieri."
+msgstr "WordPress nu a creat o credențială pentru acest site. Nu s-a trimis nimic nicăieri."
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr "Nu am putut contacta Zinn Digital® de pe acest site. Nu s-a conectat nimic, iar datele de autentificare pe care le-am creat au fost eliminate. Verificați dacă site-ul poate efectua cereri externe și încercați din nou."
+msgstr "Nu am putut contacta Zinn Digital® de pe acest site. Nimic nu a fost conectat, iar datele de autentificare pe care le-am creat au fost eliminate. Verifică dacă site-ul poate efectua cereri de ieșire și încearcă din nou."
 
 #: includes/class-zinn-connector-claim.php:119
 msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
-msgstr "Zinn Digital® nu a putut finaliza conectarea acestui site. Problema este de partea noastră, nu de la codul de asociere — nu s-a conectat nimic, iar acreditarea pe care am generat-o a fost eliminată. Același cod de asociere funcționează în continuare: încercați din nou în câteva minute."
+msgstr "Zinn Digital® nu a putut finaliza conectarea acestui site. Problema este de partea noastră, nu a codului tău de asociere — nimic nu a fost conectat, iar datele de conectare create de noi au fost eliminate. Același cod de asociere este încă valabil: încearcă din nou peste câteva minute."
 
 #: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr "Zinn Digital® nu a acceptat acel cod de asociere. Nu s-a conectat nimic. Generați un cod nou în panoul de control și încercați din nou."
+msgstr "Zinn Digital® nu a acceptat acel cod de asociere. Nu s-a conectat nimic. Generează un cod nou în panoul de control și încearcă din nou."
 
 #: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
@@ -256,7 +256,7 @@ msgstr "Se conectează…"
 
 #: includes/class-zinn-connector-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Conectat, dar este necesară atenție la o problemă"
+msgstr "Conectat, dar ceva necesită atenție"
 
 #: includes/class-zinn-connector-connection.php:64
 msgid "Not connected"
@@ -264,7 +264,7 @@ msgstr "Neconectat"
 
 #: includes/class-zinn-connector-connection.php:66
 msgid "Running on your own account"
-msgstr "Rulează pe contul tău propriu"
+msgstr "Rulează pe propriul tău cont"
 
 #: includes/class-zinn-connector-connection.php:68
 msgid "We could not check this"
@@ -272,7 +272,7 @@ msgstr "Nu am putut verifica acest lucru"
 
 #: includes/class-zinn-connector-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Acest plugin nu a specificat motivul. Trimiteți un raport de diagnosticare și îl vom examina."
+msgstr "Acest modul nu a precizat motivul. Trimite un raport de diagnostic și ne vom uita."
 
 #: includes/class-zinn-connector-connection.php:161
 msgid "Connection status"
@@ -282,7 +282,7 @@ msgstr "Starea conexiunii"
 #: includes/class-zinn-connector-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Ultima verificare: acum %s."
+msgstr "Ultima verificare acum %s."
 
 #: includes/class-zinn-connector-connection.php:251
 msgid "(opens in a new tab)"
@@ -290,11 +290,11 @@ msgstr "(se deschide într-o filă nouă)"
 
 #: includes/class-zinn-connector-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Trimiteți acest lucru la suportul Zinn®"
+msgstr "Trimite asta echipei de asistență Zinn®"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Exact acest lucru va fi trimis — nimic altceva și nimic ascuns. Parolele, tokenurile și cheile dumneavoastră API nu sunt incluse."
+msgstr "Exact asta va fi trimis — nimic altceva și nimic ascuns. Parolele, tokenurile și cheile tale API nu se află aici."
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -302,59 +302,59 @@ msgstr "Raportul de diagnosticare care va fi trimis"
 
 #: includes/class-zinn-connector-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "Copiere în clipboard"
+msgstr "Copiază în clipboard"
 
 #: includes/class-zinn-connector-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Trimiteți acest raport către suportul Zinn®"
+msgstr "Trimite acest raport către asistența Zinn®"
 
 #: includes/class-zinn-connector-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Deschidem un tichet de asistență pentru dumneavoastră și vă răspundem prin e-mail. Dacă preferați să nu îl trimiteți, copiați-l de mai sus și inserați-l singur într-un tichet."
+msgstr "Deschidem un tichet de asistență pentru tine și îți răspundem prin e-mail. Dacă preferi să nu îl trimiți, copiază-l de mai sus și lipește-l tu însuți într-un tichet."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Nu am putut contacta Zinn Digital® de pe acest server (%s). Copiați raportul de mai sus și deschideți un tichet în schimb — nicio setare de a dumneavoastră nu este greșită."
+msgstr "Nu am putut contacta Zinn Digital® de pe acest server (%s). Copiază raportul de mai sus și deschide în schimb un tichet — nu este nimic în neregulă cu setările tale."
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Echipa de suport Zinn® a primit sesizarea dumneavoastră și vă va răspunde prin e-mail."
+msgstr "Trimis. Serviciul de asistență Zinn® a primit raportul tău și îți va răspunde prin e-mail."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Echipa de asistență Zinn® a primit sesizarea dumneavoastră — referința %s — și vă va răspunde prin e-mail."
+msgstr "Trimis. Serviciul de asistență Zinn® a primit raportul tău — referință %s — și îți va răspunde prin e-mail."
 
 #: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Ați trimis mai multe rapoarte într-un timp scurt. Așteptați câteva minute și încercați din nou — cele anterioare au ajuns."
+msgstr "Ai trimis mai multe rapoarte într-un timp scurt. Așteaptă câteva minute și încearcă din nou — cele anterioare au ajuns."
 
 #: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® nu a putut accepta raportul chiar acum — este o problemă de la noi, nu de la dumneavoastră. Încercați din nou în curând sau copiați raportul de mai sus într-un tichet."
+msgstr "Zinn Digital® nu a putut accepta raportul chiar acum – problema este de la noi, nu de la tine. Încearcă din nou în curând sau copiază raportul de mai sus într-un tichet."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Raportul a fost refuzat (HTTP %d). Copiați-l de mai sus și deschideți un tichet, menționând acel număr."
+msgstr "Raportul a fost refuzat (HTTP %d). Copiază-l mai sus și deschide un tichet, menționând acel număr."
 
 #: includes/class-zinn-connector-guard.php:156
 msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
-msgstr "Proprietarul acestui site a dezactivat încărcările de imagini pentru Zinn Digital® în setările Zinn® Connector."
+msgstr "Proprietarul acestui site a dezactivat încărcarea imaginilor pentru Zinn Digital® în setările Zinn® Connector."
 
 #: includes/class-zinn-connector-guard.php:167
 msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
-msgstr "Proprietarul acestui site a dezactivat modificările aduse articolelor existente pentru Zinn Digital® în setările Zinn® Connector."
+msgstr "Proprietarul acestui site a dezactivat modificările articolelor existente pentru Zinn Digital® în setările Zinn® Connector."
 
 #. translators: %s: the title of the article that was published.
 #: includes/class-zinn-connector-guard.php:215
 #, php-format
 msgid "New article on your site: %s"
-msgstr "Articol nou pe site-ul dvs.: %s"
+msgstr "Articol nou pe site-ul tău: %s"
 
 #. translators: 1: article title, 2: link to edit it, 3: its status.
 #: includes/class-zinn-connector-guard.php:220
@@ -374,7 +374,7 @@ msgstr ""
 "Editează-l: %2$s\n"
 "Stare: %3$s\n"
 "\n"
-"Poți dezactiva aceste e-mailuri din ecranul Zinn Digital® → Connector → Publishing."
+"Dezactivează aceste e-mailuri în ecranul Zinn Digital® → Conector → Publicare."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -385,17 +385,17 @@ msgstr "%s — ghiduri și servicii"
 
 #: includes/class-zinn-connector-promo.php:256
 msgid "User guides"
-msgstr "Ghiduri pentru utilizatori"
+msgstr "Ghiduri de utilizare"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Citește ghidul de utilizator %s"
+msgstr "Citește ghidul de utilizare %s"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
-msgstr "Ascunde acest element"
+msgstr "Ascunde"
 
 #: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -403,7 +403,7 @@ msgstr "Găzduire Zinn® pentru WordPress"
 
 #: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, backup-uri zilnice, migrare gratuită și un panou de control conceput pentru cei care administrează mai multe site-uri."
+msgstr "LiteSpeed, copii de rezervă zilnice, migrare gratuită și un panou de control creat pentru persoanele care administrează mai multe site-uri."
 
 #: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
@@ -411,15 +411,15 @@ msgstr "Piața Zinn®"
 
 #: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Cumpărați și vindeți site-uri stabilite, domenii și plasări de linkuri, banii fiind ținuți în siguranță până când ambele părți sunt mulțumite."
+msgstr "Cumpără și vinde site-uri consacrate, domenii și plasări de linkuri, banii fiind păstrați în siguranță până când ambele părți sunt mulțumite."
 
 #: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — angajează oameni care fac asta pentru a trăi"
+msgstr "Zinn Hub® — angajează oameni care trăiesc din asta"
 
 #: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Piața noastră globală de freelancing: căutați printre peste 10.000 de servicii gata de utilizat de la scriitori, designeri, dezvoltatori și specialiști SEO, sau postați un proiect și lăsați-i să liciteze."
+msgstr "Piața noastră globală de freelancing: explorează peste 10.000 de servicii gata pregătite de la scriitori, designeri, dezvoltatori și specialiști SEO, sau postează un proiect și lasă-i să liciteze."
 
 #: includes/class-zinn-connector-settings.php:44
 msgid "Connector"
@@ -437,7 +437,7 @@ msgstr "Se publică"
 #: includes/class-zinn-connector-settings.php:69
 #: includes/class-zinn-connector-settings.php:196
 msgid "Backups"
-msgstr "Copii de rezervă"
+msgstr "Copii de siguranță"
 
 #: includes/class-zinn-connector-settings.php:73
 msgid "Advanced"
@@ -445,15 +445,15 @@ msgstr "Avansat"
 
 #: includes/class-zinn-connector-settings.php:89
 msgid "Check the connection now"
-msgstr "Verificați conexiunea acum"
+msgstr "Verifică conexiunea acum"
 
 #: includes/class-zinn-connector-settings.php:94
 msgid "Disconnect this site"
-msgstr "Deconectați acest site"
+msgstr "Deconectează acest site"
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
-msgstr "Aceasta revocă acreditarea folosită de Zinn Digital®, astfel încât nu mai putem publica pe acest site. Tot ce a fost deja publicat rămâne. Continuați?"
+msgstr "Aceasta revocă acreditarea pe care o folosește Zinn Digital®, așa că nu vom mai putea publica pe acest site. Tot ceea ce a fost deja publicat rămâne. Vrei să continui?"
 
 #: includes/class-zinn-connector-settings.php:123
 msgid "What we may do on this site"
@@ -461,7 +461,7 @@ msgstr "Ce putem face pe acest site"
 
 #: includes/class-zinn-connector-settings.php:124
 msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
-msgstr "Credențialul pe care îl deținem este o parolă de aplicație WordPress obișnuită, așa că WordPress însuși decide ce este posibil. Acestea restrâng și mai mult acest lucru, din partea dumneavoastră."
+msgstr "Acreditarea pe care o deținem este o parolă obișnuită de aplicație WordPress, așa că WordPress însuși decide ce este posibil. Acestea o restrâng și mai mult, din partea ta."
 
 #: includes/class-zinn-connector-settings.php:129
 msgid "Publish articles as"
@@ -469,7 +469,7 @@ msgstr "Publică articolele ca"
 
 #: includes/class-zinn-connector-settings.php:130
 msgid "Choose “a draft” if you would rather read everything before it goes live."
-msgstr "Alegeți „o ciornă” dacă preferați să citiți totul înainte ca pagina să fie publicată."
+msgstr "Alege „ciornă” dacă preferi să citești totul înainte de publicare."
 
 #: includes/class-zinn-connector-settings.php:132
 msgid "Published straight away"
@@ -485,19 +485,19 @@ msgstr "În așteptarea revizuirii"
 
 #: includes/class-zinn-connector-settings.php:135
 msgid "Scheduled, using the date we send"
-msgstr "Programat, folosind data pe care o trimitem"
+msgstr "Programat, folosind data la care trimitem"
 
 #: includes/class-zinn-connector-settings.php:142
 msgid "Show the author as"
-msgstr "Afișați autorul ca"
+msgstr "Afișează autorul ca"
 
 #: includes/class-zinn-connector-settings.php:143
 msgid "Which of your users appears as the author. This does not change who we sign in as."
-msgstr "Care dintre utilizatorii dvs. apare ca autor. Acest lucru nu modifică utilizatorul cu care ne conectăm."
+msgstr "Care dintre utilizatorii tăi apare ca autor. Aceasta nu schimbă contul cu care ne conectăm."
 
 #: includes/class-zinn-connector-settings.php:150
 msgid "Put articles in"
-msgstr "Puneți articole în"
+msgstr "Pune articolele în"
 
 #: includes/class-zinn-connector-settings.php:157
 msgid "Allow images"
@@ -505,51 +505,51 @@ msgstr "Permite imagini"
 
 #: includes/class-zinn-connector-settings.php:158
 msgid "Let Zinn Digital® upload images into this site’s media library"
-msgstr "Permiteți ca Zinn Digital® să încarce imagini în biblioteca media a acestui site"
+msgstr "Permite Zinn Digital® să încarce imagini în biblioteca media a acestui site"
 
 #: includes/class-zinn-connector-settings.php:159
 msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
-msgstr "Dezactivați această opțiune și articolele vor sosi fără imagini. Niciun element deja încărcat nu va fi eliminat."
+msgstr "Dezactivează această opțiune și articolele vor sosi fără imaginile lor. Nimic din ce a fost deja încărcat nu va fi eliminat."
 
 #: includes/class-zinn-connector-settings.php:165
 msgid "Allow edits"
-msgstr "Permiteți modificările"
+msgstr "Permite modificările"
 
 #: includes/class-zinn-connector-settings.php:166
 msgid "Let Zinn Digital® update an article it published before"
-msgstr "Lăsați Zinn Digital® să actualizeze un articol pe care l-a publicat înainte"
+msgstr "Permite ca Zinn Digital® să actualizeze un articol publicat anterior"
 
 #: includes/class-zinn-connector-settings.php:167
 msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
-msgstr "Folosit pentru corecturi și reoptimizare. Nu se atinge niciodată de nimic din ceea ce ai scris tu însuți."
+msgstr "Folosit pentru corecturi și reoptimizare. Nu atinge niciodată nimic din ce ai scris tu însuți."
 
 #: includes/class-zinn-connector-settings.php:173
 msgid "Tell me when something is published"
-msgstr "Anunțați-mă când se publică ceva"
+msgstr "Anunță-mă când se publică ceva"
 
 #: includes/class-zinn-connector-settings.php:174
 msgid "Leave blank for no email. One message per article, from your own site."
-msgstr "Lăsați necompletat pentru a nu primi e-mail. Un mesaj per articol, de pe propriul site."
+msgstr "Lasă necompletat pentru a nu primi e-mailuri. Un mesaj per articol, de pe propriul tău site."
 
 #: includes/class-zinn-connector-settings.php:190
 msgid "Off-site backups"
-msgstr "Backupuri externe"
+msgstr "Copii de siguranță externe"
 
 #: includes/class-zinn-connector-settings.php:191
 msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
-msgstr "Acest site își trimite propria copie de rezervă direct în stocul Zinn®. Nimic nu trece prin serverele noastre pe parcurs."
+msgstr "Acest site își trimite propria copie de rezervă direct în spațiul de stocare Zinn®. Nimic nu trece prin serverele noastre pe parcurs."
 
 #: includes/class-zinn-connector-settings.php:197
 msgid "Back this site up to Zinn Digital®"
-msgstr "Creează o copie de rezervă pentru acest site pe Zinn Digital®"
+msgstr "Fă o copie de rezervă a acestui site pe Zinn Digital®"
 
 #: includes/class-zinn-connector-settings.php:204
 msgid "Backup token"
-msgstr "Token de backup"
+msgstr "Token de rezervă"
 
 #: includes/class-zinn-connector-settings.php:205
 msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
-msgstr "Lipiți tokenul afișat în tabul Backupuri de pe acest site din panoul de control Zinn Digital® când ați selectat conexiunea pentru modul. Acesta este afișat acolo o singură singură dată; salvarea din nou a conexiunii generează unul nou."
+msgstr "Lipește jetonul afișat în fila „Copii de rezervă” a acestui site din panoul tău de control Zinn Digital® când ai ales conexiunea modulului. Este afișat acolo o singură dată; salvarea din nou a conexiunii emite unul nou."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -557,15 +557,15 @@ msgstr "Omite-le pe acestea"
 
 #: includes/class-zinn-connector-settings.php:214
 msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
-msgstr "Câte o cale pe rând, relativ la wp-content — de exemplu <code>cache</code> sau <code>uploads/backups</code>. Cache-urile și folderele altor module de backup sunt candidații obișnuiți."
+msgstr "O cale pe linie, relativă la wp-content — de exemplu <code>cache</code> sau <code>uploads/backups</code>. Memoriile cache și dosarele altor module de backup sunt candidații obișnuiți."
 
 #: includes/class-zinn-connector-settings.php:222
 msgid "Stop if the archive would exceed"
-msgstr "Opriți dacă arhiva ar depăși"
+msgstr "Oprește dacă arhiva ar depăși"
 
 #: includes/class-zinn-connector-settings.php:223
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
-msgstr "Megabytes. Un server partajat va opri de obicei o arhivă foarte mare la jumătatea procesului; o limită transformă acest lucru într-un mesaj în loc de un eșec silențios."
+msgstr "Megaocteți. O găzduire partajată va întrerupe de obicei o arhivă foarte mare la jumătatea procesului; o limită transformă acest lucru într-un mesaj în loc de un eșec silențios."
 
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
@@ -573,11 +573,11 @@ msgstr "Jurnalizare detaliată"
 
 #: includes/class-zinn-connector-settings.php:244
 msgid "Record what this plugin does, for support"
-msgstr "Înregistrați ce face acest modul, pentru asistență"
+msgstr "Înregistrează ce face acest modul, pentru asistență"
 
 #: includes/class-zinn-connector-settings.php:245
 msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
-msgstr "Păstrate pe acest site, limitate la ultimele 50 de intrări și incluse într-un raport de diagnosticare. Activați-le înainte de a reproduce o problemă."
+msgstr "Păstrat pe acest site, limitat la ultimele 50 de intrări și inclus într-un raport de diagnosticare. Activează-l înainte de a reproduce o problemă."
 
 #: includes/class-zinn-connector-settings.php:251
 msgid "On uninstall"
@@ -585,19 +585,19 @@ msgstr "La dezinstalare"
 
 #: includes/class-zinn-connector-settings.php:252
 msgid "Delete this plugin’s settings when it is uninstalled"
-msgstr "Șterge setările acestui plugin la dezinstalare"
+msgstr "Șterge setările acestui modul când este dezinstalat"
 
 #: includes/class-zinn-connector-settings.php:253
 msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
-msgstr "Dezinstalarea nu anulează niciodată parola aplicației — acest lucru este intenționat, astfel încât dezinstalarea pentru a încerca altceva să nu vă întrerupă publicarea. Folosiți opțiunea Deconectare de mai sus dacă doriți să eliminați acreditarea."
+msgstr "Dezinstalarea nu revocă niciodată parola aplicației — acest lucru este intenționat, astfel încât dezinstalarea pentru a încerca altceva să nu îți întrerupă publicarea. Folosește Deconectare de mai sus dacă dorești eliminarea credențialelor."
 
 #: includes/class-zinn-connector-settings.php:269
 msgid "The user we sign in as"
-msgstr "Utilizatorul cu care ne autentificăm"
+msgstr "Utilizatorul cu care te autentifici"
 
 #: includes/class-zinn-connector-settings.php:290
 msgid "The site’s default category"
-msgstr "Categoria implicită a site-ului"
+msgstr "Categoria implicită a sitului"
 
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-status.php:353
@@ -611,11 +611,11 @@ msgstr "Conectează acest site"
 
 #: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr "Deschideți panoul de control Zinn Digital®, mergeți la Conținut → Alte site-uri și apăsați pe „Obțineți un cod de asociere”. Lipiți-l mai jos."
+msgstr "Deschide panoul de control Zinn Digital®, mergi la Conținut → Alte site-uri și apasă pe „Obține un cod de asociere”. Lipește-l mai jos."
 
 #: includes/class-zinn-connector-settings.php:345
 msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
-msgstr "Reconectarea generează o credențială nouă și o păstrează pe cea veche – folosește mai întâi Deconectare dacă vrei să o elimini pe cea veche."
+msgstr "Conectarea din nou creează o nouă acreditare și o lasă pe cea veche la locul ei — folosește mai întâi Deconectare dacă vrei ca cea veche să fie ștearsă."
 
 #: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
@@ -623,11 +623,11 @@ msgstr "Cod de asociere"
 
 #: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr "Expiră la treizeci de minute după ce îl generați și poate fi utilizat o singură dată."
+msgstr "Expiră la treizeci de minute după ce îl generezi și poate fi folosit o singură dată."
 
 #: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
-msgstr "Nu aveți permisiunea de a conecta acest site."
+msgstr "Nu ai permisiunea de a conecta acest site."
 
 #: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
@@ -635,7 +635,7 @@ msgstr "Acest site nu este conectat la Zinn Digital®."
 
 #: includes/class-zinn-connector-status.php:62
 msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
-msgstr "Nimic nu este în neregulă — pur și simplu nu a fost asociat încă. Obțineți un cod de asociere din panoul de control Zinn® și introduceți-l în setările acestui modul."
+msgstr "Totul este în regulă — pur și simplu nu a fost încă asociat. Obține un cod de asociere din panoul tău de control Zinn® și lipește-l în setările acestui modul."
 
 #: includes/class-zinn-connector-status.php:64
 #: includes/class-zinn-connector-status.php:157
@@ -651,33 +651,33 @@ msgstr "Conexiunea este întreruptă."
 #: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
-msgstr "Utilizatorul WordPress căruia îi aparțineau datele de autentificare (%s) nu mai există pe acest site, așa că nimic din ceea ce trimitem nu poate fi publicat. Conectați-va din nou ca utilizator care poate publica."
+msgstr "Utilizatorul WordPress căruia îi aparțineau datele de autentificare (%s) nu mai există pe acest site, așa că nimic din ceea ce trimitem nu poate fi publicat. Conectează-te din nou ca un utilizator care poate publica."
 
 #: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
-msgstr "Parola de aplicație „Zinn Digital® (publishing)” a fost ștersă de pe acest site, așa că nu ne mai putem autentifica. Conectați-vă din nou pentru a crea una nouă — nu s-a pierdut nimic altceva."
+msgstr "Parola de aplicație pentru „Zinn Digital® (publishing)” a fost ștearsă de pe acest site, așa că nu ne mai putem autentifica. Conectează-te din nou pentru a crea una nouă — nu s-a pierdut nimic altceva."
 
 #: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
-msgstr "Vizualizați parolele pentru aplicație ale acestui site"
+msgstr "Vezi parolele de aplicație ale acestui sit"
 
 #: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
-msgstr "Conectat, dar publicarea va eșua."
+msgstr "Conectat, dar publicarea ar eșua."
 
 #. translators: %s: the WordPress username the credential belongs to.
 #: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
-msgstr "Credențialul aparține lui %s, iar acel utilizator nu mai poate publica articole. Autentificarea funcționează în continuare, așa că totul pare în regulă până când trebuie publicat un articol. Acordați acelui utilizator dreptul de publicare sau reconectați-vă ca o persoană care are acest drept."
+msgstr "Acreditarea îi aparține lui %s, iar acel utilizator nu mai poate publica articole. Conectarea încă funcționează, așa că nimic nu pare în neregulă până când nu trebuie publicat un articol. Oferă-i acelui utilizator permisiunea de a publica sau conectează-te din nou ca o persoană care poate face asta."
 
 #: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
-msgstr "Editați acel utilizator"
+msgstr "Editează acel utilizator"
 
 #: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
-msgstr "Conectați aici — nu am putut contacta Zinn Digital® pentru confirmare."
+msgstr "Conectat aici — nu am putut contacta Zinn Digital® pentru confirmare."
 
 #: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
@@ -695,31 +695,31 @@ msgstr "Conectat la Zinn Digital® ca %s."
 
 #: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
-msgstr "Se publică ca"
+msgstr "Publicare ca"
 
 #: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
-msgstr "ID de site Zinn®"
+msgstr "ID site Zinn®"
 
 #. translators: %s: the transport error WordPress reported.
 #: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
-msgstr "Acest server nu a putut contacta api.zinndigital.com (%s). Aceasta este de obicei o problemă de firewall sau o regulă de conexiune de ieșire de pe gazda dvs., nu o problemă cu contul dvs. Zinn® — publicarea ar putea funcționa în continuare."
+msgstr "Acest server nu a putut accesa api.zinndigital.com (%s). De obicei, este vorba despre un firewall sau o regulă pentru conexiunile de ieșire de pe gazda ta, nu o problemă cu contul tău Zinn® — este posibil ca publicarea să funcționeze în continuare."
 
 #: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
-msgstr "Zinn Digital® a răspuns cu propria sa eroare — aceasta este problema noastră, nu a dumneavoastră. Publicarea nu este afectată în timp ce aceasta se remediază."
+msgstr "Zinn Digital® a răspuns cu o eroare proprie — problema este de la noi, nu de la tine. Publicarea nu este afectată în timp ce aceasta se rezolvă."
 
 #: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
-msgstr "Contul tău Zinn® nu poate publica în prezent pe acest site. Tabloul tău de bord indică motivul."
+msgstr "Contul tău Zinn® nu poate publica momentan pe acest site. Panoul tău de control explică motivul."
 
 #. translators: %d: the HTTP status code returned.
 #: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
-msgstr "Zinn Digital® a răspuns cu HTTP %d, pe care nu îl recunoaștem. Trimiteți un raport de diagnosticare din fila Asistență și vom analiza problema — nu modificați nimic aici până atunci."
+msgstr "Zinn Digital® a răspuns cu HTTP %d, pe care nu îl recunoaștem. Trimite un raport de diagnostic din fila Asistență și ne vom uita noi — nu modifica nimic aici mai întâi."
 
 #: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
@@ -731,28 +731,28 @@ msgstr "Verificat. Conexiunea este activă."
 
 #: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
-msgstr "Nu am putut elimina parola de acces pentru aplicație, așa că acest site este în continuare conectat. Ștergeți „Zinn Digital® (publishing)” de pe ecranul profilului dumneavoastră și încercați din nou — nu am modificat nimic."
+msgstr "Nu am putut elimina parola aplicației, așa că acest site este încă conectat. Șterge „Zinn Digital® (publishing)” din ecranul profilului tău și încearcă din nou — nu am modificat nimic."
 
 #: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
-msgstr "Deconectat. Parola aplicației a fost revocatã, astfel încât Zinn Digital® nu mai poate publica pe acest site. Niciun conținut publicat deja nu a fost afectat."
+msgstr "Deconectat. Parola pentru aplicație a fost revocată, astfel încât Zinn Digital® nu mai poate publica pe acest site. Nimic din ce a fost deja publicat nu a fost modificat."
 
 #: includes/class-zinn-connector-streaming-upload.php:87
 #: includes/class-zinn-connector-streaming-upload.php:145
 #: includes/class-zinn-connector-streaming-upload.php:264
 #: includes/class-zinn-connector-streaming-upload.php:272
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Fișierul nu a putut fi citit de pe acest server, așa că nu s-a încărcat nimic."
+msgstr "Acel fișier nu a putut fi citit de pe acest server, așa că nu a fost încărcat nimic."
 
 #: includes/class-zinn-connector-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "Acest site nu a putut transmite fișierul încărcat, așa că nu a fost trimis nimic."
+msgstr "Acest site nu a putut transmite încărcarea în flux, deci nu a fost trimis nimic."
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-connector-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "Acest fișier are %1$s, iar PHP-ul acestui site nu are cURL, așa că dimensiunea maximă pe care o poate încărca este %2$s."
+msgstr "Acest fișier are %1$s și modulul PHP al acestui site nu are cURL, așa că dimensiunea maximă pe care o poți încărca este de %2$s."
 
 #: includes/class-zinn-connector-streaming-upload.php:331
 msgid "The upload could not be completed."
@@ -762,15 +762,15 @@ msgstr "Încărcarea nu a putut fi finalizată."
 #: includes/class-zinn-connector-streaming-upload.php:341
 #, php-format
 msgid "Storage refused the upload (HTTP %d)."
-msgstr "Stocarea a refuzat încărcarea (HTTP %d)."
+msgstr "Spațiul de stocare a refuzat încărcarea (HTTP %d)."
 
 #: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
-msgstr "Șablon de stil"
+msgstr "Presetare de stil"
 
 #: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Un punct de plecare. Orice se află mai jos îl suprascrie."
+msgstr "Un punct de plecare. Orice este mai jos îl suprascrie."
 
 #: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -778,21 +778,21 @@ msgstr "Folosește propriile mele culori și dimensiuni"
 
 #: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Lăsați această opțiune dezactivată și presetarea va fi utilizată exact așa cum este."
+msgstr "Lasă această opțiune dezactivată și presetarea va fi folosită exact așa cum este."
 
 #: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Consultați notele de lansare Zinn Digital®."
+msgstr "Vezi notele de lansare ale Zinn Digital®."
 
 #: includes/class-zinn-connector-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Serviciul de actualizare Zinn® nu a generat un link de descărcare pentru această actualizare. Verificați dacă acest site poate accesa platforma Zinn® și încercați din nou."
+msgstr "Serviciul de actualizare Zinn® nu a emis un link de descărcare pentru această actualizare. Verifică dacă acest site poate accesa platforma Zinn®, apoi încearcă din nou."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-connector-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Actualizarea nu a putut fi descărcată de la serviciul de actualizare Zinn® (%s). Încercați din nou în câteva minute."
+msgstr "Actualizarea nu a putut fi descărcată de la serviciul de actualizare Zinn® (%s). Încearcă din nou în câteva minute."
 
 #: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."

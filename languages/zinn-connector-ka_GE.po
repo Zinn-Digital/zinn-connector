@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Connects ეს WordPress საიტი Zinn Digital®-თან, რათა მასზე დაგეგმილი სტატიები გამოქვეყნდეს. ჩასვით წყვილის კოდი თქვენი Zinn® სამართავიდან და პლაგინი თავად შექმნის საკუთარ სარწმუნოების მონაცემებს — ხელით არაფრის კოპირება არ ხდება."
+msgstr "აკავშირებს ამ WordPress საიტს Zinn Digital®-თან, რათა მასზე დაგეგმილი სტატიების გამოქვეყნება გახდეს შესაძლებელი. ჩასვით დაწყვილების კოდი თქვენი Zinn®-ის მართვის პანელიდან და მოდული თავად დააკონფიგურირებს საკუთარ მონაცემებს — ხელით არაფრის კოპირება არ ხდება."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -36,15 +36,15 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "შენახულია. ჩაწერეთ ახალი მნიშვნელობა მის ჩასანაცვლებლად."
+msgstr "შენახულია. ჩასანაცვლებლად შეიყვანეთ ახალი მნიშვნელობა."
 
 #: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "ამ სიას გაფილტვრა…"
+msgstr "ამ სიის გაფილტვრა…"
 
 #: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
-msgstr "ამ სიის გაფილტრვა"
+msgstr "ამ სიის გაფილტვრა"
 
 #: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
@@ -56,7 +56,7 @@ msgstr "სტრიქონის დამატება"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
-msgstr "ამ რიგის წაშლა"
+msgstr "ამ მწკრივის წაშლა"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
@@ -78,15 +78,15 @@ msgstr "მიმოხილვა"
 
 #: includes/class-zinn-connector-admin-ui.php:383
 msgid "Copied"
-msgstr "კოპირებულია"
+msgstr "დაკოპირდა"
 
 #: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "ამ საიტზე არსებული ყველა Zinn® პლაგინი და მუშაობს თუ არა ის."
+msgstr "ამ საიტზე არსებული თითოეული Zinn® მოდული და მუშაობს თუ არა იგი."
 
 #: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "ამ პლაგინისთვის კავშირი საჭირო არ არის."
+msgstr "ამ მოდულისთვის კავშირი არ არის საჭირო."
 
 #: includes/class-zinn-connector-admin-ui.php:442
 msgid "Open settings"
@@ -95,7 +95,7 @@ msgstr "პარამეტრების გახსნა"
 #: includes/class-zinn-connector-admin-ui.php:770
 #: includes/class-zinn-connector-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "თქვენ არ გაქვთ ამ პარამეტრების შეცვლის უფლება."
+msgstr "თქვენ არ გაქვთ ამ პარამეტრების შეცვლის ნებართვა."
 
 #: includes/class-zinn-connector-admin-ui.php:799
 msgid "Settings sections"
@@ -119,11 +119,11 @@ msgstr "პარამეტრების ექსპორტი"
 
 #: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "ნაგულისხმევზე დაბრუნება"
+msgstr "ნაგულისხმევ პარამეტრებზე დაბრუნება"
 
 #: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "ეს დააბრუნებს ამ მოდულის ყველა პარამეტრს საწყის მდგომარეობაში. გსურთ გაგრძელება?"
+msgstr "ეს დააბრუნებს ამ მოდულის ყველა პარამეტრს ნაგულისხმევ მნიშვნელობებზე. გსურთ გაგრძელება?"
 
 #: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -131,15 +131,15 @@ msgstr "დიაგნოსტიკა მხარდაჭერისთ�
 
 #: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "პარამეტრების ფაილის იმპორტი"
+msgstr "პარამეტრების ფაილის იმპორტირება"
 
 #: includes/class-zinn-connector-admin-ui.php:995
 msgid "Import"
-msgstr "შემოტანა"
+msgstr "იმპორტი"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "ექსპორტირებული ფაილები არასდროს შეიცავს პაროლებს, ტოკენებს ან API გასაღებებს — მათი შეყვანა ახალ საიტზე ხელახლა მოგიწევთ."
+msgstr "ექსპორტირებული ფაილები არასდროს შეიცავს პაროლებს, ტოკენებს ან API გასაღებებს — თქვენ დაგჭირდებათ მათი ხელახლა შეყვანა ახალ საიტზე."
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
@@ -147,7 +147,7 @@ msgstr "პარამეტრები შენახულია."
 
 #: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "ამ პლაგინის ყველა პარამეტრი დაბრუნებულია საწყის მნიშვნელობაზე."
+msgstr "ამ გაფართოების ყველა პარამეტრი დაბრუნდა ნაგულისხმევ მნიშვნელობაზე."
 
 #: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
@@ -159,39 +159,39 @@ msgstr "ეს მოქმედება მიუწვდომელია.
 
 #: includes/class-zinn-connector-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "ამ ფაილის წაკითხვა ვერ მოხერხდა. აირჩიეთ Zinn® პლაგინიდან ექსპორტირებული პარამეტრების ფაილი."
+msgstr "ფაილის წაკითხვა ვერ მოხერხდა. აირჩიეთ Zinn®-ის მოდულიდან ექსპორტირებული პარამეტრების ფაილი."
 
 #: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "ეს ფაილი ძალიან დიდია პარამეტრების ექსპორტისთვის."
+msgstr "ეს ფაილი მეტისმეტად დიდია იმისთვის, რომ პარამეტრების ექსპორტის ფაილი იყოს."
 
 #: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "ეს ფაილი არ არის Zinn® პარამეტრების ექსპორტი."
+msgstr "ეს ფაილი არ წარმოადგენს Zinn®-ის პარამეტრების ექსპორტს."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "ეს ფაილი ექსპორტირებულია სხვა მოდულიდან (%s), ამიტომ მისი აქ იმპორტი შეინახავს პარამეტრებს, რომლებსაც ეს მოდული ვერ იცნობს."
+msgstr "ეს ფაილი ექსპორტირებული იყო სხვა მოდულიდან (%s), ამიტომ მისი აქ იმპორტი შეინახავს ისეთ პარამეტრებს, რომლებიც ამ მოდულს არ ესმის."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები არასოდეს შედის ექსპორტში, ამიტომ თავიდან შეიყვანეთ ისინი."
-msgstr[1] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები ექსპორტში არასდროს შედის, ამიტომ ისინი თავიდან შეიყვანეთ."
+msgstr[0] "იმპორტირებულია %d პარამეტრი. პაროლები და API გასაღებები ექსპორტში არასდროს შედის, ამიტომ შეიყვანეთ ისინი თავიდან."
+msgstr[1] "იმპორტირებულია %d პარამეტრი. პაროლები და API გასაღებები ექსპორტში არასდროს შედის, ამიტომ შეიყვანეთ ისინი ხელახლა."
 
 #. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "არქივი იქნება %1$d მბ, რაც აჭარბებს ამ საიტისთვის დაწესებულ %2$d მბ-იან ლიმიტს. გაზარდეთ ლიმიტი ან გამორიცხეთ ზოგიერთი ფოლდერი Zinn Digital® → Connector → Backups ეკრანზე."
+msgstr "არქივის ზომა იქნება %1$d მბ, რაც აღემატება ამ საიტზე დაწესებულ %2$d მბ-იან ლიმიტს. გაზარდეთ ლიმიტი ან გამორიცხეთ ზოგიერთი საქაღალდე ეკრანზე Zinn Digital® → Connector → Backups."
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr "ამ საიტის PHP ვერ ქმნის არქივებს, ამიტომ სარეზერვო ასლის შექმნა ვერ მოხერხდა."
+msgstr "ამ საიტის PHP-ს არ შეუძლია არქივების შექმნა, ამიტომ სარეზერვო ასლის შექმნა ვერ მოხერხდა."
 
 #: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
@@ -208,41 +208,41 @@ msgstr "ამ საიტის ფაილების დაარქივ
 
 #: includes/class-zinn-connector-backup.php:384
 msgid "This site's PHP cannot compress archives, so a backup could not be made."
-msgstr "ამ საიტის PHP ვერ ახდენს არქივების შეკუმშვას, ამიტომ სარეზერვო ასლის შექმნა ვერ მოხერხდა."
+msgstr "ამ საიტის PHP-ს არ შეუძლია არქივების შეკუმშვა, ამიტომ სარეზერვო ასლის შექმნა ვერ მოხერხდა."
 
 #. translators: 1: space required, 2: space available.
 #: includes/class-zinn-connector-backup.php:470
 #, php-format
 msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
-msgstr "ამ საიტის სარეზერვო ასლის შესაქმნელად საჭიროა დაახლოებით %1$s დროებითი ადგილი, თავისუფალია კი მხოლოდ %2$s, ამიტომ პროცესი არ დაწყებულა."
+msgstr "ამ საიტის სარეზერვო ასლის შესაქმნელად საჭიროა დაახლოებით %1$s დროებითი სივრცე, თავისუფალი კი მხოლოდ %2$s-ია, ამიტომ პროცესი არ დაწყებულა."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr "WordPress-ის ამ მომხმარებელს არ აქვს პოსტების გამოქვეყნების უფლება, ამიტომ ახლა დამყარებული კავშირიც ვერ გამოაქვეყნებს მათ. შედით სისტემაში იმ მომხმარებლის სახით, რომელსაც აქვს ეს უფლება, და სცადეთ თავიდან."
+msgstr "WordPress-ის ამ მომხმარებელს არ შეუძლია ჩანაწერების გამოქვეყნება, ამიტომ ახლა დამყარებული კავშირითაც ვერ მოხერხდება გამოქვეყნება. შედით მომხმარებლით, ვისაც ეს შეუძლია, და სცადეთ ხელახლა."
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr "აპლიკაციის პაროლები ამ საიტზე გამორთულია, ამიტომ სავალდებულო მონაცემების შექმნა შეუძლებელია. სთხოვეთ თქვენს ჰოსტს მათი ჩართვა, ან დააკავშირეთ საიტი პაროლით, რომელსაც თავად შექმნით თქვენს Zinn Digital® სამართავ პანელში."
+msgstr "აპლიკაციის პაროლები გამორთულია ამ საიტზე, ამიტომ ჩვენ ვერ ვქმნით მონაცემებს. სთხოვეთ თქვენს ჰოსტს მათი ჩართვა, ან დააკავშირეთ საიტი პაროლით, რომელსაც თავად შექმნით თქვენს Zinn Digital®-ის მართვის პანელში."
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr "WordPress-ი ვერ შექმნის ავტორიზაციის მონაცემებს ამ საიტისთვის. არაფერი არსად არ გაგზავნილა."
+msgstr "WordPress-მა ვერ შექმნა ავტორიზაციის მონაცემები ამ საიტისთვის. არსად არაფერი გაგზავნილა."
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr "ვver შევძელით Zinn Digital®-თან დაკავშირება ამ საიტიდან. არაფერი იყო დაკავშირებული და ჩვენს მიერ შექმნილი სავალდებულო მონაცემები წაშლილია. შეამოწმეთ, შეუძლია თუ არა საიტს გამავალი მოთხოვნების გაგზავნა და სცადეთ თავიდან."
+msgstr "ამ საიტიდან Zinn Digital®-თან დაკავშირება ვერ მოხერხდა. არაფერი დაკავშირებულა და ჩვენ მიერ შექმნილი ავტორიზაციის მონაცემები წაიშალა. შეამოწმეთ, შეუძლია თუ არა საიტს გამავალი მოთხოვნების გაგზავნა, და სცადეთ ხელახლა."
 
 #: includes/class-zinn-connector-claim.php:119
 msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
-msgstr "Zinn Digital®-მა ვერ შეძლო ამ საიტის დაკავშირება. პრობლემა ჩვენს მხარესაა და არა თქვენს დაწყვილების კოდში — არაფერი დაკავშირებულა და ჩვენს მიერ შექმნილი სავალდებულო მონაცემი წაიშალა. იგივე დაწყვილების კოდი კვლავ მუშაობს: სცადეთ თავიდან რამდენიმე წუთში."
+msgstr "Zinn Digital®-მა ვერ შეძლო ამ საიტის დაკავშირების დასრულება. პრობლემა ჩვენს მხარესაა და არა თქვენს დაწყვილების კოდში — არაფერი დაკავშირებულა და ჩვენ მიერ შექმნილი ავტორიზაციის მონაცემი წაიშალა. დაწყვილების იგივე კოდი კვლავ მუშაობს: გთხოვთ, რამდენიმე წუთში ისევ სცადოთ."
 
 #: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr "Zinn Digital®-მა ეს დაწყვილების კოდი არ მიიღო. არაფერი დაკავშირებულია. გენერირეთ ახალი კოდი თქვენს სამართავ პანელში და სცადეთ თავიდან."
+msgstr "Zinn Digital®-მა არ მიიღო დაკავშირების ეს კოდი. არაფერი დაკავშირებულა. შექმენით ახალი კოდი თქვენს მართვის პანელში და სცადეთ თავიდან."
 
 #: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
-msgstr "დაკავშირებულია. Zinn Digital®-ს ახლა უკვე შეუძლია ამ საიტზე პუბლიკაცია."
+msgstr "დაკავშირებულია. Zinn Digital®-ს ახლა შეუძლია ამ საიტზე გამოქვეყნება."
 
 #: includes/class-zinn-connector-connection.php:58
 #: includes/class-zinn-connector-status.php:201
@@ -251,27 +251,27 @@ msgstr "დაკავშირებულია"
 
 #: includes/class-zinn-connector-connection.php:60
 msgid "Connecting…"
-msgstr "დაკავშირება..."
+msgstr "დაკავშირება…"
 
 #: includes/class-zinn-connector-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "დაკავშირებულია, მაგრამ რაღაც ყურადღებას საჭიროებს"
+msgstr "დაკავშირებულია, მაგრამ რაღაც ყურადღებას მოითხოვს"
 
 #: includes/class-zinn-connector-connection.php:64
 msgid "Not connected"
-msgstr "არ არის დაკავშირებული"
+msgstr "დაკავშირებული არ არის"
 
 #: includes/class-zinn-connector-connection.php:66
 msgid "Running on your own account"
-msgstr "თქვენი საკუთari ანგარიშიდან გაშვება"
+msgstr "მუშაობს თქვენს პირად ანგარიშზე"
 
 #: includes/class-zinn-connector-connection.php:68
 msgid "We could not check this"
-msgstr "ჩვენ ვერ შევძლებთ ამის შემოწმებას"
+msgstr "ამის შემოწმება ვერ მოხერხდა"
 
 #: includes/class-zinn-connector-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "ამ პლაგინმა მიზეზი არ მიუთითა. გამოგზავნეთ დიაგნოსტიკური ანგარიში და ჩვენ შევამოწმებთ."
+msgstr "ამ მოდულმა არ მიუთითა მიზეზი. გამოგზავნეთ დიაგნოსტიკური ანგარიში და ჩვენ გადავხედავთ."
 
 #: includes/class-zinn-connector-connection.php:161
 msgid "Connection status"
@@ -281,7 +281,7 @@ msgstr "კავშირის სტატუსი"
 #: includes/class-zinn-connector-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "ბოლო შემოწმებიდან გავიდა %s."
+msgstr "ბოლოს შემოწმდა %s წინ."
 
 #: includes/class-zinn-connector-connection.php:251
 msgid "(opens in a new tab)"
@@ -289,15 +289,15 @@ msgstr "(იხსნება ახალ ჩანართში)"
 
 #: includes/class-zinn-connector-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "გაგზავნეთ ეს Zinn®-ის მხარდაჭერის ჯგუფში"
+msgstr "გაუგზავნეთ ეს Zinn®-ის მხარდაჭერის გუნდს"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "ზუსტად ეს გაიგზავნება — მეტი არაფერი და არაფერია დამალული. თქვენი პაროლები, ტოკენები და API გასაღებები მასში არ შედის."
+msgstr "სწორედ ეს გაიგზავნება — სხვა არაფერი და არაფერი დამალული. თქვენი პაროლები, ტოკენები და API გასაღებები აქ არ არის."
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "დიაგნოსტიკური ანგარიში, რომელიც გაიგზავნება"
+msgstr "დიაგნოსტიკის ანგარიში, რომელიც გაიგზავნება"
 
 #: includes/class-zinn-connector-diagnostics.php:207
 msgid "Copy to clipboard"
@@ -305,49 +305,49 @@ msgstr "ბუფერში კოპირება"
 
 #: includes/class-zinn-connector-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "გაგზავნეთ ეს ანგარიში Zinn® მხარდაჭერის ჯგუფს"
+msgstr "გაგზავნეთ ეს ანგარიში Zinn®-ის მხარდაჭერის სამსახურში"
 
 #: includes/class-zinn-connector-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "ჩვენ ვხსნით მხარდაჭერის თთიქეთს თქვენთვის და გიპასუხებთ ელფოსტით. თუ გირჩევნიათ, თავად არ გაგზავნოთ, დააკოპირეთ ზემოთ და ჩასვით თიქეთში."
+msgstr "ჩვენ ვხსნით მხარდაჭერის ბილეთს თქვენთვის და გიპასუხებთ ელფოსტით. თუ გირჩევნიათ არ გაგზავნოთ, დააკოპირეთ ზემოთ მოცემული ტექსტი და თავად ჩასვით ბილეთში."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "ამ სერვერიდან (%s) Zinn Digital®-თან დაკავშირება ვერ მოხერხდა. გადაიღეთ ზემოთ მოცემული ანგარიში და მის ნაცვლად გახსენით თიქეთი — თქვენს პარამეტრებში არაფერია მცდარი."
+msgstr "ამ სერვერიდან (%s) Zinn Digital®-თან დაკავშირება ვერ მოხერხდა. დააკოპირეთ ზემოთ მოცემული ანგარიში და მის ნაცვლად გახსენით ბილეთი — თქვენს პარამეტრებში შეცდომა არ არის."
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "გაგზავნილია. Zinn® მხარდაჭერის ჯგუფმა მიიღო თქვენი შეტყობინება და ელფოსტით გიპასუხებთ."
+msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის გუნდმა მიიღო თქვენი ანგარიში და გიპასუხებთ ელფოსტით."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის ჯგუფმა მიიღო თქვენი ანგარიში — ცნობარი %s — და გიპასუხებთ ელფოსტით."
+msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის გუნდმა მიიღო თქვენი ანგარიში — მითითება %s — და გიპასუხებთ ელფოსტით."
 
 #: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "თქვენ მოკლე დროში რამდენიმე ანგარიში გაგზავნეთ. დაიცადეთ რამდენიმე წუთი და სცადეთ თავიდან — წინა შეტყობინებები უკვე მივიდა."
+msgstr "თქვენ მოკლე დროში რამდენიმე ანგარიში გაგზავნეთ. მოიცადეთ რამდენიმე წუთი და სცადეთ თავიდან — წინა ანგარიშები მიღებულია."
 
 #: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital®-მა ამ წუთას ვერ მიიღო ანგარიში — ეს ჩვენი მხარეა და არა თქვენი. სცადეთ თავიდან მცირე ხანში, ან გადააკოპირეთ ზემოთ მოცემული ანგარიში თაიქეთში."
+msgstr "Zinn Digital®-მა ახლახან ვერ მიიღო ანგარიში — ეს ჩვენი მხრიდანაა, და არა თქვენი. გთხოვთ, მალე სცადოთ ხელახლა, ან დააკოპიროთ ზემოთ მოცემული ანგარიში თიკეტში."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "ანგარიში უარყოფილია (HTTP %d). დააკოპირეთ იგი ზემოთ და გახსენით თიქეთი, მიუთითეთ ეს ნომერი."
+msgstr "ანგარიში უარყოფილია (HTTP %d). დააკოპირეთ ის ზემოთ და გახსენით მოთხოვნა ამ ნომრის მითითებით."
 
 #: includes/class-zinn-connector-guard.php:156
 msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
-msgstr "ამ საიტის მფლობელმა გამორთა სურათების ატვირთვა Zinn Digital®-ისთვის Zinn® Connector-ის პარამეტრებში."
+msgstr "ამ საიტის მფლობელმა გამორთო სურათების ატვირთვა Zinn Digital®-ისთვის Zinn® Connector-ის პარამეტრებში."
 
 #: includes/class-zinn-connector-guard.php:167
 msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
-msgstr "ამ საიტის მფლობელმა Zinn Digital®-ის არსებული სტატიების რედაქტირება გამორთა Zinn® Connector-ის პარამეტრებში."
+msgstr "ამ საიტის მფლობელმა გათიშა არსებული სტატიების რედაქტირება Zinn Digital®-ისთვის Zinn® Connector-ის პარამეტრებში."
 
 #. translators: %s: the title of the article that was published.
 #: includes/class-zinn-connector-guard.php:215
@@ -367,13 +367,13 @@ msgid ""
 "\n"
 "Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
 msgstr ""
-"Zinn Digital®-მა თქვენს საიტს სტატია დაუმატა.\n"
+"Zinn Digital®-მა დაამატა სტატია თქვენს საიტზე.\n"
 "\n"
 "სათაური: %1$s\n"
-"ჩასწორება: %2$s\n"
+"მისი რედაქტირება: %2$s\n"
 "სტატუსი: %3$s\n"
 "\n"
-"შეგიძლიათ გამორთოთ ეს შეტყობინებები Zinn Digital® → Connector → Publishing ეკრანზე."
+"გამორთეთ ეს წერილები Zinn Digital® → კონექტორი → გამოქვეყნების ეკრანზე."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -390,11 +390,11 @@ msgstr "მომხმარებლის სახელმძღვან�
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "წაიკითხეთ %s მომხმარებლის სახელმძღვანელო"
+msgstr "წაიკითხეთ %s-ის მომხმარებლის სახელმძღვანელო"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
-msgstr "დამალვა"
+msgstr "ამის დამალვა"
 
 #: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -402,23 +402,23 @@ msgstr "Zinn® ჰოსტინგი WordPress-ისთვის"
 
 #: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, ყოველდღიური სარეზერვო ასლები, უფასო მიგრაცია და სამართავი პანელი, რომელიც შექმნილია მათთვის, ვინც ერთზე მეტ საიტს მართავს."
+msgstr "LiteSpeed, ყოველდღიური სარეზერვო ასლები, უფასო მიგრაცია და მართვის პანელი, რომელიც შექმნილია ერთზე მეტი საიტის მმართველი პირებისთვის."
 
 #: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Zinn® ბაზარი"
+msgstr "Zinn®-ის ბაზარი"
 
 #: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "შეიძინეთ და გაყიდეთ მზა საიტები, დომენები და ბმულების განთავსება. თანხა უსაფრთხოდ ინახება სანამ ორივე მხარე კმაყოფილი არ იქნება."
+msgstr "იყიდეთ და გაყიდეთ დამკვიდრებული საიტები, დომენები და ბმულების განთავსებები თანხის უსაფრთხო შენახვით, სანამ ორივე მხარე კმაყოფილი არ დარჩება."
 
 #: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — დაიქირავეთ პროფესიონალები"
+msgstr "Zinn Hub® — დაიქირავეთ ადამიანები, ვისთვისაც ეს საარსებო წყაროა"
 
 #: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "ჩვენი გლობალური ფრილანსერების ბაზარი: დაათვალიერეთ მწერლების, დიზაინერების, დეველოპერებისა და SEO სპეციალისტების 10 000-ზე მეტი მზა სერვისი, ან გამოაქვეყნეთ პროექტი და მისცეთ მათ შემოთავაზების საშუალება."
+msgstr "ჩვენი გლობალური ფრილანს ბაზარი: დაათვალიერეთ ავტორების, დიზაინერების, დეველოპერებისა და SEO-ს სპეციალისტების მიერ შემოთავაზებული 10 000-ზე მეტი მზა მომსახურება, ან გამოაქვეყნეთ პროექტი და მიეცით მათ წინადადებების გაკეთების საშუალება."
 
 #: includes/class-zinn-connector-settings.php:44
 msgid "Connector"
@@ -427,16 +427,16 @@ msgstr "კონექტორი"
 #: includes/class-zinn-connector-settings.php:61
 #: includes/class-zinn-connector-settings.php:81
 msgid "Connection"
-msgstr "დაკავშირება"
+msgstr "კავშირი"
 
 #: includes/class-zinn-connector-settings.php:65
 msgid "Publishing"
-msgstr "გამოქვეყნება"
+msgstr "ქვეყნდება"
 
 #: includes/class-zinn-connector-settings.php:69
 #: includes/class-zinn-connector-settings.php:196
 msgid "Backups"
-msgstr "არქივები"
+msgstr "სარეზერვო ასლები"
 
 #: includes/class-zinn-connector-settings.php:73
 msgid "Advanced"
@@ -452,15 +452,15 @@ msgstr "ამ საიტის გათიშვა"
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
-msgstr "ეს აუქმებს იმ სერთიფიკატს, რომელსაც Zinn Digital® იყენებს, ამიტომ ჩვენ აღარ შეგვიძლია ამ საიტზე გამოქვეყნება. უკვე გამოქვეყნებული მასალა რჩება. გსურთ გაგრძელება?"
+msgstr "ეს აუქმებს რწმუნებათა სიგელს, რომელსაც Zinn Digital® იყენებს, ამიტომ ჩვენ ვეღარ გამოვაქვეყნებთ ამ საიტზე. ყველაფერი, რაც უკვე გამოქვეყნებულია, დარჩება. გსურთ გაგრძელება?"
 
 #: includes/class-zinn-connector-settings.php:123
 msgid "What we may do on this site"
-msgstr "რa შეიძლება გავაკეთოთ ამ საიტზე"
+msgstr "რისი გაკეთება შეგვიძლია ამ საიტზე"
 
 #: includes/class-zinn-connector-settings.php:124
 msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
-msgstr "ჩვენ მიერ შენახული სერთიფიკატი არის ჩვეულებრივი WordPress აპლიკაციის პაროლი, ამიტომ თავად WordPress წყვეტს, თუ რა არის შესაძლებელი. ესენი მათ კიდევ უფრო ამცირებენ თქვენს მხარეს."
+msgstr "ჩვენ მიერ შენახული მონაცემები წარმოადგენს WordPress-ის აპლიკაციის ჩვეულებრივ პაროლს, ამიტომ თავად WordPress განსაზღვრავს, რა არის შესაძლებელი. ესენი კიდევ უფრო ავიწროებენ მას თქვენი მხრიდან."
 
 #: includes/class-zinn-connector-settings.php:129
 msgid "Publish articles as"
@@ -468,23 +468,23 @@ msgstr "სტატიების გამოქვეყნება რო�
 
 #: includes/class-zinn-connector-settings.php:130
 msgid "Choose “a draft” if you would rather read everything before it goes live."
-msgstr "აირჩიეთ „ნახაზი“, თუ გირჩევნიათ, ყველაფერი წაიკითხოთ მანამ, სანამ ის პირდაპირ ეთერში გავა."
+msgstr "აირჩიეთ „დრაფტი“, თუ გირჩევნიათ ყველაფერი წაიკითხოთ გამოქვეყნებამდე."
 
 #: includes/class-zinn-connector-settings.php:132
 msgid "Published straight away"
-msgstr "უთანხმოდ გამოქვეყნებული"
+msgstr "დაუყოვნებლივ გამოქვეყნებული"
 
 #: includes/class-zinn-connector-settings.php:133
 msgid "A draft, for me to review"
-msgstr "შავი ვარიანტი, ჩემს მიერ გადასახედი"
+msgstr "ჩანახატი, ჩემ მიერ განსახილველად"
 
 #: includes/class-zinn-connector-settings.php:134
 msgid "Pending review"
-msgstr "განხილვის მოლოდინში"
+msgstr "განიხილება"
 
 #: includes/class-zinn-connector-settings.php:135
 msgid "Scheduled, using the date we send"
-msgstr "განრიგით, იმ თარიღის გამოყენებით, რომელსაც ვგზავნიტ"
+msgstr "დაგეგმილია, გაგზავნის თარიღის გამოყენებით"
 
 #: includes/class-zinn-connector-settings.php:142
 msgid "Show the author as"
@@ -492,11 +492,11 @@ msgstr "ავტორის ჩვენება როგორც"
 
 #: includes/class-zinn-connector-settings.php:143
 msgid "Which of your users appears as the author. This does not change who we sign in as."
-msgstr "რომელი თქვენი მომხმარებელი გამოჩნდება ავტორად. ეს არ ცვლის იმას, ვის სახელითაც ვიხდით სისტემაში შესვლას."
+msgstr "თქვენი მომხმარებლებიდან რომელი გამოჩნდება ავტორად. ეს არ ცვლის იმას, თუ ვისი სახელით შევდივართ სისტემაში."
 
 #: includes/class-zinn-connector-settings.php:150
 msgid "Put articles in"
-msgstr "სტატიების ჩადება"
+msgstr "სტატიების მოთავსება აქ:"
 
 #: includes/class-zinn-connector-settings.php:157
 msgid "Allow images"
@@ -504,11 +504,11 @@ msgstr "სურათების დაშვება"
 
 #: includes/class-zinn-connector-settings.php:158
 msgid "Let Zinn Digital® upload images into this site’s media library"
-msgstr "მიეცით Zinn Digital®-ს ამ საიტის მედიაბიბლიოთეკაში სურათების ატვირთვის უფლება"
+msgstr "მიეცით Zinn Digital®-ს უფლება, ატვირთოს სურათები ამ საიტის მედიათეკაში"
 
 #: includes/class-zinn-connector-settings.php:159
 msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
-msgstr "გამორთეთ ეს და სტატიები სურათების გარეშე ჩამოვა. უკვე ატვირთული არაფერი იშლება."
+msgstr "გამორთეთ ეს და სტატიები მათი სურათების გარეშე შემოვა. უკვე ატვირთული არაფერი წაიშლება."
 
 #: includes/class-zinn-connector-settings.php:165
 msgid "Allow edits"
@@ -516,11 +516,11 @@ msgstr "რედაქტირების დაშვება"
 
 #: includes/class-zinn-connector-settings.php:166
 msgid "Let Zinn Digital® update an article it published before"
-msgstr "Zinn Digital®-ს მიowოდეთ მის მიერ ადრე გამოქვეყნებული სტატიის განახლების საშუალება"
+msgstr "მიეცით Zinn Digital®-ს უფლება განაახლოს მის მიერ ადრე გამოქვეყნებული სტატია"
 
 #: includes/class-zinn-connector-settings.php:167
 msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
-msgstr "გამოიყენება შესწორებებისა და ხელახალი ოპტიმიზაციისთვის. ის არასდროს ეხება იმას, რაც თავად დაწერეთ."
+msgstr "გამოიყენება შესწორებებისა და ხელახალი ოპტიმიზაციისთვის. ის არასოდეს ეხება იმას, რაც თავად დაწერეთ."
 
 #: includes/class-zinn-connector-settings.php:173
 msgid "Tell me when something is published"
@@ -528,55 +528,55 @@ msgstr "შემატყობინეთ, როდესაც რამე
 
 #: includes/class-zinn-connector-settings.php:174
 msgid "Leave blank for no email. One message per article, from your own site."
-msgstr "დატოვეთ ცარიელი ელფოსტის გარეშე. თითო სტატიაზე თითო შეტყობინება, თქვენივე საიტიდან."
+msgstr "დატოვეთ ცარიელი, თუ არ გსურთ ელფოსტის მიღება. თითო შეტყობინება თითო სტატიაზე, თქვენი საკუთარი საიტიდან."
 
 #: includes/class-zinn-connector-settings.php:190
 msgid "Off-site backups"
-msgstr "საიტის გარეთ არსებული სარეზერვო ასლები"
+msgstr "საიტის გარე სარეზერვო ასლები"
 
 #: includes/class-zinn-connector-settings.php:191
 msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
-msgstr "ეს საიტი თავის სარეზერვო ასლს პირდაპირ Zinn® საცავში აგზავნის. გზაში არაფერი გადის ჩვენს სერვერებზე."
+msgstr "ეს საიტი თავის სარეზერვო ასლს პირდაპირ Zinn®-ის საცავში აგზავნის. გზად ჩვენს სერვერებზე არაფერი გადის."
 
 #: includes/class-zinn-connector-settings.php:197
 msgid "Back this site up to Zinn Digital®"
-msgstr "Zinn Digital®-ზე ამ საიტის სარეზერვო ასლის შექმნა"
+msgstr "ამ საიტის სარეზერვო ასლის შექმნა Zinn Digital®-ზე"
 
 #: includes/class-zinn-connector-settings.php:204
 msgid "Backup token"
-msgstr "სარეზერვო ასლის ტოკენი"
+msgstr "სარეზერვო ტოკენი"
 
 #: includes/class-zinn-connector-settings.php:205
 msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
-msgstr "ჩasვით ტოკენი, რომელიც ნაჩვენებია ამ საიტის Backups ჩანართზე თქვენს Zinn Digital® სამართავ პანელში პლაგინის დაკავშირებისას. ის იქ მხოლოდ ერთხელ გამოჩნდება; კავშირის ხელახლა შენახვა ახალს გამოიმუშავებს."
+msgstr "ჩასვით ტოკენი, რომელიც ნაჩვენებია ამ საიტის „სარეზერვო ასლების“ ჩანართზე თქვენს Zinn Digital® მართვის პანელში, როდესაც აირჩიეთ მოდულის კავშირი. ის იქ მხოლოდ ერთხელ ჩანს; კავშირის ხელახლა შენახვა გასცემს ახალს."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
-msgstr "გამოტოვეთ ესენი"
+msgstr "ამათი გამოტოვება"
 
 #: includes/class-zinn-connector-settings.php:214
 msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
-msgstr "თითო გზა თითო ხაზზე, wp-content-თან მიმართებით — მაგალითად <code>cache</code> ან <code>uploads/backups</code>. ჩვეულებრივ, კანდიდატებია ქეშები და სხვა სარეზერვო ასლების დანამატების ფოლდერები."
+msgstr "ერთი გზა თითო ხაზზე, wp-content-ის მიმართ ფარდობითი — მაგალითად <code>cache</code> ან <code>uploads/backups</code>. ქეშები და სარეზერვო ასლების სხვა მოდულების საქაღალდეები ჩვეულებრივი კანდიდატებია."
 
 #: includes/class-zinn-connector-settings.php:222
 msgid "Stop if the archive would exceed"
-msgstr "შეჩერდი, თუ არქივი გადააჭარბებს"
+msgstr "შეჩერება, თუ არქივი გადააჭარბებს"
 
 #: includes/class-zinn-connector-settings.php:223
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
-msgstr "მეგაბაიტი. საერთო ჰოსტინგი ჩვეულებრივ წყვეტს ძალიან დიდ არქივს შუა გზაზე; შეზღუდვა ამას აქცევს შეტყობინებად და არა უხმო წარუმატებლობად."
+msgstr "მეგაბაიტი. გაზიარებული ჰოსტინგი ჩვეულებრივ წყვეტს ძალიან დიდი არქივის პროცესს შუა გზაზე; ლიმიტი კი ამას ჩუმი შეცდომის ნაცვლად შეტყობინებად აქცევს."
 
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
-msgstr "დეტალური ლოგირება"
+msgstr "დეტალური ჟურნალირება"
 
 #: includes/class-zinn-connector-settings.php:244
 msgid "Record what this plugin does, for support"
-msgstr "ჩesაწერეთ, რას აკეთებს ეს პლაგინი, მხარდაჭერისთვის"
+msgstr "ჩაიწერეთ რას აკეთებს ეს მოდული, მხარდაჭერისთვის"
 
 #: includes/class-zinn-connector-settings.php:245
 msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
-msgstr "ინახება ამ საიტზე, შეზღუდულია ბოლო 50 ჩანაწერით და შედის დიაგნოსტიკის ანგარიშში. ჩართეთ პრობლემის გამეორებამდე."
+msgstr "ინახება ამ საიტზე, შეზღუდულია ბოლო 50 ჩანაწერით და შეტანილია დიაგნოსტიკურ ანგარიშში. ჩართეთ იგი პრობლემის გამეორებამდე."
 
 #: includes/class-zinn-connector-settings.php:251
 msgid "On uninstall"
@@ -584,15 +584,15 @@ msgstr "დეინსტალაციისას"
 
 #: includes/class-zinn-connector-settings.php:252
 msgid "Delete this plugin’s settings when it is uninstalled"
-msgstr "ამ პლაგინის პარამეტრების წაშლა მისი დინსტალაციისას"
+msgstr "ამ მოდულის პარამეტრების წაშლა მისი დეინსტალაციის დროს"
 
 #: includes/class-zinn-connector-settings.php:253
 msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
-msgstr "აპლიკაციის პაროლის წაშლა დეინსტალაციისას არასდროს ხდება — ეს განზრახ არის ასე, რათა სხვა რამის გასინჯვის მიზნით დეინსტალაციამ თქვენი გამოქვეყნება არ დაარღვიოს. გამოიყენეთ ზემოთ მოცემული „გათიშვა“, თუ გსურთ, რომ სერთიფიკატი გაქრეს."
+msgstr "დეინსტალაცია არასდროს აუქმებს აპლიკაციის პაროლს — ეს განზრახ არის გაკეთებული, რათა სხვა რამის საცდელად დეინსტალაციამ ხელი არ შეუშალოს თქვენს გამოქვეყნებას. გამოიყენეთ „გათიშვა“ ზემოთ, თუ გსურთ მონაცემების წაშლა."
 
 #: includes/class-zinn-connector-settings.php:269
 msgid "The user we sign in as"
-msgstr "მომხმარებელი, რომლითაც შევდივართ სისტემაში"
+msgstr "მომხმარებელი, რომლის სახელითაც შევდივართ"
 
 #: includes/class-zinn-connector-settings.php:290
 msgid "The site’s default category"
@@ -601,20 +601,20 @@ msgstr "საიტის ნაგულისხმევი კატეგ�
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
-msgstr "ხელახლა დააკავშირეთ ეს საიტი"
+msgstr "დააკავშირეთ ეს საიტი ხელახლა"
 
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
-msgstr "ამ საიტის დაკავშირება"
+msgstr "დააკავშირეთ ეს საიტი"
 
 #: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr "გააღეთ თქვენი Zinn Digital® სამართავი პანელი, გადადით კონტენტი → სხვა საიტები და დააჭირეთ ღილაკს „დაწყვილების კოდის მიღება“. ჩასვით იგი ქვემოთ."
+msgstr "გახსენით თქვენი Zinn Digital® მართვის პანელი, გადადით განყოფილებაში შიგთავსი → სხვა საიტები და დააჭირეთ ღილაკს „დაწყვილების კოდის მიღება“. ჩასვით იგი ქვემოთ."
 
 #: includes/class-zinn-connector-settings.php:345
 msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
-msgstr "ხელახლა დაკავშირება ქმნის ახალ სარწმუნო მონაცემებს და ძველს უცვლელად ტოვებს — გამოიყენეთ „გათიშვა“ ჯერ, თუ გსურთ, რომ ძველი გაქრეს."
+msgstr "ხელახალი დაკავშირება ქმნის ახალ მონაცემს და ძველს თავის ადგილზე ტოვებს — ჯერ გამოიყენეთ „გათიშვა“, თუ გსურთ ძველის წაშლა."
 
 #: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
@@ -622,11 +622,11 @@ msgstr "დაწყვილების კოდი"
 
 #: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr "იგი ძალას კარგავს გენერირებიდან ოცდაათი წუთის შემდეგ და მისი გამოყენება მხოლოდ ერთხელ არის შესაძლებელი."
+msgstr "ვადა ეწურება გენერირებიდან ოცდაათ წუთში და მისი გამოყენება მხოლოდ ერთხელ შეიძლება."
 
 #: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
-msgstr "ამ საიტის დაკავშირების უფლება არ გაქვთ."
+msgstr "თქვენ არ გაქვთ ამ საიტის დაკავშირების უფლება."
 
 #: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
@@ -634,12 +634,12 @@ msgstr "ეს საიტი არ არის დაკავშირე�
 
 #: includes/class-zinn-connector-status.php:62
 msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
-msgstr "არაფერია მწყობრიდან გამოსული — ის უბრალოდ ჯერ არ არის დაკავშირებული. მიიღეთ დაკავშირების კოდი თქვენი Zinn® სამართავი პანელიდან და ჩასვით ამ მოდულის პარამეტრებში."
+msgstr "ყველაფერი რიგზეა — უბრალოდ ჯერ არ არის დაკავშირებული. მიიღეთ დაკავშირების კოდი თქვენი Zinn® მართვის პანელიდან და ჩასვით ამ პლაგინის პარამეტრებში."
 
 #: includes/class-zinn-connector-status.php:64
 #: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
-msgstr "ჩavas Zinn® მართვის პანელი"
+msgstr "გახსენით ჩემი Zinn® მართვის პანელი"
 
 #: includes/class-zinn-connector-status.php:80
 #: includes/class-zinn-connector-status.php:98
@@ -650,15 +650,15 @@ msgstr "კავშირი გაწყვეტილია."
 #: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
-msgstr "WordPress მომხმარებელი, რომელსაც ეს სარწმუნო მონაცემები ეკუთვნოდა (%s), აღარ არსებობს ამ საიტზე, ამიტომ ჩვენს მიერ გაგზავნილი ვერაფერი გამოქვეყნდება. კვლავ დაუკავშირდით როგორც მომხმარებელი, რომელსაც შეუძლია გამოქვეყნება."
+msgstr "WordPress-ის მომხმარებელი, რომელსაც ეკუთვნოდა სერთიფიკატი (%s), ამ საიტზე აღარ არსებობს, ამიტომ ჩვენ მიერ გაგზავნილი არაფერი გამოქვეყნდება. გთხოვთ, ხელახლა დაუკავშირდეთ როგორც მომხმარებელი, რომელსაც შეუძლია გამოქვეყნება."
 
 #: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
-msgstr "Zinn Digital® (publishing) აპლიკაციის პაროლი წაშლილია ამ საიტიდან, ამიტომ ჩვენ აღარ შეგვიძლია შესვლა. ახლის შესაქმნელად ხელახლა დაუკავშირდით — სხვა არაფერი დაკარგულა."
+msgstr "აპლიკაციის პაროლი „Zinn Digital® (publishing)“ წაიშალა ამ საიტიდან, ამიტომ შესვლას ვეღარ ვახერხებთ. ახლის შესაქმნელად ხელახლა დაუკავშირდით — სხვა არაფერი დაკარგულა."
 
 #: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
-msgstr "იხილეთ ამ საიტის აპლიკაციის პაროლები"
+msgstr "ამ საიტის აპლიკაციის პაროლების ნახვა"
 
 #: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
@@ -668,7 +668,7 @@ msgstr "დაკავშირებულია, მაგრამ გამ
 #: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
-msgstr "სერთიფიკატი ეკუთვნის მომხმარებელს: %s, და ეს მომხმარებელი ვეღარ აქვეყნებს სტატიებს. სისტემაში შესვლა კვლავ მუშაობს, ამიტომ ყველაფერი წესრიგში ჩანს, სანამ სტატიის გამოქვეყნების დრო არ მოვა. მისცეთ ამ მომხმარებელს გამოქვეყნების უფლება, ან კვლავ დააკავშირეთ როგორც სხვა, ვისაც ეს შეუძლია."
+msgstr "ავტორიზაციის მონაცემები ეკუთვნის %s-ს და ამ მომხმარებელს აღარ შეუძლია პოსტების გამოქვეყნება. სისტემაში შესვლა კვლავ მუშაობს, ამიტომ სტატიის გამოქვეყნების დრომდე არაფერი ჩანს არასწორი. მიანიჭეთ ამ მომხმარებელს გამოქვეყნების შესაძლებლობა, ან ხელახლა დაუკავშირდით ისეთი ანგარიშით, რომელსაც ეს შეუძლია."
 
 #: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
@@ -676,25 +676,25 @@ msgstr "ამ მომხმარებლის რედაქტირე�
 
 #: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
-msgstr "დაკავშირებულია აქ — ჩვენ ვერ დავუკავშირდით Zinn Digital®-ს დასადასტურებლად."
+msgstr "დაკავშირებულია აქ — დასადასტურებლად Zinn Digital®-თან დაკავშირება ვერ მოხერხდა."
 
 #: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
-msgstr "დაკავშირებულია, მაგრამ თქვენს Zinn® ანგარიშს ყურადღება სჭირდება."
+msgstr "დაკავშირებულია, მაგრამ თქვენი Zinn® ანგარიში ყურადღებას მოითხოვს."
 
 #: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
-msgstr "Zinn Digital® დაკავშირებულია."
+msgstr "დაკავშირებულია Zinn Digital®-თან."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
 #: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
-msgstr "დაsავშირებულია Zinn Digital®-თან, როგორც %s."
+msgstr "დაკავშირებულია Zinn Digital®-თან, როგორც %s."
 
 #: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
-msgstr "გამოქვეყნება როგორც"
+msgstr "ქვეყნდება, როგორც"
 
 #: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
@@ -704,25 +704,25 @@ msgstr "Zinn® საიტის ID"
 #: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
-msgstr "ამ სერვერმა ვერ მიაღწია api.zinndigital.com (%s)-ს. ეს ჩვეულებრივ არის თქვენს ჰოსტზე არსებული ფაირვოლი ან გამავალი კავშირის წესი და არა თქვენი Zinn® ანგარიშის პრობლემა — შესაძლოა პუბლიკაცია კვლავაც მუშაობდეს."
+msgstr "ამ სერვერმა ვერ შეძლო api.zinndigital.com-თან (%s) დაკავშირება. ეს ჩვეულებრივ გამოწვეულია თქვენს ჰოსტზე არსებული firewall-ით ან გამავალი კავშირის წესით და არა თქვენი Zinn® ანგარიშის პრობლემით — გამოქვეყნება შესაძლოა კვლავ მუშაობდეს."
 
 #: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
-msgstr "Zinn Digital®-მა საკუთარი შეცდომით უპასუხა — ეს ჩვენი მხარეა და არა თქვენი. სანამ ეს მოგვარდება, პუბლიკაცია არ იმოქმედებს."
+msgstr "Zinn Digital®-მა საკუთარი შეცდომით გიპასუხათ — ეს პრობლემა ჩვენს მხარესაა და არა თქვენს. გამოქვეყნებაზე გავლენა არ მოხდება, სანამ ეს საკითხი მოგვარდება."
 
 #: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
-msgstr "თქვენი Zinn® ანგარიში ამჟამად ვერ აქვეყნებს მასალებს ამ საიტზე. მიზეზი მითითებულია თქვენს სამართავ პანელში."
+msgstr "თქვენს Zinn® ანგარიშს ამჟამად არ შეუძლია ამ საიტზე გამოქვეყნება. მიზეზი მითითებულია თქვენს სამართავ პანელში."
 
 #. translators: %d: the HTTP status code returned.
 #: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
-msgstr "Zinn Digital®-მა დააბრუნა HTTP %d, რომელიც ჩვენთვის უცნობია. გაგზავნეთ დიაგნოსტიკური ანგარიში მხარდაჭერის ჩანართიდან და ჩვენ მას შევისწავლით — ჯერ არაფერი შეცვალოთ აქ."
+msgstr "Zinn Digital®-მა დააბრუნა HTTP %d, რომელსაც ვერ ვცნობთ. გამოაგზავნეთ დიაგნოსტიკური ანგარიში „მხარდაჭერის“ ჩანართიდან და ჩვენ მას განვიხილავთ — მანამდე აქ არაფერი შეცვალოთ."
 
 #: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
-msgstr "ახლავე გადამოწმება"
+msgstr "შეამოწმეთ ხელახლა ახლა"
 
 #: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
@@ -730,28 +730,28 @@ msgstr "შემოწმებულია. კავშირი აქტი
 
 #: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
-msgstr "აპლიკაციის პაროლის წაშლა ვერ მოხერხდა, ამიტომ ეს საიტი კვლავ დაკავშირებულია. წაშალეთ „Zinn Digital® (publishing)“ თქვენი პროფილის ეკრანზე და სცადეთ თავიდან — ჩვენ არაფერი შეგვივლია."
+msgstr "ჩვენ ვერ შევძელით აპლიკაციის პაროლის წაშლა, ამიტომ ეს საიტი კვლავ დაკავშირებულია. წაშალეთ „Zinn Digital® (publishing)“ თქვენი პროფილის ეკრანზე და სცადეთ ხელახლა — ჩვენ არაფერი შეგვიცვლია."
 
 #: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
-msgstr "გათიშულია. აპლიკაციის პაროლი გაუქმებულია, ამიტომ Zinn Digital® ვეღარ შეძლებს ამ საიტზე გამოქვეყნებას. უკვე გამოქვეყნებული არცერთი მონაცემი არ შეცვლილა."
+msgstr "კავშირი გაწყვეტილია. აპლიკაციის პაროლი გაუქმდა, ამიტომ Zinn Digital® ვეღარ გამოაქვეყნებს ამ საიტზე. უკვე გამოქვეყნებული კონტენტიდან არაფერი შეცვლილა."
 
 #: includes/class-zinn-connector-streaming-upload.php:87
 #: includes/class-zinn-connector-streaming-upload.php:145
 #: includes/class-zinn-connector-streaming-upload.php:264
 #: includes/class-zinn-connector-streaming-upload.php:272
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "ეს ფაილი ვერ წაიკითხა ამ სერვერიდან, ამიტომ არაფერი ატვირთულა."
+msgstr "ამ ფაილის წაკითხვა ამ სერვერიდან ვერ მოხერხდა, ამიტომ არაფერი ატვირთულა."
 
 #: includes/class-zinn-connector-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "ამ საიტს არ შეუძლია ატვირთულის სტრიმინგი, ამიტომ არაფერი გაგზავნილა."
+msgstr "ამ საიტმა ვერ შეძლო ატვირთვის სტრიმინგი, ამიტომ არაფერი გაგზავნილა."
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-connector-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "ეს ფაილი არის %1$s და ამ საიტის PHP-ს არ აქვს cURL, ამიტომ მისი ატვირთვის მაქსიმალური ზომა არის %2$s."
+msgstr "ეს ფაილი არის %1$s და ამ საიტის PHP-ს არ გააჩნია cURL, ამიტომ ატვირთვის მაქსიმალური ზომა არის %2$s."
 
 #: includes/class-zinn-connector-streaming-upload.php:331
 msgid "The upload could not be completed."
@@ -761,23 +761,23 @@ msgstr "ატვირთვა ვერ დასრულდა."
 #: includes/class-zinn-connector-streaming-upload.php:341
 #, php-format
 msgid "Storage refused the upload (HTTP %d)."
-msgstr "საწყობმა უარი თქვა ატვირთვაზე (HTTP %d)."
+msgstr "საცავმა უარყო ატვირთვა (HTTP %d)."
 
 #: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
-msgstr "სტილის წინასწარ დაყენებული პარამეტრი"
+msgstr "სტილის წინასწარი პარამეტრი"
 
 #: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "სასტარტო წერტილი. მის ქვემოთ არსებული ყველაფერი გადაფარავს მას."
+msgstr "საწყისი წერტილი. ქვემოთ მოცემული ნებისმიერი რამ ცვლის მას."
 
 #: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "ჩie საკუთari ფერები და ზომები"
+msgstr "გამოიყენეთ ჩემი საკუთარი ფერები და ზომები"
 
 #: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "გამორთეთ ეს და წინასწარ დაყენებული პარამეტრი გამოყენებული იქნება ზუსტად ისე, როგორც არის."
+msgstr "დატოვეთ ეს გამორთული და წინასწარ დაყენებული პარამეტრი გამოყენებული იქნება ზუსტად ისე, როგორც არის."
 
 #: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -785,14 +785,14 @@ msgstr "იხილეთ Zinn Digital®-ის გამოშვების 
 
 #: includes/class-zinn-connector-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Zinn® განახლების სერვისმა ამ განახლებისთვის ჩამოტვირთვის ბმული არ გასცა. შეამოწმეთ, წვდება თუ არა ეს საიტი Zinn® პლატფორმას, და შემდეგ სცადეთ თავიდან."
+msgstr "Zinn®-ის განახლების სერვისმა არ გასცა ჩამოტვირთვის ბმული ამ განახლებისთვის. შეამოწმეთ, შეუძლია თუ არა ამ საიტს Zinn®-ის პლატფორმასთან დაკავშირება, შემდეგ კი სცადეთ კვლავ."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-connector-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "განახლების ჩამოტვირთვა Zinn® განახლების სერვისიდან (%s) ვერ მოხერხდა. სცადეთ თავიდან რამდენიმე წუთში."
+msgstr "განახლების ჩამოტვირთვა Zinn®-ის განახლების სერვისიდან (%s) ვერ მოხერხდა. სცადეთ ხელახლა რამდენიმე წუთში."
 
 #: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."
+msgstr "ჩამოტვირთულმა განახლებამ ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."

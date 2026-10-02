@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Ez a Connects csatlakoztatja ezt a WordPress oldalt a Zinn Digital® szolgáltatáshoz, így az ütemezett cikkek publikálhatók rajta. Illessze be a párosítási kódot a Zinn® irányítópultjáról, és a bővítmény beállítja a saját hitelesítő adatait – semmit sem kell kézzel másolni."
+msgstr "Összekapcsolja ezt a WordPress-webhelyet a Zinn Digital® szolgáltatással, így az időzített cikkek közzétehetők rajta. Egy, a Zinn® vezérlőpultról származó párosítási kód beillesztése után a bővítmény beállítja a saját hitelesítési adatait — semmit sem szükséges kézzel másolni."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -36,19 +36,19 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Mentve. Írjon be egy új értéket a cseréhez."
+msgstr "Tárolva. A csere új érték beírásával lehetséges."
 
 #: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "Lista szűrése…"
+msgstr "A lista szűrése…"
 
 #: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
-msgstr "Lista szűrése"
+msgstr "A lista szűrése"
 
 #: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Nincs találat a szűrőre."
+msgstr "Semmi sem felel meg ennek a szűrőnek."
 
 #: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
@@ -56,7 +56,7 @@ msgstr "Sor hozzáadása"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Sor eltávolítása"
+msgstr "Sor törlése"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
@@ -70,7 +70,7 @@ msgstr "Zinn Digital®"
 
 #: includes/class-zinn-connector-admin-ui.php:294
 msgid "Zinn Digital® — overview"
-msgstr "Zinn Digital® – áttekintés"
+msgstr "Zinn Digital® — áttekintés"
 
 #: includes/class-zinn-connector-admin-ui.php:295
 msgid "Overview"
@@ -82,7 +82,7 @@ msgstr "Másolva"
 
 #: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Minden Zinn® bővítmény ezen a webhelyen, és hogy működik-e."
+msgstr "A webhelyen található összes Zinn® bővítmény, és hogy működik-e."
 
 #: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
@@ -95,11 +95,11 @@ msgstr "Beállítások megnyitása"
 #: includes/class-zinn-connector-admin-ui.php:770
 #: includes/class-zinn-connector-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "Nincs jogosultsága a beállítások módosításához."
+msgstr "Nincs jogosultság a beállítások módosítására."
 
 #: includes/class-zinn-connector-admin-ui.php:799
 msgid "Settings sections"
-msgstr "Beállítások részei"
+msgstr "Beállítási szakaszok"
 
 #: includes/class-zinn-connector-admin-ui.php:871
 msgid "Support"
@@ -107,7 +107,7 @@ msgstr "Támogatás"
 
 #: includes/class-zinn-connector-admin-ui.php:929
 msgid "Save changes"
-msgstr "Változások mentése"
+msgstr "Módosítások mentése"
 
 #: includes/class-zinn-connector-admin-ui.php:958
 msgid "Tools"
@@ -119,11 +119,11 @@ msgstr "Beállítások exportálása"
 
 #: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Visszaállítás az alapértelmezettre"
+msgstr "Alapértelmezések visszaállítása"
 
 #: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Ez a bővítmény minden beállítását visszaállítja az alapértelmezettre. Folytatja?"
+msgstr "Ez visszaállítja a bővítmény összes beállítását az alapértelmezett értékre. Folytatja?"
 
 #: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -131,7 +131,7 @@ msgstr "Diagnosztika a támogatáshoz"
 
 #: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Beállítási fájl importálása"
+msgstr "Beállításfájl importálása"
 
 #: includes/class-zinn-connector-admin-ui.php:995
 msgid "Import"
@@ -139,7 +139,7 @@ msgstr "Importálás"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Az exportált fájlok soha nem tartalmaznak jelszavakat, tokeneket vagy API-kulcsokat – ezeket az új webhelyen újra meg kell adnia."
+msgstr "Az exportált fájlok soha nem tartalmaznak jelszavakat, tokeneket vagy API-kulcsokat — ezeket újra meg kell adni az új webhelyen."
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
@@ -147,7 +147,7 @@ msgstr "Beállítások elmentve."
 
 #: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "A bővítmény minden beállítása visszatért az alapértelmezettre."
+msgstr "A bővítmény minden beállítása visszaállt az alapértelmezettre."
 
 #: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
@@ -159,43 +159,43 @@ msgstr "Ez a művelet nem érhető el."
 
 #: includes/class-zinn-connector-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Az a fájl nem olvasható be. Válasszon ki egy beállításfájlt, amelyet egy Zinn® bővítményből exportáltak."
+msgstr "A fájl nem olvasható. Válasszunk egy Zinn®-bővítményből exportált beállításfájlt."
 
 #: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "Ez a fájl túl nagy ahhoz, hogy beállítások exportálása legyen."
+msgstr "Ez a fájl túl nagy ahhoz, hogy beállítások exportfájlja legyen."
 
 #: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "Az a fájl nem egy Zinn® beállítás-exportálás."
+msgstr "Ez a fájl nem egy Zinn® beállítás-exportálás."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Ez a fájl egy másik bővítményből (%s) lett exportálva, így az ide történő importálás olyan beállításokat mentne el, amelyeket ez a bővítmény nem ismer."
+msgstr "Ezt a fájlt egy másik bővítményből (%s) exportálták, így az itteni importálása olyan beállításokat mentene el, amelyeket ez a bővítmény nem értelmez."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d beállítás importálva. A jelszavak és az API-kulcsok soha nem szerepelnek az exportálásban, ezért ezeket adja meg újra."
-msgstr[1] "%d beállítás importálva. A jelszavak és az API-kulcsok soha nem szerepelnek az exportálásban, ezért ezeket adja meg újra."
+msgstr[0] "%d beállítás importálva. A jelszavak és az API-kulcsok soha nem szerepelnek az exportálásban, ezért ezeket újra meg kell adni."
+msgstr[1] "%d beállítás importálva. A jelszavak és az API-kulcsok sosem szerepelnek az exportálásban, így ezeket újra meg kell adni."
 
 #. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "Az archívum %1$d MB lenne, ami meghaladja az ezen a webhelyen beállított %2$d MB-os korlátot. Növelje a korlátot, vagy zárjon ki néhány mappát a Zinn Digital® → Connector → Backups képernyőn."
+msgstr "Az archívum mérete %1$d MB lenne, ami meghaladja a webhelyen beállított %2$d MB-os korlátot. Növelje a korlátot, vagy zárjon ki néhány mappát a Zinn Digital® → Connector → Biztonsági mentések képernyőn."
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr "Ennek a webhelynek a PHP-je nem tud archívumokat létrehozni, ezért a biztonsági mentést nem lehetett elkészíteni."
+msgstr "Az oldal PHP-ja nem tud archívumokat létrehozni, ezért a biztonsági mentést nem sikerült elkészíteni."
 
 #: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
-msgstr "Nem sikerült ideiglenes fájl létrehozni."
+msgstr "Nem sikerült létrehozni az ideiglenes fájlt."
 
 #: includes/class-zinn-connector-backup.php:345
 #: includes/class-zinn-connector-backup.php:394
@@ -204,54 +204,54 @@ msgstr "Nem sikerült ideiglenes fájl létrehozni."
 #: includes/class-zinn-connector-backup.php:416
 #: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
-msgstr "Ennek a webhelynek a fájljait nem sikerült archiválni."
+msgstr "A webhely fájljait nem sikerült archiválni."
 
 #: includes/class-zinn-connector-backup.php:384
 msgid "This site's PHP cannot compress archives, so a backup could not be made."
-msgstr "Ennek a webhelynek a PHP-címe nem tudja tömöríteni az archívumokat, ezért nem sikerült biztonsági mentést készíteni."
+msgstr "A webhely PHP-ja nem tud archívumokat tömöríteni, ezért a biztonsági mentés nem készíthető el."
 
 #. translators: 1: space required, 2: space available.
 #: includes/class-zinn-connector-backup.php:470
 #, php-format
 msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
-msgstr "Ennek a webhelynek a biztonsági mentéséhez körülbelül %1$s ideiglenes terület szükséges, és csak %2$s szabad, ezért nem lett megpróbálva."
+msgstr "A webhely biztonsági mentéséhez körülbelül %1$s ideiglenes területre lenne szükség, de csak %2$s szabad hely áll rendelkezésre, ezért a mentés nem indult el."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr "Ez a WordPress-felhasználó nem tud bejegyzéseket közzétenni, így a most létrehozott kapcsolat sem tudna közzétenni. Jelentkezzen be egy olyan felhasználóként, aki képes erre, és próbálja újra."
+msgstr "Ez a WordPress-felhasználó nem tehet közzé bejegyzéseket, így a most létrehozott kapcsolat sem fog tudni közzétenni. Be kell jelentkezni egy erre jogosult felhasználóval, majd újra megpróbálni."
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr "Az alkalmazásjelszavak ki vannak kapcsolva ezen a webhelyen, így nem tudunk hitelesítő adatot létrehozni. Kérje meg a tárhelyszolgáltatóját, hogy engedélyezze ezeket, vagy csatlakoztassa a webhelyet egy olyan jelszóval, amelyet saját maga hoz létre a Zinn Digital® vezérlőpultján."
+msgstr "Az alkalmazásjelszavak ki vannak kapcsolva ezen az oldalon, így nem lehet hitelesítő adatot létrehozni. Kérni kell a tárhelyszolgáltatót az engedélyezésükre, vagy az oldalt a Zinn Digital® vezérlőpulton saját kezűleg létrehozott jelszóval kell összekapcsolni."
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr "A WordPress nem tudott hitelesítő adatot létrehozni ehhez a webhelyhez. Semmi sem lett elküldve sehová."
+msgstr "A WordPress nem hozott létre hitelesítő adatot ehhez a webhelyhez. Semmi sem lett elküldve sehová."
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr "Nem tudtuk elérni a Zinn Digital® szolgáltatást erről a webhelyről. Semmi sem csatlakozott, és a létrehozott hitelesítő adatot eltávolítottuk. Ellenőrizze, hogy a webhely képes-e kimenő kéréseket indítani, majd próbálja újra."
+msgstr "Nem sikerült elérni a(z) Zinn Digital® szolgáltatást erről az oldalról. Semmi sem kapcsolódott, és a létrehozott hitelesítési adatok el lettek távolítva. Ellenőrizni kell, hogy az oldal képes-e kimenő kéréseket indítani, majd újra kell próbálni."
 
 #: includes/class-zinn-connector-claim.php:119
 msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
-msgstr "A Zinn Digital® nem tudta befejezni a webhely csatlakoztatását. A hiba a mi oldalunkon van, nem a párosítási kóddal van a baj — semmi sem csatlakozott, és az általunk létrehozott hitelesítő adatot eltávolítottuk. Ugyapot a párosítási kód továbbra is működik: próbálja meg újra néhány perc múlva."
+msgstr "A Zinn Digital® nem tudta befejezni a webhely csatlakoztatását. A probléma a mi oldalunkon merült fel, nem a párosítási kóddal van gond — semmi sem kapcsolódott, és a létrehozott hitelesítési adat törölve lett. Ugyanaz a párosítási kód továbbra is működik: érdemes pár perc múlva újra megpróbálni."
 
 #: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr "A Zinn Digital® nem fogadta el ezt a párosítási kódot. Semmi sem lett csatlakoztatva. Hozzon létre egy új kódot a vezérlőpultján, és próbálja újra."
+msgstr "A Zinn Digital® nem fogadta el ezt a párosítási kódot. Semmi sem kapcsolódott. Új kód generálása szükséges a vezérlőpulton, majd újra kell próbálkozni."
 
 #: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
-msgstr "Kapcsolódva. A Zinn Digital® mostantól közzétehet ezen a webhelyen."
+msgstr "Csatlakoztatva. A Zinn Digital® mostantól közzétehet ezen a webhelyen."
 
 #: includes/class-zinn-connector-connection.php:58
 #: includes/class-zinn-connector-status.php:201
 msgid "Connected"
-msgstr "Csatlakoztatva"
+msgstr "Kapcsolódva"
 
 #: includes/class-zinn-connector-connection.php:60
 msgid "Connecting…"
-msgstr "Csatlakozás…"
+msgstr "Kapcsolódás…"
 
 #: includes/class-zinn-connector-connection.php:62
 msgid "Connected, but something needs attention"
@@ -259,29 +259,29 @@ msgstr "Csatlakoztatva, de valami figyelmet igényel"
 
 #: includes/class-zinn-connector-connection.php:64
 msgid "Not connected"
-msgstr "Nincs csatlakoztatva"
+msgstr "Nincs kapcsolódva"
 
 #: includes/class-zinn-connector-connection.php:66
 msgid "Running on your own account"
-msgstr "Futtatás a saját fiókján"
+msgstr "Futtatás saját fiókban"
 
 #: includes/class-zinn-connector-connection.php:68
 msgid "We could not check this"
-msgstr "Ezt nem tudtuk ellenőrizni"
+msgstr "Nem sikerült ezt ellenőrizni"
 
 #: includes/class-zinn-connector-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Ez a bővítmény nem indokolta meg az okot. Küldjön egy diagnosztikai jelentést, és mi megvizsgáljuk."
+msgstr "Ez a bővítmény nem adta meg az okot. Küldjön be egy diagnosztikai jelentést, és megnézzük."
 
 #: includes/class-zinn-connector-connection.php:161
 msgid "Connection status"
-msgstr "Kapcsolati állapot"
+msgstr "Kapcsolat állapota"
 
 #. translators: %s: a human-readable interval such as "5 minutes".
 #: includes/class-zinn-connector-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Legutóbb ellenőrizve ekkor: %s."
+msgstr "Utolsó ellenőrzés %s ezelőtt."
 
 #: includes/class-zinn-connector-connection.php:251
 msgid "(opens in a new tab)"
@@ -289,15 +289,15 @@ msgstr "(új lapon nyílik meg)"
 
 #: includes/class-zinn-connector-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Küldje el ezt a Zinn® ügyfélszolgálatnak"
+msgstr "Küldés a Zinn® támogatásának"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Pontosan ez kerül elküldésre – semmi más, és semmi rejtett. A jelszavai, tokenjei és API-kulcsai nincsenek benne."
+msgstr "Pontosan ez kerül elküldésre — semmi más, és semmi sem rejtett. A jelszavak, tokenek és API-kulcsok nem szerepelnek benne."
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "A elküldendő diagnosztikai jelentés"
+msgstr "Az elküldésre kerülő diagnosztikai jelentés"
 
 #: includes/class-zinn-connector-diagnostics.php:207
 msgid "Copy to clipboard"
@@ -305,55 +305,55 @@ msgstr "Másolás a vágólapra"
 
 #: includes/class-zinn-connector-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Küldje el ezt a jelentést a Zinn® ügyfélszolgálatának"
+msgstr "A jelentés elküldése a Zinn® ügyfélszolgálatának"
 
 #: includes/class-zinn-connector-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Nyitunk önnek egy támogatási jegyet, és e-mailben válaszolunk. Ha inkább nem szeretné elküldeni, másolja ki a fentieket, és illessze be saját maga egy jegybe."
+msgstr "Támogatási jegyet nyitunk, és e-mailben válaszolunk. Ha nem szeretné elküldeni, másolja ki a fentieket, és illessze be saját maga egy jegybe."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Nem sikerült elérni a Zinn Digital® szolgáltatást erről a szerverről (%s). Másolja ki a fenti jelentést, és inkább nyisson meg egy hibajegyet – a beállításaival nincs semmi baj."
+msgstr "Nem sikerült elérni a Zinn Digital® rendszert erről a kiszolgálóról (%s). Másoljuk a fenti jelentést, és nyissunk inkább egy hibajegyet — a beállítások teljesen rendben vannak."
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "A Zinn® ügyfélszolgálat megkapta a jelentését, és elemben válaszol."
+msgstr "Elküldve. A Zinn® ügyfélszolgálata megkapta a jelentést, és e-mailben válaszol."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "A Zinn® ügyfélszolgálat megkapta a jelentését (%s hivatkozási szám), és e-mailben fog válaszolni."
+msgstr "Elküldve. A Zinn® támogatási csapata megkapta a bejelentést — hivatkozás: %s —, és e-mailben fog válaszolni."
 
 #: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Rövid idő alatt több jelentést küldött. Várjon néhány percet, és próbálja újra – a korábbiak megérkeztek."
+msgstr "Rövid időn belül több jelentés is elküldésre került. Kérjük, várjon néhány percet, majd próbálja újra — a korábbiak megérkeztek."
 
 #: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "A Zinn Digital® most nem tudta elfogadni a jelentést – ez a mi oldalunkon hiba, nem az önén. Próbálja meg újra rövidesen, vagy másolja be a fenti jelentést egy jegybe."
+msgstr "A Zinn Digital® az imént nem tudta fogadni a jelentést – a hiba a mi oldalunkon van, nem a felhasználónál. Érdemes hamarosan újra megpróbálni, vagy átmásolni a fenti jelentést egy hibajegybe."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "A jelentést elutasították (HTTP %d). Másolja ki fentebb, és nyisson meg egy hibajegyet, hivatkozva erre a számra."
+msgstr "A jelentés elutasításra került (HTTP %d). Másolja a fentiekből, és nyisson egy hibajegyet a szám megadásával."
 
 #: includes/class-zinn-connector-guard.php:156
 msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
-msgstr "Ennek a webhelynek a tulajdonosa kikapcsolta a képek feltöltését a Zinn Digital® számára a Zinn® Connector beállításaiban."
+msgstr "A webhely tulajdonosa kikapcsolta a képfeltöltést a(z) Zinn Digital® számára a(z) Zinn® Connector beállításaiban."
 
 #: includes/class-zinn-connector-guard.php:167
 msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
-msgstr "Ennek a webhelynek a tulajdonosa letiltotta a meglévő cikkek szerkesztését a Zinn Digital® számára a Zinn® Connector beállításaiban."
+msgstr "A webhely tulajdonosa kikapcsolta a meglévő cikkek szerkesztését a(z) Zinn Digital® számára a(z) Zinn® Connector beállításaiban."
 
 #. translators: %s: the title of the article that was published.
 #: includes/class-zinn-connector-guard.php:215
 #, php-format
 msgid "New article on your site: %s"
-msgstr "Új cikk az oldalán: %s"
+msgstr "Új cikk a honlapon: %s"
 
 #. translators: 1: article title, 2: link to edit it, 3: its status.
 #: includes/class-zinn-connector-guard.php:220
@@ -367,13 +367,13 @@ msgid ""
 "\n"
 "Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
 msgstr ""
-"A Zinn Digital® új cikket adott hozzá az oldalához.\n"
+"A Zinn Digital® új cikket adott a webhelyhez.\n"
 "\n"
 "Cím: %1$s\n"
 "Szerkesztés: %2$s\n"
 "Állapot: %3$s\n"
 "\n"
-"Ezeket az e-maileket a Zinn Digital® → Connector → Publishing képernyőn kapcsolhatja ki."
+"Ezek az e-mailek a Zinn Digital® → Összekötő → Közzététel képernyőn kapcsolhatók ki."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -390,7 +390,7 @@ msgstr "Felhasználói útmutatók"
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Olvassa el a(z) %s felhasználói útmutatót"
+msgstr "A(z) %s felhasználói útmutató elolvasása"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
@@ -398,11 +398,11 @@ msgstr "Elrejtés"
 
 #: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Zinn® tárhely WordPresshez"
+msgstr "Zinn® tárhely WordPress-hez"
 
 #: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, napi biztonsági mentések, ingyenes migráció és egy olyan vezérlőpult, amelyet egynél több webhelyet üzemeltetők számára terveztek."
+msgstr "LiteSpeed, napi biztonsági mentések, ingyenes költöztetés és egy vezérlőpult, amely egynél több webhelyet kezelők számára készült."
 
 #: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
@@ -410,19 +410,19 @@ msgstr "A Zinn® piactér"
 
 #: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Vásároljon és adjon el meglévő webhelyeket, domaineket és linkelhelyezéseket úgy, hogy a pénzt biztonságban őrizzük, amíg mindkét fél elégedett nem lesz."
+msgstr "Megalapozott webhelyek, domainek és linkelhelyezések adásvétele biztonságos letéttel, amíg mindkét fél elégedett nem lesz."
 
 #: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® – béreljen szakembereket, akik ebből élnek"
+msgstr "Zinn Hub® — fogadjon fel embereket, akiknek ez a szakmájuk"
 
 #: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Globális szabadúszó piacunk: böngésszen több mint 10 000 kész szolgáltatás között íróktól, tervezőktől, fejlesztőktől és SEO-szakemberektől, vagy tegyen közzé egy projektet, és hagyja, hogy ajánlatot tegyenek."
+msgstr "Globális szabadúszó piacterünk: böngésszen több mint 10 000 kész szolgáltatás között íróktól, tervezőktől, fejlesztőktől és SEO-szakemberektől, vagy tegyen közzé egy projektet, és várja az ajánlatokat."
 
 #: includes/class-zinn-connector-settings.php:44
 msgid "Connector"
-msgstr "Csatlakozó"
+msgstr "Összekötő"
 
 #: includes/class-zinn-connector-settings.php:61
 #: includes/class-zinn-connector-settings.php:81
@@ -440,7 +440,7 @@ msgstr "Biztonsági mentések"
 
 #: includes/class-zinn-connector-settings.php:73
 msgid "Advanced"
-msgstr "Speciális"
+msgstr "Haladó"
 
 #: includes/class-zinn-connector-settings.php:89
 msgid "Check the connection now"
@@ -448,11 +448,11 @@ msgstr "Kapcsolat ellenőrzése most"
 
 #: includes/class-zinn-connector-settings.php:94
 msgid "Disconnect this site"
-msgstr "Webhely leválasztása"
+msgstr "A webhely lekapcsolása"
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
-msgstr "Ez visszavonja a Zinn Digital® által használt hitelesítő adatot, így a továbbiakban nem tudunk közzétenni ezen a webhelyen. A már közzétett tartalmak megmaradnak. Folytatja?"
+msgstr "Ez visszavonja a(z) Zinn Digital® által használt hitelesítő adatot, így a továbbiakban már nem lehet közzétenni ezen az oldalon. Minden korábban közzétett tartalom megmarad. Folytatjuk?"
 
 #: includes/class-zinn-connector-settings.php:123
 msgid "What we may do on this site"
@@ -460,7 +460,7 @@ msgstr "Mit tehetünk ezen a webhelyen"
 
 #: includes/class-zinn-connector-settings.php:124
 msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
-msgstr "Az általunk tárolt hitelesítő adat egy hagyományos WordPress alkalmazásjelsző, így maga a WordPress dönt arról, hogy mi lehetséges. Ezek tovább szűkítik a lehetőségeket az Ön oldalán."
+msgstr "A nálunk lévő hitelesítési adat egy normál WordPress alkalmazásjelszó, így maga a WordPress dönti el, mi lehetséges. Ezek a felhasználói oldalon tovább szűkítik a lehetőségeket."
 
 #: includes/class-zinn-connector-settings.php:129
 msgid "Publish articles as"
@@ -468,7 +468,7 @@ msgstr "Cikkek közzététele mint"
 
 #: includes/class-zinn-connector-settings.php:130
 msgid "Choose “a draft” if you would rather read everything before it goes live."
-msgstr "Válassza a „piszkozat” lehetőséget, ha inkább elolvasna mindent, mielőtt az oldal élesbe állna."
+msgstr "A „vázlat” lehetőség választandó, ha jobb mindent elolvasni a közzététel előtt."
 
 #: includes/class-zinn-connector-settings.php:132
 msgid "Published straight away"
@@ -476,23 +476,23 @@ msgstr "Azonnal közzétéve"
 
 #: includes/class-zinn-connector-settings.php:133
 msgid "A draft, for me to review"
-msgstr "Egy vázlat az áttekintésemhez"
+msgstr "Egy vázlat áttekintésre"
 
 #: includes/class-zinn-connector-settings.php:134
 msgid "Pending review"
-msgstr "Felülvizsgálat alatt"
+msgstr "Áttekintésre vár"
 
 #: includes/class-zinn-connector-settings.php:135
 msgid "Scheduled, using the date we send"
-msgstr "Időzítve, az általunk küldött dátum használatával"
+msgstr "Ütemezve, a küldés dátumát használva"
 
 #: includes/class-zinn-connector-settings.php:142
 msgid "Show the author as"
-msgstr "Szerző megjelenítése így:"
+msgstr "Szerző megjelenítése mint"
 
 #: includes/class-zinn-connector-settings.php:143
 msgid "Which of your users appears as the author. This does not change who we sign in as."
-msgstr "Melyik felhasználója jelenik meg szerzőként. Ez nem változtatja meg azt, hogy ki nevében jelentkezünk be."
+msgstr "Melyik felhasználó jelenjen meg szerzőként. Ez nem változtatja meg a bejelentkezéshez használt fiókot."
 
 #: includes/class-zinn-connector-settings.php:150
 msgid "Put articles in"
@@ -504,11 +504,11 @@ msgstr "Képek engedélyezése"
 
 #: includes/class-zinn-connector-settings.php:158
 msgid "Let Zinn Digital® upload images into this site’s media library"
-msgstr "Engedélyezze a Zinn Digital® számára, hogy képeket töltsön fel ennek a webhelynek a médiatárába"
+msgstr "A(z) Zinn Digital® képeket tölthet fel a webhely médiatárába"
 
 #: includes/class-zinn-connector-settings.php:159
 msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
-msgstr "Ha ezt kikapcsolja, a cikkek képek nélkül érkeznek meg. A már feltöltött tartalmak nem törlődnek."
+msgstr "Ennek kikapcsolásakor a cikkek képek nélkül érkeznek. A már feltöltött elemek közül semmi sem kerül eltávolításra."
 
 #: includes/class-zinn-connector-settings.php:165
 msgid "Allow edits"
@@ -516,31 +516,31 @@ msgstr "Szerkesztések engedélyezése"
 
 #: includes/class-zinn-connector-settings.php:166
 msgid "Let Zinn Digital® update an article it published before"
-msgstr "Hagyja, hogy a Zinn Digital® frissítse egy korábban közzétett cikkét"
+msgstr "A(z) Zinn Digital® frissítheti a korábban közzétett cikket"
 
 #: includes/class-zinn-connector-settings.php:167
 msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
-msgstr "Javításokhoz és újraoptimalizáláshoz használatos. Soha nem nyúl semmihöz, amit ön írt."
+msgstr "Javításokra és újraoptimalizálásra szolgál. Soha nem módosítja a közvetlenül beírt tartalmat."
 
 #: includes/class-zinn-connector-settings.php:173
 msgid "Tell me when something is published"
-msgstr "Értesítsen, ha valami megjelenik"
+msgstr "Értesítés küldése új közzétételkor"
 
 #: includes/class-zinn-connector-settings.php:174
 msgid "Leave blank for no email. One message per article, from your own site."
-msgstr "Hagyja üresen, ha nem kér e-mailt. Cikkenként egy üzenet a saját webhelyéről."
+msgstr "Hagyja üresen, ha nincs szükség e-mailre. Egy üzenet cikkenként, a saját webhelyről."
 
 #: includes/class-zinn-connector-settings.php:190
 msgid "Off-site backups"
-msgstr "Külső helyszíni biztonsági mentések"
+msgstr "Helyszínen kívüli biztonsági mentések"
 
 #: includes/class-zinn-connector-settings.php:191
 msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
-msgstr "Ez a webhely a saját biztonsági mentését közvetlenül a Zinn® tárhelyre küldi. Útközben semmi sem halad át a szervereinken."
+msgstr "Ez a webhely közvetlenül a Zinn® tárhelyre küldi a saját biztonsági mentését. Útközben semmi sem halad át a szervereinken."
 
 #: includes/class-zinn-connector-settings.php:197
 msgid "Back this site up to Zinn Digital®"
-msgstr "Biztonsági mentés készítése erről a webhelyről a Zinn Digital® szolgáltatásba"
+msgstr "A webhely biztonsági mentése ide: Zinn Digital®"
 
 #: includes/class-zinn-connector-settings.php:204
 msgid "Backup token"
@@ -548,7 +548,7 @@ msgstr "Biztonsági mentési token"
 
 #: includes/class-zinn-connector-settings.php:205
 msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
-msgstr "Illessze be a Zinn Digital® irányítópultján a Biztonsági mentések lapon látható tokent, amikor a bővítmény kapcsolatát választja. Ott csak egyszer jelenik meg; a kapcsolat újbóli mentése újat generál."
+msgstr "Illessze be a bővítménykapcsolat kiválasztásakor a Zinn Digital® vezérlőpultján, az adott webhely „Biztonsági mentések” fülén megjelenő tokent. Ez csak egyszer jelenik meg ott; a kapcsolat ismételt mentésekor új token generálódik."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -556,15 +556,15 @@ msgstr "Ezek kihagyása"
 
 #: includes/class-zinn-connector-settings.php:214
 msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
-msgstr "Soronként egy útvonal, a wp-content mappához képest — például <code>cache</code> vagy <code>uploads/backups</code>. A gyorsítótárak és más biztonsági mentési bővítmények mappái a szokásos jelöltek."
+msgstr "Soronként egy útvonal, a wp-content könyvtárhoz viszonyítva — például <code>cache</code> vagy <code>uploads/backups</code>. A gyorsítótárak és más biztonsági mentési bővítmények mappái a szokásos jelöltek."
 
 #: includes/class-zinn-connector-settings.php:222
 msgid "Stop if the archive would exceed"
-msgstr "Álljon meg, ha az archívum túllépné"
+msgstr "Leállítás, ha az archívum mérete meghaladná a következőt:"
 
 #: includes/class-zinn-connector-settings.php:223
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
-msgstr "Megabájt. A megosztott tárhely általában félúton leállít egy nagyon nagy archívumot; egy határ ezt csendes hiba helyett üzenetté alakítja."
+msgstr "Megabájt. Az osztott tárhelyek általában megszakítják a túl nagy archívumok létrehozását a folyamat közben; a korlát beállítása révén a néma hiba helyett hibaüzenet jelenik meg."
 
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
@@ -572,11 +572,11 @@ msgstr "Részletes naplózás"
 
 #: includes/class-zinn-connector-settings.php:244
 msgid "Record what this plugin does, for support"
-msgstr "Írja le, hogy mit csinál ez a bővítmény, a támogatás érdekében"
+msgstr "A bővítmény tevékenységének naplózása támogatási célokra"
 
 #: includes/class-zinn-connector-settings.php:245
 msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
-msgstr "Ezen az oldalon marad, legfeljebb az utolsó 50 bejegyzésre korlátozódik, és szerepel egy diagnosztikai jelentésben. Probléma reprodukálása előtt kapcsolja be."
+msgstr "Ezen a webhelyen tárolva, az utolsó 50 bejegyzésre korlátozva, és szerepel a diagnosztikai jelentésben. Kapcsoljuk be a probléma reprodukálása előtt."
 
 #: includes/class-zinn-connector-settings.php:251
 msgid "On uninstall"
@@ -584,15 +584,15 @@ msgstr "Eltávolításkor"
 
 #: includes/class-zinn-connector-settings.php:252
 msgid "Delete this plugin’s settings when it is uninstalled"
-msgstr "A bővítmény beállításainak törlése a eltávolításakor"
+msgstr "A bővítmény beállításainak törlése annak eltávolításakor"
 
 #: includes/class-zinn-connector-settings.php:253
 msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
-msgstr "Az eltávolítás soha nem vonja vissza az alkalmazásjelszót – ez szándékos, így az eltávolítás, ha valami mást szeretne kipróbálni, nem szakítja meg a közzétételt. Használja a fenti Leválasztás lehetőséget, ha azt szeretné, hogy a hitelesítő adat megszűnjön."
+msgstr "Az eltávolítás soha nem vonja vissza az alkalmazásjelszót — ez szándékos, hogy a más lehetőség kipróbálása céljából végzett eltávolítás ne szakítsa meg a közzétételt. A fenti Szétkapcsolás lehetőséggel törölhetők a hitelesítési adatok."
 
 #: includes/class-zinn-connector-settings.php:269
 msgid "The user we sign in as"
-msgstr "A felhasználó, akisként bejelentkezünk"
+msgstr "A felhasználó, akinek a nevében bejelentkezünk"
 
 #: includes/class-zinn-connector-settings.php:290
 msgid "The site’s default category"
@@ -601,20 +601,20 @@ msgstr "A webhely alapértelmezett kategóriája"
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-status.php:353
 msgid "Connect this site again"
-msgstr "Webhely újbóli csatlakoztatása"
+msgstr "Honlap újracsatlakoztatása"
 
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-settings.php:373
 msgid "Connect this site"
-msgstr "Webhely csatlakoztatása"
+msgstr "A webhely összekapcsolása"
 
 #: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr "Nyissa meg a Zinn Digital® vezérlőpultját, lépjen a Tartalom → Egyéb oldalak menüpontra, és kattintson a „Párosítási kód lekérése” gombra. Illessze be alább."
+msgstr "Nyissuk meg a Zinn Digital® vezérlőpultot, lépjünk a Tartalom → Egyéb oldalak menüpontra, majd nyomjuk meg a „Párosítási kód kérése” gombot. Illesszük be alább."
 
 #: includes/class-zinn-connector-settings.php:345
 msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
-msgstr "Az újbóli csatlakozás új hitelesítő adatot hoz létre, a régit pedig érvényben hagyja – használja először a Kapcsolat bontása lehetőséget, ha azt szeretné, hogy a régi megszűnjön."
+msgstr "Az újbóli csatlakozás új hitelesítési adatot hoz létre, és a régit helyben hagyja — a régi eltávolításához előbb a Szétkapcsolás funkciót célszerű használni."
 
 #: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
@@ -622,24 +622,24 @@ msgstr "Párosítási kód"
 
 #: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr "Harminc perccel a generálás után lejár, és csak egyszer használható fel."
+msgstr "A létrehozást követően harminc perc múlva lejár, és csak egyszer használható fel."
 
 #: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
-msgstr "Nem engedélyezett ennek a webhelynek a csatlakoztatása."
+msgstr "Nincs jogosultság az oldal összekapcsolására."
 
 #: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
-msgstr "Ez a webhely nem kapcsolódik a Zinn Digital® vállalathoz."
+msgstr "Ez a webhely nem kapcsolódik a következőhöz: Zinn Digital®."
 
 #: includes/class-zinn-connector-status.php:62
 msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
-msgstr "Semmi sincs rendben — egyszerűen még nem lett párosítva. Szerezzen be egy párosítási kódot a Zinn® vezérlőpultjáról, és illessze be a bővítmény beállításaiba."
+msgstr "Minden rendben — csupán még nincs párosítva. Kérjünk le egy párosítási kódot a Zinn® vezérlőpultról, és illesszük be a bővítmény beállításaiba."
 
 #: includes/class-zinn-connector-status.php:64
 #: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
-msgstr "Nyissa meg a Zinn® vezérlőpultomat"
+msgstr "A Zinn® vezérlőpult megnyitása"
 
 #: includes/class-zinn-connector-status.php:80
 #: includes/class-zinn-connector-status.php:98
@@ -650,25 +650,25 @@ msgstr "A kapcsolat megszakadt."
 #: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
-msgstr "Az a WordPress-felhasználó, akihez a hitelesítő adatok tartoztak (%s), már nem létezik ezen az oldalon, így semmit sem tudunk elküldeni a közzétételhez. Csatlakozzon újra egy olyan felhasználóként, aki jogosult a közzétételre."
+msgstr "A hitelesítési adatokhoz tartozó WordPress felhasználó (%s) már nem létezik ezen az oldalon, így semmi nem tehető közzé abból, amit küldünk. Újra kell csatlakozni olyan felhasználóként, aki jogosult a közzétételre."
 
 #: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
-msgstr "A „Zinn Digital® (publishing)” alkalmazásjelszó törölve lett erről a webhelyről, így többé nem tudunk bejelentkezni. Csatlakozjon újra egy új létrehozásához – semmi más nem veszett el."
+msgstr "A(z) „Zinn Digital® (publishing)” alkalmazásjelszó törölve lett erről az oldalról, így már nem lehet bejelentkezni. Egy új létrehozásához csatlakozzunk újra — semmi más nem veszett el."
 
 #: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
-msgstr "Tekintse meg a webhely alkalmazásjelszavait"
+msgstr "Az oldal alkalmazásjelszavainak megtekintése"
 
 #: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
-msgstr "Kapcsolódva, de a közzététel sikertelen lesz."
+msgstr "Csatlakozva, de a közzététel sikertelen lenne."
 
 #. translators: %s: the WordPress username the credential belongs to.
 #: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
-msgstr "A hitelesítő adat a következőhöz tartozik: %s, és ez a felhasználó már nem tud bejegyzéseket közzétenni. A bejelentkezés továbbra is működik, így minden rendben lévőnek tűnik addig, amíg egy cikk el nem készül. Adja meg ennek a felhasználónak a közzétételi jogot, vagy csatlakozzon újra olyan felhasználóként, aki rendelkezik ezzel."
+msgstr "A hitelesítési adat a következőhöz tartozik: %s, és ez a felhasználó már nem tehet közzé bejegyzéseket. A bejelentkezés továbbra is működik, így semmi sem tűnik hibásnak egy cikk esedékességéig. Biztosítani kell a közzétételi jogosultságot a felhasználó számára, vagy újra kell kapcsolódni egy olyan fiókkal, amely rendelkezik ezzel."
 
 #: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
@@ -676,21 +676,21 @@ msgstr "Felhasználó szerkesztése"
 
 #: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
-msgstr "Itt csatlakozva – nem tudtuk elérni a Zinn Digital®-t a megerősítéshez."
+msgstr "Itt csatlakoztatva — a megerősítéshez nem sikerült elérni a Zinn Digital® szolgáltatást."
 
 #: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
-msgstr "Csatlakozva, de a Zinn®-fiókje figyelmet igényel."
+msgstr "Csatlakoztatva, de a Zinn®-fiók figyelmet igényel."
 
 #: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
-msgstr "Csatlakozva a Zinn Digital® szolgáltatáshoz."
+msgstr "Csatlakoztatva a Zinn Digital® szolgáltatáshoz."
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
 #: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
-msgstr "Kapcsolódva a(z) Zinn Digital® szolgáltatáshoz ekként: %s."
+msgstr "Csatlakoztatva a következőhöz: Zinn Digital® mint %s."
 
 #: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
@@ -698,27 +698,27 @@ msgstr "Közzététel mint"
 
 #: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
-msgstr "Zinn® webhelyazonosító"
+msgstr "Zinn®-webhelyazonosító"
 
 #. translators: %s: the transport error WordPress reported.
 #: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
-msgstr "Ez a szerver nem tudta elérni a következő címet: api.zinndigital.com (%s). Ez általában tűzfalra vagy a gazdagép kimenő kapcsolatokra vonatkozó szabályára utal, nem pedig a Zinn®-fiókjával van probléma – az oldal közzététele még működhet."
+msgstr "Ez a kiszolgáló nem tudta elérni a következőt: api.zinndigital.com (%s). Ez általában a tárhelyen lévő tűzfal vagy kimenő kapcsolati szabály miatt van, nem pedig a Zinn®-fiók hibája — a közzététel ettől még működhet."
 
 #: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
-msgstr "A Zinn Digital® saját hibával válaszolt – ez a mi oldalunkon van, nem az önén. A közzétételt ez nem érinti, amíg ez tisztázódik."
+msgstr "A Zinn Digital® saját hibával válaszolt — a probléma nálunk merült fel. A közzétételt nem érinti, amíg a helyzet rendeződik."
 
 #: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
-msgstr "A Zinn® fiókja jelenleg nem tud tartalmat közzétenni ezen a webhelyen. Az okot a vezérlőpultján találja."
+msgstr "A Zinn®-fiók jelenleg nem tud közzétenni ezen az oldalon. A vezérlőpulton megtekinthető az ok."
 
 #. translators: %d: the HTTP status code returned.
 #: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
-msgstr "A Zinn Digital® %d-as HTTP-választ adott, amelyet nem ismerünk fel. Küldjön egy diagnosztikai jelentést a Támogatás fülről, és mi megvizsgáljuk – először ne változtasson semmit sem itt."
+msgstr "A Zinn Digital® a nem felismert HTTP %d választ adta. Érdemes diagnosztikai jelentést küldeni a Támogatás fülről, és áttekintésre kerül — előbb semmit se változtassunk itt."
 
 #: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
@@ -726,32 +726,32 @@ msgstr "Újraellenőrzés most"
 
 #: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
-msgstr "Ellenőrizve. A kapcsolat él."
+msgstr "Ellenőrizve. A kapcsolat aktív."
 
 #: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
-msgstr "Nem sikerült eltávolítani az alkalmazásjelszót, ezért ez a webhely továbbra is csatlakozik. Törölje a „Zinn Digital® (publishing)” elemet a profilképernyőjén, és próbálja újra – semmit sem változtattunk."
+msgstr "Nem sikerült eltávolítani az alkalmazásjelszót, így ez a webhely továbbra is csatlakoztatva van. Törölje a(z) „Zinn Digital® (publishing)” elemet a profilképernyőn, majd próbálja újra — semmi sem változott."
 
 #: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
-msgstr "Kapcsolat bontva. Az alkalmazásjelszó visszavonásra került, így a Zinn Digital® a továbbiakban nem tud tartalmat közzétenni ezen a webhelyen. A már közzétett tartalmakhoz nem nyúltunk."
+msgstr "Szétkapcsolva. Az alkalmazásjelszó vissza lett vonva, így a Zinn Digital® már nem tud közzétenni ezen az oldalon. A korábban közzétett tartalmak változatlanok maradtak."
 
 #: includes/class-zinn-connector-streaming-upload.php:87
 #: includes/class-zinn-connector-streaming-upload.php:145
 #: includes/class-zinn-connector-streaming-upload.php:264
 #: includes/class-zinn-connector-streaming-upload.php:272
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Ez a fájl nem volt olvasható erről a szerverről, így semmi sem lett feltöltve."
+msgstr "A fájl nem olvasható erről a szerverről, így semmi sem került feltöltésre."
 
 #: includes/class-zinn-connector-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "Ez az oldal nem tudta továbbítani a feltöltést, így semmi sem lett elküldve."
+msgstr "A webhely nem tudta közvetíteni a feltöltést, így semmi sem került elküldésre."
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-connector-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "Ez a fájl %1$s méretű, és ezen a webhelyen a PHP nem tartalmaz cURL-t, így a feltölthető legnagyobb méret %2$s."
+msgstr "Ez a fájl %1$s méretű, és a webhely PHP-jában nincs cURL, így a maximális feltölthető méret %2$s."
 
 #: includes/class-zinn-connector-streaming-upload.php:331
 msgid "The upload could not be completed."
@@ -765,34 +765,34 @@ msgstr "A tárhely elutasította a feltöltést (HTTP %d)."
 
 #: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
-msgstr "Stílusbeállítás"
+msgstr "Stílus-előbeállítás"
 
 #: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Kiadindulópont. Minden, ami ez alatt van, felülírja."
+msgstr "Egy kiindulópont. Bármi, ami alatta található, felülírja azt."
 
 #: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "Használjam a saját színeimet és méreteimet"
+msgstr "Saját színek és méretek használata"
 
 #: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Hagyja ezt kikapcsolva, és az előbeállítás pontosan a megszokott módon lesz használva."
+msgstr "Kikapcsolva hagyva az előbeállítás pontosan úgy kerül felhasználásra, ahogy van."
 
 #: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Tekintse meg a Zinn Digital® kiadási megjegyzéseit."
+msgstr "A Zinn Digital® kiadási megjegyzéseinek megtekintése."
 
 #: includes/class-zinn-connector-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "A Zinn® frissítési szolgáltatás nem adott ki letöltési hivatkozást ehhez a frissítéshez. Ellenőrizze, hogy ez a webhely eléri-e a Zinn® platformot, majd próbálja meg újra."
+msgstr "A Zinn® frissítési szolgáltatás nem adott ki letöltési hivatkozást ehhez a frissítéshez. Ellenőrizni kell, hogy a webhely eléri-e a Zinn® platformot, majd próbálkozni újra."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-connector-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgáltatásról (%s). Próbálja meg újra néhány perc múlva."
+msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgáltatásból (%s). Próbálkozzon újra néhány perc múlva."
 
 #: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "A letöltött frissítés integritási ellenőrzése sikertelen volt, így nem lett a rendszerre telepítve."
+msgstr "A letöltött frissítés ellenőrzése sikertelen volt, így nem került telepítésre."

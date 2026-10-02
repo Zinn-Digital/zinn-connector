@@ -20,10 +20,9 @@ msgid "https://zinndigital.com/wordpress-plugins/zinn-connector"
 msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 
 #. Description of the plugin
-#. zinn-i18n: not translated — ProtectedTermError: protected term(s) did not survive translation into ha: Connects. These are glossary entries and must be reprod
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "Yana haɗa wannan rukunin yanar gizon WordPress zuwa Zinn Digital® domin a iya wallafa labaran da aka tsara lokaci a ciki. Liƙa lambar haɗawa daga allon sarrafa Zinn® kuma plugin ɗin yana saita nasa shaidar — ba a kwafin komai da hannu."
+msgstr "Yana haɗa wannan rukunin yanar gizo na WordPress da Zinn Digital® domin a iya buga labaran da aka tsara a ciki. Manna lambar haɗawa daga allon sarrafawarka na Zinn® kuma manhajar za ta saita bayanan shigarta da kanta — ba a kwafi komai da hannu ba."
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -37,11 +36,11 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "An adana. Buga sabon ƙima don maye gurbin sa."
+msgstr "An adana. Buga sabuwar ƙima domin maye gurbinta."
 
 #: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "Tace wannan jerin..."
+msgstr "Tace wannan jeri…"
 
 #: includes/class-zinn-connector-admin-fields.php:641
 msgid "Filter this list"
@@ -49,15 +48,15 @@ msgstr "Tace wannan jerin"
 
 #: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Babu abin da ya dace da wannan tace."
+msgstr "Babu abin da ya dace da wannan matatar."
 
 #: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
-msgstr "Ƙara wani sahu"
+msgstr "Ƙara layi"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Cire wannan sahu"
+msgstr "Cire wannan layin"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
@@ -75,36 +74,36 @@ msgstr "Zinn Digital® — taƙaitaccen bayani"
 
 #: includes/class-zinn-connector-admin-ui.php:295
 msgid "Overview"
-msgstr "Bayani gaba ɗaya"
+msgstr "Taƙaitaccen bayani"
 
 #: includes/class-zinn-connector-admin-ui.php:383
 msgid "Copied"
-msgstr "An kwafi"
+msgstr "An Kwafa"
 
 #: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Kowane Zinn® plugin a wannan shafin, da kuma ko yana aiki."
+msgstr "Kowane manhajar Zinn® a wannan rukunin yanar gizo, da kuma ko yana aiki."
 
 #: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Ba a buƙatar haɗin intanit don wannan plugin ɗin."
+msgstr "Ba a buƙatar haɗi don wannan manhaja ta plugin."
 
 #: includes/class-zinn-connector-admin-ui.php:442
 msgid "Open settings"
-msgstr "Buɗe saituna"
+msgstr "Bude saituna"
 
 #: includes/class-zinn-connector-admin-ui.php:770
 #: includes/class-zinn-connector-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "Ba ka da izinin canza waɗannan saitunan."
+msgstr "Ba ku da izinin canza waɗannan saitunan."
 
 #: includes/class-zinn-connector-admin-ui.php:799
 msgid "Settings sections"
-msgstr "Sassan Saituna"
+msgstr "Sassan saituna"
 
 #: includes/class-zinn-connector-admin-ui.php:871
 msgid "Support"
-msgstr "Goyon baya"
+msgstr "Taimako"
 
 #: includes/class-zinn-connector-admin-ui.php:929
 msgid "Save changes"
@@ -112,43 +111,43 @@ msgstr "Ajiye canje-canje"
 
 #: includes/class-zinn-connector-admin-ui.php:958
 msgid "Tools"
-msgstr "Kayan Aiki"
+msgstr "Kayan aiki"
 
 #: includes/class-zinn-connector-admin-ui.php:973
 msgid "Export settings"
-msgstr "Saitunan fitarwa"
+msgstr "Fitar da saituna"
 
 #: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Sake wa tsoffin saitunan asali"
+msgstr "Sake saita zuwa na asali"
 
 #: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Wannan zai dawo da duk wani tsari a kan wannan plugin zuwa ga asalin saitinsa. A ci gaba?"
+msgstr "Wannan zai mayar da kowane saiti na wannan manhaja zuwa yadda yake da asali. A ci gaba?"
 
 #: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "Binciken matsala don goyon baya"
+msgstr "Binciken matsala don tallafi"
 
 #: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Shigo da fayil ɗin saiti"
+msgstr "Shigo da fayil ɗin saituna"
 
 #: includes/class-zinn-connector-admin-ui.php:995
 msgid "Import"
-msgstr "Shigo da kaya"
+msgstr "Shigo da shi"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Fayilolin da aka fitar ba sa ƙunshe da kalmomin sirri, alamomi (tokens) ko maɓallan API — za buƙaci ka sake shigar da su a sabon rukunin yanar gizon."
+msgstr "Fayilolin da aka fitar ba sa taɓa ƙunsar kalmomin sirri, alamu ko maɓallan API — za ku buƙaci sake shigar da su a sabon shafin."
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
-msgstr "An adana saitunan."
+msgstr "An ajiye saitunan."
 
 #: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "An kafa dukkan saitunan da ke kan wannan fagin a matsayin na asali."
+msgstr "Dukkan saitunan wannan manhaja sun koma yadda suke a asali."
 
 #: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
@@ -156,47 +155,47 @@ msgstr "An gama."
 
 #: includes/class-zinn-connector-admin-ui.php:1190
 msgid "That action is not available."
-msgstr "Ba a samun wannan matakin."
+msgstr "Wannan aikin ba ya samuwa."
 
 #: includes/class-zinn-connector-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Ba za a iya karanta wannan fayil ɗin ba. Zaɓi fayil ɗin saitunan da aka fitar daga wani matosai na Zinn®."
+msgstr "Ba a iya karanta wannan fayil ɗin ba. Zaɓi fayil ɗin saituna da aka fitar daga wani manhajar ƙari ta Zinn®."
 
 #: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "Waccan fayil din yayi yawa sosai don ya zama fitar da saituna."
+msgstr "Fayil ɗin ya yi girma da yawa da zai zama fayil ɗin fitar da saituna."
 
 #: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "Wannan fayil ɗin ba fitarwa ba ce ta saitunan Zinn®."
+msgstr "Wannan fayil ɗin ba fitarwar saitunan Zinn® ba ne."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "An fitar da waccan fayil ɗin ne daga wani matosai na daban (%s), saboda haka shigo da ita nan zai adana saitunan da wannan matosai ba ya fahimta ba."
+msgstr "An fitar da wannan fayil ɗin daga wani daban na plugin (%s), don haka shigo da shi a nan zai adana saitunan da wannan plugin ɗin bai gane ba."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "An shigo da saitin %d. Kalmomin sirri da maɓallan API ba sa cikin fitarwa, don haka a sake shigar da waɗancan."
-msgstr[1] "An shigo da saituna %d. Kalmomin sirri da maɓallan API ba sa cikin fitarwa, don haka a sake shigar da su."
+msgstr[0] "An shigo da saitin %d. Ba a taɓa haɗa kalmomin sirri da maɓallan API a cikin fitarwa ba, don haka sake shigar da su."
+msgstr[1] "An shigo da saituna %d. Ba a taɓa haɗa kalmomin sirri da maɓallan API a cikin fitarwa ba, don haka sake shigar da su."
 
 #. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "Adana ta taba zama %1$d MB, wanda ya wuce iyakar %2$d MB da aka saita a kan wannan shafin. Ƙara iyakar, ko ware wasu bango, a kan Zinn Digital® → Mai haɗawa → Allon madadin."
+msgstr "Girman ma'ajiyar zai kai %1$d MB, wanda ya zarce iyakar %2$d MB da aka saita a wannan rukunin yanar gizon. Ka ƙara iyakar, ko ka cire wasu manyan fayiloli, a shafin Zinn Digital® → Connector → Backups."
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr "PHP na wannan shafin ba zai iya ƙirƙirar ɗakunan ajiya ba, don haka ba a iya yin ajiyar bayanai ba."
+msgstr "PHP na wannan rukunin yanar gizon ba zai iya ƙirƙirar taskoki ba, saboda haka ba a iya yin ajiyar waje ba."
 
 #: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
-msgstr "An kasa ƙirƙirar fayil ɗin wucin gadi."
+msgstr "Ba a iya ƙirƙirar fayil na ɗan lokaci ba."
 
 #: includes/class-zinn-connector-backup.php:345
 #: includes/class-zinn-connector-backup.php:394
@@ -205,58 +204,58 @@ msgstr "An kasa ƙirƙirar fayil ɗin wucin gadi."
 #: includes/class-zinn-connector-backup.php:416
 #: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
-msgstr "Ba a iya adana fayilolin wannan shafin ba."
+msgstr "Ba a iya adana fayilolin wannan rukunin yanar gizon ba."
 
 #: includes/class-zinn-connector-backup.php:384
 msgid "This site's PHP cannot compress archives, so a backup could not be made."
-msgstr "PHP na wannan shafin ba zai iya matse kayan adana bayanai ba, don haka ba a iya yin ajiyar waje ba."
+msgstr "PHP na wannan rukunin yanar gizon ba zai iya matse fayilolin adanawa ba, saboda haka ba a iya yin kwafin ajiya ba."
 
 #. translators: 1: space required, 2: space available.
 #: includes/class-zinn-connector-backup.php:470
 #, php-format
 msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
-msgstr "Wani ajiyar waje na wannan shafin yana buƙatar kusan %1$s na ɗan lokaci kuma %2$s kawai ke da kyauta, don haka ba a yi ƙoƙari ba."
+msgstr "Ajiye kwafin wannan rukunin yanar gizo yana buƙatar kimanin %1$s na sararin wucin gadi kuma %2$s kawai ke da sarari, don haka ba a yi ƙoƙarin yi ba."
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr "Wannan mai amfani na WordPress ba zai iya buga rubuce-rubuce ba, don haka haɗin da aka yi yanzu ba zai iya bugawa ba ko kadan. Shiga azaman mai amfani wanda zai iya, sannan ka sake gwadawa."
+msgstr "Wannan mai amfani da WordPress ba zai iya buga rubuce-rubuce ba, don haka haɗin da aka yi a yanzu ba zai iya bugawa ba kuma. Shiga a matsayin mai amfani da zai iya, sannan ka sake gwadawa."
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr "An kashe kalmomin sirri na aikace-aikace a kan wannan shafin, don haka ba za mu iya ƙirƙirar takardar shaidar ba. Roƙi mai masaukin baƙi naka ya kunna su, ko kuma ka haɗa shafin tare da kalmar sirri da kuka ƙirƙira da kanka a cikin kundin tsarin mulkin ku na Zinn Digital®."
+msgstr "An kashe kalmomin sirri na manhaja a wannan rukunin yanar gizon, saboda haka ba za mu iya ƙirƙirar bayanan shaida ba. Nemi mai masaukin ku ya kunna su, ko ku haɗa rukunin yanar gizon da kalmar sirri da ku da kanku kuka ƙirƙira a cikin allon sarrafawa na Zinn Digital® ɗinku."
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr "WordPress ba za ta iya ƙirƙirar takardar shaida don wannan shafin ba. Ba a tura komai ko'ina ba."
+msgstr "WordPress bai ƙirƙiri shaidar shiga don wannan rukunin yanar gizon ba. Ba a aika komai koina ba."
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr "Ba mu iya isa ga Zinn Digital® daga wannan shafin ba. Babu abin da aka haɗa, kuma an cire shaidar da muka yi. Bincika cewa shafin zai iya yin buƙatun fitarwa, kuma a gwada kuma."
+msgstr "Ba mu sami damar isa ga Zinn Digital® daga wannan rukunin yanar gizon ba. Ba a haɗa komai ba, kuma an cire shaidar da muka ƙirƙira. Bincika ko rukunin yanar gizon na iya yin buƙatun fita, sannan a sake gwadawa."
 
 #: includes/class-zinn-connector-claim.php:119
 msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
-msgstr "Zinn Digital® ta kasa kammala haɗa wannan rukunin yanar gizon. Matsalar tana ɓangarenmu, ba tare da lambar haɗin ku ba — ba a haɗa komai ba, kuma an cire shaidar da muka yi. Lambar haɗin guda ɗaya tana aiki tukuna: gwada sake bayan ƴan mintuna."
+msgstr "Zinn Digital® ba ta iya gama haɗa wannan rukunin yanar gizon ba. Matsalar tana daga ɓangarenmu ne, ba daga lambar haɗin ku ba — ba a haɗa komai ba, kuma an cire bayanan shaidar da muka ƙirƙira. Wannan lambar haɗin tana nan tana aiki: sake gwadawa nan da 'yan mintuna."
 
 #: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr "Zinn Digital® bai karɓi wannan lambar haɗin ba. Ba a haɗa komai ba. Samar da sabuwar lamba a cikin allon sarrafa ku kuma sake gwadawa."
+msgstr "Zinn Digital® bai karɓi waccan lambar haɗawa ba. Ba a haɗa komai ba. Ƙirƙiri sabuwar lamba a cikin allon sarrafawarka sannan ka sake gwadawa."
 
 #: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
-msgstr "An haɗa. Zinn Digital® yanzu zai iya bugawa zuwa wannan shafin."
+msgstr "An haɗa. Zinn Digital® zai iya bugawa a wannan rukunin yanar gizon yanzu."
 
 #: includes/class-zinn-connector-connection.php:58
 #: includes/class-zinn-connector-status.php:201
 msgid "Connected"
-msgstr "Haɗe"
+msgstr "An Haɗa"
 
 #: includes/class-zinn-connector-connection.php:60
 msgid "Connecting…"
-msgstr "Ana haɗawa..."
+msgstr "Ana haɗawa…"
 
 #: includes/class-zinn-connector-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "An haɗa, amma wani abu na buƙatar kulawa"
+msgstr "An haɗa, amma akwai abin da ke buƙatar kulawa"
 
 #: includes/class-zinn-connector-connection.php:64
 msgid "Not connected"
@@ -264,7 +263,7 @@ msgstr "Ba a haɗa ba"
 
 #: includes/class-zinn-connector-connection.php:66
 msgid "Running on your own account"
-msgstr "Yana gudana a kan asusunka"
+msgstr "Yana aiki a kan asusunka na kanka"
 
 #: includes/class-zinn-connector-connection.php:68
 msgid "We could not check this"
@@ -272,7 +271,7 @@ msgstr "Ba mu iya bincika wannan ba"
 
 #: includes/class-zinn-connector-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Wannan plugin din bai fadi dalili ba. A aika da rahoton bincike sai mu duba."
+msgstr "Wannan manhaja ba ta faɗi dalili ba. Aika rahoton binciken matsala kuma za mu duba."
 
 #: includes/class-zinn-connector-connection.php:161
 msgid "Connection status"
@@ -282,79 +281,79 @@ msgstr "Matsayin haɗi"
 #: includes/class-zinn-connector-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "An bincika karshe tun %s da suka wuce."
+msgstr "An duba na ƙarshe %s da suka wuce."
 
 #: includes/class-zinn-connector-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(yana buɗe a sabon shafin)"
+msgstr "(yana buɗewa a wani sabon shafi)"
 
 #: includes/class-zinn-connector-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Aika da wannan zuwa ga tallafin Zinn®"
+msgstr "Aika wannan zuwa ga tallafin Zinn®"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Abin da za a aika ke nan kenan — babu wani abu kuma, kuma babu abin da aka ɓoye. Kalmomin sirrinka, alamomin shiga, da maɓallan API ɗinka ba su ciki."
+msgstr "Wannan shi ne ainihin abin da za a aika — babu wani abu dabam, kuma babu wani abu a ɓoye. Kalmomin shigarku, alamomin shaida da maɓallan API ba sa cikinsa."
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "Rahoton binciken da za a aika"
+msgstr "Rahoton binciken cutar da za a aika"
 
 #: includes/class-zinn-connector-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "Kwafi zuwa allo"
+msgstr "Kwafa zuwa allon kwafi"
 
 #: includes/class-zinn-connector-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Aika da wannan rahoton ga tallafin Zinn®"
+msgstr "Aika wannan rahoton zuwa ga tallafin Zinn®"
 
 #: includes/class-zinn-connector-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Mun buɗe tikitin goyon baya don ku kuma mun ba da amsa ta imel. Idan kun fi son kada ku aika da shi, kwafi shi a sama kuma ku liƙa shi a cikin tikiti da kanku."
+msgstr "Muna buɗe muku tikitin tallafi kuma mu ba da amsa ta imel. Idan kun fi son kada ku aika shi, ku kwafoshi a sama sannan ku manna shi a cikin tikiti da kanku."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Ba mu iya samun Zinn Digital® ba daga wannan uwar garken (%s). Kwafi rahoton da ke sama sannan ka buɗe tikiti maimakon haka — babu abin da ya lalace a cikin saitunan ka."
+msgstr "Ba mu iya isa ga Zinn Digital® daga wannan uwar garken (%s) ba. Kwafi rahoton da ke sama sannan ka buɗe tikiti a maimakon haka — babu wani abu da ba daidai ba game da saitunanku."
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "An tura rahotonku zuwa ga goyon bayan Zinn® kuma za su ba da amsa ta imel."
+msgstr "An aika. Sashen tallafi na Zinn® ya karɓi rahotonka kuma zai ba da amsa ta imel."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Taimakon Zinn® ya karɓi rahotonku — lamba ta tunawa %s — kuma zai ba da amsa ta imel."
+msgstr "An aika. Tallafin Zinn® ya karɓi rahotonka — lafazin %s — kuma zai ba da amsa ta imel."
 
 #: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Ka aika da rahotanni da yawa a cikin dan kankanin lokaci. Jira 'yan mintoci kaɗan sannan ka sake gwadawa — waɗanda suka gabata sun isa."
+msgstr "Kun aika rahotanni da yawa cikin kankanin lokaci. Jira na 'yan mintuna sannan ku sake gwadawa — na farkon sun isa."
 
 #: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® ta kasa karɓar rahoton a yanzu — wannan matsala ce ta ɓangarenmu, ba ta taku ba. Sake gwadawa nan ba da jimawa ba, ko kuma ku kwafe rahoton da ke sama zuwa cikin tikiti."
+msgstr "Zinn Digital® ya kasa karɓar rahoton a yanzu — wannan matsalar daga gare mu ce, ba daga gare ku ba. Sake gwadawa nan ba da jimawa ba, ko kwafe rahoton da ke sama zuwa tikiti."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "An ki amince da rahoton (HTTP %d). Kwafi shi a sama sannan a bude tikiti, tare da ambaton wannan lamba."
+msgstr "An ƙi karɓar rahoton (HTTP %d). Kwafi shi a sama kuma buɗe tikiti, tare da ambaton wannan lambar."
 
 #: includes/class-zinn-connector-guard.php:156
 msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
-msgstr "Mai wannan shafin ya kasance ya kashe loda hotuna don Zinn Digital® a cikin saitunan Zinn® Connector."
+msgstr "Mai wannan shafin ya kashe loda hotuna don Zinn Digital® a cikin saitunan Zinn® Connector."
 
 #: includes/class-zinn-connector-guard.php:167
 msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
-msgstr "Mai wannan rukunin yanar gizon ya kashe gyara ga talifofin da ke akwai na Zinn Digital® a cikin saitunan Zinn® Connector."
+msgstr "Mai wannan shafin ya kashe gyare-gyare ga labaran da ke akwai don Zinn Digital® a cikin saitunan Zinn® Connector."
 
 #. translators: %s: the title of the article that was published.
 #: includes/class-zinn-connector-guard.php:215
 #, php-format
 msgid "New article on your site: %s"
-msgstr "Sabon labari a shafin ku: %s"
+msgstr "Sabuwar makala a dandalinku: %s"
 
 #. translators: 1: article title, 2: link to edit it, 3: its status.
 #: includes/class-zinn-connector-guard.php:220
@@ -368,13 +367,13 @@ msgid ""
 "\n"
 "Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
 msgstr ""
-"Zinn Digital® ya ƙara wani labari a shafin ku.\n"
+"Zinn Digital® ta ƙara maƙala a rukunin yanar gizonku.\n"
 "\n"
-"Taken: %1$s\n"
+"Take: %1$s\n"
 "Gyara shi: %2$s\n"
 "Matsayi: %3$s\n"
 "\n"
-"Kashe waɗannan imel ɗin a kan allon Zinn Digital® → Connector → Publishing."
+"Kashe waɗannan imel ɗin a allon Zinn Digital® → Mai haɗawa → Buga."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
@@ -391,35 +390,35 @@ msgstr "Jagororin mai amfani"
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Karanta jagorar mai amfani ta %s"
+msgstr "Karanta jagorar mai amfani na %s"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
-msgstr "Boye da wannan"
+msgstr "Ɓoye wannan"
 
 #: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Zinn® hosting don WordPress"
+msgstr "Bakuncin Zinn® don WordPress"
 
 #: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, madogaransa na kullum, ƙaura kyauta da kuma allon sarrafawa da aka gina don mutanen da ke gudanar da shafuka fiye da ɗaya."
+msgstr "LiteSpeed, madogaran kowace rana, sauya wurin aiki kyauta, da allon sarrafawa da aka gina don mutanen da ke gudanar da shafuka fiye da ɗaya."
 
 #: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Kasuwancin Zinn®"
+msgstr "Kasuwar Zinn®"
 
 #: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Sayen da siyar da ingantattun shafuka, yanki, da kuma wuraren sanya hanyoyin sadarwa, tare da ajiyar kuɗi cikin aminci har sai bangarorin biyu sun gamsu."
+msgstr "Sayi kuma sayar da shafukan da aka kafa, yankuna da wuraren sanya hanyoyin haɗi, tare da ajiye kuɗin cikin aminci har sai ɓangarorin biyu sun gamsu."
 
 #: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — hayar mutanen da ke yin wannan a matsayin sana'a"
+msgstr "Zinn Hub® — ɗauki hayar mutanen da wannan ne sana'arsu"
 
 #: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Kasuwar mu ta masu zaman kansu ta duniya: bincika sama da sabis 10,000 da aka riga aka shirya daga marubuta, masu zanen kaya, masu haɓakawa da ƙwararrun SEO, ko sanya wani aikin kuma bari su yi fare."
+msgstr "Kasuwar mu ta duniya ta 'yan kasuwa masu zaman kansu: bincika sama da ayyuka 10,000 da aka shirya daga marubuta, masu ƙira, masu haɓakawa da ƙwararrun SEO, ko sanya aiki kuma bari su ba da tayi."
 
 #: includes/class-zinn-connector-settings.php:44
 msgid "Connector"
@@ -428,24 +427,24 @@ msgstr "Mai haɗawa"
 #: includes/class-zinn-connector-settings.php:61
 #: includes/class-zinn-connector-settings.php:81
 msgid "Connection"
-msgstr "Haɗin yanar gizo"
+msgstr "Haɗi"
 
 #: includes/class-zinn-connector-settings.php:65
 msgid "Publishing"
-msgstr "Wallafawa"
+msgstr "Ana wallafawa"
 
 #: includes/class-zinn-connector-settings.php:69
 #: includes/class-zinn-connector-settings.php:196
 msgid "Backups"
-msgstr "Tanadi"
+msgstr "Ajiye bayanan sirri"
 
 #: includes/class-zinn-connector-settings.php:73
 msgid "Advanced"
-msgstr "Na gaba"
+msgstr "Na ci gaba"
 
 #: includes/class-zinn-connector-settings.php:89
 msgid "Check the connection now"
-msgstr "Bincika haɗin yanar gizon yanzu"
+msgstr "Duba haɗin yanzu"
 
 #: includes/class-zinn-connector-settings.php:94
 msgid "Disconnect this site"
@@ -453,23 +452,23 @@ msgstr "Cire haɗin wannan rukunin yanar gizon"
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
-msgstr "Wannan zai soke takardar shedar da Zinn Digital® ke amfani da ita, ta yadda ba za mu iya sake bugawa zuwa wannan shafin ba. Duk abin da aka riga aka buga zai tsaya. A ci gaba?"
+msgstr "Wannan yana soke takardar izini da Zinn Digital® ke amfani da ita, saboda haka ba za mu ƙara iya wallafawa a wannan rukunin yanar gizon ba. Duk abin da aka riga aka wallafa zai ci gaba da zama. Ci gaba?"
 
 #: includes/class-zinn-connector-settings.php:123
 msgid "What we may do on this site"
-msgstr "Abin da za mu iya yi a wannan shafin"
+msgstr "Abin da za mu iya yi a wannan rukunin yanar gizon"
 
 #: includes/class-zinn-connector-settings.php:124
 msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
-msgstr "Takaddun shaidar da muke riƙe su ne kalmar sirri ta aikace-aikace ta WordPress ta yau da kullun, don haka WordPress da kanta ce ke yanke shawara abin da zai yiwu. Waɗannan suna taƙaita hakan gaba, a ɓangarenku."
+msgstr "Shaidar da muke da ita kalmar sirri ce ta aikace-aikacen WordPress ta yau da kullun, don haka WordPress da kanta ke yanke shawarar abin da zai yiwu. Waɗannan suna ƙara taƙaita shi, a ɓangarenku."
 
 #: includes/class-zinn-connector-settings.php:129
 msgid "Publish articles as"
-msgstr "Bugaje labarai a matsayin"
+msgstr "Buga labarai a matsayin"
 
 #: includes/class-zinn-connector-settings.php:130
 msgid "Choose “a draft” if you would rather read everything before it goes live."
-msgstr "Zaɓi \"daftari\" idan kana son karanta komai kafin ya fita zuwa ga jama'a."
+msgstr "Zaɓi \"daftari\" idan ka fi son karanta komai kafin ya fita a buɗe."
 
 #: includes/class-zinn-connector-settings.php:132
 msgid "Published straight away"
@@ -477,15 +476,15 @@ msgstr "An buga nan take"
 
 #: includes/class-zinn-connector-settings.php:133
 msgid "A draft, for me to review"
-msgstr "Daftari, don in duba"
+msgstr "Daftari, domin in duba"
 
 #: includes/class-zinn-connector-settings.php:134
 msgid "Pending review"
-msgstr "Ana jiran Dubawa"
+msgstr "Ana jiran bita"
 
 #: includes/class-zinn-connector-settings.php:135
 msgid "Scheduled, using the date we send"
-msgstr "An tsara, ta amfani da kwanan watan da muka aika"
+msgstr "An tsara lokaci, ta amfani da ranar da muka tura"
 
 #: includes/class-zinn-connector-settings.php:142
 msgid "Show the author as"
@@ -493,11 +492,11 @@ msgstr "Nuna marubucin a matsayin"
 
 #: includes/class-zinn-connector-settings.php:143
 msgid "Which of your users appears as the author. This does not change who we sign in as."
-msgstr "Wane ne daga cikin masu amfani da ku ke bayyana a matsayin marubuci. Wannan ba ya canza wanda muke shiga da shi ba."
+msgstr "Wanne daga cikin masu amfani da shafinku ne yake bayyana a matsayin marubuci. Wannan ba ya canza wanda muke shiga da asusunsa."
 
 #: includes/class-zinn-connector-settings.php:150
 msgid "Put articles in"
-msgstr "Sanya labarai a cikin"
+msgstr "Sanya maƙaloli a ciki"
 
 #: includes/class-zinn-connector-settings.php:157
 msgid "Allow images"
@@ -505,51 +504,51 @@ msgstr "Bada izinin hotuna"
 
 #: includes/class-zinn-connector-settings.php:158
 msgid "Let Zinn Digital® upload images into this site’s media library"
-msgstr "Bar Zinn Digital® ya loda hotuna cikin ɗakin karatu na kafofin watsa labarai na wannan shafin"
+msgstr "Bari Zinn Digital® ya loda hotuna zuwa ɗakin karatun kafofin watsa labarai na wannan rukunin yanar gizon"
 
 #: includes/class-zinn-connector-settings.php:159
 msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
-msgstr "Kashe wannan kuma labarai za su zo ba tare da hotunansu ba. Ba a cire komai da aka riga aka loda ba."
+msgstr "Kashe wannan kuma talifofi za su zo ba tare da hotunansu ba. Ba za a cire duk abin da aka riga aka ɗora ba."
 
 #: includes/class-zinn-connector-settings.php:165
 msgid "Allow edits"
-msgstr "Bada damar gyarawa"
+msgstr "Bada izinin gyare-gyare"
 
 #: includes/class-zinn-connector-settings.php:166
 msgid "Let Zinn Digital® update an article it published before"
-msgstr "Bar Zinn Digital® ya sabunta wani labari da ya wallafa a baya"
+msgstr "Bari Zinn Digital® ya sabunta labarin da ya wallafa a baya"
 
 #: includes/class-zinn-connector-settings.php:167
 msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
-msgstr "Ana amfani da shi don gyare-gyare da sake ingantawa. Ba ya taɓa taɓa duk abin da kuka rubuta da kanku ba."
+msgstr "Ana amfani da shi don gyare-gyare da sake ingantawa. Ba ya taɓa duk abin da ka rubuta da kanka."
 
 #: includes/class-zinn-connector-settings.php:173
 msgid "Tell me when something is published"
-msgstr "Ka sanar da ni lokacin da aka wallafa wani abu"
+msgstr "Sanar da ni lokacin da aka buga wani abu"
 
 #: includes/class-zinn-connector-settings.php:174
 msgid "Leave blank for no email. One message per article, from your own site."
-msgstr "Bar a fanko idan ba ka son imel. Saƙo ɗaya a kowane labari, daga shafin ka."
+msgstr "Bar shi a banza don kada a tura imel. Saƙo ɗaya ga kowane maƙala, daga shafinka."
 
 #: includes/class-zinn-connector-settings.php:190
 msgid "Off-site backups"
-msgstr "Ajiyar bayanai ta waje"
+msgstr "Ajiye bayanai na waje"
 
 #: includes/class-zinn-connector-settings.php:191
 msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
-msgstr "Wannan shafin yana aiko da ajiyar bayanansa kai tsaye zuwa ma'ajiyar Zinn®. Babu abin da ke wucewa ta kan sabar-mu a kan hanya."
+msgstr "Wannan rukunin yanar gizon yana tura ma'ajiyar ajiyarsa kai tsaye zuwa ma'ajiyar Zinn®. Babu abin da ke ratsa sabarorinmu a kan hanya."
 
 #: includes/class-zinn-connector-settings.php:197
 msgid "Back this site up to Zinn Digital®"
-msgstr "Madaukakar wannan shafin zuwa Zinn Digital®"
+msgstr "Ajiye kofin wannan shafin zuwa Zinn Digital®"
 
 #: includes/class-zinn-connector-settings.php:204
 msgid "Backup token"
-msgstr "Alamar ajiyar bayanai"
+msgstr "Alamar ajiyar gado"
 
 #: includes/class-zinn-connector-settings.php:205
 msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
-msgstr "Manna alamar da aka nuna a shafin ajiyar bayanan wannan rukunin yanar gizon a cikin kundin sarrafa Zinn Digital® lokacin da kuka zaɓi haɗin asusun. Ana nuna ta a can sau ɗaya kawai; sake adana haɗin yana fitar da sabuwa."
+msgstr "Manna alamar da aka nuna a shafin Ajiye Bayanai na wannan rukunin yanar gizo a cikin allon sarrafawa na Zinn Digital® lokacin da kuka zaɓi haɗin toshewa. Ana nuna ta a can sau ɗaya kawai; sake ajiye haɗin yana fitar da sabuwa."
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -557,47 +556,47 @@ msgstr "Bar waɗannan a waje"
 
 #: includes/class-zinn-connector-settings.php:214
 msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
-msgstr "Hanyar ɗaya a kowane layi, mai alaƙa da wp-content — misali <code>cache</code> ko <code>uploads/backups</code>. Wuraren adana bayanai (caches) da kuma babban fayil ɗin wasu abubuwan ajiyar waje (backup plugins) su ne saba da kasancewa mafi dacewa."
+msgstr "Hanya ɗaya a kowane layi, dangance da wp-content — misali <code>cache</code> ko <code>uploads/backups</code>. Ma'ajiyar cache da kundayen adireshi na sauran manhajojin ajiye bayanai sune aka fi saba amfani da su."
 
 #: includes/class-zinn-connector-settings.php:222
 msgid "Stop if the archive would exceed"
-msgstr "Dakatar idan adana ya wuce"
+msgstr "Tsaya idan taskar za ta zarce"
 
 #: includes/class-zinn-connector-settings.php:223
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
-msgstr "Megabytes. Wani mai masaukin baki da ake rabawa zai kan kasance yana katse babban fayil mai tarin yawa a tsakiya; wani iyaka yana mayar da hakan ya zama sakon gargadi maimakon rashin nasara shiru-shiru."
+msgstr "Megabytes. Yawancin lokaci uwar garken da ake rabawa (shared host) tana katse babban rumbun ajiya a tsakiyar aiki; saita iyaka yana mayar da hakan sakon gargadi maimakon gazawa ba tare da sanarwa ba."
 
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
-msgstr "Cikakken rajistar ayyuka"
+msgstr "Cikakken shigar da bayanai"
 
 #: includes/class-zinn-connector-settings.php:244
 msgid "Record what this plugin does, for support"
-msgstr "Rubuta abin da wannan plugin ke yi, don tallafi"
+msgstr "Yi rikodin abin da wannan manhaja mai ƙari ke yi, don samun tallafi"
 
 #: includes/class-zinn-connector-settings.php:245
 msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
-msgstr "An adana a wannan shafin, an iyakance shi zuwa shigarwa 50 na ƙarshe, kuma an haɗa shi cikin rahoton bincike. Kunna shi kafin sake haifar da matsala."
+msgstr "Ana ajiye shi a wannan rukunin yanar gizo, an iyakance shi ga shigarwar 50 na ƙarshe, kuma an haɗa shi a cikin rahoton bincike. Kunna shi kafin sake fuskantar matsala."
 
 #: includes/class-zinn-connector-settings.php:251
 msgid "On uninstall"
-msgstr "A lokacin cirewa"
+msgstr "Lokacin cirewa"
 
 #: includes/class-zinn-connector-settings.php:252
 msgid "Delete this plugin’s settings when it is uninstalled"
-msgstr "Goge saitunan wannan plugin ɗin lokacin da aka cire shi"
+msgstr "Goge saitunan wannan manhaja lokacin da aka cire ta"
 
 #: includes/class-zinn-connector-settings.php:253
 msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
-msgstr "Cire shigarwa ba ya soke kalmar sirri ta aikace-aikacen ba — an yi hakan ne da gangan, ta yadda cire shigarwa don gwada wani abu ba zai lalata wallafa ku ba. Yi amfani da Cire Haɗin da ke sama idan kuna son shaidar ta tafi."
+msgstr "Cire shigarwa ba ya taɓa soke kalmar sirri ta manhaja — an yi hakan ne da gangan, domin cirewa don gwada wani abu daban ba zai ɓata wallafawarku ba. Yi amfani da Cire Haɗi da ke sama idan kuna son a cire bayanan shaidar."
 
 #: includes/class-zinn-connector-settings.php:269
 msgid "The user we sign in as"
-msgstr "Mai amfani da muka shiga da shi"
+msgstr "Mai amfani da muke shiga a matsayinsa"
 
 #: includes/class-zinn-connector-settings.php:290
 msgid "The site’s default category"
-msgstr "Rukunin shafin na asali"
+msgstr "Rukunin asali na shafin"
 
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-status.php:353
@@ -611,11 +610,11 @@ msgstr "Haɗa wannan shafin"
 
 #: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr "Buɗe allo na Zinn Digital®, je zuwa Abubuwan Ciki → Sauran shafuka, sannan ka danna “Get a pairing code”. Liƙe shi a ƙasa."
+msgstr "Bude allon sarrafawa na Zinn Digital® ɗinka, je zuwa Abun ciki → Sauran shafuka, sannan danna \"Samu lambar haɗawa\". Manna shi a ƙasa."
 
 #: includes/class-zinn-connector-settings.php:345
 msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
-msgstr "Haɗuwa a karo na biyu tana ƙirƙirar sabon takardar shaidar kuma tana barin tsohuwar a wurinta — yi amfani da Cire Haɗin tukunya idan kana son tsohuwar ta tafi."
+msgstr "Sake haɗawa yana ƙirƙirar sabuwar shaidar shiga sannan ya bar tsohuwar a wurin — fara amfani da Cire haɗi idan kuna son a cire tsohuwar."
 
 #: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
@@ -623,65 +622,65 @@ msgstr "Lambar haɗawa"
 
 #: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr "Yana ƙarewa bayan mintuna talatin da samar da shi, kuma za a iya amfani da shi sau ɗaya ne kawai."
+msgstr "Yana ƙarewa bayan minti talatin da samar da shi, kuma ana iya amfani da shi sau ɗaya kawai."
 
 #: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
-msgstr "Ba a ba ku izinin haɗa wannan shafin ba."
+msgstr "Ba a ba ku izinin haɗa wannan rukunin yanar gizon ba."
 
 #: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
-msgstr "Ba a haɗa wannan shafin da Zinn Digital® ba."
+msgstr "Wannan shafin ba ya da alaƙa da Zinn Digital®."
 
 #: includes/class-zinn-connector-status.php:62
 msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
-msgstr "Ba abin da ya yi ba — kawai ba a haɗa shi ba ne tukuna. Sami lambar haɗawa daga allon sarrafa ku na Zinn® kuma liƙa ta cikin saitunan wannan matosayi."
+msgstr "Babu wata matsala — kawai ba a haɗa shi ba tukuna. Samu lambar haɗawa daga allon sarrafawa na Zinn® naka kuma liƙa shi a cikin saitunan wannan manhaja."
 
 #: includes/class-zinn-connector-status.php:64
 #: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
-msgstr "Buɗe allon kula na Zinn®"
+msgstr "Bude allon sarrafawa na na Zinn®"
 
 #: includes/class-zinn-connector-status.php:80
 #: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
-msgstr "Haɗin yanar gizon ya katse."
+msgstr "Haɗin ya katse."
 
 #. translators: %s: the WordPress username the credential belonged to.
 #: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
-msgstr "Wanda mai amfani da WordPress da takardun shaidar ta mallaka (%s) babu ita a wannan shafin kuma, don haka babu abin da muka aika da za a iya bugawa. Sake haɗawa a matsayin mai amfani wanda zai iya bugawa."
+msgstr "Mai amfani da WordPress wanda bayanan sirrin na sa ne (%s) baya kan wannan rukunin yanar gizon kuma, saboda haka babu abin da muke aikawa da za a iya bugawa. Sake haɗawa a matsayin mai amfani wanda zai iya bugawa."
 
 #: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
-msgstr "An cire kalmar sirrin aikace-aikace ta “Zinn Digital® (publishing)” daga wannan shafin, saboda haka ba za mu iya sake shiga ba. Sake haɗawa don ƙirƙirar sabo - babu wani abu da aka rasa."
+msgstr "An share kalmar sirri ta manhajar \"Zinn Digital® (publishing)\" daga wannan rukunin yanar gizon, saboda haka ba za mu iya sake shiga ba. Sake haɗawa don ƙirƙirar sabuwa — babu wani abu da ya ɓace."
 
 #: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
-msgstr "Duba kalmomin sirrin aikace-aikacen wannan shafin"
+msgstr "Duba kalmomin sirri na manhajar wannan rukunin yanar gizo"
 
 #: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
-msgstr "An haɗa, amma wallafa zai gaza."
+msgstr "An haɗa, amma wallafawa za ta faskara."
 
 #. translators: %s: the WordPress username the credential belongs to.
 #: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
-msgstr "Shaidodin shiga suna mallakin %s ne, kuma wannan mai amfani ba zai iya sake wallafa rubutacce ba. Shiga yana ci gaba da aiki, don haka babu wani abu da ya bayyana a matsayin kuskure har sai lokacin da za a fitar da wani kasida ya yi. Ba wa wannan mai amfani damar wallafa, ko kuma ka sake haɗawa a matsayin wani wanda zai iya yin hakan."
+msgstr "Shaidar ta %s ce, kuma wannan mai amfani ba zai iya sake buga rubuce-rubuce ba. Shiga ciki yana aiki har yanzu, saboda haka babu abin da ya yi kama da kuskure har sai lokacin da labarin ya isa. Ba wa wannan mai amfani damar bugawa, ko kuma sake haɗawa a matsayin wanda zai iya."
 
 #: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
-msgstr "Gyara wannan mai amfani"
+msgstr "Gyara wancan mai amfani"
 
 #: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
-msgstr "An haɗa anan — ba za mu iya tuntuɓar Zinn Digital® ba don tabbatarwa."
+msgstr "An haɗa a nan — ba mu sami damar tuntuɓar Zinn Digital® ba don tabbatarwa."
 
 #: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
-msgstr "An haɗa shi, amma asusunka na Zinn® yana buƙatar kulawa."
+msgstr "An haɗa, amma asusunka na Zinn® yana buƙatar kulawa."
 
 #: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
@@ -691,11 +690,11 @@ msgstr "An haɗa zuwa Zinn Digital®."
 #: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
-msgstr "An haɗa zuwa Zinn Digital® azaman %s."
+msgstr "An haɗa zuwa Zinn Digital® a matsayin %s."
 
 #: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
-msgstr "Bugawa a matsayin"
+msgstr "Ana bugawa a matsayin"
 
 #: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
@@ -705,25 +704,25 @@ msgstr "ID ɗin shafin Zinn®"
 #: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
-msgstr "Wannan uwar garken ba za ta iya isa ga api.zinndigital.com (%s) ba. Wannan yawanci matsala ce ta katangar wuta ko ƙa'idar haɗin haɗi ta waje a kan uwar garken ku, ba matsala ba ce tare da aikin ku na Zinn® ba — bugawa na iya ci gaba da aiki."
+msgstr "Wannan uwar garken ba ta iya isa ga api.zinndigital.com (%s) ba. Wannan yawanci katangar kariya ce (firewall) ko kuma dokar haɗin waje a kan mai masaukin ku, ba matsala ba ce da asusun ku na Zinn® — wallafawa na iya ci gaba da aiki."
 
 #: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
-msgstr "Zinn Digital® ya dawo da kuskuren nasa — wancan na mu ne, ba na ku ba. Buga abubuwa ba zai shafe shi ba yayin da ake gyara wannan."
+msgstr "Zinn Digital® ya ba da amsa da kuskure daga nasa bangaren — wannan daga bangarenmu ne, ba daga naku ba. Buga abubuwa ba zai shafu ba yayin da ake share wannan matsalar."
 
 #: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
-msgstr "Asusunku na Zinn® baya da ikon bugawa zuwa wannan rukunin yanar gizon a halin yanzu. Dasbod dinku ya bayyana dalilin."
+msgstr "Asusunka na Zinn® ba zai iya yin wallafa a wannan rukunin yanar gizon ba a halin yanzu. Shafin kula da bayananka ya bayyana dalili."
 
 #. translators: %d: the HTTP status code returned.
 #: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
-msgstr "Zinn Digital® ta amsa HTTP %d, wacce ba mu gane ta ba. A aika da rahoton bincike daga shafin Tallafawa kuma za mu duba — kada ku canza komai a nan da farko."
+msgstr "Zinn Digital® ya bayar da amsar HTTP %d, wanda ba mu gane ba. Aika rahoton bincike daga shafin Tallafi kuma za mu duba — kada ka canza komai a nan da farko."
 
 #: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
-msgstr "Bincika kuma yanzu"
+msgstr "Sake dubawa yanzu"
 
 #: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
@@ -731,69 +730,69 @@ msgstr "An duba. Haɗin yana aiki."
 
 #: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
-msgstr "Ba mu iya cire kalmar sirri ta aikace-aikacen ba, don haka wannan shafin yana nan a haɗe. Cire “Zinn Digital® (publishing)” a kan allon bayanan martabarka kuma ka sake gwadawa — ba mu canza komai ba."
+msgstr "Ba mu iya cire kalmar sirri ta manhajar ba, don haka wannan rukunin yanar gizon yana nan a haɗe. Goge “Zinn Digital® (publishing)” a allon bayanan martabarku sannan ku sake gwadawa — ba mu canza komai ba."
 
 #: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
-msgstr "Ba a haɗa shi ba. An soke kalmar sirri ta aikace-aikacen, don haka Zinn Digital® ba zai iya sake wallafawa zuwa wannan rukunin yanar gizon ba. Ba a taɓa komai da aka riga aka wallafa ba."
+msgstr "An cire haɗin. An soke kalmar sirri ta manhajar, don haka Zinn Digital® ba zai iya sake wallafawa a wannan rukunin yanar gizon ba. Ba a taɓa duk abin da aka riga aka wallafa ba."
 
 #: includes/class-zinn-connector-streaming-upload.php:87
 #: includes/class-zinn-connector-streaming-upload.php:145
 #: includes/class-zinn-connector-streaming-upload.php:264
 #: includes/class-zinn-connector-streaming-upload.php:272
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Ba a iya karanta wannan fayil din daga wannan uwar garken ba, don haka ba a loda komai ba."
+msgstr "Ba a iya karanta wannan fayil ɗin daga wannan uwar garken ba, don haka babu abin da aka ɗora."
 
 #: includes/class-zinn-connector-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "Wannan shafin bai iya watsa abin da aka loda ba, don haka ba a tura komai ba."
+msgstr "Wannan shafin ya kasa yada lodawa, don haka ba a aika komai ba."
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-connector-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "Wannan fayil din %1$s ne kuma PHP na wannan shafin ba shi da cURL, don haka mafi girman abin da zai iya lodawa shine %2$s."
+msgstr "Wannan fayil ɗin girmansa ya kai %1$s kuma PHP ɗin wannan rukunin yanar gizon ba shi da cURL, don haka mafi girman abin da zai iya lodawa shi ne %2$s."
 
 #: includes/class-zinn-connector-streaming-upload.php:331
 msgid "The upload could not be completed."
-msgstr "Ba a iya kammala lodawa ba."
+msgstr "Ba a iya kammala loda fayil ɗin ba."
 
 #. translators: %d: HTTP status code returned by the storage service.
 #: includes/class-zinn-connector-streaming-upload.php:341
 #, php-format
 msgid "Storage refused the upload (HTTP %d)."
-msgstr "Ajiya ta ki amincewa da loda (HTTP %d)."
+msgstr "Wurin ajiya ya ƙi loda fayil ɗin (HTTP %d)."
 
 #: includes/class-zinn-connector-style-presets.php:118
 msgid "Style preset"
-msgstr "Tsarin salo"
+msgstr "Saitin salon da aka riga aka sa"
 
 #: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Wani abin farawa. Duk wani abu da ke ƙasa shi ne zai yi rinjaye."
+msgstr "Matsayin farawa. Duk wani abu a ƙasa yana shafe shi."
 
 #: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "Yi amfani da launuka da girmangu na kaina"
+msgstr "Yi amfani da launuka da girmana na kaina"
 
 #: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Bar wannan a kashe kuma ana amfani da saitaccen tsari yadda yake ainihi."
+msgstr "Bar wannan a kashe kuma za a yi amfani da saitin kamar yadda yake."
 
 #: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Duba bayanan fitowar Zinn Digital®."
+msgstr "Duba bayanan sakin Zinn Digital®."
 
 #: includes/class-zinn-connector-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Sabis ɗin sabuntawa na Zinn® bai bayar da hanyar haɗin saukewa don wannan sabuntawar ba. Tabbatar cewa wannan rukunin yanar gizon zai iya isa ga dandalin Zinn®, sannan ka sake gwadawa."
+msgstr "Sabis ɗin sabuntawa na Zinn® bai bayar da hanyar saukewa don wannan sabuntawar ba. Bincika cewa wannan rukunin yanar gizon na iya isa ga dandamalin Zinn®, sannan ku sake gwadawa."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-connector-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Ba a iya sauke sabuntawar daga sabis na sabuntawa na Zinn® ba (%s). Gwada kuma a cikin 'yan mintoci kadan."
+msgstr "Ba a iya sauke sabuntawar daga sabis ɗin sabuntawa na Zinn® (%s) ba. Sake gwadawa bayan ƴan mintuna."
 
 #: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Sabuntawar da aka sauke ta gaza gwajin inganci kuma ba a sanya ta ba."
+msgstr "Ɗaukakawar da aka saukar ta kasa cin jarrabawar inganci kuma ba a shigar da ita ba."

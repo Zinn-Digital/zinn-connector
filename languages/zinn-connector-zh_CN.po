@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "将此WordPress网站Connects至Zinn Digital®，以便定时文章可以发布到该网站。从您的Zinn®控制面板粘贴绑定代码，插件即可自行设置凭据——无需手动复制任何内容。"
+msgstr "将此 WordPress 站点连接到 Zinn Digital®，以便向其发布定时文章。粘贴来自您 Zinn® 仪表盘的配对码，插件便会自动设置其自身凭据——无需手动复制任何内容。"
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -36,7 +36,7 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-connector-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "已存储。请输入新值进行替换。"
+msgstr "已保存。请输入新值进行替换。"
 
 #: includes/class-zinn-connector-admin-fields.php:640
 msgid "Filter this list…"
@@ -48,7 +48,7 @@ msgstr "筛选此列表"
 
 #: includes/class-zinn-connector-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "没有符合该筛选条件的内容。"
+msgstr "没有与该筛选条件匹配的项目。"
 
 #: includes/class-zinn-connector-admin-fields.php:688
 msgid "Add a row"
@@ -56,11 +56,11 @@ msgstr "添加行"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove this row"
-msgstr "删除此行"
+msgstr "移除此行"
 
 #: includes/class-zinn-connector-admin-fields.php:725
 msgid "Remove"
-msgstr "删除"
+msgstr "移除"
 
 #: includes/class-zinn-connector-admin-ui.php:280
 #: includes/class-zinn-connector-admin-ui.php:281
@@ -82,11 +82,11 @@ msgstr "已复制"
 
 #: includes/class-zinn-connector-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "此网站上的每个 Zinn® 插件及其运行状态。"
+msgstr "此站点上的每个 Zinn® 插件，以及它是否正常工作。"
 
 #: includes/class-zinn-connector-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "此插件不需要连接网络。"
+msgstr "此插件不需要任何连接。"
 
 #: includes/class-zinn-connector-admin-ui.php:442
 msgid "Open settings"
@@ -119,15 +119,15 @@ msgstr "导出设置"
 
 #: includes/class-zinn-connector-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "恢复默认设置"
+msgstr "恢复默认值"
 
 #: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "这会将此插件的各项设置全部恢复为默认值。是否继续？"
+msgstr "这将把此插件的每项设置恢复为默认值。您要继续吗？"
 
 #: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "技术支持诊断"
+msgstr "支持诊断信息"
 
 #: includes/class-zinn-connector-admin-ui.php:993
 msgid "Import a settings file"
@@ -139,7 +139,7 @@ msgstr "导入"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "导出的文件中绝不包含密码、令牌或 API 密钥——您需要在新网站上重新输入这些信息。"
+msgstr "导出的文件绝不包含密码、令牌或 API 密钥——您需要在新站点上重新输入这些内容。"
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
@@ -147,7 +147,7 @@ msgstr "设置已保存。"
 
 #: includes/class-zinn-connector-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "此插件的所有设置均已恢复为默认值。"
+msgstr "该插件的所有设置均已恢复为默认值。"
 
 #: includes/class-zinn-connector-admin-ui.php:1186
 msgid "Done."
@@ -163,7 +163,7 @@ msgstr "无法读取该文件。请选择从 Zinn® 插件导出的设置文件�
 
 #: includes/class-zinn-connector-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "该文件太大，无法作为设置导出。"
+msgstr "该文件过大，不像是导出的设置文件。"
 
 #: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
@@ -173,24 +173,24 @@ msgstr "该文件不是 Zinn® 设置导出文件。"
 #: includes/class-zinn-connector-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "该文件是从另一个插件 (%s) 导出的，因此在这里导入它将存储该插件无法识别的设置。"
+msgstr "该文件是从其他插件（%s）导出的，因此在此处导入它将存储此插件无法理解的设置。"
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-connector-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "已导入 %d 个设置。密码和 API 密钥不会包含在导出文件中，请重新输入。"
+msgstr[0] "已导入 %d 个设置。密码和 API 密钥绝不会包含在导出文件中，因此请重新输入这些内容。"
 
 #. translators: 1: the archive size in megabytes, 2: the configured limit in megabytes.
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "存档大小将为 %1$d MB，超出了本网站设定的 %2$d MB 限制。请在 Zinn Digital® → Connector → Backups 屏幕上提高限制，或排除某些文件夹。"
+msgstr "归档大小将达到 %1$d MB，已超过本站点设置的 %2$d MB 限制。请在“Zinn Digital® → Connector → Backups”屏幕中调高限制，或排除部分文件夹。"
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr "此网站的 PHP 无法创建归档，因此无法进行备份。"
+msgstr "该站点的 PHP 无法创建归档文件，因此未能生成备份。"
 
 #: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
@@ -203,45 +203,45 @@ msgstr "无法创建临时文件。"
 #: includes/class-zinn-connector-backup.php:416
 #: includes/class-zinn-connector-backup.php:424
 msgid "This site's files could not be archived."
-msgstr "无法将此网站的文件存档。"
+msgstr "无法归档该站点文件。"
 
 #: includes/class-zinn-connector-backup.php:384
 msgid "This site's PHP cannot compress archives, so a backup could not be made."
-msgstr "此网站的 PHP 无法压缩归档文件，因此无法进行备份。"
+msgstr "此站点的 PHP 无法压缩归档文件，因此无法创建备份。"
 
 #. translators: 1: space required, 2: space available.
 #: includes/class-zinn-connector-backup.php:470
 #, php-format
 msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
-msgstr "此网站的备份大约需要 %1$s 的临时空间，但目前仅有 %2$s 可用，因此未尝试进行备份。"
+msgstr "备份此站点大约需要 %1$s 的临时空间，而目前仅有 %2$s 可用空间，因此未尝试进行备份。"
 
 #: includes/class-zinn-connector-claim.php:50
 msgid "This WordPress user cannot publish posts, so a connection made now could not publish either. Sign in as a user who can, and try again."
-msgstr "此 WordPress 用户无法发布文章，因此现在建立的连接也无法发布文章。请以具有发布权限的用户身份登录，然后重试。"
+msgstr "此 WordPress 用户无法发布文章，因此现在建立的连接也无法发布。请以具有相应权限的用户身份登录，然后重试。"
 
 #: includes/class-zinn-connector-claim.php:57
 msgid "Application passwords are turned off on this site, so we cannot create a credential. Ask your host to enable them, or connect the site with a password you create yourself in your Zinn Digital® dashboard."
-msgstr "本网站已禁用应用程序密码，因此我们无法创建凭据。请联系您的主机提供商启用该功能，或使用您自己在 Zinn Digital® 控制面板中创建的密码连接网站。"
+msgstr "此站点已禁用应用程序密码，因此我们无法创建凭据。请要求您的主机提供商启用它们，或者使用您在 Zinn Digital® 控制面板中自行创建的密码连接该站点。"
 
 #: includes/class-zinn-connector-claim.php:69
 msgid "WordPress would not create a credential for this site. Nothing has been sent anywhere."
-msgstr "WordPress 无法为此网站创建凭据。没有任何内容被发送到任何地方。"
+msgstr "WordPress 无法为此站点创建凭据。尚未向任何位置发送任何内容。"
 
 #: includes/class-zinn-connector-claim.php:100
 msgid "We could not reach Zinn Digital® from this site. Nothing was connected, and the credential we made has been removed. Check the site can make outgoing requests, and try again."
-msgstr "无法从该网站连接到 Zinn Digital®。未连接任何内容，且我们创建的凭据已被删除。请检查该网站是否可以发送出站请求，然后重试。"
+msgstr "我们无法从此站点访问 Zinn Digital®。未连接任何内容，我们创建的凭据也已被移除。请检查站点是否可以发送外发请求，然后重试。"
 
 #: includes/class-zinn-connector-claim.php:119
 msgid "Zinn Digital® could not finish connecting this site. The problem is on our side, not with your pairing code — nothing was connected, and the credential we made has been removed. The same pairing code still works: try again in a few minutes."
-msgstr "Zinn Digital® 无法完成此网站的连接。问题出在我们这边，与您的配对代码无关——未连接任何内容，且我们创建的凭据已被删除。相同的配对代码仍然有效：请在几分钟后重试。"
+msgstr "Zinn Digital® 无法完成此站点的连接。问题出在我们这边，而不是您的配对码 — 没有任何内容被连接，并且我们创建的凭据已被删除。同一个配对码仍然有效：请在几分钟后重试。"
 
 #: includes/class-zinn-connector-claim.php:128
 msgid "Zinn Digital® did not accept that pairing code. Nothing was connected. Generate a fresh code in your dashboard and try again."
-msgstr "Zinn Digital® 未接受该配对码。未连接任何内容。请在您的控制面板中生成新代码并重试。"
+msgstr "Zinn Digital® 未接受该配对代码。未连接任何内容。请在您的仪表盘中生成一个新代码并重试。"
 
 #: includes/class-zinn-connector-claim.php:148
 msgid "Connected. Zinn Digital® can now publish to this site."
-msgstr "已连接。Zinn Digital® 现在可以发布到此网站。"
+msgstr "已连接。Zinn Digital® 现在可以发布到此站点。"
 
 #: includes/class-zinn-connector-connection.php:58
 #: includes/class-zinn-connector-status.php:201
@@ -254,7 +254,7 @@ msgstr "正在连接…"
 
 #: includes/class-zinn-connector-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "已连接，但有些问题需要处理"
+msgstr "已连接，但需要注意某些事项"
 
 #: includes/class-zinn-connector-connection.php:64
 msgid "Not connected"
@@ -266,7 +266,7 @@ msgstr "在您自己的账户上运行"
 
 #: includes/class-zinn-connector-connection.php:68
 msgid "We could not check this"
-msgstr "无法检查此项"
+msgstr "我们无法检查此项"
 
 #: includes/class-zinn-connector-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
@@ -284,19 +284,19 @@ msgstr "上次检查于 %s 前。"
 
 #: includes/class-zinn-connector-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "（在新标签页中打开）"
+msgstr "(在新标签页中打开)"
 
 #: includes/class-zinn-connector-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "发送至 Zinn® 支持"
+msgstr "将此发送给 Zinn® 支持团队"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "这正是将要发送的内容——没有别的，也没有隐藏内容。您的密码、令牌和 API 密钥均不包含在其中。"
+msgstr "发送的内容完全就是这些——没有其他内容，也没有隐藏任何信息。您的密码、令牌和 API 密钥均不包含在内。"
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "即将发送的诊断报告"
+msgstr "将要发送的诊断报告"
 
 #: includes/class-zinn-connector-diagnostics.php:207
 msgid "Copy to clipboard"
@@ -304,49 +304,49 @@ msgstr "复制到剪贴板"
 
 #: includes/class-zinn-connector-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "将此报告发送给 Zinn® 支持部门"
+msgstr "将此报告发送给 Zinn® 支持团队"
 
 #: includes/class-zinn-connector-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "我们为您创建一个支持工单并通过电子邮件回复。如果您不想发送，请将其复制并在工单中自行粘贴。"
+msgstr "我们会为您创建支持工单并通过电子邮件回复。如果您不希望发送，请复制上方内容并自行粘贴到工单中。"
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-connector-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "无法从该服务器 (%s) 连接到 Zinn Digital®。请复制上方的报告并提交工单 —— 您的设置没有任何错误。"
+msgstr "我们无法从此服务器（%s）连接到 Zinn Digital®。请复制上方的报告并提交工单 — 您的设置没有任何问题。"
 
 #: includes/class-zinn-connector-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Zinn® 客服已收到您的报告，并将通过电子邮件回复。"
+msgstr "已发送。Zinn® 支持团队已收到您的报告，并将通过电子邮件回复。"
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-connector-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "已收到您的反馈 — 编号 %s — Zinn® 支持团队将通过电子邮件回复。"
+msgstr "已发送。Zinn® 支持团队已收到您的报告 — 参考编号 %s — 并将通过电子邮件回复。"
 
 #: includes/class-zinn-connector-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "您在短时间内发送了多个报告。请稍候几分钟再试——先前的报告已经送达。"
+msgstr "您在短时间内发送了多份报告。请等待几分钟后再试 — 先前的报告已经送达。"
 
 #: includes/class-zinn-connector-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® 刚才无法接受该报告——这是我们这边的问题，不是您的。请稍后重试，或将上面的报告复制到工单中。"
+msgstr "Zinn Digital® 刚才无法接收报告——这是我们这边的问题，不是您的问题。请稍后重试，或将上述报告复制到工单中。"
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-connector-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "报告遭拒绝（HTTP %d）。请将其复制到上方并提交工单，同时附上该编号。"
+msgstr "报告已被拒绝（HTTP %d）。请复制上文并提交工单，同时附上该编号。"
 
 #: includes/class-zinn-connector-guard.php:156
 msgid "This site’s owner has turned off image uploads for Zinn Digital® in the Zinn® Connector settings."
-msgstr "此网站的所有者已在 Zinn® Connector 设置中为 Zinn Digital® 关闭了图片上传功能。"
+msgstr "此站点的所有者已在 Zinn® Connector 设置中为 Zinn Digital® 关闭了图片上传功能。"
 
 #: includes/class-zinn-connector-guard.php:167
 msgid "This site’s owner has turned off edits to existing articles for Zinn Digital® in the Zinn® Connector settings."
-msgstr "此网站的所有者已在 Zinn® Connector 设置中关闭了对 Zinn Digital® 现有文章的编辑功能。"
+msgstr "该站点的所有者已在 Zinn® Connector 设置中关闭了对 Zinn Digital® 现有文章的编辑。"
 
 #. translators: %s: the title of the article that was published.
 #: includes/class-zinn-connector-guard.php:215
@@ -366,20 +366,20 @@ msgid ""
 "\n"
 "Turn these emails off on the Zinn Digital® → Connector → Publishing screen."
 msgstr ""
-"Zinn Digital® 已向您的网站添加了一篇文章。\n"
+"Zinn Digital® 已在您的网站中添加了一篇文章。\n"
 "\n"
 "标题：%1$s\n"
-"编辑：%2$s\n"
+"编辑文章：%2$s\n"
 "状态：%3$s\n"
 "\n"
-"您可以在 Zinn Digital® → Connector → Publishing 屏幕上关闭这些电子邮件。"
+"请在 Zinn Digital® → Connector → Publishing 页面关闭此类电子邮件。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-connector-promo.php:241
 #: includes/class-zinn-connector-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — 指南与服务"
+msgstr "%s — 指南和服务"
 
 #: includes/class-zinn-connector-promo.php:256
 msgid "User guides"
@@ -389,7 +389,7 @@ msgstr "用户指南"
 #: includes/class-zinn-connector-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "阅读%s用户指南"
+msgstr "阅读 %s 用户指南"
 
 #: includes/class-zinn-connector-promo.php:314
 msgid "Hide this"
@@ -397,11 +397,11 @@ msgstr "隐藏此项"
 
 #: includes/class-zinn-connector-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Zinn® WordPress 托管"
+msgstr "用于 WordPress 的 Zinn® 托管"
 
 #: includes/class-zinn-connector-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed、每日备份、免费迁移以及为管理多个网站的人群打造的控制面板。"
+msgstr "LiteSpeed、每日备份、免费迁移，以及专为管理多个网站的人群打造的控制面板。"
 
 #: includes/class-zinn-connector-promo.php:431
 msgid "The Zinn® marketplace"
@@ -409,15 +409,15 @@ msgstr "Zinn® 市场"
 
 #: includes/class-zinn-connector-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "买卖成熟的网站、域名和外链，资金安全托管，直到双方满意为止。"
+msgstr "买卖成熟网站、域名及外链位置，资金安全托管，直至买卖双方均满意为止。"
 
 #: includes/class-zinn-connector-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — 聘请以此为生的人"
+msgstr "Zinn Hub® — 聘请以此为生的专业人士"
 
 #: includes/class-zinn-connector-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "我们的全球自由职业者市场：浏览来自作家、设计师、开发人员和 SEO 专家的 10,000 多项现成服务，或者发布项目并让他们竞标。"
+msgstr "我们的全球自由职业交易平台：浏览由文案撰稿人、设计师、开发人员和 SEO 专家提供的 10,000 多项现成服务，或者发布项目并让他们竞标。"
 
 #: includes/class-zinn-connector-settings.php:44
 msgid "Connector"
@@ -447,27 +447,27 @@ msgstr "立即检查连接"
 
 #: includes/class-zinn-connector-settings.php:94
 msgid "Disconnect this site"
-msgstr "断开此站点连接"
+msgstr "断开此站点的连接"
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
-msgstr "这将撤销 Zinn Digital® 使用的凭据，因此我们将无法再发布到此网站。已发布的内容将保留。是否继续？"
+msgstr "这将撤销 Zinn Digital® 所使用的凭据，因此我们将无法再向此站点发布内容。已发布的任何内容都将保留。您要继续吗？"
 
 #: includes/class-zinn-connector-settings.php:123
 msgid "What we may do on this site"
-msgstr "我们可能在本网站上进行的操作"
+msgstr "我们可能在此网站上执行的操作"
 
 #: includes/class-zinn-connector-settings.php:124
 msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
-msgstr "我们持有的凭据是普通的 WordPress 应用密码，因此由 WordPress 自身决定哪些操作是可行的。这些选项会在您这一端作进一步限制。"
+msgstr "我们保存的凭据是一个普通的 WordPress 应用程序密码，因此由 WordPress 本身决定可以执行哪些操作。这些设置会在您这一端对其进行进一步限制。"
 
 #: includes/class-zinn-connector-settings.php:129
 msgid "Publish articles as"
-msgstr "发布文章为"
+msgstr "将文章发布为"
 
 #: includes/class-zinn-connector-settings.php:130
 msgid "Choose “a draft” if you would rather read everything before it goes live."
-msgstr "如果想在所有内容正式发布前先审阅一遍，请选择“草稿”。"
+msgstr "如果您想在发布前阅读所有内容，请选择“草稿”。"
 
 #: includes/class-zinn-connector-settings.php:132
 msgid "Published straight away"
@@ -475,23 +475,23 @@ msgstr "立即发布"
 
 #: includes/class-zinn-connector-settings.php:133
 msgid "A draft, for me to review"
-msgstr "草稿，留待我审阅"
+msgstr "一份供我审阅的草稿"
 
 #: includes/class-zinn-connector-settings.php:134
 msgid "Pending review"
-msgstr "等待审核"
+msgstr "等待复审"
 
 #: includes/class-zinn-connector-settings.php:135
 msgid "Scheduled, using the date we send"
-msgstr "按我们发送的日期安排"
+msgstr "已计划，使用我们发送的日期"
 
 #: includes/class-zinn-connector-settings.php:142
 msgid "Show the author as"
-msgstr "显示作者为"
+msgstr "将作者显示为"
 
 #: includes/class-zinn-connector-settings.php:143
 msgid "Which of your users appears as the author. This does not change who we sign in as."
-msgstr "哪个用户显示为作者。这不会更改我们登录时使用的身份。"
+msgstr "哪位用户显示为作者。这不会更改我们用于登录的身份。"
 
 #: includes/class-zinn-connector-settings.php:150
 msgid "Put articles in"
@@ -499,15 +499,15 @@ msgstr "将文章放入"
 
 #: includes/class-zinn-connector-settings.php:157
 msgid "Allow images"
-msgstr "允许图片"
+msgstr "允许图像"
 
 #: includes/class-zinn-connector-settings.php:158
 msgid "Let Zinn Digital® upload images into this site’s media library"
-msgstr "允许 Zinn Digital® 将图片上传到此网站的媒体库中"
+msgstr "允许 Zinn Digital® 上传图片至此站点的媒体库"
 
 #: includes/class-zinn-connector-settings.php:159
 msgid "Turn this off and articles arrive without their images. Nothing already uploaded is removed."
-msgstr "关闭此功能后，文章在送达时将不包含图片。已上传的内容不会被删除。"
+msgstr "关闭此选项，文章将不包含图片。已经上传的内容不会被删除。"
 
 #: includes/class-zinn-connector-settings.php:165
 msgid "Allow edits"
@@ -515,19 +515,19 @@ msgstr "允许编辑"
 
 #: includes/class-zinn-connector-settings.php:166
 msgid "Let Zinn Digital® update an article it published before"
-msgstr "让 Zinn Digital® 更新其之前发布的文章"
+msgstr "允许 Zinn Digital® 更新其之前发布的文章"
 
 #: includes/class-zinn-connector-settings.php:167
 msgid "Used for corrections and re-optimisation. It never touches anything you wrote yourself."
-msgstr "用于修正和重新优化。它绝不会触及您自己写的任何内容。"
+msgstr "用于更正与重新优化。绝不会改动您自己撰写的任何内容。"
 
 #: includes/class-zinn-connector-settings.php:173
 msgid "Tell me when something is published"
-msgstr "请在发布新内容时通知我"
+msgstr "有内容发布时请通知我"
 
 #: includes/class-zinn-connector-settings.php:174
 msgid "Leave blank for no email. One message per article, from your own site."
-msgstr "留空则不发送邮件。每篇文章发送一条消息，来自您自己的网站。"
+msgstr "若不接收电子邮件，请留空。每篇文章一条消息，来自您自己的站点。"
 
 #: includes/class-zinn-connector-settings.php:190
 msgid "Off-site backups"
@@ -535,11 +535,11 @@ msgstr "异地备份"
 
 #: includes/class-zinn-connector-settings.php:191
 msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
-msgstr "此站点会将自身的备份直接发送至 Zinn® 存储。途中没有任何数据经过我们的服务器。"
+msgstr "此站点将其自身的备份直接发送到 Zinn® 存储空间。在此过程中没有任何内容经过我们的服务器。"
 
 #: includes/class-zinn-connector-settings.php:197
 msgid "Back this site up to Zinn Digital®"
-msgstr "将此网站备份至 Zinn Digital®"
+msgstr "将此站点备份至 Zinn Digital®"
 
 #: includes/class-zinn-connector-settings.php:204
 msgid "Backup token"
@@ -547,7 +547,7 @@ msgstr "备份令牌"
 
 #: includes/class-zinn-connector-settings.php:205
 msgid "Paste the token shown on this site’s Backups tab in your Zinn Digital® dashboard when you chose the plugin connection. It is shown there only once; saving the connection again issues a new one."
-msgstr "请在选择插件连接时，粘贴您在 Zinn Digital® 控制面板的“备份”标签页上显示的令牌。它在那里仅显示一次；再次保存连接将会生成一个新的令牌。"
+msgstr "请粘贴您选择插件连接时在 Zinn Digital® 仪表盘中此站点的“备份”选项卡上显示的令牌。它在那里仅显示一次；再次保存连接将生成一个新令牌。"
 
 #: includes/class-zinn-connector-settings.php:213
 msgid "Leave these out"
@@ -555,27 +555,27 @@ msgstr "排除这些"
 
 #: includes/class-zinn-connector-settings.php:214
 msgid "One path per line, relative to wp-content — for example <code>cache</code> or <code>uploads/backups</code>. Caches and other backup plugins’ folders are the usual candidates."
-msgstr "每行一个路径，相对于 wp-content —— 例如 <code>cache</code> 或 <code>uploads/backups</code>。缓存以及其他备份插件的文件夹通常是常见选项。"
+msgstr "每行一个路径，相对于 wp-content — 例如 <code>cache</code> 或 <code>uploads/backups</code>。缓存和其他备份插件的文件夹通常是合适的对象。"
 
 #: includes/class-zinn-connector-settings.php:222
 msgid "Stop if the archive would exceed"
-msgstr "如果归档文件超出大小限制则停止"
+msgstr "如果归档大小超过则停止"
 
 #: includes/class-zinn-connector-settings.php:223
 msgid "Megabytes. A shared host will usually kill a very large archive part-way; a bound turns that into a message instead of a silent failure."
-msgstr "兆字节。共享主机通常会在中途终止非常大的归档文件；而限制则会将其转化为一条消息，而不是静默失败。"
+msgstr "兆字节。共享主机通常会在中途终止非常大的归档文件；设置上限可将其转换为提示消息，而不是静默失败。"
 
 #: includes/class-zinn-connector-settings.php:243
 msgid "Detailed logging"
-msgstr "详细日志"
+msgstr "详细日志记录"
 
 #: includes/class-zinn-connector-settings.php:244
 msgid "Record what this plugin does, for support"
-msgstr "记录此插件的功能以便于支持"
+msgstr "记录此插件的操作以供支持使用"
 
 #: includes/class-zinn-connector-settings.php:245
 msgid "Kept on this site, capped at the last 50 entries, and included in a diagnostics report. Turn it on before reproducing a problem."
-msgstr "保留在本网站上，最多保存最近 50 条记录，并包含在诊断报告中。请在复现问题之前将其开启。"
+msgstr "保留在此站点上，限制为最后 50 条条目，并包含在诊断报告中。在重现问题之前将其打开。"
 
 #: includes/class-zinn-connector-settings.php:251
 msgid "On uninstall"
@@ -587,15 +587,15 @@ msgstr "卸载此插件时删除其设置"
 
 #: includes/class-zinn-connector-settings.php:253
 msgid "Uninstalling never revokes the application password — that is deliberate, so uninstalling to try something else does not break your publishing. Use Disconnect above if you want the credential gone."
-msgstr "卸载绝不会撤销应用程序密码——这是刻意设计的，因此卸载以尝试其他内容不会破坏您的发布。如果您希望凭据消失，请使用上方的“断开连接”。"
+msgstr "卸载操作绝不会撤销应用程序密码——这是刻意设计的，这样为了尝试其他工具而进行的卸载就不会中断您的发布。如果您希望彻底移除该凭据，请使用上方的“断开连接”。"
 
 #: includes/class-zinn-connector-settings.php:269
 msgid "The user we sign in as"
-msgstr "我们登录时所使用的用户"
+msgstr "我们登录所用的用户"
 
 #: includes/class-zinn-connector-settings.php:290
 msgid "The site’s default category"
-msgstr "站点默认分类"
+msgstr "站点的默认分类"
 
 #: includes/class-zinn-connector-settings.php:339
 #: includes/class-zinn-connector-status.php:353
@@ -609,65 +609,65 @@ msgstr "连接此站点"
 
 #: includes/class-zinn-connector-settings.php:341
 msgid "Open your Zinn Digital® dashboard, go to Content → Other sites, and press “Get a pairing code”. Paste it below."
-msgstr "打开您的 Zinn Digital® 仪表板，前往“内容”→“其他站点”，然后点击“获取配对码”。将其粘贴到下方。"
+msgstr "打开您的 Zinn Digital® 仪表盘，转至 内容 → 其他站点，然后按“获取配对代码”。将其粘贴在下方。"
 
 #: includes/class-zinn-connector-settings.php:345
 msgid "Connecting again creates a fresh credential and leaves the old one in place — use Disconnect first if you want the old one gone."
-msgstr "重新连接会创建一个新的凭据并保留旧凭据——如果要删除旧凭据，请先使用断开连接。"
+msgstr "重新连接将创建新的凭据并保留旧凭据 — 如果您希望移除旧凭据，请先使用“断开连接”。"
 
 #: includes/class-zinn-connector-settings.php:355
 msgid "Pairing code"
-msgstr "配对码"
+msgstr "配对代码"
 
 #: includes/class-zinn-connector-settings.php:368
 msgid "It expires thirty minutes after you generate it, and can only be used once."
-msgstr "它会在您生成后的三十分钟内过期，且只能使用一次。"
+msgstr "它会在您生成三十分钟后过期，并且只能使用一次。"
 
 #: includes/class-zinn-connector-settings.php:388
 msgid "You are not allowed to connect this site."
-msgstr "您无权连接此网站。"
+msgstr "您无权连接此站点。"
 
 #: includes/class-zinn-connector-status.php:61
 msgid "This site is not connected to Zinn Digital®."
-msgstr "本网站与 Zinn Digital® 无关。"
+msgstr "此站点未连接到 Zinn Digital®。"
 
 #: includes/class-zinn-connector-status.php:62
 msgid "Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings."
-msgstr "一切正常——它只是尚未配对。请从您的 Zinn® 控制面板获取配对码，并将其粘贴到此插件的设置中。"
+msgstr "一切正常 — 只是尚未配对。请从您的 Zinn® 仪表盘获取配对代码，并将其粘贴到此插件的设置中。"
 
 #: includes/class-zinn-connector-status.php:64
 #: includes/class-zinn-connector-status.php:157
 msgid "Open my Zinn® dashboard"
-msgstr "打开我的 Zinn® 仪表板"
+msgstr "打开我的 Zinn® 仪表盘"
 
 #: includes/class-zinn-connector-status.php:80
 #: includes/class-zinn-connector-status.php:98
 msgid "The connection is broken."
-msgstr "连接已中断。"
+msgstr "连接已断开。"
 
 #. translators: %s: the WordPress username the credential belonged to.
 #: includes/class-zinn-connector-status.php:83
 #, php-format
 msgid "The WordPress user the credential belonged to (%s) no longer exists on this site, so nothing we send can be published. Connect again as a user who can publish."
-msgstr "此凭据所属的 WordPress 用户 (%s) 已不在此站点上，因此我们发送的内容无法发布。请以具有发布权限的用户身份重新连接。"
+msgstr "该凭据所属的 WordPress 用户（%s）已不再存在于此站点上，因此我们发送的任何内容都无法发布。请以具有发布权限的用户身份重新连接。"
 
 #: includes/class-zinn-connector-status.php:99
 msgid "The “Zinn Digital® (publishing)” application password has been deleted from this site, so we can no longer sign in. Connect again to create a new one — nothing else was lost."
-msgstr "“Zinn Digital® (publishing)”应用程序密码已从此网站删除，因此我们无法再登录。请重新连接以创建一个新密码 — 没有丢失其他任何内容。"
+msgstr "“Zinn Digital® (publishing)”应用密码已从此站点中删除，因此我们无法再登录。请重新连接以创建新密码——没有丢失其他任何内容。"
 
 #: includes/class-zinn-connector-status.php:103
 msgid "See this site’s application passwords"
-msgstr "查看此网站的应用密码"
+msgstr "查看此站点的应用程序密码"
 
 #: includes/class-zinn-connector-status.php:118
 msgid "Connected, but publishing would fail."
-msgstr "已连接，但发布将会失败。"
+msgstr "已连接，但发布将失败。"
 
 #. translators: %s: the WordPress username the credential belongs to.
 #: includes/class-zinn-connector-status.php:121
 #, php-format
 msgid "The credential belongs to %s, and that user can no longer publish posts. Sign-in still works, so nothing looks wrong until an article is due. Give that user the ability to publish, or connect again as somebody who can."
-msgstr "此凭据属于 %s，该用户已无法发布文章。登录功能仍然正常，因此在需要发布文章之前，表面上一切正常。请授予该用户发布权限，或使用具备发布权限的用户重新连接。"
+msgstr "该凭据属于 %s，且该用户无法再发布文章。登录功能仍可正常使用，因此在需要发布文章之前不会显示任何异常。请向该用户授予发布权限，或以拥有该权限的用户身份重新连接。"
 
 #: includes/class-zinn-connector-status.php:126
 msgid "Edit that user"
@@ -675,25 +675,25 @@ msgstr "编辑该用户"
 
 #: includes/class-zinn-connector-status.php:142
 msgid "Connected here — we could not reach Zinn Digital® to confirm."
-msgstr "已在此连接 — 无法联系到 Zinn Digital® 进行确认。"
+msgstr "已在此连接 — 我们无法联系 Zinn Digital® 进行确认。"
 
 #: includes/class-zinn-connector-status.php:153
 msgid "Connected, but your Zinn® account needs attention."
-msgstr "已连接，但您的 Zinn® 账户需要注意。"
+msgstr "已连接，但您的 Zinn® 账户需要关注。"
 
 #: includes/class-zinn-connector-status.php:169
 msgid "Connected to Zinn Digital®."
-msgstr "已连接至 Zinn Digital®。"
+msgstr "已连接到 Zinn Digital®。"
 
 #. translators: %s: the Zinn Digital organisation this site belongs to.
 #: includes/class-zinn-connector-status.php:172
 #, php-format
 msgid "Connected to Zinn Digital® as %s."
-msgstr "已连接到 Zinn Digital®，用户名为 %s。"
+msgstr "已作为 %s 连接到 Zinn Digital®。"
 
 #: includes/class-zinn-connector-status.php:197
 msgid "Publishing as"
-msgstr "发布为"
+msgstr "发布身份："
 
 #: includes/class-zinn-connector-status.php:209
 msgid "Zinn® site ID"
@@ -703,21 +703,21 @@ msgstr "Zinn® 站点 ID"
 #: includes/class-zinn-connector-status.php:292
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
-msgstr "此服务器无法连接到 api.zinndigital.com (%s)。这通常是您的主机上的防火墙或出站连接规则导致的，并非您的 Zinn® 账户有问题——发布功能可能仍在使用中。"
+msgstr "此服务器无法连接到 api.zinndigital.com (%s)。这通常是您主机上的防火墙或出站连接规则导致的，而不是您的 Zinn® 账户问题——发布功能可能仍在正常运作。"
 
 #: includes/class-zinn-connector-status.php:305
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
-msgstr "Zinn Digital® 返回了其自身的错误——这是我们的问题，与您无关。在解决此问题期间，发布功能不受影响。"
+msgstr "Zinn Digital® 返回了其自身的错误 — 这是我们的问题，并非您的问题。在处理此问题期间，发布不受影响。"
 
 #: includes/class-zinn-connector-status.php:312
 msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
-msgstr "您的 Zinn® 账户目前无法发布到此网站。您的控制面板中说明了原因。"
+msgstr "您的 Zinn® 账户目前无法在此站点上发布内容。您的仪表盘中说明了原因。"
 
 #. translators: %d: the HTTP status code returned.
 #: includes/class-zinn-connector-status.php:322
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
-msgstr "Zinn Digital® 返回了未识别的 HTTP %d 响应。请从“支持”标签页发送诊断报告，我们会进行查看——在此之前请勿更改任何内容。"
+msgstr "Zinn Digital® 返回了我们无法识别的 HTTP %d。请从“支持”标签页发送诊断报告，我们将进行查看 — 在此之前请勿更改此处的任何内容。"
 
 #: includes/class-zinn-connector-status.php:341
 msgid "Check again now"
@@ -725,15 +725,15 @@ msgstr "立即重新检查"
 
 #: includes/class-zinn-connector-status.php:370
 msgid "Checked. The connection is live."
-msgstr "已检查。连接正常。"
+msgstr "已检查。连接已处于活跃状态。"
 
 #: includes/class-zinn-connector-status.php:411
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
-msgstr "无法删除应用程序密码，因此该网站仍处于连接状态。请在您的个人资料页面上删除“Zinn Digital® (publishing)”然后重试——我们未做任何更改。"
+msgstr "我们无法删除应用程序密码，因此该站点仍处于连接状态。请在您的个人资料屏幕上删除“Zinn Digital® (publishing)”，然后再试一次——我们没有做任何更改。"
 
 #: includes/class-zinn-connector-status.php:430
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
-msgstr "已断开连接。应用程序密码已被撤销，因此 Zinn Digital® 无法再发布到此网站。所有已发布的内容均未受影响。"
+msgstr "已断开连接。应用程序密码已被撤销，因此 Zinn Digital® 无法再发布内容到此站点。已发布的内容均未受到影响。"
 
 #: includes/class-zinn-connector-streaming-upload.php:87
 #: includes/class-zinn-connector-streaming-upload.php:145
@@ -744,13 +744,13 @@ msgstr "无法从此服务器读取该文件，因此未上传任何内容。"
 
 #: includes/class-zinn-connector-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "此站点无法流式传输上传内容，因此未发送任何数据。"
+msgstr "此站点无法流式传输上传内容，因此未发送任何内容。"
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-connector-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "此文件大小为 %1$s，且此网站的 PHP 未启用 cURL，因此最大可上传大小为 %2$s。"
+msgstr "该文件大小为 %1$s，且本站点的 PHP 未启用 cURL，因此可上传的最大大小为 %2$s。"
 
 #: includes/class-zinn-connector-streaming-upload.php:331
 msgid "The upload could not be completed."
@@ -768,7 +768,7 @@ msgstr "样式预设"
 
 #: includes/class-zinn-connector-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "一个起点。其下的任何内容都会覆盖它。"
+msgstr "一个起点。下方的任何内容都会覆盖它。"
 
 #: includes/class-zinn-connector-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -776,22 +776,22 @@ msgstr "使用我自己的颜色和尺寸"
 
 #: includes/class-zinn-connector-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "关闭此选项，将完全按原样使用预设。"
+msgstr "保持此项关闭，预设将完全按原样使用。"
 
 #: includes/class-zinn-connector-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "请参阅 Zinn Digital® 发行说明。"
+msgstr "查看 Zinn Digital® 发行说明。"
 
 #: includes/class-zinn-connector-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Zinn® 更新服务未提供此更新的下载链接。请检查该网站是否能访问 Zinn® 平台，然后重试。"
+msgstr "Zinn® 更新服务未为此更新提供下载链接。请检查此站点是否可以连接到 Zinn® 平台，然后重试。"
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-connector-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "无法从 Zinn® 更新服务 (%s) 下载更新。请几分钟后重试。"
+msgstr "无法从 Zinn® 更新服务 (%s) 下载更新。请在几分钟后重试。"
 
 #: includes/class-zinn-connector-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "已下载的更新未能通过完整性检查，因此未进行安装。"
+msgstr "已下载的更新未通过完整性检查，未被安装。"
