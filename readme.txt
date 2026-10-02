@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -178,6 +178,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.5.2 =
+* New: two wp-config.php switches for the Zinn Digital® panel. define( 'ZINN_CONNECTOR_PROMO', false ); removes the panel (dashboard widget, settings block and footer), and define( 'ZINN_CONNECTOR_PROMO_HOSTING_URL', 'https://…' ); points its hosting offer at another https address.
 
 = 1.5.1 =
 * Every bundled translation is redone with the current Google model: each locale in its own script (Serbian in Cyrillic), in the register its WordPress translation team uses, with the original spacing, placeholders and entities preserved.
