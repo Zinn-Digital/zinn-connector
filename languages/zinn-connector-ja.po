@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-connector"
 #. Description of the plugin
 #: zinn-connector.php
 msgid "Connects this WordPress site to Zinn Digital® so scheduled articles can be published to it. Paste a pairing code from your Zinn® dashboard and the plugin sets up its own credential — nothing is copied by hand."
-msgstr "このWordPressサイトをZinn Digital®に接続し、予約された記事を公開できるようにします。Zinn®ダッシュボードからペアリングコードを貼り付けると、プラグインが独自に認証情報を設定します。手動でコピーするものは何もありません。"
+msgstr "この WordPress サイトを Zinn Digital®に接続し、予約された記事を公開できるようにします。Zinn®ダッシュボードからペアリングコードを貼り付けると、プラグインが独自に認証情報を設定します。手動でコピーするものは何もありません。"
 
 #. Author of the plugin
 #: zinn-connector.php
@@ -123,7 +123,7 @@ msgstr "初期値にリセット"
 
 #: includes/class-zinn-connector-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "これにより、このプラグインのすべての設定が初期状態に戻ります。続行しますか？"
+msgstr "これにより、このプラグインのすべての設定が初期状態に戻ります。続行しますか ?"
 
 #: includes/class-zinn-connector-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -139,7 +139,7 @@ msgstr "インポート"
 
 #: includes/class-zinn-connector-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "エクスポートされたファイルにパスワード、トークン、またはAPIキーが含まれることはありません。新しいサイトでこれらを再度入力する必要があります。"
+msgstr "エクスポートされたファイルにパスワード、トークン、または API キーが含まれることはありません。新しいサイトでこれらを再度入力する必要があります。"
 
 #: includes/class-zinn-connector-admin-ui.php:1096
 msgid "Settings saved."
@@ -167,7 +167,7 @@ msgstr "そのファイルは設定のエクスポートとしては大きすぎ
 
 #: includes/class-zinn-connector-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "そのファイルはZinn®の設定エクスポートではありません。"
+msgstr "そのファイルは Zinn®の設定エクスポートではありません。"
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-connector-admin-ui.php:1286
@@ -186,11 +186,11 @@ msgstr[0] "%d 件の設定をインポートしました。パスワードと AP
 #: includes/class-zinn-connector-backup.php:213
 #, php-format
 msgid "The archive would be %1$d MB, over the %2$d MB limit set on this site. Raise the limit, or exclude some folders, on the Zinn Digital® → Connector → Backups screen."
-msgstr "アーカイブは%1$d MBとなり、このサイトに設定されている制限の%2$d MBを超えます。Zinn Digital® → Connector → Backups画面で制限を引き上げるか、一部のフォルダーを除外してください。"
+msgstr "アーカイブは%1$d MB となり、このサイトに設定されている制限の%2$d MB を超えます。Zinn Digital® → Connector → Backups 画面で制限を引き上げるか、一部のフォルダーを除外してください。"
 
 #: includes/class-zinn-connector-backup.php:291
 msgid "This site's PHP cannot create archives, so a backup could not be made."
-msgstr "このサイトのPHPではアーカイブを作成できないため、バックアップを作成できませんでした。"
+msgstr "このサイトの PHP ではアーカイブを作成できないため、バックアップを作成できませんでした。"
 
 #: includes/class-zinn-connector-backup.php:304
 msgid "Could not create a temporary file."
@@ -207,7 +207,7 @@ msgstr "このサイトのファイルをアーカイブできませんでした
 
 #: includes/class-zinn-connector-backup.php:384
 msgid "This site's PHP cannot compress archives, so a backup could not be made."
-msgstr "このサイトのPHPはアーカイブを圧縮できないため、バックアップを作成できませんでした。"
+msgstr "このサイトの PHP はアーカイブを圧縮できないため、バックアップを作成できませんでした。"
 
 #. translators: 1: space required, 2: space available.
 #: includes/class-zinn-connector-backup.php:470
@@ -288,11 +288,11 @@ msgstr "(新しいタブで開く)"
 
 #: includes/class-zinn-connector-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "これをZinn®サポートに送信してください"
+msgstr "これを Zinn®サポートに送信してください"
 
 #: includes/class-zinn-connector-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "送信されるのはまさにこれだけであり、それ以外のものや隠されたものは一切ありません。パスワード、トークン、APIキーは含まれていません。"
+msgstr "送信されるのはまさにこれだけであり、それ以外のものや隠されたものは一切ありません。パスワード、トークン、API キーは含まれていません。"
 
 #: includes/class-zinn-connector-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -375,49 +375,49 @@ msgstr ""
 "これらのメールは、Zinn Digital® → コネクター → 公開画面で停止できます。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-connector-promo.php:241
-#: includes/class-zinn-connector-promo.php:299
+#: includes/class-zinn-connector-promo.php:326
+#: includes/class-zinn-connector-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — ガイドとサービス"
 
-#: includes/class-zinn-connector-promo.php:256
+#: includes/class-zinn-connector-promo.php:341
 msgid "User guides"
 msgstr "ユーザーガイド"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-connector-promo.php:306
+#: includes/class-zinn-connector-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%sのユーザーガイドを読む"
 
-#: includes/class-zinn-connector-promo.php:314
+#: includes/class-zinn-connector-promo.php:399
 msgid "Hide this"
 msgstr "これを非表示"
 
-#: includes/class-zinn-connector-promo.php:424
+#: includes/class-zinn-connector-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress 向け Zinn® ホスティング"
 
-#: includes/class-zinn-connector-promo.php:425
+#: includes/class-zinn-connector-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed、毎日のバックアップ、無料の移行、そして複数のサイトを運営する方向けに作られたコントロールパネル。"
 
-#: includes/class-zinn-connector-promo.php:431
+#: includes/class-zinn-connector-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Zinn® マーケットプレイス"
 
-#: includes/class-zinn-connector-promo.php:432
+#: includes/class-zinn-connector-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "確立されたサイト、ドメイン、被リンク掲載の売買を、双方が納得するまで代金を安全にお預かりして行います。"
 
-#: includes/class-zinn-connector-promo.php:479
+#: includes/class-zinn-connector-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — これを生業としているプロフェッショナルを雇いましょう"
 
-#: includes/class-zinn-connector-promo.php:480
+#: includes/class-zinn-connector-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "当社のグローバルなフリーランスマーケットプレイス：ライター、デザイナー、開発者、SEO担当者による10,000以上のすぐに使えるサービスを閲覧するか、プロジェクトを投稿して提案を受け付けましょう。"
+msgstr "当社のグローバルなフリーランスマーケットプレイス: ライター、デザイナー、開発者、SEO 担当者による10,000以上のすぐに使えるサービスを閲覧するか、プロジェクトを投稿して提案を受け付けましょう。"
 
 #: includes/class-zinn-connector-settings.php:44
 msgid "Connector"
@@ -451,7 +451,7 @@ msgstr "このサイトの接続を解除"
 
 #: includes/class-zinn-connector-settings.php:96
 msgid "This revokes the credential Zinn Digital® uses, so we can no longer publish to this site. Anything already published stays. Continue?"
-msgstr "これにより Zinn Digital® が使用している認証情報が無効化されるため、このサイトへの公開ができなくなります。すでに公開されているものはそのまま残ります。続行しますか？"
+msgstr "これにより Zinn Digital® が使用している認証情報が無効化されるため、このサイトへの公開ができなくなります。すでに公開されているものはそのまま残ります。続行しますか ?"
 
 #: includes/class-zinn-connector-settings.php:123
 msgid "What we may do on this site"
@@ -459,7 +459,7 @@ msgstr "このサイトで当社が行う可能性があること"
 
 #: includes/class-zinn-connector-settings.php:124
 msgid "The credential we hold is an ordinary WordPress application password, so WordPress itself decides what is possible. These narrow it further, on your side."
-msgstr "弊社が保持する認証情報は通常のWordPressアプリケーションパスワードであるため、何が可能であるかはWordPress自体が決定します。これらは、お客様側でそれをさらに制限するものです。"
+msgstr "弊社が保持する認証情報は通常の WordPress アプリケーションパスワードであるため、何が可能であるかは WordPress 自体が決定します。これらは、お客様側でそれをさらに制限するものです。"
 
 #: includes/class-zinn-connector-settings.php:129
 msgid "Publish articles as"
@@ -535,7 +535,7 @@ msgstr "オフサイトバックアップ"
 
 #: includes/class-zinn-connector-settings.php:191
 msgid "This site sends its own backup straight to Zinn® storage. Nothing passes through our servers on the way."
-msgstr "このサイトは、独自のバックアップをZinn®ストレージに直接送信します。その過程で当社のサーバーを経由するものは一切ありません。"
+msgstr "このサイトは、独自のバックアップを Zinn®ストレージに直接送信します。その過程で当社のサーバーを経由するものは一切ありません。"
 
 #: includes/class-zinn-connector-settings.php:197
 msgid "Back this site up to Zinn Digital®"
