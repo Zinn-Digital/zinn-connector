@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.5
+Stable tag: 1.5.6
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -178,6 +178,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.5.6 =
+* The Zinn® panel now appears only on this plugin's own screens, never on the WordPress dashboard (WordPress.org guideline 11).
 
 = 1.5.5 =
 * Serbian: quotation marks are now „…“ throughout, as the Serbian WordPress translation team writes them.
