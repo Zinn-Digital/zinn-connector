@@ -542,6 +542,11 @@ class Zinn_Connector_Backup {
 			return null;
 		}
 
+		// ⛔ D43102: the values below are backslash-escaped, so the dump states the quoting mode it
+		// was written for — a server whose own sql_mode has NO_BACKSLASH_ESCAPES or ANSI_QUOTES
+		// would otherwise end a string where the dump does not (UpdraftPlus 1.26.9's class).
+		fwrite( $handle, "SET NAMES utf8mb4;\nSET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';\n" );
+
 		foreach ( $tables as $table ) {
 			// ⛔⛔ A table NAME cannot be a bound parameter in SQL — `$wpdb->prepare()` has no
 			// placeholder for an identifier, so every dump tool faces this. What makes it safe
@@ -573,7 +578,7 @@ class Zinn_Connector_Backup {
 				foreach ( $rows as $row ) {
 					$values = array();
 					foreach ( $row as $value ) {
-						$values[] = null === $value ? 'NULL' : "'" . esc_sql( (string) $value ) . "'";
+						$values[] = null === $value ? 'NULL' : "'" . $wpdb->remove_placeholder_escape( esc_sql( (string) $value ) ) . "'"; // esc_sql() turns every % into a placeholder hash (D25870).
 					}
 					fwrite( $handle, 'INSERT INTO `' . $name . '` VALUES (' . implode( ',', $values ) . ");\n" );
 				}
