@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.9
+Stable tag: 1.5.10
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -178,6 +178,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.5.10 =
+* Fix: no longer crashes on hosts that disable PHP functions such as disk_free_space, getmypid, ignore_user_abort, gzopen or stream_socket_client; each call is checked first and falls back safely.
 
 = 1.5.9 =
 * Improved: the shared settings framework is updated (no change to this plugin's settings screen).

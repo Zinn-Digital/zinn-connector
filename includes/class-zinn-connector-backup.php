@@ -378,7 +378,7 @@ class Zinn_Connector_Backup {
 	 * @return true|WP_Error
 	 */
 	private function gzip_file( string $source, string $destination ) {
-		if ( ! function_exists( 'gzopen' ) ) {
+		if ( ! zinn_connector_can_call( 'gzopen' ) ) {
 			return new WP_Error(
 				'zinn_no_zlib',
 				__( 'This site\'s PHP cannot compress archives, so a backup could not be made.', 'zinn-connector' )
@@ -399,7 +399,7 @@ class Zinn_Connector_Backup {
 			return new WP_Error( 'zinn_archive_failed', __( 'This site\'s files could not be archived.', 'zinn-connector' ) );
 		}
 
-		$out = gzopen( $destination, 'wb6' );
+		$out = zinn_connector_can_call( 'gzopen' ) ? gzopen( $destination, 'wb6' ) : false;
 		if ( false === $out ) {
 			fclose( $in );
 			return new WP_Error( 'zinn_archive_failed', __( 'This site\'s files could not be archived.', 'zinn-connector' ) );
@@ -450,7 +450,13 @@ class Zinn_Connector_Backup {
 	private function require_disk_headroom() {
 		$dir = get_temp_dir();
 
-		$free = @disk_free_space( $dir ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- `false` is handled on the next line; an open_basedir warning is not a failure worth printing on a customer's site.
+		// ⛔⛔ Asked first, never a bare `@disk_free_space()`: hosts list it in `disable_functions`,
+		// and on PHP 8 calling a disabled function is a fatal error `@` does NOT stop (V1 ticket
+		// 13692). The `@` below only quiets an open_basedir warning; `false` is handled next.
+		$free = false;
+		if ( zinn_connector_can_call( 'disk_free_space' ) ) {
+			$free = @disk_free_space( $dir ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- see above.
+		}
 		if ( false === $free ) {
 			// §2.44: "I could not see" must not resolve to the reassuring answer, but refusing
 			// every backup on a host that hides `disk_free_space()` would be worse than the
