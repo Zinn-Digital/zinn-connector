@@ -62,121 +62,121 @@ msgstr "Sor törlése"
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: includes/class-zinn-connector-admin-ui.php:280
-#: includes/class-zinn-connector-admin-ui.php:281
-#: includes/class-zinn-connector-admin-ui.php:421
+#: includes/class-zinn-connector-admin-ui.php:297
+#: includes/class-zinn-connector-admin-ui.php:298
+#: includes/class-zinn-connector-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-connector-admin-ui.php:294
+#: includes/class-zinn-connector-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — áttekintés"
 
-#: includes/class-zinn-connector-admin-ui.php:295
+#: includes/class-zinn-connector-admin-ui.php:312
 msgid "Overview"
 msgstr "Áttekintés"
 
-#: includes/class-zinn-connector-admin-ui.php:383
+#: includes/class-zinn-connector-admin-ui.php:400
 msgid "Copied"
 msgstr "Másolva"
 
-#: includes/class-zinn-connector-admin-ui.php:422
+#: includes/class-zinn-connector-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "A webhelyen található összes Zinn® bővítmény, és hogy működik-e."
 
-#: includes/class-zinn-connector-admin-ui.php:437
+#: includes/class-zinn-connector-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "Ehhez a bővítményhez nincs szükség kapcsolatra."
 
-#: includes/class-zinn-connector-admin-ui.php:442
+#: includes/class-zinn-connector-admin-ui.php:460
 msgid "Open settings"
 msgstr "Beállítások megnyitása"
 
-#: includes/class-zinn-connector-admin-ui.php:770
-#: includes/class-zinn-connector-admin-ui.php:1331
+#: includes/class-zinn-connector-admin-ui.php:788
+#: includes/class-zinn-connector-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "Nincs jogosultság a beállítások módosítására."
 
-#: includes/class-zinn-connector-admin-ui.php:799
+#: includes/class-zinn-connector-admin-ui.php:817
 msgid "Settings sections"
 msgstr "Beállítási szakaszok"
 
-#: includes/class-zinn-connector-admin-ui.php:871
+#: includes/class-zinn-connector-admin-ui.php:889
 msgid "Support"
 msgstr "Támogatás"
 
-#: includes/class-zinn-connector-admin-ui.php:929
+#: includes/class-zinn-connector-admin-ui.php:955
 msgid "Save changes"
 msgstr "Módosítások mentése"
 
-#: includes/class-zinn-connector-admin-ui.php:958
+#: includes/class-zinn-connector-admin-ui.php:984
 msgid "Tools"
 msgstr "Eszközök"
 
-#: includes/class-zinn-connector-admin-ui.php:973
+#: includes/class-zinn-connector-admin-ui.php:999
 msgid "Export settings"
 msgstr "Beállítások exportálása"
 
-#: includes/class-zinn-connector-admin-ui.php:976
+#: includes/class-zinn-connector-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "Alapértelmezések visszaállítása"
 
-#: includes/class-zinn-connector-admin-ui.php:977
+#: includes/class-zinn-connector-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Ez visszaállítja a bővítmény összes beállítását az alapértelmezett értékre. Folytatja?"
 
-#: includes/class-zinn-connector-admin-ui.php:984
+#: includes/class-zinn-connector-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "Diagnosztika a támogatáshoz"
 
-#: includes/class-zinn-connector-admin-ui.php:993
+#: includes/class-zinn-connector-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "Beállításfájl importálása"
 
-#: includes/class-zinn-connector-admin-ui.php:995
+#: includes/class-zinn-connector-admin-ui.php:1021
 msgid "Import"
 msgstr "Importálás"
 
-#: includes/class-zinn-connector-admin-ui.php:997
+#: includes/class-zinn-connector-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Az exportált fájlok soha nem tartalmaznak jelszavakat, tokeneket vagy API-kulcsokat — ezeket újra meg kell adni az új webhelyen."
 
-#: includes/class-zinn-connector-admin-ui.php:1096
+#: includes/class-zinn-connector-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "Beállítások elmentve."
 
-#: includes/class-zinn-connector-admin-ui.php:1143
+#: includes/class-zinn-connector-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "A bővítmény minden beállítása visszaállt az alapértelmezettre."
 
-#: includes/class-zinn-connector-admin-ui.php:1186
+#: includes/class-zinn-connector-admin-ui.php:1281
 msgid "Done."
 msgstr "Kész."
 
-#: includes/class-zinn-connector-admin-ui.php:1190
+#: includes/class-zinn-connector-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "Ez a művelet nem érhető el."
 
-#: includes/class-zinn-connector-admin-ui.php:1257
+#: includes/class-zinn-connector-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "A fájl nem olvasható. Válasszunk egy Zinn®-bővítményből exportált beállításfájlt."
 
-#: includes/class-zinn-connector-admin-ui.php:1265
+#: includes/class-zinn-connector-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "Ez a fájl túl nagy ahhoz, hogy beállítások exportfájlja legyen."
 
-#: includes/class-zinn-connector-admin-ui.php:1278
+#: includes/class-zinn-connector-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "Ez a fájl nem egy Zinn® beállítás-exportálás."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-connector-admin-ui.php:1286
+#: includes/class-zinn-connector-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Ezt a fájlt egy másik bővítményből (%s) exportálták, így az itteni importálása olyan beállításokat mentene el, amelyeket ez a bővítmény nem értelmez."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-connector-admin-ui.php:1316
+#: includes/class-zinn-connector-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -211,7 +211,7 @@ msgid "This site's PHP cannot compress archives, so a backup could not be made."
 msgstr "A webhely PHP-ja nem tud archívumokat tömöríteni, ezért a biztonsági mentés nem készíthető el."
 
 #. translators: 1: space required, 2: space available.
-#: includes/class-zinn-connector-backup.php:470
+#: includes/class-zinn-connector-backup.php:476
 #, php-format
 msgid "A backup of this site needs about %1$s of temporary space and only %2$s is free, so it was not attempted."
 msgstr "A webhely biztonsági mentéséhez körülbelül %1$s ideiglenes területre lenne szükség, de csak %2$s szabad hely áll rendelkezésre, ezért a mentés nem indult el."
@@ -376,47 +376,57 @@ msgstr ""
 "Ezek az e-mailek a Zinn Digital® → Összekötő → Közzététel képernyőn kapcsolhatók ki."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-connector-promo.php:349
-#: includes/class-zinn-connector-promo.php:407
+#: includes/class-zinn-connector-promo.php:363
+#: includes/class-zinn-connector-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s – útmutatók és szolgáltatások"
 
-#: includes/class-zinn-connector-promo.php:364
+#: includes/class-zinn-connector-promo.php:378
 msgid "User guides"
 msgstr "Felhasználói útmutatók"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-connector-promo.php:414
+#: includes/class-zinn-connector-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "A(z) %s felhasználói útmutató elolvasása"
 
-#: includes/class-zinn-connector-promo.php:422
+#: includes/class-zinn-connector-promo.php:436
 msgid "Hide this"
 msgstr "Elrejtés"
 
-#: includes/class-zinn-connector-promo.php:535
+#: includes/class-zinn-connector-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro tagság: minden Pro bővítmény, egyetlen licenc"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-connector-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "A Page Builder Sandwich, a Tranzly, a Zinn® SEO, a Zinn® Cache és a Zinn® Backups Pro verziói, valamint minden következőleg kiadott Pro bővítmény, évi %s összegtől. Egy második tagsággal elérhetővé válik a Zinn® Chat Pro is."
+
+#: includes/class-zinn-connector-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn® tárhely WordPress-hez"
 
-#: includes/class-zinn-connector-promo.php:536
+#: includes/class-zinn-connector-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, napi biztonsági mentések, ingyenes költöztetés és egy vezérlőpult, amely egynél több webhelyet kezelők számára készült."
 
-#: includes/class-zinn-connector-promo.php:542
+#: includes/class-zinn-connector-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "A Zinn® piactér"
 
-#: includes/class-zinn-connector-promo.php:543
+#: includes/class-zinn-connector-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Megalapozott webhelyek, domainek és linkelhelyezések adásvétele biztonságos letéttel, amíg mindkét fél elégedett nem lesz."
 
-#: includes/class-zinn-connector-promo.php:590
+#: includes/class-zinn-connector-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — fogadjon fel embereket, akiknek ez a szakmájuk"
 
-#: includes/class-zinn-connector-promo.php:591
+#: includes/class-zinn-connector-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Globális szabadúszó piacterünk: böngésszen több mint 10 000 kész szolgáltatás között íróktól, tervezőktől, fejlesztőktől és SEO-szakemberektől, vagy tegyen közzé egy projektet, és várja az ajánlatokat."
 
