@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.11
+Stable tag: 1.5.12
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ Anyone who writes, schedules or commissions articles in Zinn Digital® for a Wor
 = Disconnecting =
 
 Press **Disconnect this site** on the plugin's Connection tab, or revoke the "Zinn Digital® (publishing)" application password under Users → Profile → Application Passwords. Deactivating the plugin does **not** revoke it, deliberately — deactivating a connector to test something should not silently stop your publishing.
+
+= Source code =
+
+The complete source is public at https://github.com/Zinn-Digital/zinn-connector
 
 == Installation ==
 
@@ -178,6 +182,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.5.12 =
+* The readme links the plugin's public source repository.
 
 = 1.5.11 =
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
