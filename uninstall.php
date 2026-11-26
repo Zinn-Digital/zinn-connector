@@ -61,6 +61,8 @@ const ZINN_CONNECTOR_UNINSTALL_OPTIONAL = array(
  */
 function zinn_connector_uninstall_site(): void {
 	delete_option( ZINN_CONNECTOR_UNINSTALL_OPTION );
+	// ANS-209: the brand belongs to the connection, so it goes with it.
+	delete_option( 'zinn_connector_brand' );
 
 	$zinn_connector_settings = get_option( 'zinn_connector_settings', array() );
 	$zinn_connector_wipe     = is_array( $zinn_connector_settings )

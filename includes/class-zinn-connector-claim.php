@@ -28,7 +28,7 @@ class Zinn_Connector_Claim {
 	 * when they are deciding what to revoke. "Zinn Connector" would make them ask what a
 	 * connector is; "Zinn Digital (publishing)" answers the question they actually have.
 	 */
-	private const CREDENTIAL_NAME = 'Zinn Digital® (publishing)';
+	public const CREDENTIAL_NAME = 'Zinn Digital® (publishing)';
 
 	/**
 	 * Redeem `$code` and connect this site.
@@ -142,6 +142,10 @@ class Zinn_Connector_Claim {
 			),
 			false
 		);
+
+		// ANS-209: the face this site wears from now on. Kept BEFORE the sentence below is
+		// translated, so a branded reseller's client reads the reseller's name in it.
+		Zinn_Connector_Brand::remember( is_array( $body ) ? ( $body['brand'] ?? null ) : null );
 
 		return array(
 			'ok'      => true,

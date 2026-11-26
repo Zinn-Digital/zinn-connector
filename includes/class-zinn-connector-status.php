@@ -62,7 +62,7 @@ class Zinn_Connector_Status {
 				'reason'  => __( 'Nothing is wrong — it has simply not been paired yet. Get a pairing code from your Zinn® dashboard and paste it into this plugin’s settings.', 'zinn-connector' ),
 				'action'  => array(
 					'label' => __( 'Open my Zinn® dashboard', 'zinn-connector' ),
-					'url'   => 'https://app.zinndigital.com/content/other-sites',
+					'url'   => Zinn_Connector_Brand::dashboard_link( 'https://app.zinndigital.com/content/other-sites', Zinn_Connector_Brand::current() ),
 					'style' => 'primary',
 				),
 			);
@@ -155,7 +155,7 @@ class Zinn_Connector_Status {
 				'actions'    => array(
 					array(
 						'label' => __( 'Open my Zinn® dashboard', 'zinn-connector' ),
-						'url'   => 'https://app.zinndigital.com/billing',
+						'url'   => Zinn_Connector_Brand::dashboard_link( 'https://app.zinndigital.com/billing', Zinn_Connector_Brand::current() ),
 						'style' => 'primary',
 					),
 					self::recheck_action(),
@@ -311,6 +311,7 @@ class Zinn_Connector_Status {
 			$result['state']  = 'refused';
 			$result['reason'] = (string) ( $body['reason'] ?? __( 'Your Zinn® account is not currently able to publish to this site. Your dashboard says why.', 'zinn-connector' ) );
 			$result['org']    = (string) ( $body['org'] ?? '' );
+			Zinn_Connector_Brand::remember( $body['brand'] ?? null );
 			set_transient( self::CACHE_KEY, $result, self::CACHE_TTL );
 			return $result;
 		}
@@ -327,6 +328,8 @@ class Zinn_Connector_Status {
 		}
 
 		$result['org'] = (string) ( $body['org'] ?? '' );
+		// ANS-209: a brand change (or a site moved under a reseller) arrives on this check.
+		Zinn_Connector_Brand::remember( $body['brand'] ?? null );
 		set_transient( self::CACHE_KEY, $result, self::CACHE_TTL );
 		return $result;
 	}
