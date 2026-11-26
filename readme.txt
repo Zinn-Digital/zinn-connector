@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.13
+Stable tag: 1.5.14
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,18 @@ Anyone who writes, schedules or commissions articles in Zinn Digital® for a Wor
 = Disconnecting =
 
 Press **Disconnect this site** on the plugin's Connection tab, or revoke the "Zinn Digital® (publishing)" application password under Users → Profile → Application Passwords. Deactivating the plugin does **not** revoke it, deliberately — deactivating a connector to test something should not silently stop your publishing.
+
+= Compatibility =
+
+* Works with most well-built WordPress themes and plugins.
+
+= Zinn® Pro Membership =
+
+Everything described above is free and stays free. If you want more, one Zinn® Pro Membership gives you the Pro versions of Page Builder Sandwich, Tranzly™, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from $149 a year: https://zinndigital.com/pro-membership
+
+= Free support, 24/7 =
+
+Help is free for everyone, free and Pro alike, around the clock. Ask on this plugin's wordpress.org support forum or at https://zinndigital.com/contact and Zinn Digital® answers.
 
 = Source code =
 
@@ -182,6 +194,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.5.14 =
+* Improved the plugin description: free 24/7 support for everyone, the Zinn® Pro Membership, and clearer English (UK) text.
 
 = 1.5.13 =
 * The WordPress.org package no longer carries translation strings from files it does not ship.
