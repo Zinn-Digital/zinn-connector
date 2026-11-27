@@ -7,7 +7,7 @@ Tags: auto post, publishing, backup, application passwords, seo
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.15
+Stable tag: 1.5.16
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -194,6 +194,9 @@ Digital® and it happens **after** the page has been sent to the visitor, so it 
 anybody. With backups off, the plugin never runs on a front-end request.
 
 == Changelog ==
+
+= 1.5.16 =
+* Dependency security update (Renovate).
 
 = 1.5.15 =
 * A site connected through a white-label hosting provider shows that provider's name in the plugin, links to its dashboard, and carries no Zinn® offers.
