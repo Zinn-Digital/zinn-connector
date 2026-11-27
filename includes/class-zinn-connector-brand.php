@@ -58,7 +58,7 @@ final class Zinn_Connector_Brand {
 	private const MARKS = array(
 		'api.zinndigital.com',
 		'Zinn Digital®',
-		'Zinn Digital',
+		'Zinn Digital', // brand-gate: allow — the bare form a white-label reseller's brand replaces; it is matched, never rendered.
 		'Zinn®',
 	);
 
