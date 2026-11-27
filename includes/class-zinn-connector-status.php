@@ -234,6 +234,23 @@ class Zinn_Connector_Status {
 	}
 
 	/**
+	 * The reason a refused status is shown with, in this site's language. Pure apart from `__()`.
+	 *
+	 * ⛔ A key we know is rendered from OUR catalogue (all 57 locales), never the engine's English
+	 * `reason`, which is only the fallback for a key this version does not know (CLAUDE.md §2.19).
+	 * The brand's gettext filter then puts a white-label reseller's name in place of ours.
+	 *
+	 * @param array<string, mixed> $body The decoded `/v1/connector/status` answer.
+	 */
+	public static function refused_reason( array $body ): string {
+		$key = isset( $body['reason_key'] ) ? (string) $body['reason_key'] : '';
+		if ( 'connector.refused.not_in_good_standing' === $key || ! isset( $body['reason'] ) ) {
+			return __( 'Your Zinn® account is not currently able to publish to this site. Your dashboard says why.', 'zinn-connector' );
+		}
+		return (string) $body['reason'];
+	}
+
+	/**
 	 * Ask our end what it thinks, with the answer cached.
 	 *
 	 * ⛔⛔ **AN UNREACHABLE SERVER AND A REFUSED ACCOUNT ARE DIFFERENT ANSWERS (§2.57).**
@@ -308,10 +325,11 @@ class Zinn_Connector_Status {
 		}
 
 		if ( ! empty( $body['refused'] ) ) {
-			$result['state']  = 'refused';
-			$result['reason'] = (string) ( $body['reason'] ?? __( 'Your Zinn® account is not currently able to publish to this site. Your dashboard says why.', 'zinn-connector' ) );
-			$result['org']    = (string) ( $body['org'] ?? '' );
+			// The brand first: the reason below is rendered through the brand's gettext filter.
 			Zinn_Connector_Brand::remember( $body['brand'] ?? null );
+			$result['state']  = 'refused';
+			$result['reason'] = self::refused_reason( $body );
+			$result['org']    = (string) ( $body['org'] ?? '' );
 			set_transient( self::CACHE_KEY, $result, self::CACHE_TTL );
 			return $result;
 		}
