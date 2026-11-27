@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-26T21:26:31+00:00\n"
+"POT-Creation-Date: 2026-11-27T11:30:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-connector\n"
@@ -607,7 +607,7 @@ msgid "The site’s default category"
 msgstr ""
 
 #: includes/class-zinn-connector-settings.php:339
-#: includes/class-zinn-connector-status.php:356
+#: includes/class-zinn-connector-status.php:374
 msgid "Connect this site again"
 msgstr ""
 
@@ -708,39 +708,39 @@ msgstr ""
 msgid "Zinn® site ID"
 msgstr ""
 
+#: includes/class-zinn-connector-status.php:248
+msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
+msgstr ""
+
 #. translators: %s: the transport error WordPress reported.
-#: includes/class-zinn-connector-status.php:292
+#: includes/class-zinn-connector-status.php:309
 #, php-format
 msgid "This server could not reach api.zinndigital.com (%s). That is usually a firewall or an outbound-connection rule on your host, not a problem with your Zinn® account — publishing may still be working."
 msgstr ""
 
-#: includes/class-zinn-connector-status.php:305
+#: includes/class-zinn-connector-status.php:322
 msgid "Zinn Digital® answered with an error of its own — that is our end, not yours. Publishing is unaffected while this clears."
 msgstr ""
 
-#: includes/class-zinn-connector-status.php:312
-msgid "Your Zinn® account is not currently able to publish to this site. Your dashboard says why."
-msgstr ""
-
 #. translators: %d: the HTTP status code returned.
-#: includes/class-zinn-connector-status.php:323
+#: includes/class-zinn-connector-status.php:341
 #, php-format
 msgid "Zinn Digital® answered HTTP %d, which we do not recognise. Send a diagnostics report from the Support tab and we will look — do not change anything here first."
 msgstr ""
 
-#: includes/class-zinn-connector-status.php:344
+#: includes/class-zinn-connector-status.php:362
 msgid "Check again now"
 msgstr ""
 
-#: includes/class-zinn-connector-status.php:373
+#: includes/class-zinn-connector-status.php:391
 msgid "Checked. The connection is live."
 msgstr ""
 
-#: includes/class-zinn-connector-status.php:414
+#: includes/class-zinn-connector-status.php:432
 msgid "We could not remove the application password, so this site is still connected. Delete “Zinn Digital® (publishing)” on your profile screen and try again — we have changed nothing."
 msgstr ""
 
-#: includes/class-zinn-connector-status.php:433
+#: includes/class-zinn-connector-status.php:451
 msgid "Disconnected. The application password has been revoked, so Zinn Digital® can no longer publish to this site. Nothing already published was touched."
 msgstr ""
 
